@@ -1,0 +1,71 @@
+# Simplified configuration using environment variable substitution
+# Set these in your shell or .env file before `docker compose up`:
+#   POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD
+#   OPENAI_API_KEY (required for RAG embeddings and Agent LLM unless using alternatives below)
+#   RAG_OPENAI_API_KEY
+#   POSTGRES_PORT, RAG_API_PORT, AGENT_API_PORT (optional, for port customization)
+#
+# Example: export OPENAI_API_KEY=sk-... && docker compose -f infrastructure/docker/docker_compose.yml up db rag_api agent_api
+
+services:
+  db:
+    image: pgvector/pgvector:pg16  # Standardized on pgvector/pgvector
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ragdb}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-ragdb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+
+  rag_api:
+    build: ../../backend/services/rag_api
+    env_file:
+      - ../../backend/services/rag_api/.env
+    environment:
+      # Database connection - uses same vars as db service
+      DB_HOST: db
+      DB_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-ragdb}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      # RAG embeddings (required: set OPENAI_API_KEY or RAG_OPENAI_API_KEY)
+      VECTOR_DB_TYPE: pgvector
+      EMBEDDINGS_PROVIDER: ${EMBEDDINGS_PROVIDER:-openai}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      RAG_OPENAI_API_KEY: ${RAG_OPENAI_API_KEY:-}
+      COLLECTION_NAME: ${COLLECTION_NAME:-policy_docs}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${RAG_API_PORT:-8010}:8000"
+
+  agent_api:
+    build: ../../backend/services/agent_ai
+    env_file:
+      - ../../backend/services/agent_ai/.env.development
+    environment:
+      # Database connection - uses same vars as db service
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-ragdb}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      # Agent LLM (required: set OPENAI_API_KEY or OPENROUTER_API_KEY)
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      RAG_BASE_URL: http://rag_api:8000
+    depends_on:
+      - rag_api
+    ports:
+      - "${AGENT_API_PORT:-8000}:8000"
+
+volumes:
+  postgres-data:
