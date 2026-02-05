@@ -222,4 +222,14 @@ __marimo__/
 *.jar
 
 backend/data/
+backend/services/test/data/
+
+# Test data - ignore generated/cache files, but keep structure
+test_data/**/*.tmp
+test_data/**/*.cache
+test_data/generated/
+test_data/**/*.log
+
+# PDFs - ignore large PDFs, but allow small test PDFs in test_data
 *.pdf
+!test_data/documents/*.pdf
