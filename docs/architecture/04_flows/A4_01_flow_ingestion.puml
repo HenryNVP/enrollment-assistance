@@ -1,0 +1,46 @@
+@startuml A4_01_flow_ingestion
+title Document Ingestion
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor User
+participant "Web UI" as UI
+participant "Agent Service" as AGENT
+participant "RAG Service" as RAG
+participant "OpenAI" as OPENAI
+database "Storage" as DB
+
+User -> UI : upload document
+UI -> AGENT : POST document
+AGENT -> RAG : forward file
+
+RAG -> RAG : 1. Load file
+RAG -> RAG : 2. Extract text
+RAG -> RAG : 3. Clean text
+RAG -> RAG : 4. Chunk text
+
+RAG -> OPENAI : 5. Generate embeddings
+OPENAI --> RAG : vectors
+
+RAG -> RAG : 6. Extract entities (NER)
+
+RAG -> DB : 7. Store chunks
+RAG -> DB : 8. Store vectors
+RAG -> DB : 9. Store entities
+
+RAG --> AGENT : success
+AGENT --> UI : file uploaded
+UI -> User : "Document processed"
+
+note right of RAG
+Processing Pipeline:
+1-4: Text processing
+5: Embeddings (OpenAI)
+6: Entity extraction
+7-9: Storage
+end note
+
+@enduml
+

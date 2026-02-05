@@ -1,0 +1,50 @@
+@startuml A4_04_flow_enrollment_detailed
+title Enrollment Workflows – Detailed View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor Student
+participant "Agent" as AGENT
+participant "Enrollment Service" as ENROLLMENT
+participant "RAG Service" as RAG
+database "Enrollment Data" as DB
+database "Neo4j Graph" as NEO4J
+
+== Degree Audit Request ==
+Student -> AGENT : "How am I doing with my CS major?"
+AGENT -> ENROLLMENT : degree_audit(student_id, major)
+ENROLLMENT -> DB : get student courses & grades
+DB --> ENROLLMENT : completed courses
+ENROLLMENT -> NEO4J : get CS major requirements
+NEO4J --> ENROLLMENT : requirements graph
+ENROLLMENT -> ENROLLMENT : match courses to requirements
+ENROLLMENT -> ENROLLMENT : calculate progress
+ENROLLMENT --> AGENT : audit report
+AGENT --> Student : "You've completed 60% of requirements..."
+
+== Scenario Comparison ==
+Student -> AGENT : "Compare full-time vs part-time"
+AGENT -> ENROLLMENT : scenario_compare(scenarios)
+ENROLLMENT -> DB : get course data, costs
+DB --> ENROLLMENT : courses, tuition, fees
+ENROLLMENT -> NEO4J : check prerequisites
+ENROLLMENT -> ENROLLMENT : generate scenarios
+ENROLLMENT -> ENROLLMENT : calculate costs per scenario
+ENROLLMENT --> AGENT : comparison matrix
+AGENT --> Student : "Full-time: $X, Part-time: $Y..."
+
+== Transfer Check ==
+Student -> AGENT : "Does MATH 30 at De Anza transfer?"
+AGENT -> ENROLLMENT : transfer_check(institution, course)
+ENROLLMENT -> DB : search transfer courses
+DB --> ENROLLMENT : transfer course record
+ENROLLMENT -> NEO4J : query equivalency graph
+NEO4J --> ENROLLMENT : equivalent SJSU course
+ENROLLMENT -> RAG : get transfer policies
+RAG --> ENROLLMENT : policy context
+ENROLLMENT --> AGENT : equivalency result
+AGENT --> Student : "MATH 30 transfers as MATH 19..."
+
+@enduml

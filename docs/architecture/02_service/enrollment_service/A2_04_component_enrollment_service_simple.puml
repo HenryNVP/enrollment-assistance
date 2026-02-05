@@ -1,0 +1,42 @@
+@startuml A2_04_component_enrollment_service_simple
+title Enrollment Service – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Enrollment Service\nPort: 8090" as ENROLLMENT_SERVICE {
+  rectangle "API Layer\n(6 endpoints)" as API_LAYER
+  rectangle "Engines\n(degree audit, scenarios,\nschedule, transfer, budget)" as ENGINES
+  rectangle "Data Repositories\n(enrollment, financial, graph)" as REPOS
+}
+
+database "Postgres\n(Enrollment + Financial)" as PG_DB
+database "Neo4j\n(Knowledge Graph)" as NEO4J
+cloud "RAG Service" as RAG
+cloud "Observability" as OBS
+
+API_LAYER --> ENGINES
+ENGINES --> REPOS
+REPOS --> PG_DB : enrollment, financial data
+REPOS --> NEO4J : prerequisites, requirements
+ENGINES --> RAG : policy context
+ENROLLMENT_SERVICE --> OBS
+
+note right of ENROLLMENT_SERVICE
+**Role:** Enrollment Engine
+**Tech:** FastAPI
+**Key Functions:**
+- Degree audits
+- Scenario comparisons
+- Schedule optimization
+- Transfer equivalency
+- Budget calculation
+end note
+
+@enduml
+

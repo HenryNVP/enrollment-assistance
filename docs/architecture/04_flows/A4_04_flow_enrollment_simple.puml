@@ -1,0 +1,47 @@
+@startuml A4_04_flow_enrollment_simple
+title Enrollment Workflows – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor Student
+participant "Agent" as AGENT
+participant "Enrollment Service" as ENROLLMENT
+database "Postgres" as DB
+database "Neo4j" as NEO4J
+
+== Degree Audit ==
+Student -> AGENT : "How am I doing with my major?"
+AGENT -> ENROLLMENT : degree_audit
+ENROLLMENT -> DB : student courses
+ENROLLMENT -> NEO4J : major requirements
+ENROLLMENT --> AGENT : audit report
+AGENT --> Student : progress summary
+
+== Scenario Comparison ==
+Student -> AGENT : "Compare full-time vs part-time"
+AGENT -> ENROLLMENT : scenario_compare
+ENROLLMENT -> DB : courses, costs
+ENROLLMENT --> AGENT : comparison
+AGENT --> Student : cost & schedule comparison
+
+== Transfer Check ==
+Student -> AGENT : "Does MATH 30 transfer?"
+AGENT -> ENROLLMENT : transfer_check
+ENROLLMENT -> DB : transfer courses
+ENROLLMENT -> NEO4J : equivalencies
+ENROLLMENT --> AGENT : equivalency result
+AGENT --> Student : equivalent course
+
+note right of Student
+**Enrollment Tools:**
+- Degree audit
+- Scenario comparison
+- Schedule optimization
+- Transfer equivalency
+- Budget calculation
+end note
+
+@enduml
+

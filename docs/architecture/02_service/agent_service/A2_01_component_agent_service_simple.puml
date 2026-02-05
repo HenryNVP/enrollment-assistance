@@ -1,0 +1,43 @@
+@startuml A2_01_component_agent_service_simple
+title Agent Service – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Agent Service\nPort: 8000" as AGENT_SERVICE {
+  rectangle "API Layer\n(auth, chat, documents)" as API_LAYER
+  rectangle "LangGraph Agent\n+ Tool System" as CORE
+  rectangle "Session & Memory\nManagement" as STATE
+}
+
+database "Postgres" as DB
+cloud "RAG Service" as RAG
+cloud "Enrollment Service" as ENROLLMENT
+cloud "OpenAI" as OPENAI
+cloud "Observability" as OBS
+
+API_LAYER --> CORE
+CORE --> STATE
+CORE --> RAG : enrollment tools
+CORE --> ENROLLMENT : enrollment tools
+CORE --> OPENAI : LLM
+STATE --> DB : sessions, checkpoints
+AGENT_SERVICE --> OBS
+
+note right of AGENT_SERVICE
+**Role:** Stateful Orchestrator
+**Tech:** FastAPI + LangGraph
+**Key Functions:**
+- User interaction & chat
+- Tool coordination
+- Session management
+- Conversation state
+end note
+
+@enduml
+

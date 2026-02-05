@@ -1,0 +1,40 @@
+@startuml A4_03_flow_chat
+title Chat with RAG
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor User
+participant "Web UI" as UI
+participant "Agent Service" as AGENT
+participant "RAG Service" as RAG
+database "Storage" as DB
+participant "OpenAI" as LLM
+
+== Chat (Streaming) ==
+User -> UI : "What is Y?"
+UI -> AGENT : message + JWT (stream)
+AGENT -> RAG : search context
+AGENT -> LLM : stream request
+loop each word
+  LLM --> AGENT : word
+  AGENT --> UI : word
+  UI -> User : show word
+end
+AGENT -> DB : save conversation
+
+== History ==
+User -> UI : view history
+UI -> AGENT : get messages
+AGENT -> DB : load conversation
+AGENT --> UI : messages
+UI -> User : display
+
+User -> UI : clear history
+UI -> AGENT : delete messages
+AGENT -> DB : delete conversation
+AGENT --> UI : done
+
+@enduml
+

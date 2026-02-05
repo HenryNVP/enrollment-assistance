@@ -1,0 +1,34 @@
+@startuml A1_layer_client
+title Client Layer – User Interfaces
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Web Dashboard\n(FastAPI /web/ui)" as DASHBOARD {
+  rectangle "Session Manager\n(JWT storage)" as SESSION
+  rectangle "Chat Interface\n(streaming, message history)" as CHAT_UI
+  rectangle "Document Upload\n(file upload, preview)" as DOC_UI
+}
+
+rectangle "External Integrations\n(REST clients, tools)" as EXTERNAL
+
+rectangle "Agent Service\n(FastAPI)\nservices/agent_ai" as AGENT_SERVICE {
+  rectangle "API Endpoints\n(/api/v1/auth, /api/v1/chatbot, /api/v1/documents)" as ENDPOINTS
+  rectangle "Middleware\n(auth, rate limiting, CORS)" as MIDDLEWARE
+}
+
+DASHBOARD --> ENDPOINTS : HTTP requests
+EXTERNAL --> ENDPOINTS : API calls
+
+ENDPOINTS --> MIDDLEWARE : validate & route
+MIDDLEWARE --> CHAT_UI : responses
+MIDDLEWARE --> EXTERNAL : responses
+
+@enduml
+
+

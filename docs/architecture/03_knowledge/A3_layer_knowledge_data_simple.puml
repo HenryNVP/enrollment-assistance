@@ -1,0 +1,45 @@
+@startuml A3_layer_knowledge_data_simple
+title Knowledge/Data Layer – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Knowledge/Data Layer" as DATA_LAYER {
+  rectangle "Postgres\n(Relational + Vector)" as PG_DB {
+    rectangle "Application Data\n(sessions, users)" as APP_DATA
+    rectangle "Enrollment Data\n(courses, sections, enrollments)" as ENROLL_DATA
+    rectangle "Financial Data\n(tuition, fees, costs)" as FINANCIAL_DATA
+    rectangle "Vector Store\n(policy documents)" as VECTOR_DATA
+  }
+  
+  rectangle "Neo4j\n(Knowledge Graph)" as NEO4J {
+    rectangle "Prerequisites Graph" as PREREQ_GRAPH
+    rectangle "Requirements Graph" as REQUIREMENTS_GRAPH
+    rectangle "Transfer Equivalencies" as TRANSFER_GRAPH
+  }
+}
+
+cloud "Agent Service" as AGENT
+cloud "RAG Service" as RAG
+cloud "Enrollment Service" as ENROLLMENT
+
+AGENT --> APP_DATA
+RAG --> VECTOR_DATA
+RAG --> NEO4J
+ENROLLMENT --> ENROLL_DATA
+ENROLLMENT --> FINANCIAL_DATA
+ENROLLMENT --> NEO4J
+
+note right of DATA_LAYER
+**Storage Components:**
+- Postgres: Application, enrollment, financial data, vectors
+- Neo4j: Prerequisites, requirements, transfer mappings
+end note
+
+@enduml
+

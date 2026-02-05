@@ -1,0 +1,170 @@
+@startuml A0_02_overview_detailed
+title SJSU Enrollment Assistance – High-Level Architecture
+
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+skinparam rectangle {
+  BorderColor<<service>> #000000
+  BorderThickness<<service>> 1
+}
+
+skinparam rectangle {
+  BorderColor<<client>> #000000
+  BorderThickness<<client>> 1
+}
+
+skinparam rectangle {
+  BorderColor<<data>> #000000
+  BorderThickness<<data>> 1
+}
+
+' === Client / Edge Layer ===
+package "Client Layer" as CLIENT {
+  [Web Dashboard\n(Student Portal UI)] <<client>> as MOCK_UI
+  [External Integrations\n(REST clients, tools)] <<client>> as EXT_CLIENTS
+}
+
+' === Service Layer (Microservices) ===
+package "Service Layer - Microservices" as SERVICE_LAYER {
+  package "Agent Service\nservices/agent_ai\n(Port 8000)" as AGENT_SERVICE {
+    [Auth & Session API\n(/api/v1/auth/*)] <<service>> as AUTH_API
+    [Chatbot API\n(/api/v1/chatbot/*)] <<service>> as CHAT_API
+    [Document Proxy API\n(/api/v1/documents/*)] <<service>> as DOC_PROXY
+    [LangGraph Agent\n(orchestrates tools, memory, LLM)] <<service>> as LANGGRAPH
+    [Metrics & Tracing\n(Prometheus, Langfuse)] <<service>> as OBS_AGENT
+  }
+  
+  package "Enrollment Service\n(Port 8090)" as ENROLLMENT_SERVICE {
+    [Degree Audit Engine\n(progress tracking, requirements)] <<service>> as DEGREE_AUDIT
+    [Scenario Comparison\n(full-time vs part-time, delivery modes)] <<service>> as SCENARIO
+    [Schedule Optimization\n(conflict detection, constraints)] <<service>> as SCHEDULE
+    [Transfer Equivalency\n(course mapping, policies)] <<service>> as TRANSFER
+    [Budget Calculator\n(tuition, fees, costs)] <<service>> as BUDGET
+  }
+}
+
+' === RAG Service ===
+package "RAG API Service\nservices/rag_api" as RAG_SERVICE {
+  [Upload & Chunking\n(/embed, /embed-upload)] <<service>> as RAG_UPLOAD
+  [Vector Search API\n(/query, /query_multiple)] <<service>> as RAG_QUERY
+  [Security Middleware\n(JWT validation)] <<service>> as RAG_SEC
+  [Async Workers\n(Thread pool, task fanout)] <<service>> as RAG_WORKERS
+}
+
+' === Data / Storage (Layer 3) ===
+package "Knowledge/Data Layer - Storage" as DATA_LAYER {
+  database "Postgres\n(relational + vector)" <<data>> as PG_DB {
+    [Application Data\n(sessions, users, checkpoints)] <<data>> as APP_DATA
+    [Enrollment Domain Data\n(courses, sections, enrollments, majors, minors)] <<data>> as DOMAIN_DATA
+    [Financial Data\n(tuition, fees, costs, housing, commuting)] <<data>> as FINANCIAL_DATA
+    [Vector Store (pgvector)\n(policy documents, course descriptions)] <<data>> as VECTOR_DATA
+  }
+  
+  database "Neo4j\n(knowledge graph)" <<data>> as NEO4J {
+    [Prerequisites Graph\n(course → course)] <<data>> as PREREQ_GRAPH
+    [Requirements Graph\n(course → major/minor/concentration)] <<data>> as REQUIREMENTS_GRAPH
+    [Transfer Equivalencies\n(transfer course → SJSU course)] <<data>> as TRANSFER_GRAPH
+    [Course Relationships\n(co-requisites, conflicts)] <<data>> as RELATIONSHIPS
+  }
+}
+
+' === External Providers ===
+cloud "LLM Provider\n(OpenAI)" as LLM_PROVIDERS
+cloud "Embeddings Provider\n(OpenAI)" as EMBEDDINGS
+cloud "Observability Stack\n(Prometheus + Grafana)" as OBSERVABILITY
+cloud "Langfuse" as LANGFUSE
+
+' === Connections / Data Flows ===
+MOCK_UI --> AUTH_API : register / login / create session\n(optional bearer token)
+MOCK_UI --> CHAT_API : chat & stream responses
+MOCK_UI --> DOC_PROXY : upload docs, list file_ids, preview chunks
+EXT_CLIENTS --> AUTH_API
+EXT_CLIENTS --> CHAT_API
+
+AUTH_API --> APP_DATA : create users, sessions
+AUTH_API --> APP_DATA : provision thread IDs
+
+CHAT_API --> LANGGRAPH : invoke workflow per session
+CHAT_API --> APP_DATA : rate limiting
+CHAT_API --> APP_DATA : persist conversation state
+
+LANGGRAPH --> RAG_QUERY : rag_search tool (JWT)
+LANGGRAPH --> LLM_PROVIDERS : prompts & completions
+LANGGRAPH --> APP_DATA : load/store checkpoints
+LANGGRAPH --> DEGREE_AUDIT : degree audit requests
+LANGGRAPH --> SCENARIO : scenario comparison requests
+LANGGRAPH --> SCHEDULE : schedule optimization requests
+LANGGRAPH --> TRANSFER : transfer check requests
+LANGGRAPH --> BUDGET : budget calculation requests
+
+DOC_PROXY --> RAG_UPLOAD : proxy document uploads
+
+RAG_UPLOAD --> RAG_WORKERS : async parsing, chunking
+RAG_UPLOAD --> EMBEDDINGS : generate embeddings
+RAG_UPLOAD --> VECTOR_DATA : store chunks & vectors
+RAG_UPLOAD --> ENTITIES : extract entities (NER)
+RAG_UPLOAD --> RELATIONS : store relationships
+
+RAG_QUERY --> VECTOR_DATA : similarity search (pgvector)
+RAG_QUERY --> PREREQ_GRAPH : prerequisite lookup
+RAG_QUERY --> REQUIREMENTS_GRAPH : requirements lookup
+RAG_QUERY --> TRANSFER_GRAPH : transfer equivalency lookup
+RAG_QUERY --> RELATIONSHIPS : graph traversal
+
+DEGREE_AUDIT --> DOMAIN_DATA : query student courses, requirements
+SCENARIO --> DOMAIN_DATA : query courses, enrollments
+SCENARIO --> FINANCIAL_DATA : query costs
+SCHEDULE --> DOMAIN_DATA : query sections, conflicts
+TRANSFER --> DOMAIN_DATA : query transfer courses
+TRANSFER --> TRANSFER_GRAPH : query equivalencies
+BUDGET --> FINANCIAL_DATA : query tuition, fees, costs
+DEGREE_AUDIT --> REQUIREMENTS_GRAPH : query major/minor requirements
+SCHEDULE --> RELATIONSHIPS : query conflicts
+SCENARIO --> RAG_QUERY : context retrieval
+
+CHAT_API --> OBS_AGENT
+LANGGRAPH --> LANGFUSE
+RAG_SERVICE --> OBSERVABILITY
+AGENT_SERVICE --> OBSERVABILITY
+
+' === Notes ===
+note bottom of SERVICE_LAYER
+**Service Layer - Microservices Architecture**
+- Agent Service (Port 8000): Main orchestration hub
+  * FastAPI + LangGraph + SQLModel
+  * Manages authentication, sessions, chat API
+  * Orchestrates calls to RAG & Enrollment services
+- RAG Service (Port 8080): Policy document processing & search
+- Enrollment Service (Port 8090): Enrollment assistance engines
+  * Degree audit, scenario comparison, schedule optimization
+  * Transfer equivalency, budget calculation
+end note
+
+note bottom of RAG_SERVICE
+**Vector Knowledge Service**
+- FastAPI + uvicorn
+- Handles uploads, chunking, embeddings, vector search
+- Requires shared JWT secret with Agent Service
+end note
+
+note bottom of DATA_LAYER
+**Layer 3: Storage Components**
+**Postgres (4 data types):**
+- Application data (sessions, users, checkpoints)
+- Enrollment domain data (courses, sections, enrollments, majors, minors)
+- Financial data (tuition, fees, course costs, housing, commuting)
+- Vector store (pgvector: policy documents, course descriptions)
+
+**Neo4j:**
+- Prerequisites graph (course → course relationships)
+- Requirements graph (course → major/minor/concentration)
+- Transfer equivalency mappings (transfer course → SJSU course)
+- Course relationships (co-requisites, schedule conflicts)
+end note
+
+@enduml
+

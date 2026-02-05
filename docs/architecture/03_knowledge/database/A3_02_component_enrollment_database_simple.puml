@@ -1,0 +1,40 @@
+@startuml A3_02_component_enrollment_database_simple
+title Enrollment Database – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Enrollment Database (Postgres)" as ENROLLMENT_DB {
+  rectangle "Academic Structure\n(courses, sections, majors, minors)" as ACADEMIC
+  rectangle "Requirements\n(major/minor/concentration requirements)" as REQUIREMENTS
+  rectangle "Enrollment & Scheduling\n(enrollments, deadlines, conflicts)" as ENROLLMENT
+  rectangle "Financial Data\n(tuition, fees, costs, housing)" as FINANCIAL
+  rectangle "Transfer Data\n(institutions, courses, equivalencies)" as TRANSFER
+  rectangle "People\n(students, instructors)" as PEOPLE
+}
+
+cloud "Enrollment Service" as ENROLLMENT_SVC
+
+ENROLLMENT_SVC --> ACADEMIC
+ENROLLMENT_SVC --> REQUIREMENTS
+ENROLLMENT_SVC --> ENROLLMENT
+ENROLLMENT_SVC --> FINANCIAL
+ENROLLMENT_SVC --> TRANSFER
+ENROLLMENT_SVC --> PEOPLE
+
+note right of ENROLLMENT_SVC
+**Key Use Cases:**
+- Course search & section lookup
+- Degree audit & requirements
+- Budget calculation
+- Transfer equivalency
+- Schedule optimization
+end note
+
+@enduml
+

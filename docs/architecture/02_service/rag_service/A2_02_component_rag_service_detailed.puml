@@ -1,0 +1,95 @@
+@startuml A2_02_component_rag_service_detailed
+title RAG Service – Detailed Components
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "RAG Service\nservices/rag_api\nPort: 8080" as RAG_SERVICE {
+  
+  package "API Layer" as API_LAYER {
+    rectangle "Document Controller\n/embed, /embed-upload" as DOC_API
+    rectangle "Query Controller\n/query, /query_multiple" as QUERY_API
+    rectangle "Management\n/documents, /ids, /health" as MGMT_API
+    rectangle "Security Middleware\n(JWT validation)" as SECURITY
+  }
+  
+  package "Ingestion Pipeline" as INGESTION {
+    rectangle "File Loader\n(15+ formats)" as LOADER
+    rectangle "Text Extractor\n& Cleaner" as EXTRACTOR
+    rectangle "Chunker\n(RecursiveCharacterTextSplitter)" as CHUNKER
+    rectangle "Embedding Generator\n(async workers)" as EMBEDDER
+    rectangle "Entity Extractor\n(NER)" as NER
+  }
+  
+  package "Query Pipeline" as QUERY {
+    rectangle "Vector Search\n(similarity)" as VECTOR_SEARCH
+    rectangle "Graph Query\n(Cypher)" as GRAPH_QUERY
+    rectangle "Hybrid Retrieval\n(merge & rank)" as HYBRID
+  }
+  
+  package "Storage Managers" as STORAGE {
+    rectangle "Vector Store Manager\n(pgvector ops)" as VECTOR_MGR
+    rectangle "Graph Store Manager\n(Neo4j ops)" as GRAPH_MGR
+  }
+}
+
+' External dependencies
+database "Postgres\n+ pgvector" as DB
+database "Neo4j" as NEO4J
+cloud "OpenAI\nEmbeddings" as OPENAI
+cloud "Observability" as OBS
+
+' API flow
+SECURITY --> DOC_API
+SECURITY --> QUERY_API
+
+' Ingestion flow
+DOC_API --> LOADER : upload file
+LOADER --> EXTRACTOR : parse
+EXTRACTOR --> CHUNKER : clean & split
+CHUNKER --> EMBEDDER : generate vectors
+CHUNKER --> NER : extract entities
+EMBEDDER --> OPENAI : API call
+EMBEDDER --> VECTOR_MGR : store vectors
+NER --> GRAPH_MGR : store graph
+
+' Query flow
+QUERY_API --> VECTOR_SEARCH : semantic search
+QUERY_API --> GRAPH_QUERY : entity lookup
+VECTOR_SEARCH --> VECTOR_MGR : pgvector query
+GRAPH_QUERY --> GRAPH_MGR : Cypher query
+VECTOR_SEARCH --> HYBRID : results
+GRAPH_QUERY --> HYBRID : results
+
+' Storage
+VECTOR_MGR --> DB : vectors, chunks
+GRAPH_MGR --> NEO4J : entities, relations
+
+' Observability
+RAG_SERVICE --> OBS
+
+note bottom of RAG_SERVICE
+**Technology Stack:**
+- FastAPI + Uvicorn
+- LangChain (document loaders)
+- pgvector (vector search)
+- Neo4j (knowledge graph)
+- Thread pool (async processing)
+
+**Key Features:**
+- Stateless design
+- 15+ file format support
+- Encoding detection
+- Hybrid search (vector + graph)
+- User-based access control
+end note
+
+@enduml
+
+
+

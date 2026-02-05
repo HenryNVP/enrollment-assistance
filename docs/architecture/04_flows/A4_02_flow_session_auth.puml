@@ -1,0 +1,44 @@
+@startuml A4_02_flow_session_auth
+title Session & Authentication
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor User
+participant "Web UI" as UI
+participant "Agent Service" as AGENT
+database "Database" as DB
+
+== Guest Session ==
+User -> UI : open app
+UI -> AGENT : create session
+AGENT -> DB : create guest user + session
+DB --> AGENT : session_id
+AGENT --> UI : JWT token
+UI -> UI : store token
+
+== User Login ==
+User -> UI : login
+UI -> AGENT : {username, password}
+AGENT -> DB : validate credentials
+DB --> AGENT : user found
+AGENT -> DB : create session
+AGENT --> UI : JWT token
+UI -> UI : store token
+
+== Use Session ==
+User -> UI : any request
+UI -> AGENT : request + JWT
+AGENT -> DB : validate session
+AGENT --> UI : response
+
+== Logout ==
+User -> UI : logout
+UI -> AGENT : logout + JWT
+AGENT -> DB : delete session
+AGENT --> UI : success
+UI -> UI : clear token
+
+@enduml
+

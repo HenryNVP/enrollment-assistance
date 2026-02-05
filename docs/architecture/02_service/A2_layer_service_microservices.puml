@@ -1,0 +1,75 @@
+@startuml A2_layer_service_microservices
+title Service Layer – Microservices Overview
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Service Layer - Microservices" as SERVICE_LAYER {
+  
+  rectangle "**Agent Service**\nservices/agent_ai\nPort: 8000" as AGENT {
+    rectangle "• LangGraph orchestration\n• Chat API (sync/stream)\n• Auth & sessions\n• Enrollment tools coordination" as AGENT_CORE
+  }
+  
+  rectangle "**RAG Service**\nservices/rag_api\nPort: 8080" as RAG {
+    rectangle "• Policy document processing\n• Vector search (pgvector)\n• Knowledge graph (Neo4j)\n• Course catalog retrieval" as RAG_CORE
+  }
+  
+  rectangle "**Enrollment Service**\nservices/enrollment_api\nPort: 8090" as ENROLLMENT {
+    rectangle "• Degree audit engine\n• Scenario comparison\n• Schedule optimization\n• Transfer equivalency\n• Budget calculator" as ENROLLMENT_CORE
+  }
+}
+
+database "Postgres\n(Relational + Vector)" as DB
+database "Neo4j\n(Knowledge Graph)" as NEO4J
+cloud "OpenAI\n(LLM + Embeddings)" as OPENAI
+cloud "Observability\n(Prometheus, Grafana, Langfuse)" as OBS
+
+' Service interactions
+AGENT --> RAG : HTTP + JWT\npolicy search, docs
+AGENT --> ENROLLMENT : HTTP\ndegree audit, scenarios
+ENROLLMENT --> RAG : HTTP\ncontext retrieval
+
+' Data connections
+AGENT --> DB : sessions, state
+RAG --> DB : vectors
+RAG --> NEO4J : graph
+ENROLLMENT --> DB : enrollment data
+ENROLLMENT --> NEO4J : prerequisites, requirements
+
+' External
+AGENT --> OPENAI : LLM completions
+RAG --> OPENAI : embeddings
+AGENT --> OBS
+RAG --> OBS
+ENROLLMENT --> OBS
+
+note right of AGENT
+**Stateful Orchestrator**
+FastAPI + LangGraph + SQLModel
+Main entry point for students
+Enrollment assistance tools
+end note
+
+note right of RAG
+**Stateless Data Service**
+FastAPI + LangChain
+Policy documents & catalogs
+Vector + graph storage
+end note
+
+note right of ENROLLMENT
+**Enrollment Engine**
+FastAPI + optimization libs
+Degree audits, scenarios
+Schedule optimization
+Transfer & budget tools
+end note
+
+@enduml
+
+

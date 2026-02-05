@@ -1,0 +1,119 @@
+@startuml A3_03_component_enrollment_database_detailed
+title Enrollment Database – Detailed Schema View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Enrollment Domain Database (Postgres)" as ENROLLMENT_DB {
+  
+  rectangle "**Academic Structure**" as ACADEMIC {
+    rectangle "departments\n• id, code, name, college" as DEPT
+    rectangle "majors\n• id, code, name, department_id" as MAJORS
+    rectangle "minors\n• id, code, name, department_id" as MINORS
+    rectangle "concentrations\n• id, code, name, major_id" as CONCENTRATIONS
+    rectangle "courses\n• id, code, title, units, description" as COURSES
+    rectangle "course_sections\n• id, term, days, time, location\n• instructor, capacity, enrolled\n• delivery_mode, accessibility" as SECTIONS
+  }
+  
+  rectangle "**Requirements & Prerequisites**" as REQUIREMENTS {
+    rectangle "prerequisites\n• course_id, prerequisite_course_id" as PREREQS
+    rectangle "co_requisites\n• course_id, co_requisite_course_id" as COREQS
+    rectangle "major_requirements\n• major_id, course_id, requirement_type" as MAJOR_REQS
+    rectangle "minor_requirements\n• minor_id, course_id, requirement_type" as MINOR_REQS
+    rectangle "concentration_requirements\n• concentration_id, course_id" as CONC_REQS
+  }
+  
+  rectangle "**Enrollment & Scheduling**" as ENROLLMENT {
+    rectangle "enrollments\n• student_id, section_id, term\n• status, grade, units" as ENROLLS
+    rectangle "enrollment_deadlines\n• term, deadline_type, deadline_date" as DEADLINES
+    rectangle "schedule_conflicts\n• section_id_1, section_id_2" as CONFLICTS
+  }
+  
+  rectangle "**Financial Data**" as FINANCIAL {
+    rectangle "tuition_rates\n• term, student_type, units, amount" as TUITION
+    rectangle "fees\n• fee_type, term, amount, required" as FEES
+    rectangle "course_costs\n• course_id, book_cost, material_cost" as COURSE_COSTS
+    rectangle "housing_costs\n• term, housing_type, cost_per_term" as HOUSING
+    rectangle "commuting_zones\n• zone_name, distance, cost_per_term" as COMMUTING
+  }
+  
+  rectangle "**Transfer Data**" as TRANSFER {
+    rectangle "transfer_institutions\n• id, name, type, state" as TRANSFER_INST
+    rectangle "transfer_courses\n• institution_id, transfer_code\n• sjsu_course_id, equivalency_status" as TRANSFER_COURSES
+    rectangle "transfer_policies\n• policy_type, content, effective_date" as TRANSFER_POLICIES
+  }
+  
+  rectangle "**People**" as PEOPLE {
+    rectangle "students\n• sjsu_id, name, major_id, minor_id\n• residency_status, student_type, gpa" as STUDENTS
+    rectangle "instructors\n• employee_id, name, department_id" as INSTRUCTORS
+  }
+  
+  rectangle "**Accessibility**" as ACCESSIBILITY {
+    rectangle "accessibility_features\n• feature_type, description" as ACCESS_FEATURES
+    rectangle "section_accessibility\n• section_id, feature_id" as SECTION_ACCESS
+  }
+}
+
+' Service queries
+cloud "Enrollment Service\n(Layer 2)" as ENROLLMENT_SVC
+cloud "Agent Service\n(Layer 2)" as AGENT_SVC
+
+ENROLLMENT_SVC --> ACADEMIC : course search, section lookup
+ENROLLMENT_SVC --> REQUIREMENTS : degree audit, prerequisites
+ENROLLMENT_SVC --> ENROLLMENT : enrollment status, deadlines
+ENROLLMENT_SVC --> FINANCIAL : budget calculation
+ENROLLMENT_SVC --> TRANSFER : equivalency lookup
+ENROLLMENT_SVC --> PEOPLE : student data, instructor info
+ENROLLMENT_SVC --> ACCESSIBILITY : filter by accessibility
+
+note right of ENROLLMENT_SVC
+**Key Queries:**
+
+**Course Search:**
+- Filter by department, term, time, location
+- Filter by instructor, delivery mode
+- Filter by accessibility features
+- Check capacity and waitlist
+
+**Degree Audit:**
+- Query student's completed courses
+- Match to major/minor requirements
+- Calculate progress percentages
+- Identify missing requirements
+
+**Budget Calculation:**
+- Calculate tuition by units
+- Sum applicable fees
+- Estimate course materials
+- Add housing/commuting costs
+
+**Transfer Check:**
+- Search by institution and course code
+- Return equivalency status
+- Check policy applicability
+- Return effective dates
+end note
+
+note bottom of ENROLLMENT_DB
+**Data Sources:**
+- SJSU Student Information System (SIS)
+- SJSU Financial Systems
+- SJSU Transfer Center
+- Academic Departments
+- Accessibility Resource Center
+
+**Update Frequency:**
+- Course catalog: Daily (during registration)
+- Enrollment data: Daily
+- Financial data: Weekly
+- Transfer data: Weekly
+- Real-time: Section capacity, waitlist
+end note
+
+@enduml
+

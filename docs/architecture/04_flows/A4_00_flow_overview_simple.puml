@@ -1,0 +1,45 @@
+@startuml A4_00_flow_overview_simple
+title Runtime Flows – Simplified Overview
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+actor Student
+participant "Agent Service" as AGENT
+participant "RAG Service" as RAG
+participant "Enrollment Service" as ENROLLMENT
+database "Postgres" as DB
+database "Neo4j" as NEO4J
+
+== Session Setup ==
+Student -> AGENT : login / create session
+AGENT -> DB : create session
+AGENT --> Student : session token
+
+== Enrollment Question ==
+Student -> AGENT : enrollment question
+AGENT -> RAG : policy search (if needed)
+RAG --> AGENT : policy context
+AGENT -> ENROLLMENT : enrollment tool call
+ENROLLMENT -> DB : query data
+ENROLLMENT -> NEO4J : query graph
+ENROLLMENT --> AGENT : results
+AGENT --> Student : response
+
+== Document Upload ==
+Student -> AGENT : upload document
+AGENT -> RAG : process document
+RAG -> DB : store vectors
+RAG --> AGENT : document ready
+
+note right of Student
+**Main Flows:**
+- Session & authentication
+- Enrollment questions
+- Document ingestion
+- Chat with context
+end note
+
+@enduml
+

@@ -1,0 +1,119 @@
+@startuml A0_03_overview_enrollment_assistance
+
+title SJSU Enrollment Assistance - Architecture Overview
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+' === Client Layer ===
+rectangle "Client Layer" as CLIENT_LAYER {
+  rectangle "Web UI\n(Student Portal)" as WEB_UI
+  rectangle "Mobile App" as MOBILE
+  rectangle "API Clients\n(Third-party)" as API_CLIENTS
+}
+
+' === Service Layer ===
+package "Service Layer (Microservices)" as SERVICE_LAYER {
+  
+  rectangle "Agent Service\nPort: 8000" as AGENT_SVC {
+    rectangle "Chat API\n/auth, /chatbot" as CHAT_API
+    rectangle "LangGraph Agent\n(tool orchestration)" as LANGGRAPH
+    rectangle "Tools:\n• enrollment_search\n• degree_audit\n• scenario_compare\n• schedule_optimize\n• transfer_check\n• budget_calculate" as TOOLS
+  }
+  
+  rectangle "RAG Service\nPort: 8080" as RAG_SVC {
+    rectangle "Document Processing\n(policies, catalogs)" as DOC_PROC
+    rectangle "Vector Search\n(pgvector)" as VECTOR_SEARCH
+    rectangle "Knowledge Graph\n(Neo4j queries)" as GRAPH_SEARCH
+  }
+  
+  rectangle "Enrollment Service\nPort: 8090" as ENROLLMENT_SVC {
+    rectangle "Degree Audit Engine" as DEGREE_AUDIT
+    rectangle "Scenario Comparison\nEngine" as SCENARIO_COMP
+    rectangle "Schedule Optimization\nEngine" as SCHEDULE_OPT
+    rectangle "Transfer Equivalency\nEngine" as TRANSFER_EQ
+    rectangle "Budget Calculator" as BUDGET_CALC
+  }
+}
+
+' === Knowledge/Data Layer ===
+package "Knowledge/Data Layer (Storage)" as DATA_LAYER {
+  
+  database "Postgres\n(Relational + Vector)" as PG_DB {
+    [Application Data\n(users, sessions, checkpoints)] as APP_DATA
+    [Enrollment Domain Data\n• courses, sections\n• enrollments\n• majors, minors\n• prerequisites] as ENROLL_DATA
+    [Financial Data\n• tuition, fees\n• course costs\n• housing, commuting] as FINANCIAL_DATA
+    [Vector Store (pgvector)\n• policy documents\n• course descriptions] as VECTOR_DATA
+  }
+  
+  database "Neo4j\n(Knowledge Graph)" as NEO4J {
+    [Course Prerequisites\nGraph] as PREREQ_GRAPH
+    [Major/Minor Requirements\nGraph] as REQUIREMENTS_GRAPH
+    [Transfer Equivalency\nMappings] as TRANSFER_GRAPH
+    [Course Relationships\n(co-requisites, conflicts)] as RELATIONSHIPS
+  }
+}
+
+' === External Systems ===
+cloud "SJSU SIS\n(Student Info System)" as SIS
+cloud "SJSU Financial\nSystems" as FINANCIAL_SYS
+cloud "SJSU Transfer\nCenter" as TRANSFER_CTR
+cloud "OpenAI\n(LLM + Embeddings)" as OPENAI
+cloud "Observability\n(Prometheus, Grafana)" as OBS
+
+' === Client to Service ===
+WEB_UI --> CHAT_API : enrollment questions
+MOBILE --> CHAT_API : enrollment questions
+API_CLIENTS --> CHAT_API : API calls
+
+' === Service to Service ===
+CHAT_API --> LANGGRAPH : invoke workflow
+LANGGRAPH --> TOOLS : execute tools
+TOOLS --> ENROLLMENT_SVC : degree_audit, scenario_compare, etc.
+TOOLS --> RAG_SVC : policy search
+ENROLLMENT_SVC --> RAG_SVC : context retrieval
+
+' === Service to Storage ===
+AGENT_SVC --> APP_DATA : sessions, users, checkpoints
+RAG_SVC --> VECTOR_DATA : store/search vectors
+RAG_SVC --> NEO4J : query graph
+ENROLLMENT_SVC --> ENROLL_DATA : query courses, enrollments
+ENROLLMENT_SVC --> FINANCIAL_DATA : query costs
+ENROLLMENT_SVC --> NEO4J : query prerequisites, requirements
+
+' === External Data Sources ===
+SIS --> ENROLL_DATA : course catalog, sections, enrollments
+FINANCIAL_SYS --> FINANCIAL_DATA : tuition, fees
+TRANSFER_CTR --> TRANSFER_GRAPH : equivalencies
+
+' === External Services ===
+LANGGRAPH --> OPENAI : LLM completions
+RAG_SVC --> OPENAI : embeddings
+SERVICE_LAYER --> OBS : metrics & traces
+
+note right of ENROLLMENT_SVC
+**Enrollment Service Capabilities:**
+• Degree audit by major/minor/concentration
+• Scenario comparison (full-time vs part-time)
+• Schedule optimization with constraints
+• Transfer course equivalency lookup
+• Budget calculation (tuition, fees, costs)
+• Course search with filters
+• Deadline checking
+end note
+
+note bottom of DATA_LAYER
+**Data Integration:**
+• ETL pipelines from SIS (daily)
+• Financial data sync (weekly)
+• Transfer data updates (weekly)
+• Real-time capacity updates during registration
+end note
+
+@enduml
+

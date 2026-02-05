@@ -1,0 +1,81 @@
+@startuml A2_01_component_agent_service_detailed
+title Agent Service – Detailed Components
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Agent Service\nservices/agent_ai\nPort: 8000" as AGENT_SERVICE {
+  
+  package "API Layer" as API_LAYER {
+    rectangle "Auth Controller\n/api/v1/auth/*" as AUTH_API
+    rectangle "Chatbot Controller\n/api/v1/chatbot/*" as CHAT_API
+    rectangle "Document Proxy\n/api/v1/documents/*" as DOC_API
+    rectangle "Middleware\n(CORS, rate limit, auth)" as MIDDLEWARE
+  }
+  
+  package "Business Logic" as BUSINESS {
+    rectangle "LangGraph Agent\n(state machine)" as LANGGRAPH
+    rectangle "Tool Orchestration\n(enrollment_search, degree_audit,\nscenario_compare, schedule_optimize,\ntransfer_check, budget_calculate, RAG)" as TOOLS
+    rectangle "Session Manager\n(guest + authenticated)" as SESSION
+    rectangle "Memory Manager\n(conversation history)" as MEMORY
+  }
+  
+  ' Observability instrumentation lives in code, not as a component box
+}
+
+' External dependencies
+database "Postgres" as DB
+cloud "RAG Service" as RAG
+cloud "Enrollment Service" as ENROLLMENT
+cloud "OpenAI" as OPENAI
+cloud "Observability Stack" as OBS
+
+' API flow
+MIDDLEWARE --> AUTH_API
+MIDDLEWARE --> CHAT_API
+MIDDLEWARE --> DOC_API
+
+' Business logic flow
+CHAT_API --> LANGGRAPH : invoke workflow
+AUTH_API --> SESSION : create/validate
+DOC_API --> RAG : proxy upload
+
+LANGGRAPH --> TOOLS : execute
+LANGGRAPH --> MEMORY : load/save
+TOOLS --> RAG : rag_search tool (policies)
+TOOLS --> ENROLLMENT : enrollment tools (degree_audit, scenario_compare, etc.)
+
+' Data storage
+SESSION --> DB : users, sessions
+MEMORY --> DB : checkpoints
+LANGGRAPH --> DB : state
+
+' External calls
+LANGGRAPH --> OPENAI : LLM completions
+
+' Observability (external stack only)
+AGENT_SERVICE --> OBS : metrics / traces / logs
+
+note bottom of AGENT_SERVICE
+**Technology Stack:**
+- FastAPI + Uvicorn
+- LangGraph (agent framework)
+- SQLModel (ORM)
+- Postgres (state storage)
+
+**Key Features:**
+- Stateful conversation management
+- Guest & authenticated sessions
+- Streaming responses
+- Tool orchestration
+- Rate limiting
+end note
+
+@enduml
+
+

@@ -1,0 +1,87 @@
+@startuml A3_layer_knowledge_data_detailed
+title Knowledge/Data Layer – Detailed View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Knowledge/Data Layer - Storage" as KNOWLEDGE_LAYER {
+  
+  rectangle "**Relational Database**\nPostgres" as RELATIONAL_DB {
+    rectangle "**Application Data**\n• Users & sessions\n• Conversation state\n• Checkpoints" as APP_DATA
+    rectangle "**Enrollment Domain Data**\n• Courses & sections\n• Students & enrollments\n• Majors, minors, concentrations\n• Prerequisites & requirements" as ENROLLMENT_DATA
+    rectangle "**Financial Data**\n• Tuition & fees\n• Course costs\n• Housing & commuting\n• Financial aid" as FINANCIAL_DATA
+  }
+  
+  rectangle "**Vector Store**\nPostgres + pgvector" as VECTOR_STORE {
+    rectangle "• Policy documents\n• Course descriptions\n• Vector embeddings\n• Similarity indices" as VECTOR_CORE
+  }
+  
+  rectangle "**Knowledge Graph**\nNeo4j" as KNOWLEDGE_GRAPH {
+    rectangle "• Prerequisites graph\n• Requirements graph\n• Transfer equivalencies\n• Course relationships" as GRAPH_CORE
+  }
+}
+
+' Services that use this layer
+cloud "Agent Service\n(Layer 2 - Port 8000)" as AGENT_SERVICE
+cloud "RAG Service\n(Layer 2 - Port 8080)" as RAG_SERVICE
+cloud "Enrollment Service\n(Layer 2 - Port 8090)" as ENROLLMENT_SERVICE
+cloud "OpenAI\nEmbeddings API" as OPENAI
+
+' Agent Service uses Application Data
+AGENT_SERVICE --> APP_DATA : sessions, users, checkpoints
+
+' RAG Service uses Vector Store & Graph
+RAG_SERVICE --> OPENAI : generate embeddings
+RAG_SERVICE --> VECTOR_STORE : policy documents + vectors
+RAG_SERVICE --> KNOWLEDGE_GRAPH : prerequisites, requirements
+
+' Enrollment Service uses Enrollment & Financial Data
+ENROLLMENT_SERVICE --> ENROLLMENT_DATA : query courses, enrollments, requirements
+ENROLLMENT_SERVICE --> FINANCIAL_DATA : query tuition, fees, costs
+ENROLLMENT_SERVICE --> KNOWLEDGE_GRAPH : query prerequisites, requirements graph
+
+note bottom of RELATIONAL_DB
+**Relational Database** (Postgres)
+**Application Data:**
+- Users, sessions, auth
+- Checkpoints (LangGraph)
+
+**Enrollment Domain Data:**
+- Courses, sections, enrollments
+- Majors, minors, concentrations
+- Prerequisites, requirements
+- Students, instructors
+
+**Financial Data:**
+- Tuition rates, fees
+- Course costs (books, materials)
+- Housing, commuting costs
+- Financial aid
+end note
+
+note bottom of VECTOR_STORE
+**Vector Store**
+Same Postgres + pgvector extension
+- Document chunks (text)
+- Vector embeddings
+- Similarity search
+end note
+
+note bottom of KNOWLEDGE_GRAPH
+**Knowledge Graph**
+Separate Neo4j instance
+- Prerequisites graph (course → course)
+- Requirements graph (course → major/minor/concentration)
+- Transfer equivalency mappings
+- Course relationships (co-requisites, conflicts)
+- Graph traversal for enrollment assistance
+end note
+
+@enduml
+
+

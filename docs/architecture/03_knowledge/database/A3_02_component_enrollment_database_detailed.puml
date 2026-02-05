@@ -1,0 +1,76 @@
+@startuml A3_02_component_enrollment_database_detailed
+title Enrollment Database – Detailed View
+
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Enrollment Domain Database (Postgres)" as ENROLLMENT_DB {
+  
+  rectangle "**Academic Structure**" as ACADEMIC {
+    rectangle "• Departments\n• Majors, minors, concentrations\n• Courses\n• Prerequisites, co-requisites\n• Course sections (times, locations)" as ACADEMIC_TABLES
+  }
+  
+  rectangle "**Requirements**" as REQUIREMENTS {
+    rectangle "• Major requirements\n• Minor requirements\n• Concentration requirements\n• Course-to-requirement mappings" as REQUIREMENT_TABLES
+  }
+  
+  rectangle "**Enrollment & Scheduling**" as ENROLLMENT {
+    rectangle "• Student enrollments\n• Grades & transcripts\n• Enrollment deadlines\n• Schedule conflicts\n• Section capacity" as ENROLLMENT_TABLES
+  }
+  
+  rectangle "**Financial Data**" as FINANCIAL {
+    rectangle "• Tuition rates (by units, student type)\n• Fees (registration, course, etc.)\n• Course costs (books, materials)\n• Housing costs\n• Commuting costs" as FINANCIAL_TABLES
+  }
+  
+  rectangle "**Transfer Data**" as TRANSFER {
+    rectangle "• Transfer institutions\n• Transfer courses\n• Course equivalencies\n• Transfer policies" as TRANSFER_TABLES
+  }
+  
+  rectangle "**People**" as PEOPLE {
+    rectangle "• Students (major, minor, GPA)\n• Instructors\n• Accessibility features" as PEOPLE_TABLES
+  }
+}
+
+' Enrollment Service queries
+cloud "Enrollment Service\n(Layer 2)" as ENROLLMENT_SERVICE
+
+ENROLLMENT_SERVICE --> ACADEMIC : course search, section lookup
+ENROLLMENT_SERVICE --> REQUIREMENTS : degree audit, requirements matching
+ENROLLMENT_SERVICE --> ENROLLMENT : enrollment status, deadlines, conflicts
+ENROLLMENT_SERVICE --> FINANCIAL : budget calculation, cost estimation
+ENROLLMENT_SERVICE --> TRANSFER : transfer equivalency lookup
+ENROLLMENT_SERVICE --> PEOPLE : student data, instructor info
+
+note right of ENROLLMENT_SERVICE
+**Enrollment Assistance Use Cases:**
+- Degree audit by major/minor/concentration
+- Course search with filters (time, location, professor)
+- Scenario comparison (full-time vs part-time)
+- Schedule optimization with constraints
+- Transfer course equivalency lookup
+- Budget calculation (tuition, fees, costs)
+- Enrollment deadline checking
+- Prerequisite validation
+end note
+
+note bottom of ENROLLMENT_DB
+**Data Sources:**
+- SJSU Student Information System (SIS)
+- SJSU Financial Systems
+- SJSU Transfer Center
+- Academic Departments
+- Accessibility Resource Center
+
+**Data Integration:**
+- ETL pipelines from SIS (daily during registration)
+- Financial data sync (weekly)
+- Transfer data updates (weekly)
+- Real-time capacity updates during registration
+- Historical course data retention
+end note
+
+@enduml
+
+

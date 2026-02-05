@@ -1,0 +1,128 @@
+@startuml A2_04_component_enrollment_service_detailed
+title Enrollment Service – Detailed Components
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Enrollment Service\nservices/enrollment_service\nPort: 8090" as ENROLLMENT_SERVICE {
+  
+  package "API Layer" as API_LAYER {
+    rectangle "Degree Audit API\nPOST /degree-audit" as DEGREE_API
+    rectangle "Scenario Comparison API\nPOST /scenario-compare" as SCENARIO_API
+    rectangle "Schedule Optimization API\nPOST /schedule-optimize" as SCHEDULE_API
+    rectangle "Transfer Check API\nPOST /transfer-check" as TRANSFER_API
+    rectangle "Budget Calculator API\nPOST /budget-calculate" as BUDGET_API
+    rectangle "Course Search API\nGET /courses/search" as SEARCH_API
+    rectangle "Deadlines API\nGET /deadlines" as DEADLINE_API
+  }
+  
+  package "Core Engines" as ENGINES {
+    rectangle "Degree Audit Engine" as DEGREE_ENGINE {
+      rectangle "• Query student courses\n• Match to requirements\n• Calculate progress\n• Suggest next courses" as DEGREE_LOGIC
+    }
+    
+    rectangle "Scenario Comparison Engine" as SCENARIO_ENGINE {
+      rectangle "• Generate scenarios\n• Calculate costs\n• Check feasibility\n• Compare metrics" as SCENARIO_LOGIC
+    }
+    
+    rectangle "Schedule Optimization Engine" as SCHEDULE_ENGINE {
+      rectangle "• Generate combinations\n• Score schedules\n• Detect conflicts\n• Filter by constraints" as SCHEDULE_LOGIC
+    }
+    
+    rectangle "Transfer Equivalency Engine" as TRANSFER_ENGINE {
+      rectangle "• Search equivalencies\n• Check policies\n• Validate dates\n• Return confidence" as TRANSFER_LOGIC
+    }
+    
+    rectangle "Budget Calculator" as BUDGET_CALC {
+      rectangle "• Calculate tuition\n• Sum fees\n• Estimate books\n• Add housing/commuting" as BUDGET_LOGIC
+    }
+  }
+  
+  package "Data Access Layer" as DATA_LAYER {
+    rectangle "Enrollment Repository\n(Postgres queries)" as ENROLL_REPO
+    rectangle "Financial Repository\n(Postgres queries)" as FINANCIAL_REPO
+    rectangle "Graph Repository\n(Neo4j queries)" as GRAPH_REPO
+  }
+}
+
+' External dependencies
+database "Postgres\n(Enrollment + Financial)" as PG_DB
+database "Neo4j\n(Knowledge Graph)" as NEO4J
+cloud "RAG Service" as RAG_SVC
+cloud "Observability Stack" as OBS
+
+' API flow
+DEGREE_API --> DEGREE_ENGINE
+SCENARIO_API --> SCENARIO_ENGINE
+SCHEDULE_API --> SCHEDULE_ENGINE
+TRANSFER_API --> TRANSFER_ENGINE
+BUDGET_API --> BUDGET_CALC
+SEARCH_API --> ENROLL_REPO
+DEADLINE_API --> ENROLL_REPO
+
+' Engine flow
+DEGREE_ENGINE --> ENROLL_REPO : student courses
+DEGREE_ENGINE --> GRAPH_REPO : major requirements
+SCENARIO_ENGINE --> ENROLL_REPO : course data
+SCENARIO_ENGINE --> FINANCIAL_REPO : costs
+SCENARIO_ENGINE --> GRAPH_REPO : prerequisites
+SCHEDULE_ENGINE --> ENROLL_REPO : sections
+SCHEDULE_ENGINE --> GRAPH_REPO : conflicts
+TRANSFER_ENGINE --> ENROLL_REPO : transfer courses
+TRANSFER_ENGINE --> GRAPH_REPO : equivalencies
+TRANSFER_ENGINE --> RAG_SVC : policy context
+BUDGET_CALC --> FINANCIAL_REPO : rates, fees, costs
+
+' Data storage
+ENROLL_REPO --> PG_DB : query enrollment data
+FINANCIAL_REPO --> PG_DB : query financial data
+GRAPH_REPO --> NEO4J : query graph
+
+' Observability
+ENROLLMENT_SERVICE --> OBS : metrics / traces / logs
+
+note right of ENGINES
+**Engine Responsibilities:**
+
+**Degree Audit:**
+- Load student transcript
+- Query major/minor requirements
+- Match courses to requirements
+- Calculate progress percentages
+- Identify gaps and suggest courses
+
+**Scenario Comparison:**
+- Generate enrollment scenarios
+- Calculate total costs per scenario
+- Check schedule feasibility
+- Estimate time to degree
+- Compare across dimensions
+
+**Schedule Optimization:**
+- Query available sections
+- Generate valid combinations
+- Score by preferences/constraints
+- Detect time conflicts
+- Return top N options
+
+**Transfer Equivalency:**
+- Search transfer course database
+- Query graph for relationships
+- Check policy applicability
+- Return equivalency with confidence
+
+**Budget Calculator:**
+- Calculate tuition by units
+- Sum applicable fees
+- Estimate course materials
+- Add housing/commuting costs
+- Apply financial aid (if provided)
+end note
+
+@enduml
+

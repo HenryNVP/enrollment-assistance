@@ -1,0 +1,40 @@
+@startuml A2_02_component_rag_service_simple
+title RAG Service – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "RAG Service\nPort: 8080" as RAG_SERVICE {
+  rectangle "Document Processing\n(ingestion pipeline)" as INGESTION
+  rectangle "Query Pipeline\n(vector + graph search)" as QUERY
+}
+
+database "Postgres\n+ pgvector" as DB
+database "Neo4j" as NEO4J
+cloud "OpenAI\nEmbeddings" as OPENAI
+cloud "Observability" as OBS
+
+INGESTION --> OPENAI : generate embeddings
+INGESTION --> DB : store vectors
+INGESTION --> NEO4J : store graph
+QUERY --> DB : vector search
+QUERY --> NEO4J : graph query
+RAG_SERVICE --> OBS
+
+note right of RAG_SERVICE
+**Role:** Stateless Data Service
+**Tech:** FastAPI + LangChain
+**Key Functions:**
+- Policy document processing
+- Vector similarity search
+- Knowledge graph queries
+- Hybrid retrieval
+end note
+
+@enduml
+

@@ -1,0 +1,133 @@
+@startuml A4_00_flow_overview_detailed
+title Runtime Flows – Detailed Overview
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 10
+
+actor Student
+participant "Web Dashboard\n(Student Portal)" as UI
+participant "Agent API\n(/api/v1/...)" as AGENT
+participant "LangGraph Orchestrator" as LANGGRAPH
+participant "RAG Proxy\n(/api/v1/documents)" as DOC_PROXY
+participant "RAG API\n(/embed, /query)" as RAG_API
+database "Postgres\n(pgvector)" as PG
+database "Neo4j\n(Knowledge Graph)" as NEO4J
+participant "Enrollment API\n(/api/v1/enrollment)" as ENROLLMENT
+participant "Degree Audit Engine" as DEGREE
+participant "Scenario Comparison Engine" as SCENARIO
+participant "Schedule Optimization Engine" as SCHEDULE
+participant "Transfer Equivalency Engine" as TRANSFER
+participant "Budget Calculator" as BUDGET
+participant "Embeddings Service\n(OpenAI)" as EMB
+participant "LLM Provider\n(OpenAI)" as LLM
+participant "Langfuse / Metrics" as OBS
+
+== Student Session bootstrap ==
+Student -> UI : Open enrollment assistance portal
+UI -> AGENT : POST /auth/session\n(optional Authorization header)
+AGENT -> PG : get_or_create_user\n(sqlmodel)
+AGENT -> PG : insert session row + checkpoint thread
+AGENT --> UI : session token (JWT)
+UI -> OBS : store token locally (browser)
+
+== Document ingestion ==
+UI -> DOC_PROXY : POST /documents/upload\n(file, file_id?)
+DOC_PROXY -> RAG_API : POST /embed\n(attach JWT)
+RAG_API -> Embeddings : generate chunk embeddings
+RAG_API -> PG : insert chunks + vectors
+RAG_API --> DOC_PROXY : {status, file_id}
+DOC_PROXY --> UI : success message
+
+== Enrollment Question ==
+loop per student turn
+  Student -> UI : type enrollment question
+  UI -> AGENT : POST /chatbot/chat\nAuthorization: session token
+  AGENT -> LANGGRAPH : invoke(session_id, messages)
+  group retrieve context (if needed)
+    LANGGRAPH -> RAG_API : POST /query\n{query, file_ids, JWT}
+    RAG_API -> PG : similarity_search (pgvector)
+    PG --> RAG_API : ranked vectors + metadata
+    RAG_API --> LANGGRAPH : policy documents, course descriptions
+  end
+  alt enrollment tool needed
+    alt degree audit
+      LANGGRAPH -> ENROLLMENT : POST /degree-audit\n{student_id, major}
+      ENROLLMENT -> DEGREE : execute audit
+      DEGREE -> PG : query student courses, requirements
+      DEGREE -> NEO4J : query major requirements graph
+      DEGREE --> ENROLLMENT : audit report
+      ENROLLMENT --> LANGGRAPH : progress, missing requirements
+    else scenario comparison
+      LANGGRAPH -> ENROLLMENT : POST /scenario-compare\n{scenarios}
+      ENROLLMENT -> SCENARIO : generate scenarios
+      SCENARIO -> PG : query courses, costs
+      SCENARIO -> NEO4J : check prerequisites
+      SCENARIO --> ENROLLMENT : comparison matrix
+      ENROLLMENT --> LANGGRAPH : cost, schedule comparison
+    else schedule optimization
+      LANGGRAPH -> ENROLLMENT : POST /schedule-optimize\n{constraints}
+      ENROLLMENT -> SCHEDULE : optimize schedule
+      SCHEDULE -> PG : query sections
+      SCHEDULE -> NEO4J : query conflicts
+      SCHEDULE --> ENROLLMENT : optimal schedules
+      ENROLLMENT --> LANGGRAPH : ranked schedule options
+    else transfer check
+      LANGGRAPH -> ENROLLMENT : POST /transfer-check\n{institution, course}
+      ENROLLMENT -> TRANSFER : check equivalency
+      TRANSFER -> PG : query transfer courses
+      TRANSFER -> NEO4J : query equivalency graph
+      TRANSFER -> RAG_API : get transfer policies
+      TRANSFER --> ENROLLMENT : equivalency result
+      ENROLLMENT --> LANGGRAPH : equivalent course, policies
+    else budget calculation
+      LANGGRAPH -> ENROLLMENT : POST /budget-calculate\n{term, units, etc.}
+      ENROLLMENT -> BUDGET : calculate costs
+      BUDGET -> PG : query tuition, fees, costs
+      BUDGET --> ENROLLMENT : cost breakdown
+      ENROLLMENT --> LANGGRAPH : total costs
+    end
+  end
+  LANGGRAPH -> LLM : prompt(messages + context + tool results)
+  LLM --> LANGGRAPH : assistant reply
+  LANGGRAPH -> PG : persist checkpoint state
+  LANGGRAPH --> AGENT : message list
+  AGENT --> UI : ChatResponse (messages)
+  AGENT -> OBS : emit metrics / traces
+end
+
+== Optional stream ==
+UI -> AGENT : POST /chatbot/chat/stream
+AGENT -> LANGGRAPH : astream(...)
+loop SSE chunks
+  LANGGRAPH --> AGENT : token chunk
+  AGENT --> UI : data: {content, done?}
+end
+
+== History management ==
+UI -> AGENT : GET /chatbot/messages
+AGENT -> LANGGRAPH : load_state(thread_id)
+LANGGRAPH -> PG : fetch checkpoints
+PG --> LANGGRAPH : state snapshot
+LANGGRAPH --> AGENT : conversation history
+AGENT --> UI : prior messages
+
+UI -> AGENT : DELETE /chatbot/messages
+AGENT -> PG : delete from checkpoint_* tables
+AGENT --> UI : confirmation
+
+== Monitoring ==
+AGENT -> OBS : Prometheus metrics, Langfuse traces
+RAG_API -> OBS : service metrics / logs
+ANALYSIS -> OBS : workflow telemetry
+
+note right of UI
+**Detailed Flow Diagrams:**
+- Session & Auth: A4_02_flow_session_auth
+- Chat: A4_03_flow_chat
+- Enrollment Workflows: A4_04_flow_enrollment
+- Document Ingestion: A4_01_flow_ingestion
+end note
+
+@enduml
+

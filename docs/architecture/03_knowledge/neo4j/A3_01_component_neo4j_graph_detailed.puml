@@ -1,0 +1,143 @@
+@startuml A3_01_component_neo4j_graph_detailed
+title Neo4j Knowledge Graph – Detailed View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Neo4j Knowledge Graph" as NEO4J_SYSTEM {
+  
+  package "Graph Schema" as SCHEMA {
+    rectangle "Entity Types" as ENTITIES {
+      rectangle "Course\n(code, title, units, department)" as COURSE
+      rectangle "Major\n(code, name, degree_type)" as MAJOR
+      rectangle "Minor\n(code, name)" as MINOR
+      rectangle "Concentration\n(code, name)" as CONCENTRATION
+      rectangle "Section\n(section_number, term, time, location)" as SECTION
+      rectangle "Student\n(sjsu_id, name, major, minor)" as STUDENT
+      rectangle "Instructor\n(name, department)" as INSTRUCTOR
+      rectangle "TransferCourse\n(institution, code, title)" as TRANSFER_COURSE
+      rectangle "Policy\n(type, title, content)" as POLICY
+    }
+    
+    rectangle "Relationship Types" as RELATIONS {
+      rectangle "PREREQUISITE_FOR" as R1
+      rectangle "CO_REQUISITE_OF" as R2
+      rectangle "REQUIRED_FOR" as R3
+      rectangle "ELECTIVE_FOR" as R4
+      rectangle "EQUIVALENT_TO" as R5
+      rectangle "TAUGHT_BY" as R6
+      rectangle "ENROLLED_IN" as R7
+      rectangle "CONFLICTS_WITH" as R8
+      rectangle "REFERENCES" as R9
+    }
+  }
+  
+  package "Graph Operations" as OPS {
+    rectangle "Entity Extraction\n(NER from documents)" as NER
+    rectangle "Relationship Extraction\n(semantic patterns)" as REL_EXTRACT
+    rectangle "Entity Resolution\n(deduplication & linking)" as RESOLVE
+    rectangle "Graph Traversal\n(Cypher queries)" as TRAVERSE
+    rectangle "Path Finding\n(shortest path, neighbors)" as PATH
+    rectangle "Community Detection\n(clustering, grouping)" as COMMUNITY
+  }
+  
+  package "Query Capabilities" as QUERIES {
+    rectangle "Entity Lookup\n(find by name/type)" as LOOKUP
+    rectangle "Multi-hop Queries\n(traverse relationships)" as MULTIHOP
+    rectangle "Pattern Matching\n(graph patterns)" as PATTERN
+    rectangle "Aggregation\n(count, group by)" as AGGREGATE
+  }
+}
+
+package "Integration Points" as INTEGRATION {
+  rectangle "RAG Service\n(rag_api)" as RAG
+  rectangle "LangGraph Agent\n(agent_ai)" as AGENT
+  rectangle "Enrollment Service\n(enrollment_api)" as ENROLLMENT
+}
+
+database "Vector Store\n(pgvector)" as VECTOR
+
+' Entity relationships in the graph
+COURSE --> R1 : prerequisite_for
+R1 --> COURSE
+COURSE --> R2 : co_requisite_of
+R2 --> COURSE
+COURSE --> R3 : required_for
+R3 --> MAJOR
+COURSE --> R3 : required_for
+R3 --> MINOR
+COURSE --> R3 : required_for
+R3 --> CONCENTRATION
+COURSE --> R4 : elective_for
+R4 --> MAJOR
+TRANSFER_COURSE --> R5 : equivalent_to
+R5 --> COURSE
+SECTION --> R6 : taught_by
+R6 --> INSTRUCTOR
+STUDENT --> R7 : enrolled_in
+R7 --> SECTION
+SECTION --> R8 : conflicts_with
+R8 --> SECTION
+POLICY --> R9 : references
+R9 --> COURSE
+POLICY --> R9 : references
+R9 --> MAJOR
+
+' Graph operations flow
+NER --> ENTITIES : create nodes
+REL_EXTRACT --> RELATIONS : create edges
+RESOLVE --> ENTITIES : merge duplicates
+TRAVERSE --> QUERIES : execute
+PATH --> MULTIHOP : support
+COMMUNITY --> AGGREGATE : analyze
+
+' Integration with other systems
+RAG --> NER : extract from policy docs
+RAG --> LOOKUP : course, major search
+RAG --> MULTIHOP : graph-augmented RAG
+AGENT --> PATTERN : enrollment queries
+AGENT --> TRAVERSE : prerequisite chains
+ENROLLMENT --> AGGREGATE : degree audit, requirements
+ENROLLMENT --> PATH : prerequisite paths
+ENROLLMENT --> MULTIHOP : transfer equivalencies
+VECTOR -.-> RAG : vector results
+RAG --> VECTOR : hybrid retrieval
+
+note bottom of SCHEMA
+**Graph Schema Examples:**
+- Course → PREREQUISITE_FOR → Course
+- Course → REQUIRED_FOR → Major/Minor/Concentration
+- Course → CO_REQUISITE_OF → Course
+- TransferCourse → EQUIVALENT_TO → Course
+- Section → CONFLICTS_WITH → Section
+- Section → TAUGHT_BY → Instructor
+- Student → ENROLLED_IN → Section
+end note
+
+note bottom of QUERIES
+**Advanced Query Examples:**
+- "Find all prerequisites for CS 146"
+- "What courses are required for CS major?"
+- "Show me courses that conflict with Section X"
+- "Trace prerequisite chain for advanced course"
+- "Find transfer courses equivalent to MATH 30"
+- "What sections are taught by Professor Y?"
+end note
+
+note right of INTEGRATION
+**Hybrid RAG Approach:**
+1. Vector search: policy documents, course descriptions
+2. Graph search: prerequisites, requirements, equivalencies
+3. Combine results: relevance + structural context
+4. Enhanced retrieval with course relationships
+5. Multi-hop reasoning over academic knowledge
+end note
+
+@enduml
+
+

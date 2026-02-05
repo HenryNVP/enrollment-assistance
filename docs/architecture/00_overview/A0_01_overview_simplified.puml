@@ -1,0 +1,54 @@
+@startuml A0_01_overview_simplified
+title SJSU Enrollment Assistance – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam packageStyle rectangle
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Client Layer\n(UI + Integrations)" as CLIENT {
+  rectangle "Web Dashboard\nStudent Portal" as UI
+  rectangle "External Consumers" as EXT
+}
+
+rectangle "Service Layer\n(Microservices)" as SERVICE {
+  rectangle "Agent Service\norchestration, APIs, tools" as AGENT_SVC
+  rectangle "RAG Service\ndocument processing, search" as RAG_SVC
+  rectangle "Enrollment Service\ndegree audit, scenarios, scheduling" as ENROLLMENT_SVC
+}
+
+rectangle "Knowledge / Data Layer\n(Storage)" as KNOWLEDGE {
+  rectangle "Relational DB\n(Postgres)\napp + enrollment data" as RDBMS
+  rectangle "Vector Store\n(Postgres + pgvector)\ndocument embeddings" as VSTORE
+  rectangle "Knowledge Graph\n(Neo4j)\nprerequisites + requirements" as KGRAPH
+}
+
+cloud "LLM Provider\n(OpenAI)" as LLM
+cloud "Observability\n(Prometheus, Grafana, Langfuse)" as OBS
+
+' Client to Service
+CLIENT --> AGENT_SVC : enrollment questions, auth
+CLIENT --> AGENT_SVC : document upload (proxy)
+
+' Service to Service
+AGENT_SVC --> RAG_SVC : policy search, doc processing
+AGENT_SVC --> ENROLLMENT_SVC : degree audit, scenarios
+ENROLLMENT_SVC --> RAG_SVC : context retrieval
+
+' Service to Storage
+AGENT_SVC --> RDBMS : sessions, checkpoints, users
+RAG_SVC --> VSTORE : store/search vectors
+RAG_SVC --> KGRAPH : store/query entities
+ENROLLMENT_SVC --> RDBMS : query enrollment data
+
+' External
+AGENT_SVC --> LLM : prompt completions
+RAG_SVC --> LLM : embeddings
+SERVICE --> OBS : metrics & traces
+
+@enduml
+

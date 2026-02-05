@@ -1,0 +1,36 @@
+@startuml A3_01_component_neo4j_graph_simple
+title Neo4j Knowledge Graph – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Neo4j Knowledge Graph" as NEO4J {
+  rectangle "Entity Types\n(courses, majors, sections, students)" as ENTITIES
+  rectangle "Relationships\n(prerequisites, requirements, equivalencies)" as RELATIONS
+  rectangle "Graph Operations\n(traversal, path finding, queries)" as OPS
+}
+
+cloud "RAG Service" as RAG
+cloud "Agent Service" as AGENT
+cloud "Enrollment Service" as ENROLLMENT
+
+RAG --> ENTITIES : entity extraction
+RAG --> RELATIONS : relationship extraction
+AGENT --> OPS : enrollment queries
+ENROLLMENT --> OPS : prerequisites, requirements
+
+note right of NEO4J
+**Key Capabilities:**
+- Prerequisites graph (course → course)
+- Requirements graph (course → major/minor)
+- Transfer equivalency mappings
+- Course relationships (conflicts, co-requisites)
+end note
+
+@enduml
+
