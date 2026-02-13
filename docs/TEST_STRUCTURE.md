@@ -44,8 +44,9 @@ enrollment-assistant/
 │   └── fixtures/                    # Test fixtures (JSON, YAML)
 │
 ├── scripts/                         # Test scripts
-│   ├── test_basic_api.sh
-│   ├── test_rag_integration.sh
+│   ├── test_basic_api_simple.sh    # Basic Agent API tests
+│   ├── test_rag_integration.sh     # RAG API integration tests
+│   ├── test_rag_end_to_end.sh      # End-to-end RAG + Agent API flow
 │   └── run_all_tests.sh
 │
 └── infrastructure/
@@ -203,6 +204,35 @@ REGISTRATION_FILE="${TEST_DATA_DIR}/documents/registration.txt"
 curl -X POST http://localhost:8010/embed \
   -F "file_id=test-registration" \
   -F "file=@${REGISTRATION_FILE}"
+```
+
+## Test Scripts Overview
+
+### `test_basic_api_simple.sh`
+Tests basic Agent API functionality:
+- Health checks
+- User registration/login
+- Session creation
+- Chat messaging
+- Message history
+
+### `test_rag_integration.sh`
+Tests RAG API functionality:
+- Document upload/embedding
+- Document querying
+- Document listing
+- Uses Agent API for authentication
+
+### `test_rag_end_to_end.sh`
+**End-to-end test demonstrating the complete RAG + Agent flow:**
+- Authenticates with both RAG API and Agent API
+- Uploads document to RAG API
+- Queries RAG API for relevant context
+- Sends chat message to Agent API
+- **Shows the final Agent API response** (demonstrates how RAG context would be used)
+- Verifies chat history
+
+This test shows the complete flow from document upload through to final chat response, demonstrating how RAG context enhances Agent API responses.
 ```
 
 ## .gitignore Updates
