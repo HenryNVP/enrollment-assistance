@@ -1,0 +1,50 @@
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "No build needed - using pre-built image from ECR"
+run:
+  runtime-version: latest
+  command: python main.py
+  network:
+    port: 8000
+    env: PORT
+  env:
+    - name: PORT
+      value: "8000"
+    - name: RAG_HOST
+      value: "0.0.0.0"
+    - name: RAG_PORT
+      value: "8000"
+    # Database connection - update with your RDS endpoint
+    - name: DB_HOST
+      value: "your-rds-endpoint.region.rds.amazonaws.com"
+    - name: DB_PORT
+      value: "5432"
+    - name: POSTGRES_DB
+      value: "ragdb"
+    - name: POSTGRES_USER
+      value: "postgres"
+    # Use AWS Secrets Manager for sensitive values
+    - name: POSTGRES_PASSWORD
+      value-from: "arn:aws:secretsmanager:region:account:secret:enrollment-assistant/db-password"
+    # Embeddings configuration
+    - name: VECTOR_DB_TYPE
+      value: "pgvector"
+    - name: EMBEDDINGS_PROVIDER
+      value: "openai"
+    # Use Secrets Manager for API keys
+    - name: OPENAI_API_KEY
+      value-from: "arn:aws:secretsmanager:region:account:secret:enrollment-assistant/openai-api-key"
+    - name: JWT_SECRET
+      value-from: "arn:aws:secretsmanager:region:account:secret:enrollment-assistant/jwt-secret"
+    - name: COLLECTION_NAME
+      value: "policy_docs"
+healthcheck:
+  protocol: HTTP
+  path: /health
+  interval: 10
+  timeout: 5
+  healthy-threshold: 1
+  unhealthy-threshold: 5
