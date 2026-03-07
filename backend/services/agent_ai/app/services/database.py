@@ -43,6 +43,8 @@ class DatabaseService:
                 f"postgresql://{settings.POSTGRES_USER}:{settings.POSTGRES_PASSWORD}"
                 f"@{settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}"
             )
+            if settings.POSTGRES_SSLMODE:
+                connection_url += f"?sslmode={settings.POSTGRES_SSLMODE}"
 
             self.engine = create_engine(
                 connection_url,

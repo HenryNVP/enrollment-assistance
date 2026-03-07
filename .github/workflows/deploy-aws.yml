@@ -1,0 +1,87 @@
+# Deploy to AWS: build images, push to ECR, optionally update EC2.
+# Requires GitHub secrets (see docs/deployment/CI_CD_SETUP.md).
+
+name: Deploy to AWS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  AWS_REGION: us-west-2
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    outputs:
+      image_tag: ${{ steps.meta.outputs.version }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+      # Alternative (no OIDC): add a step that sets env AWS_ACCESS_KEY_ID and
+      # AWS_SECRET_ACCESS_KEY from GitHub secrets, and remove the role-to-assume block above.
+
+      - name: Set image tag
+        id: meta
+        run: |
+          VERSION="${GITHUB_SHA::7}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.tag }}" ]; then
+            VERSION="${{ github.event.inputs.tag }}"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Image tag: $VERSION"
+
+      - name: Log in to ECR
+        run: |
+          aws ecr get-login-password --region ${{ env.AWS_REGION }} | \
+            docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+
+      - name: Build and push Agent API
+        run: |
+          docker build -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/agent-api:${{ steps.meta.outputs.version }} \
+            ./backend/services/agent_ai
+          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/agent-api:${{ steps.meta.outputs.version }}
+
+      - name: Build and push RAG API
+        run: |
+          docker build -f backend/services/rag_api/Dockerfile.lite \
+            -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-api:${{ steps.meta.outputs.version }} \
+            ./backend/services/rag_api
+          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-api:${{ steps.meta.outputs.version }}
+
+  deploy-ec2:
+    runs-on: ubuntu-latest
+    needs: build-and-push
+    if: github.ref == 'refs/heads/main' && vars.DEPLOY_TO_EC2 == 'true'
+    environment: production
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ec2-user
+          key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+          script: |
+            set -e
+            cd /opt/enrollment-assistant
+            export ECR_REGISTRY=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+            export IMAGE_TAG=${{ needs.build-and-push.outputs.image_tag }}
+            aws ecr get-login-password --region ${{ env.AWS_REGION }} | sudo docker login --username AWS --password-stdin $ECR_REGISTRY
+            docker compose -f docker-compose.ec2-rds.yml pull
+            docker compose -f docker-compose.ec2-rds.yml up -d
+            docker compose -f docker-compose.ec2-rds.yml ps
+        env:
+          AWS_REGION: ${{ env.AWS_REGION }}

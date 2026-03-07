@@ -114,6 +114,8 @@ class LangGraphAgent:
                     f"{quote_plus(settings.POSTGRES_USER)}:{quote_plus(settings.POSTGRES_PASSWORD)}"
                     f"@{settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}"
                 )
+                if settings.POSTGRES_SSLMODE:
+                    connection_url += f"?sslmode={settings.POSTGRES_SSLMODE}"
 
                 self._connection_pool = AsyncConnectionPool(
                     connection_url,

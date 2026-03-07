@@ -141,15 +141,26 @@ Replace `EC2_IP` with your instance public IP.
 curl -s http://EC2_IP:8000/health | jq
 
 # Register (password: 8+ chars, upper, lower, number, special)
-curl -s -X POST http://EC2_IP:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{"email":"test@example.com","password":"TestPass1!"}' | jq
+curl -s -X POST http://EC2_IP:8000/api/v1/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"email":"test@example.com","password":"TestPass1!"}' | jq
 
-# Create session (use token from register)
-export USER_TOKEN="<token from above>"
-curl -s -X POST http://EC2_IP:8000/api/v1/auth/session -H "Authorization: Bearer $USER_TOKEN" | jq
+# OR: login with existing user (form-encoded)
+curl -s -X POST http://EC2_IP:8000/api/v1/auth/login \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "username=test@example.com&password=TestPass1!&grant_type=password" | jq
 
-# Chat (use session token from above)
+# Create session (use token from register or login)
+export USER_TOKEN="<token from register or login>"
+curl -s -X POST http://EC2_IP:8000/api/v1/auth/session \
+  -H "Authorization: Bearer $USER_TOKEN" | jq
+
+# Chat (full flow: health -> register/login -> session -> chat)
 export SESSION_TOKEN="<session token>"
-curl -s -X POST http://EC2_IP:8000/api/v1/chatbot/chat -H "Authorization: Bearer $SESSION_TOKEN" -H "Content-Type: application/json" -d '{"messages":[{"role":"user","content":"What enrollment options do I have?"}]}' | jq
+curl -s -X POST http://EC2_IP:8000/api/v1/chatbot/chat \
+  -H "Authorization: Bearer $SESSION_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"messages":[{"role":"user","content":"What enrollment options do I have?"}]}' | jq
 ```
 
 Interactive docs: `http://EC2_IP:8000/docs`.
@@ -159,6 +170,10 @@ Interactive docs: `http://EC2_IP:8000/docs`.
 - **New image:** Set `IMAGE_TAG` in `.env`, then `docker compose -f docker-compose.ec2-rds.yml pull && docker compose -f docker-compose.ec2-rds.yml up -d`.
 - **Secrets:** Keep `.env` out of git; use strong passwords. Prefer Secrets Manager or SSM in production.
 - **IAM:** Attach instance profile `AmazonEC2ContainerRegistryReadOnly` so the instance can pull from ECR without stored keys.
+
+## CI/CD (GitHub Actions)
+
+To build images, push to ECR, and optionally deploy to EC2 on push to `main`, see **[CI/CD setup](CI_CD_SETUP.md)**. You’ll configure GitHub secrets (and optionally OIDC with AWS), then the `Deploy to AWS` workflow will run on every push to `main`.
 
 ## Troubleshooting
 

@@ -59,6 +59,7 @@ POSTGRES_USER = get_env_variable("POSTGRES_USER", "myuser")
 POSTGRES_PASSWORD = get_env_variable("POSTGRES_PASSWORD", "mypassword")
 DB_HOST = get_env_variable("DB_HOST", "db")
 DB_PORT = get_env_variable("DB_PORT", "5432")
+POSTGRES_SSLMODE = get_env_variable("POSTGRES_SSLMODE", "")
 COLLECTION_NAME = get_env_variable("COLLECTION_NAME", "testcollection")
 ATLAS_MONGO_DB_URI = get_env_variable(
     "ATLAS_MONGO_DB_URI", "mongodb://127.0.0.1:27018/LibreChat"
@@ -93,6 +94,8 @@ if POSTGRES_USE_UNIX_SOCKET:
     connection_suffix = f"{urllib.parse.quote_plus(POSTGRES_USER)}:{urllib.parse.quote_plus(POSTGRES_PASSWORD)}@/{urllib.parse.quote_plus(POSTGRES_DB)}?host={urllib.parse.quote_plus(DB_HOST)}"
 else:
     connection_suffix = f"{urllib.parse.quote_plus(POSTGRES_USER)}:{urllib.parse.quote_plus(POSTGRES_PASSWORD)}@{DB_HOST}:{DB_PORT}/{urllib.parse.quote_plus(POSTGRES_DB)}"
+if POSTGRES_SSLMODE:
+    connection_suffix += f"?sslmode={POSTGRES_SSLMODE}" if "?" not in connection_suffix else f"&sslmode={POSTGRES_SSLMODE}"
 
 CONNECTION_STRING = f"postgresql+psycopg2://{connection_suffix}"
 DSN = f"postgresql://{connection_suffix}"
