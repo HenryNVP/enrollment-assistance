@@ -1,0 +1,4 @@
+# Python API tests (run from repo root: pytest tests/)
+pytest>=7.0.0
+requests>=2.28.0
+PyJWT>=2.0.0

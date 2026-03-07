@@ -202,6 +202,22 @@ Both APIs provide interactive documentation:
 - **Agent API ReDoc**: http://localhost:8000/redoc
 - **RAG API Swagger UI**: http://localhost:8010/docs (if available)
 
+## 7. Python tests (CI/CD)
+
+API tests are available as pytest scripts so CI can run them without shell scripts.
+
+**Run all API tests** (from repo root; requires Agent API and optionally RAG API running):
+
+```bash
+pip install -r tests/requirements.txt
+pytest tests/ -v
+```
+
+- **Integration** (`tests/integration/`): Agent API (health, register/session, chat, history) and RAG API (health, query, ids, document details). Skip if the service is down; RAG tests expect vector store populated (e.g. via `tools/ingest_rag.py`).
+- **E2E** (`tests/e2e/`): RAG query then Agent chat; skip if either service is down.
+
+Set base URLs if not using defaults: `AGENT_API_URL`, `RAG_API_URL`. For RAG tests, `JWT_SECRET` (or `backend/services/rag_api/.env`) is required to generate the RAG token.
+
 ## Notes
 
 - Password requirements: At least 8 characters, must include uppercase, lowercase, number, and special character

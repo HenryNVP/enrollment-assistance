@@ -114,6 +114,7 @@ If you use these, you must change the workflow to use them instead of `role-to-a
 
 ## 4. CI (tests)
 
+- **Python API tests:** From repo root, `pip install -r tests/requirements.txt` then `pytest tests/ -v`. These tests hit the Agent API and RAG API (if running); they skip when a service is unreachable. Use `AGENT_API_URL` and `RAG_API_URL` in CI to point at your test stack.
 - **Secrets (optional for CI):** If integration or E2E tests call external APIs, add `OPENAI_API_KEY` (and any others) to GitHub secrets and reference them in `ci.yml` as `secrets.OPENAI_API_KEY`.
 - The existing `ci.yml` runs unit tests, integration tests (with Postgres service), and lint. Adjust branches and jobs in `.github/workflows/ci.yml` as needed.
 
