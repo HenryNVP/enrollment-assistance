@@ -242,3 +242,7 @@ tools/scraper/*.html
 tools/scraper/input/*.txt
 tools/scraper/output/*
 !tools/scraper/output/.gitkeep
+
+docs/deployment/*.md
+docs/VECTOR_STORE_INGEST.md
+docs/TEST_STRUCTURE.md
