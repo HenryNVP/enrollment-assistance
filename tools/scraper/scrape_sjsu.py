@@ -43,12 +43,15 @@ except ImportError as e:
     print(f"Missing: {e}", file=sys.stderr)
     sys.exit(1)
 
-# Domain restriction
-ALLOWED_NETLOCS = ("sjsu.edu", "www.sjsu.edu")
+# Domain restriction: any sjsu.edu subdomain (www, catalog, etc.)
+def _is_sjsu_domain(netloc: str) -> bool:
+    n = (netloc or "").lower().strip()
+    return n == "sjsu.edu" or n.endswith(".sjsu.edu")
+
 USER_AGENT = "EnrollmentAssistantScraper/1.0 (+https://github.com/enrollment-assistant)"
 REQUEST_TIMEOUT = 30
 DEFAULT_DELAY_SEC = 1.0
-DEFAULT_MAX_DEPTH = 1
+DEFAULT_MAX_DEPTH = 0
 DEFAULT_MAX_PAGES = 200
 SCRAPED_URLS_FILE = "_scraped_urls.txt"
 DEFAULT_MAX_LINKS_PER_PAGE = 80
@@ -71,7 +74,7 @@ def normalize_sjsu_url(url: str, base: str | None = None) -> str | None:
         url = urljoin(base, url)
     try:
         parsed = urlparse(url)
-        if parsed.netloc.lower() not in ALLOWED_NETLOCS:
+        if not _is_sjsu_domain(parsed.netloc):
             return None
         scheme = parsed.scheme or "https"
         netloc = parsed.netloc.lower()
@@ -353,11 +356,8 @@ def main() -> int:
         if seen_urls:
             print(f"Resuming: skipping {len(seen_urls)} URL(s) already scraped in {output_dir}")
 
-    # robots.txt per netloc
+    # robots.txt per netloc (loaded on first use for each subdomain)
     robots_cache: dict[str, RobotFileParser] = {}
-    if not args.no_robots:
-        for netloc in ALLOWED_NETLOCS:
-            robots_cache[netloc] = get_robots_parser(session, netloc)
 
     seen_content_hashes: set[str] = set()
     saved_count = 0
@@ -371,6 +371,8 @@ def main() -> int:
         seen_urls.add(url)
 
         netloc = urlparse(url).netloc.lower()
+        if not args.no_robots and netloc not in robots_cache:
+            robots_cache[netloc] = get_robots_parser(session, netloc)
         robots = None if args.no_robots else robots_cache.get(netloc)
         if robots and not robots.can_fetch(USER_AGENT, url):
             print(f"Skipped (robots.txt): {url}")

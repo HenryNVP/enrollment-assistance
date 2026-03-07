@@ -229,6 +229,7 @@ test_data/**/*.tmp
 test_data/**/*.cache
 test_data/generated/
 test_data/**/*.log
+test_data/**/*.txt
 
 # PDFs - ignore large PDFs, but allow small test PDFs in test_data
 *.pdf
@@ -237,5 +238,7 @@ enrollment_docs/
 
 # Scraper output
 scraped_sjsu/
+tools/scraper/*.html
+tools/scraper/input/*.txt
 tools/scraper/output/*
 !tools/scraper/output/.gitkeep

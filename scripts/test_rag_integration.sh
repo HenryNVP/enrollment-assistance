@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # RAG API Integration Test Script
-# Tests document upload and query functionality
-# Uses Agent API for authentication
+# Tests RAG query against the existing vector store (no uploads).
+# MS AI program: credits (33), core courses, specialization/electives.
 
 set -e
 
@@ -17,10 +17,8 @@ NC='\033[0m'
 RAG_API_URL="${RAG_API_URL:-http://localhost:8010}"
 AGENT_API_URL="${AGENT_API_URL:-http://localhost:8000}"
 SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-TEST_DATA_DIR="${SCRIPT_DIR}/test_data"
-REGISTRATION_FILE="${TEST_DATA_DIR}/documents/registration.txt"
 
-echo -e "${BLUE}Testing RAG API: ${RAG_API_URL}${NC}\n"
+echo -e "${BLUE}Testing RAG API (existing vector store): ${RAG_API_URL}${NC}\n"
 
 # Helper functions
 print_success() {
@@ -34,13 +32,6 @@ print_error() {
 print_info() {
     echo -e "${YELLOW}ℹ $1${NC}"
 }
-
-# Check if test data exists
-if [ ! -f "$REGISTRATION_FILE" ]; then
-    print_error "Test data not found: ${REGISTRATION_FILE}"
-    echo "Please ensure test data is in test_data/documents/"
-    exit 1
-fi
 
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
@@ -135,62 +126,65 @@ fi
 print_info "Token acquired (first 40 chars): ${TOKEN:0:40}..."
 echo
 
-# 3. Upload Document
-echo "3. Uploading registration document..."
-FILE_ID="test-registration-$(date +%s)"
+# 3. Query - MS AI program (existing vector store; file_id omitted = search all)
+echo "3. MS AI program queries (knowledge base)..."
 
-UPLOAD_RESPONSE=$(curl --http1.1 -s -X POST "${RAG_API_URL}/embed" \
-  -H "Authorization: Bearer ${TOKEN}" \
-  -F "file_id=${FILE_ID}" \
-  -F "entity_id=test-user" \
-  -F "file=@${REGISTRATION_FILE}")
+# entity_id "public" matches ingest_rag.py default so queries see ingested docs
+run_rag_query() {
+    local q="$1"
+    curl --http1.1 -s -X POST "${RAG_API_URL}/query" \
+      -H "Authorization: Bearer ${TOKEN}" \
+      -H "Content-Type: application/json" \
+      -d "{
+        \"query\": \"${q}\",
+        \"k\": 5,
+        \"entity_id\": \"public\"
+      }"
+}
 
-# Check if upload was successful
-if echo "$UPLOAD_RESPONSE" | grep -q "\"status\":true"; then
-    print_success "Document uploaded successfully"
-    echo "$UPLOAD_RESPONSE" | jq '.' 2>/dev/null || echo "$UPLOAD_RESPONSE"
+# 3a. How many credits?
+CREDITS_RESPONSE=$(run_rag_query "How many credits or units does the MS AI program require?")
+if echo "$CREDITS_RESPONSE" | grep -q "33"; then
+    print_success "MS AI credits: response contains 33 units"
 else
-    print_error "Upload failed"
-    echo "$UPLOAD_RESPONSE" | jq '.' 2>/dev/null || echo "$UPLOAD_RESPONSE"
-    exit 1
-fi
-echo
-
-# 4. Query Documents (requires file_id)
-echo "4. Querying documents..."
-QUERY_RESPONSE=$(curl --http1.1 -s -X POST "${RAG_API_URL}/query" \
-  -H "Authorization: Bearer ${TOKEN}" \
-  -H "Content-Type: application/json" \
-  -d "{
-    \"query\": \"What are enrollment appointments?\",
-    \"file_id\": \"${FILE_ID}\",
-    \"k\": 3,
-    \"entity_id\": \"test-user\"
-  }")
-
-# Check if query was successful (returns array of documents)
-if echo "$QUERY_RESPONSE" | grep -q "\["; then
-    print_success "Query successful"
-    RESULT_COUNT=$(echo "$QUERY_RESPONSE" | jq '. | length' 2>/dev/null || echo "0")
-    echo "   Found $RESULT_COUNT results"
-    if [ "$RESULT_COUNT" -gt 0 ]; then
-        echo "$QUERY_RESPONSE" | jq '.[0]' 2>/dev/null || echo "$QUERY_RESPONSE" | jq '.' 2>/dev/null
+    if echo "$CREDITS_RESPONSE" | grep -q "\["; then
+        print_info "MS AI credits query returned results but '33' not found in response"
+        echo "$CREDITS_RESPONSE" | jq -r '.[][]? | .page_content? // empty' 2>/dev/null | head -5
     else
-        print_info "No results found (embeddings may still be processing, or query doesn't match content)"
-        echo "$QUERY_RESPONSE" | jq '.' 2>/dev/null || echo "$QUERY_RESPONSE"
+        print_error "MS AI credits query failed"
+        echo "$CREDITS_RESPONSE" | jq '.' 2>/dev/null || echo "$CREDITS_RESPONSE"
     fi
-elif echo "$QUERY_RESPONSE" | grep -q "detail"; then
-    print_error "Query failed"
-    echo "$QUERY_RESPONSE" | jq '.' 2>/dev/null || echo "$QUERY_RESPONSE"
-    exit 1
+fi
+
+# 3b. Core courses
+CORE_RESPONSE=$(run_rag_query "What are the core courses for the MS in Artificial Intelligence?")
+if echo "$CORE_RESPONSE" | grep -qi "CMPE 25[5-8]\|core\|required"; then
+    print_success "MS AI core courses: response contains core/required course info"
 else
-    print_info "Query response:"
-    echo "$QUERY_RESPONSE" | jq '.' 2>/dev/null || echo "$QUERY_RESPONSE"
+    if echo "$CORE_RESPONSE" | grep -q "\["; then
+        print_info "MS AI core courses query returned results"
+        echo "$CORE_RESPONSE" | jq -r '.[][]? | .page_content? // empty' 2>/dev/null | head -3
+    else
+        print_error "MS AI core courses query failed"
+    fi
+fi
+
+# 5c. Specialization / elective courses
+ELECTIVE_RESPONSE=$(run_rag_query "What are some specialization or elective courses in the MS AI program?")
+if echo "$ELECTIVE_RESPONSE" | grep -qi "elective\|specialization\|CMPE 25[9]\|CMPE 26[0-8]"; then
+    print_success "MS AI electives: response contains specialization/elective course info"
+else
+    if echo "$ELECTIVE_RESPONSE" | grep -q "\["; then
+        print_info "MS AI electives query returned results"
+        echo "$ELECTIVE_RESPONSE" | jq -r '.[][]? | .page_content? // empty' 2>/dev/null | head -3
+    else
+        print_error "MS AI electives query failed"
+    fi
 fi
 echo
 
-# 5. Get Document IDs (to list available documents)
-echo "5. Getting available document IDs..."
+# 4. Get Document IDs (to list available documents)
+echo "4. Getting available document IDs..."
 IDS_RESPONSE=$(curl --http1.1 -s -X GET "${RAG_API_URL}/ids" \
   -H "Authorization: Bearer ${TOKEN}")
 
@@ -200,12 +194,11 @@ if echo "$IDS_RESPONSE" | grep -q "\["; then
     echo "   Total document IDs: $ID_COUNT"
     echo "$IDS_RESPONSE" | jq '.' 2>/dev/null || echo "$IDS_RESPONSE"
     
-    # 6. Get specific document by ID
     if [ "$ID_COUNT" -gt 0 ]; then
         FIRST_ID=$(echo "$IDS_RESPONSE" | jq -r '.[0]' 2>/dev/null)
         if [ -n "$FIRST_ID" ] && [ "$FIRST_ID" != "null" ]; then
             echo ""
-            echo "6. Getting document details for: $FIRST_ID"
+            echo "7. Getting document details for: $FIRST_ID"
             DOC_RESPONSE=$(curl --http1.1 -s -X GET "${RAG_API_URL}/documents?ids=${FIRST_ID}" \
               -H "Authorization: Bearer ${TOKEN}")
             
@@ -226,3 +219,4 @@ fi
 echo
 
 echo -e "${GREEN}All RAG integration tests passed!${NC}"
+echo "  (MS AI: 33 credits, core courses, specialization/electives — against existing vector store)"

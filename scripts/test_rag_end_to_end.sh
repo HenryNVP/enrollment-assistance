@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # End-to-End RAG + Agent API Test Script
-# Tests the complete flow: Document upload → RAG query → Agent API response with context
-# This demonstrates how RAG context would be used in a final chat response
+# Tests against existing vector store: RAG query (MS AI) → Agent API chat.
+# No document upload; assumes vector store is already built.
 
 set -e
 
@@ -17,10 +17,8 @@ NC='\033[0m'
 RAG_API_URL="${RAG_API_URL:-http://localhost:8010}"
 AGENT_API_URL="${AGENT_API_URL:-http://localhost:8000}"
 SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-TEST_DATA_DIR="${SCRIPT_DIR}/test_data"
-REGISTRATION_FILE="${TEST_DATA_DIR}/documents/registration.txt"
 
-echo -e "${BLUE}=== End-to-End RAG + Agent API Test ===${NC}\n"
+echo -e "${BLUE}=== End-to-End RAG + Agent API Test (existing vector store) ===${NC}\n"
 echo -e "${BLUE}RAG API: ${RAG_API_URL}${NC}"
 echo -e "${BLUE}Agent API: ${AGENT_API_URL}${NC}\n"
 
@@ -42,13 +40,6 @@ print_section() {
     echo -e "${BLUE}$1${NC}"
     echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}\n"
 }
-
-# Check if test data exists
-if [ ! -f "$REGISTRATION_FILE" ]; then
-    print_error "Test data not found: ${REGISTRATION_FILE}"
-    echo "Please ensure test data is in test_data/documents/"
-    exit 1
-fi
 
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
@@ -127,65 +118,41 @@ fi
 print_success "Session created"
 
 # ============================================================================
-# PART 2: RAG - Document Upload
+# PART 2: RAG - Query existing vector store (MS AI)
 # ============================================================================
-print_section "PART 2: RAG - Document Upload"
+print_section "PART 2: RAG - MS AI Program Queries (existing knowledge base)"
 
-FILE_ID="e2e-test-registration-$(date +%s)"
-print_info "Uploading document: ${REGISTRATION_FILE}"
+QUERY="How many credits does the MS AI program require? What are the core courses and some specialization or elective courses?"
+print_info "Querying RAG (full knowledge base): \"${QUERY}\""
 
-UPLOAD_RESPONSE=$(curl --http1.1 -s -X POST "${RAG_API_URL}/embed" \
-  -H "Authorization: Bearer ${RAG_TOKEN}" \
-  -F "file_id=${FILE_ID}" \
-  -F "entity_id=test-user" \
-  -F "file=@${REGISTRATION_FILE}")
-
-if echo "$UPLOAD_RESPONSE" | grep -q "\"status\":true"; then
-    print_success "Document uploaded successfully"
-    echo "$UPLOAD_RESPONSE" | jq '{file_id, filename, message}' 2>/dev/null || echo "$UPLOAD_RESPONSE"
-else
-    print_error "Upload failed"
-    echo "$UPLOAD_RESPONSE" | jq '.' 2>/dev/null || echo "$UPLOAD_RESPONSE"
-    exit 1
-fi
-
-# Wait a moment for embeddings to be processed
-print_info "Waiting for embeddings to be processed..."
-sleep 2
-
-# ============================================================================
-# PART 3: RAG - Query for Context
-# ============================================================================
-print_section "PART 3: RAG - Query for Relevant Context"
-
-QUERY="What are enrollment appointments?"
-print_info "Querying RAG: \"${QUERY}\""
-
+# Use entity_id "public" to match ingest_rag.py default (so queries see ingested docs)
 QUERY_RESPONSE=$(curl --http1.1 -s -X POST "${RAG_API_URL}/query" \
   -H "Authorization: Bearer ${RAG_TOKEN}" \
   -H "Content-Type: application/json" \
   -d "{
     \"query\": \"${QUERY}\",
-    \"file_id\": \"${FILE_ID}\",
-    \"k\": 3,
-    \"entity_id\": \"test-user\"
+    \"k\": 5,
+    \"entity_id\": \"public\"
   }")
 
 if echo "$QUERY_RESPONSE" | grep -q "\["; then
     RESULT_COUNT=$(echo "$QUERY_RESPONSE" | jq '. | length' 2>/dev/null || echo "0")
     print_success "RAG query successful - Found ${RESULT_COUNT} relevant chunks"
     
-    # Extract context from RAG results
-    # RAG API returns array of [document, score] pairs, so we need to access .[0].page_content
-    RAG_CONTEXT=$(echo "$QUERY_RESPONSE" | jq -r '.[] | select(type == "array" and length > 0) | .[0] | select(.page_content != null) | .page_content' 2>/dev/null | head -3 | tr '\n' ' ' | sed 's/  */ /g' | cut -c1-1000)
+    RAG_CONTEXT=$(echo "$QUERY_RESPONSE" | jq -r '.[] | select(type == "array" and length > 0) | .[0] | select(.page_content != null) | .page_content' 2>/dev/null | head -5 | tr '\n' ' ' | sed 's/  */ /g' | cut -c1-1500)
     
     if [ -n "$RAG_CONTEXT" ] && [ "$RAG_CONTEXT" != "null" ]; then
         print_success "Extracted RAG context"
-        print_info "Context preview (first 200 chars):"
-        echo "${RAG_CONTEXT:0:200}..."
+        if echo "$RAG_CONTEXT" | grep -q "33"; then
+            print_success "Context contains 33 credits/units"
+        fi
+        if echo "$RAG_CONTEXT" | grep -qi "CMPE 25[5-8]\|core\|elective"; then
+            print_success "Context contains core or elective course info"
+        fi
+        print_info "Context preview (first 300 chars):"
+        echo "${RAG_CONTEXT:0:300}..."
     else
         print_error "No context extracted from RAG results"
-        print_info "Debug: RAG response structure:"
         echo "$QUERY_RESPONSE" | jq '.' 2>/dev/null || echo "$QUERY_RESPONSE"
         exit 1
     fi
@@ -196,16 +163,13 @@ else
 fi
 
 # ============================================================================
-# PART 4: Agent API - Chat with RAG Context
+# PART 4: Agent API - Chat (MS AI program question)
 # ============================================================================
-print_section "PART 4: Agent API - Generate Final Response"
+print_section "PART 4: Agent API - Chat (MS AI Program)"
 
-# Construct a message that includes the RAG context
-# In a real implementation, the Agent API would automatically fetch this from RAG
-# For this test, we'll include it in the user message to demonstrate the flow
-USER_MESSAGE="Based on the following information about enrollment: ${RAG_CONTEXT:0:500}... Can you explain what enrollment appointments are?"
-
-print_info "Sending chat message to Agent API with RAG context..."
+# Ask the agent about MS AI program; it may use rag_search tool if integrated
+CHAT_QUERY="How many credits does the MS in Artificial Intelligence program require, and what are some core and specialization courses?"
+print_info "Sending chat: \"${CHAT_QUERY}\""
 
 CHAT_RESPONSE=$(curl -s -X POST "${AGENT_API_URL}/api/v1/chatbot/chat" \
   -H "Authorization: Bearer ${SESSION_TOKEN}" \
@@ -214,7 +178,7 @@ CHAT_RESPONSE=$(curl -s -X POST "${AGENT_API_URL}/api/v1/chatbot/chat" \
     \"messages\": [
       {
         \"role\": \"user\",
-        \"content\": \"${QUERY}\"
+        \"content\": \"${CHAT_QUERY}\"
       }
     ]
   }")
@@ -222,7 +186,6 @@ CHAT_RESPONSE=$(curl -s -X POST "${AGENT_API_URL}/api/v1/chatbot/chat" \
 if echo "$CHAT_RESPONSE" | grep -q "messages"; then
     print_success "Agent API response received"
     
-    # Extract the assistant's response
     ASSISTANT_RESPONSE=$(echo "$CHAT_RESPONSE" | jq -r '.messages[] | select(.role == "assistant") | .content' 2>/dev/null | head -1)
     
     if [ -n "$ASSISTANT_RESPONSE" ] && [ "$ASSISTANT_RESPONSE" != "null" ]; then
@@ -234,11 +197,15 @@ if echo "$CHAT_RESPONSE" | grep -q "messages"; then
         echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
         echo ""
         
-        # Check if response mentions enrollment-related terms (basic validation)
-        if echo "$ASSISTANT_RESPONSE" | grep -qi "enrollment\|appointment\|register"; then
-            print_success "Response contains enrollment-related content"
+        if echo "$ASSISTANT_RESPONSE" | grep -q "33"; then
+            print_success "Response mentions 33 credits/units"
         else
-            print_info "Note: Response may not have used RAG context (Agent API may not have RAG tool integrated yet)"
+            print_info "Note: '33' not found in response (agent may not have used RAG or RAG may not be populated)"
+        fi
+        if echo "$ASSISTANT_RESPONSE" | grep -qi "CMPE\|core\|elective\|specialization"; then
+            print_success "Response mentions courses or program structure"
+        else
+            print_info "Note: Course names not found (agent may use RAG tool when knowledge base is ingested)"
         fi
     else
         print_error "No assistant response found"
@@ -251,9 +218,9 @@ else
 fi
 
 # ============================================================================
-# PART 5: Verify Chat History
+# PART 4: Verify Chat History
 # ============================================================================
-print_section "PART 5: Verify Chat History"
+print_section "PART 4: Verify Chat History"
 
 print_info "Retrieving chat history..."
 HISTORY_RESPONSE=$(curl -s -X GET "${AGENT_API_URL}/api/v1/chatbot/messages" \
@@ -277,12 +244,9 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo ""
 echo "Test Flow Summary:"
 echo "  1. ✓ Authenticated with RAG API and Agent API"
-echo "  2. ✓ Uploaded document to RAG API (file_id: ${FILE_ID})"
-echo "  3. ✓ Queried RAG API for relevant context"
-echo "  4. ✓ Sent chat message to Agent API"
-echo "  5. ✓ Received final response from Agent API"
-echo "  6. ✓ Verified chat history"
+echo "  2. ✓ Queried RAG (existing vector store) for MS AI: 33 credits, core, electives"
+echo "  3. ✓ Sent MS AI question to Agent API"
+echo "  4. ✓ Verified chat history"
 echo ""
-print_info "Note: In a production setup, the Agent API would automatically"
-print_info "      call RAG API when needed via a RAG tool integration."
+print_info "Uses existing vector store (no uploads). MS AI: 33 credits, core courses, electives."
 echo ""

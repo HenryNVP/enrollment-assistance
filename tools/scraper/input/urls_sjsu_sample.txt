@@ -1,14 +1,8 @@
 # SJSU seed URLs for scraping (one URL per line).
 # Only sjsu.edu / www.sjsu.edu are crawled. # lines are ignored.
-#
-# Examples:
-# https://www.sjsu.edu/
-# https://www.sjsu.edu/registrar/
-# https://www.sjsu.edu/admissions/
 
-# https://sjsu.edu/registrar/registration/index.php
-# https://sjsu.edu/registrar/registration/registration-basics.php
-https://www.sjsu.edu/cmpe/graduate_programs/ms-ai/index.php
-# https://www.sjsu.edu/cmpe/graduate_programs/ms-cmpe/index.php
-# https://www.sjsu.edu/cmpe/graduate_programs/ms-software-engineering/index.php
-# https://www.sjsu.edu/admissions/graduate/been-admitted/domestic-steps-to-enrollment.php
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14074&returnto=7689
+https://catalog.sjsu.edu/content.php?catoid=17&navoid=7613
+https://catalog.sjsu.edu/content.php?catoid=17&navoid=7614#candidacy
+https://catalog.sjsu.edu/content.php?catoid=17&navoid=7667#artificial-intelligence-ms
+https://www.sjsu.edu/cmpe/about/faculty_staff/tenure-line/index.php

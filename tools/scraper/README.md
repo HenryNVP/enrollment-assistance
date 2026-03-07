@@ -42,7 +42,7 @@ Output goes to `tools/scraper/output/` by default. Use `-o` to override.
 |--------|---------|-------------|
 | `url_file` | (required) | Path to text file with one SJSU URL per line |
 | `-o, --output-dir` | `output/` (next to script) | Where to write .txt files |
-| `--max-depth` | 1 | Crawl depth (0 = seeds only) |
+| `--max-depth` | 0 | Crawl depth (0 = seeds only) |
 | `--max-pages` | 200 | Stop after N pages |
 | `--max-links-per-page` | 80 | Max links to queue per page |
 | `--delay` | 1.0 | Seconds between requests |
@@ -56,7 +56,7 @@ On rerun, URLs listed in `output/_scraped_urls.txt` are skipped. Use `--no-resum
 
 ## Input format
 
-Plain text, one URL per line. Only `sjsu.edu` and `www.sjsu.edu`. Lines starting with `#` are ignored.
+Plain text, one URL per line. Any `sjsu.edu` subdomain is allowed (e.g. `www.sjsu.edu`, `catalog.sjsu.edu`). Lines starting with `#` are ignored.
 
 ## Output format
 

@@ -2,6 +2,17 @@
 
 Utilities for the Enrollment Assistant project.
 
+## RAG ingest (`ingest_rag.py`)
+
+Upload a directory of documents (e.g. **enrollment_docs/ms-ai**) into the RAG API to build the vector store.
+
+```bash
+pip install httpx PyJWT
+python tools/ingest_rag.py --dir enrollment_docs/ms-ai
+```
+
+Uses `RAG_API_URL` and `JWT_SECRET` (or RAG API `.env`). See **[docs/VECTOR_STORE_INGEST.md](../docs/VECTOR_STORE_INGEST.md)** for chunk size tips and full steps.
+
 ## Scraper (`scraper/`)
 
 SJSU (sjsu.edu) web scraper: crawls from URL lists, extracts main content (HTML/PDF), writes `.txt` files for RAG.

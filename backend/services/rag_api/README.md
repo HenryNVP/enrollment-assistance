@@ -1,4 +1,4 @@
-﻿# ID-based RAG FastAPI
+# ID-based RAG FastAPI
 
 ## Overview
 This project integrates Langchain with FastAPI in an Asynchronous, Scalable manner, providing a framework for document indexing and retrieval, using PostgreSQL/pgvector.
@@ -13,6 +13,11 @@ The API will evolve over time to employ different querying/re-ranking methods, e
 - **Document Management**: Methods for adding, retrieving, and deleting documents.
 - **Vector Store**: Utilizes Langchain's vector store for efficient document retrieval.
 - **Asynchronous Support**: Offers async operations for enhanced performance.
+
+### Metadata and re-ingestion
+
+- **Metadata stored per chunk**: Each chunk in the vector store has metadata set by the API: `file_id` (you pass this on ingest), `user_id` (from auth or `entity_id`), `digest` (hash of chunk text), plus any metadata from the loader (e.g. `source`, `page` for PDFs). For plain `.txt` files the loader adds little; the first lines of your file (e.g. "Source: ...", "Title: ...") remain in the chunk text only unless you use a custom loader.
+- **Re-ingesting the same file**: The API does **not** skip or replace by default. If you ingest again with the same `file_id`, **new chunks are added**; existing chunks with that `file_id` stay. So you can get duplicate content. To "replace" a document: call `DELETE /documents` with body `["your_file_id"]`, then ingest again with the same `file_id`.
 
 ## Setup
 
