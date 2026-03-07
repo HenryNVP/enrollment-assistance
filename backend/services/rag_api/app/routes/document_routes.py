@@ -296,21 +296,37 @@ async def query_embeddings_by_file_id(
     try:
         embedding = get_cached_query_embedding(body.query)
 
+        # When file_id is None, search entire knowledge base; otherwise scope to that file
+        search_filter = None if body.file_id is None else {"file_id": body.file_id}
+
         if isinstance(vector_store, AsyncPgVector):
             documents = await vector_store.asimilarity_search_with_score_by_vector(
                 embedding,
                 k=body.k,
-                filter={"file_id": body.file_id},
+                filter=search_filter,
                 executor=request.app.state.thread_pool,
             )
         else:
             documents = vector_store.similarity_search_with_score_by_vector(
-                embedding, k=body.k, filter={"file_id": body.file_id}
+                embedding, k=body.k, filter=search_filter
             )
 
         if not documents:
             return authorized_documents
 
+        # When searching all documents, filter by authorization per document
+        if body.file_id is None:
+            for document, score in documents:
+                doc_user_id = document.metadata.get("user_id")
+                if doc_user_id is None or doc_user_id == user_authorized:
+                    authorized_documents.append((document, score))
+                elif body.entity_id and hasattr(request.state, "user"):
+                    actual_user = request.state.user.get("id")
+                    if doc_user_id == actual_user:
+                        authorized_documents.append((document, score))
+            return authorized_documents
+
+        # Single-file search: use existing first-doc authorization logic
         document, score = documents[0]
         doc_metadata = document.metadata
         doc_user_id = doc_metadata.get("user_id")
@@ -320,8 +336,8 @@ async def query_embeddings_by_file_id(
         else:
             # If using entity_id and access denied, try again with user's actual ID
             if body.entity_id and hasattr(request.state, "user"):
-                user_authorized = request.state.user.get("id")
-                if doc_user_id == user_authorized:
+                user_authorized_actual = request.state.user.get("id")
+                if doc_user_id == user_authorized_actual:
                     authorized_documents = documents
                 else:
                     if body.entity_id == doc_user_id:
@@ -349,7 +365,7 @@ async def query_embeddings_by_file_id(
     except Exception as e:
         logger.error(
             "Error in query embeddings | File ID: %s | Query: %s | Error: %s | Traceback: %s",
-            body.file_id,
+            body.file_id or "(all)",
             body.query,
             str(e),
             traceback.format_exc(),

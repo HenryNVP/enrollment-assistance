@@ -28,7 +28,7 @@ class StoreDocument(BaseModel):
 
 class QueryRequestBody(BaseModel):
     query: str
-    file_id: str
+    file_id: Optional[str] = None  # If None, search entire knowledge base (all documents)
     k: int = 4
     entity_id: Optional[str] = None
 

@@ -18,52 +18,46 @@ from app.core.logging import logger
 @tool
 def rag_search(
     query: str,
-    file_id: str,
-    k: int = 3,
+    file_id: Optional[str] = None,
+    k: int = 5,
 ) -> str:
-    """Search documents using RAG (Retrieval Augmented Generation).
+    """Search the enrollment knowledge base using RAG (Retrieval Augmented Generation).
 
-    Use this tool when you need to find information from uploaded documents.
-    This tool queries the RAG API to retrieve relevant document chunks that
-    match the user's query.
+    Use this tool to find information from the enrollment document knowledge base.
+    When you do not specify a file_id, the tool searches across all documents in the
+    knowledge base and returns the most relevant chunks from any document. Use file_id
+    only when the user asks about a specific known document.
 
     Args:
-        query: The search query/question to find relevant information
-        file_id: The ID of the document/file to search within
-        k: Number of relevant chunks to retrieve (default: 3)
+        query: The search query or question to find relevant information (e.g. deadlines, requirements, how to enroll).
+        file_id: Optional. The ID of a specific document to search within. Omit to search all enrollment documents.
+        k: Number of relevant chunks to retrieve (default: 5). Use more when searching all documents.
 
     Returns:
-        A formatted string containing the relevant document chunks, or an error message
+        A formatted string of relevant document chunks, or an error message.
     """
     try:
-        # Get RAG API base URL from settings
         rag_url = f"{settings.RAG_BASE_URL}/query"
 
-        # Get JWT secret for authentication (should match RAG API's JWT_SECRET)
         jwt_secret = settings.JWT_SECRET_KEY
         if not jwt_secret:
             logger.warning("JWT_SECRET_KEY not set, RAG queries may fail authentication")
             return "Error: RAG API authentication not configured. Please set JWT_SECRET_KEY."
 
-        # Generate a simple JWT token for RAG API
-        # Note: In production, you might want to use the actual user's token
         payload = {
-            "id": "agent-api-user",  # Default user ID for agent-initiated queries
+            "id": "agent-api-user",
             "exp": datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=1),
         }
         token = jwt.encode(payload, jwt_secret, algorithm="HS256")
 
-        # Prepare request body
-        # Note: entity_id can be used to scope documents to a specific user
-        # For now, we'll use None to search all accessible documents
         request_body = {
             "query": query,
-            "file_id": file_id,
             "k": k,
-            "entity_id": None,  # Can be set to user_id if needed
+            "entity_id": None,
         }
+        if file_id is not None:
+            request_body["file_id"] = file_id
 
-        # Make request to RAG API
         with httpx.Client(timeout=30.0) as client:
             response = client.post(
                 rag_url,
@@ -73,11 +67,10 @@ def rag_search(
             response.raise_for_status()
             results = response.json()
 
-        # Format results for the LLM
         if not results or len(results) == 0:
-            return f"No relevant information found in document '{file_id}' for query: {query}"
+            scope = f"document '{file_id}'" if file_id else "the knowledge base"
+            return f"No relevant information found in {scope} for query: {query}"
 
-        # RAG API returns array of [document, score] pairs
         formatted_chunks = []
         for result in results:
             if isinstance(result, list) and len(result) > 0:
@@ -86,14 +79,17 @@ def rag_search(
                 page_content = doc.get("page_content", "")
                 if page_content:
                     score_str = f" (relevance: {score:.3f})" if score is not None else ""
-                    formatted_chunks.append(f"{page_content}{score_str}")
+                    source = doc.get("metadata", {}).get("file_id", "")
+                    source_str = f" [source: {source}]" if source else ""
+                    formatted_chunks.append(f"{page_content}{score_str}{source_str}")
 
         if not formatted_chunks:
-            return f"No readable content found in document '{file_id}' for query: {query}"
+            scope = f"document '{file_id}'" if file_id else "the knowledge base"
+            return f"No readable content found in {scope} for query: {query}"
 
-        # Combine all chunks into a single response
         combined_content = "\n\n---\n\n".join(formatted_chunks)
-        return f"Found {len(formatted_chunks)} relevant chunks from document '{file_id}':\n\n{combined_content}"
+        scope_label = f"document '{file_id}'" if file_id else "the knowledge base (multiple documents)"
+        return f"Found {len(formatted_chunks)} relevant chunks from {scope_label}:\n\n{combined_content}"
 
     except httpx.HTTPStatusError as e:
         error_msg = f"RAG API returned error {e.response.status_code}: {e.response.text}"

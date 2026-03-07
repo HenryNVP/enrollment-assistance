@@ -233,3 +233,4 @@ test_data/**/*.log
 # PDFs - ignore large PDFs, but allow small test PDFs in test_data
 *.pdf
 !test_data/documents/*.pdf
+enrollment_docs/
