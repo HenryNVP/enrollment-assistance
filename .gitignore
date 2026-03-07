@@ -234,3 +234,8 @@ test_data/**/*.log
 *.pdf
 !test_data/documents/*.pdf
 enrollment_docs/
+
+# Scraper output
+scraped_sjsu/
+tools/scraper/output/*
+!tools/scraper/output/.gitkeep
