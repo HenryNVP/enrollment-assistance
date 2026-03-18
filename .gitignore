@@ -244,4 +244,4 @@ tools/scraper/output/*
 !tools/scraper/output/.gitkeep
 
 docs/deployment/*.md
-docs/*.md
+docs/*.mdscripts/deploy/
