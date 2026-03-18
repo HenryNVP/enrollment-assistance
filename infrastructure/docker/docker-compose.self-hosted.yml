@@ -1,0 +1,32 @@
+# Compose override for self-hosted runner: RAG and Agent use the host's Postgres (local vector store).
+# Do not start the `db` service. Set POSTGRES_* in the environment to match your host DB.
+#
+# Usage (on the runner):
+#   export POSTGRES_HOST=host.docker.internal
+#   export POSTGRES_PORT=5432
+#   export POSTGRES_DB=ragdb
+#   export POSTGRES_USER=postgres
+#   export POSTGRES_PASSWORD=yourpassword
+#   export OPENAI_API_KEY=sk-...
+#   docker compose -f infrastructure/docker/docker_compose.yml -f infrastructure/docker/docker-compose.self-hosted.yml up -d rag_api agent_api
+#
+# Linux: if host.docker.internal is missing, use --add-host=host.docker.internal:host-gateway or set POSTGRES_HOST to your host IP.
+
+services:
+  db:
+    profiles:
+      - disabled
+    # So "up rag_api agent_api" does not start db
+
+  rag_api:
+    environment:
+      DB_HOST: ${POSTGRES_HOST:-host.docker.internal}
+      DB_PORT: ${POSTGRES_PORT:-5432}
+    depends_on: {}
+
+  agent_api:
+    environment:
+      POSTGRES_HOST: ${POSTGRES_HOST:-host.docker.internal}
+      POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+    depends_on:
+      - rag_api

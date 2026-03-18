@@ -67,3 +67,8 @@ docker compose up
 | `docs/architecture/` | Architecture diagrams |
 | `infrastructure/docker/` | Docker Compose configurations |
 
+## Credits
+This project builds on the following upstream open-source repositories:
+- [`danny-avila/rag_api`](https://github.com/danny-avila/rag_api)
+- [`wassim249/fastapi-langgraph-agent-production-ready-template`](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)
+

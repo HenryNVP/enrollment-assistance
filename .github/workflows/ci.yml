@@ -1,122 +1,146 @@
-# Example CI/CD Workflow for Enrollment Assistant
-# Copy to .github/workflows/ci.yml and customize
+# CI for Enrollment Assistant
+# Runs on push/PR to main and develop: unit tests, lint on ubuntu-latest;
+# integration and E2E run on self-hosted runner so RAG can use your local vector store.
+# Optional: Add OPENAI_API_KEY in repo Secrets for integration/E2E tests that call OpenAI.
+# See docs/deployment/SELF_HOSTED_RUNNER.md for runner setup.
 
 name: CI
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, develop]
   pull_request:
-    branches: [ main, develop ]
+    branches: [main, develop]
 
 jobs:
-  # Unit Tests - Fast, run in parallel
+  # Unit tests: rag_api (pytest), agent_ai (install + lint only; no tests in repo yet)
   test-unit:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        service: [rag_api, agent_ai]
-    
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Install dependencies
-        working-directory: backend/services/${{ matrix.service }}
-        run: |
-          pip install -r requirements.txt
-          pip install -r test_requirements.txt || pip install pytest pytest-asyncio
-      
-      - name: Run unit tests
-        working-directory: backend/services/${{ matrix.service }}
-        run: pytest tests/unit/ -v --tb=short || pytest tests/ -v -k "not integration"
+        include:
+          - service: rag_api
+            python: "3.11"
+            run_tests: true
+          - service: agent_ai
+            python: "3.13"
+            run_tests: false
 
-  # Integration Tests - Slower, requires services
-  test-integration:
-    runs-on: ubuntu-latest
-    needs: test-unit
-    
-    services:
-      postgres:
-        image: pgvector/pgvector:pg16
-        env:
-          POSTGRES_DB: testdb
-          POSTGRES_USER: testuser
-          POSTGRES_PASSWORD: testpass
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-        ports:
-          - 5432:5432
-    
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      
-      - name: Install dependencies
+          python-version: ${{ matrix.python }}
+
+      - name: Run rag_api unit tests
+        if: matrix.run_tests
+        working-directory: backend/services/rag_api
         run: |
-          cd backend/services/rag_api
+          python -m venv .venv
+          . .venv/bin/activate
           pip install -r requirements.txt
-          pip install -r test_requirements.txt || pip install pytest pytest-asyncio
-      
-      - name: Run integration tests
+          pip install -r test_requirements.txt
+          pytest tests/ -v -m "not integration" --tb=short
+
+      - name: Set up agent_ai (uv + lint)
+        if: "!matrix.run_tests"
+        working-directory: backend/services/agent_ai
+        run: |
+          pip install uv
+          uv sync --group test
+          uv run ruff check .
+
+  # Integration tests: RAG API with your local vector store (Postgres/pgvector on runner)
+  # Runs on self-hosted runner; uses POSTGRES_* from runner env or defaults below.
+  test-integration:
+    runs-on: [self-hosted]
+    needs: test-unit
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: backend/services/rag_api
+        run: |
+          python -m venv .venv
+          . .venv/bin/activate
+          pip install -r requirements.txt
+          pip install -r test_requirements.txt
+
+      - name: Run RAG API integration tests (local vector store)
         env:
-          POSTGRES_HOST: localhost
-          POSTGRES_PORT: 5432
-          POSTGRES_DB: testdb
-          POSTGRES_USER: testuser
-          POSTGRES_PASSWORD: testpass
+          POSTGRES_HOST: ${{ vars.POSTGRES_HOST || 'localhost' }}
+          POSTGRES_PORT: ${{ vars.POSTGRES_PORT || '5432' }}
+          POSTGRES_DB: ${{ vars.POSTGRES_DB || 'testdb' }}
+          POSTGRES_USER: ${{ vars.POSTGRES_USER || 'testuser' }}
+          POSTGRES_PASSWORD: ${{ vars.POSTGRES_PASSWORD || 'testpass' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         working-directory: backend/services/rag_api
-        run: pytest tests/integration/ -v || pytest tests/ -v -m integration
+        run: pytest tests/ -v -m integration --tb=short
 
-  # E2E Tests - Full system test
+  # E2E: run against stack on self-hosted runner (RAG uses your local vector store)
+  # Expects Agent API and RAG API already running on the runner (e.g. docker compose up, or run manually).
   test-e2e:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
     needs: [test-unit, test-integration]
-    
+
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Set up Docker Compose
+
+      - name: Set up Python (for root tests)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install root test dependencies
+        run: pip install -r tests/requirements.txt
+
+      - name: Wait for services (already running on runner)
+        env:
+          AGENT_API_URL: ${{ vars.AGENT_API_URL || 'http://localhost:8000' }}
+          RAG_API_URL: ${{ vars.RAG_API_URL || 'http://localhost:8010' }}
         run: |
-          docker compose -f infrastructure/docker/docker_compose.yml config
-      
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            if curl -sf "$AGENT_API_URL/health" >/dev/null && curl -sf "$RAG_API_URL/health" >/dev/null; then
+              echo "Services ready"
+              exit 0
+            fi
+            if [ "$i" -eq 10 ]; then echo "Services not reachable; ensure stack is running on this runner"; exit 1; fi
+            sleep 2
+          done
+
       - name: Run E2E tests
         env:
+          AGENT_API_URL: ${{ vars.AGENT_API_URL || 'http://localhost:8000' }}
+          RAG_API_URL: ${{ vars.RAG_API_URL || 'http://localhost:8010' }}
+          JWT_SECRET_KEY: ${{ vars.JWT_SECRET_KEY || 'test-secret-key-for-ci' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          JWT_SECRET_KEY: test-secret-key-for-ci
-        run: |
-          # Start services
-          docker compose -f infrastructure/docker/docker_compose.yml up -d db rag_api agent_api
-          
-          # Wait for services
-          sleep 10
-          
-          # Run test scripts
-          ./test_basic_api_simple.sh
-          ./scripts/test_rag_integration.sh
-          
-          # Cleanup
-          docker compose -f infrastructure/docker/docker_compose.yml down
+        run: pytest tests/integration/ tests/e2e/ -v --tb=short
 
-  # Linting
+  # Lint: ruff on both backend services
   lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Run linters
-        run: |
-          # Add your linting commands here
-          echo "Linting checks"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ruff
+        run: pip install ruff
+
+      - name: Lint rag_api
+        run: ruff check backend/services/rag_api
+
+      - name: Lint agent_ai
+        run: ruff check backend/services/agent_ai
