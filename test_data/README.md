@@ -31,22 +31,5 @@ TEST_DATA_DIR="${SCRIPT_DIR}/test_data"
 DOCUMENT="${TEST_DATA_DIR}/documents/registration.txt"
 ```
 
-## Guidelines
-
-- **Keep files small** (< 10MB) - use fixtures for larger test scenarios
-- **Use descriptive names** - e.g., `registration.txt` not `test1.txt`
-- **Document purpose** - add comments in test files explaining what data is used
-- **Version control** - commit essential test documents
-- **No sensitive data** - never commit credentials, PII, or production data
-
-## Adding New Test Data
-
-1. Place documents in appropriate subdirectory
-2. Use descriptive, lowercase filenames with extensions
-3. Update this README if adding new categories
-4. Ensure files are < 10MB (use fixtures for larger data)
-
-## Current Test Data
-
 ### Documents
 - `registration.txt` - Sample registration/enrollment document for RAG testing
