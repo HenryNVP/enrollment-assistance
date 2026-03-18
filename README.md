@@ -2,17 +2,6 @@
 
 **SAM-E** is an AI-powered enrollment assistance tool specialized for San Jose State University (SJSU). The system helps students with enrollment decisions, budgeting, scheduling, multi-term planning, degree audits, and scenario comparisons through an intelligent conversational interface.
 
-## Quick Links
-
-### For Users
-- **[docs/guides/QUICKSTART_RAG.md](docs/guides/QUICKSTART_RAG.md)** - Quick start guide for minimal RAG system ⚡
-- **[docs/guides/QUICKSTART_AGENT.md](docs/guides/QUICKSTART_AGENT.md)** - Quick start guide for Agent AI service 🤖
-- **[docs/guides/AGENT_RAG_INTEGRATION.md](docs/guides/AGENT_RAG_INTEGRATION.md)** - How Agent and RAG services work together 🔗
-- **[docs/guides/GUIDE.md](docs/guides/GUIDE.md)** - Complete user guide and setup instructions
-- **[docs/guides/DOCUMENTATION.md](docs/guides/DOCUMENTATION.md)** - Documentation organization and navigation
-- **[docs/design/MICROSERVICES_OVERVIEW.md](docs/design/MICROSERVICES_OVERVIEW.md)** - Architecture overview
-- **[docs/design/DESIGN_SPECS_SERVICE_LAYER.md](docs/design/DESIGN_SPECS_SERVICE_LAYER.md)** - Detailed service specifications
-- **[docs/architecture/](docs/architecture/)** - Architecture diagrams and documentation
 
 ## Key Capabilities
 
@@ -30,8 +19,6 @@ SAM-E follows a **microservices architecture** with three core services:
 1. **Agent Service** (Port 8000) - LangGraph-powered conversational interface
 2. **RAG Service** (Port 8010) - Policy document processing and knowledge retrieval
 3. **Enrollment Service** (Port 8090) - Enrollment domain logic and assistance engines *(planned)*
-
-See [docs/design/MICROSERVICES_OVERVIEW.md](docs/design/MICROSERVICES_OVERVIEW.md) for detailed architecture information.
 
 ## Repository Structure
 
@@ -57,13 +44,6 @@ SAM-E/
 │
 └── .github/                    # GitHub templates & workflows
 ```
-
-## Getting Started
-
-- **Quick Start (RAG only)**: See [docs/guides/QUICKSTART_RAG.md](docs/guides/QUICKSTART_RAG.md) for minimal setup
-- **Quick Start (Agent only)**: See [docs/guides/QUICKSTART_AGENT.md](docs/guides/QUICKSTART_AGENT.md) for Agent service setup
-- **Quick Start (Agent only)**: See [docs/guides/QUICKSTART_AGENT.md](docs/guides/QUICKSTART_AGENT.md) for Agent service setup
-- **Full System**: See [docs/guides/GUIDE.md](docs/guides/GUIDE.md) for complete setup and usage instructions
 
 ## Running the System
 
