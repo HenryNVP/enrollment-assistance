@@ -158,36 +158,30 @@ curl -X POST http://localhost:8010/text \
 Here's a complete workflow from registration to chat:
 
 ```bash
-# 1. Register a user
-REGISTER_RESPONSE=$(curl -s -X POST http://localhost:8000/api/v1/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{
-    "email": "test@example.com",
-    "password": "Test1234!"
-  }')
+Login
 
-# Extract user token (requires jq)
-USER_TOKEN=$(echo $REGISTER_RESPONSE | jq -r '.token.access_token')
+ACCESS_TOKEN="$(
+  curl -sS -X POST http://localhost:8000/api/v1/auth/login \
+    -H "Content-Type: application/x-www-form-urlencoded" \
+    -d 'username=test@example.com&password=Test1234!&grant_type=password' \
+  | jq -r .access_token
+)"
+echo "access_token_is_null=$([ -z \"$ACCESS_TOKEN\" ] && echo true || echo false)"
 
-# 2. Create a session
-SESSION_RESPONSE=$(curl -s -X POST http://localhost:8000/api/v1/auth/session \
-  -H "Authorization: Bearer $USER_TOKEN")
+Create session
 
-# Extract session token
-SESSION_TOKEN=$(echo $SESSION_RESPONSE | jq -r '.token.access_token')
+SESSION_TOKEN="$(
+  curl -sS -X POST http://localhost:8000/api/v1/auth/session \
+    -H "Authorization: Bearer $ACCESS_TOKEN" \
+  | jq -r .token.access_token
+)"
 
-# 3. Send a chat message
-curl -X POST http://localhost:8000/api/v1/chatbot/chat \
+Call chatbot
+
+curl -sS -X POST http://localhost:8000/api/v1/chatbot/chat \
   -H "Authorization: Bearer $SESSION_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{
-    "messages": [
-      {
-        "role": "user",
-        "content": "What courses are available for enrollment?"
-      }
-    ]
-  }'
+  -d '{"messages":[{"role":"user","content":"Hello, can you help me with enrollment?"}]}' | jq .
 
 # 4. Get chat history
 curl -X GET http://localhost:8000/api/v1/chatbot/messages \

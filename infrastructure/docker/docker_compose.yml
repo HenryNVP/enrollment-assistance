@@ -67,5 +67,18 @@ services:
     ports:
       - "${AGENT_API_PORT:-8000}:8000"
 
+  prereq_gateway:
+    build: ../../backend/services/prereq_lightrag_gateway
+    environment:
+      # Point this at your running LightRAG server.
+      # If LightRAG runs on the host machine, the default below should work.
+      LIGHTRAG_BASE_URL: ${LIGHTRAG_BASE_URL:-http://host.docker.internal:9621}
+      AUTO_SCAN_ON_STARTUP: ${AUTO_SCAN_ON_STARTUP:-true}
+      PREREQ_DEFAULT_DEPTH: ${PREREQ_DEFAULT_DEPTH:-2}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "${PREREQ_GATEWAY_PORT:-8102}:8000"
+
 volumes:
   postgres-data:

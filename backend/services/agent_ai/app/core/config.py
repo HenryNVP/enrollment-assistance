@@ -161,6 +161,11 @@ class Settings:
         
         # RAG API Configuration
         self.RAG_BASE_URL = os.getenv("RAG_BASE_URL", "http://rag_api:8000")
+
+        # Prerequisites via LightRAG gateway (option 2)
+        self.PREREQ_GATEWAY_BASE_URL = os.getenv(
+            "PREREQ_GATEWAY_BASE_URL", "http://prereq_gateway:8000"
+        )
         
         # JWT Configuration
         self.JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "")

@@ -9,5 +9,6 @@ from langchain_core.tools.base import BaseTool
 
 from .duckduckgo_search import duckduckgo_search_tool
 from .rag_search import rag_search_tool
+from .prereq_lightrag import course_prereqs_tool
 
-tools: list[BaseTool] = [duckduckgo_search_tool, rag_search_tool]
+tools: list[BaseTool] = [duckduckgo_search_tool, rag_search_tool, course_prereqs_tool]

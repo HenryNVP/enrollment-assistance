@@ -246,4 +246,5 @@ tools/scraper/output/*
 docs/deployment/*.md
 docs/*.md
 scripts/deploy/
+backend/services/LightRAG/
 
