@@ -8,6 +8,8 @@ from app.core.config import settings
 from app.core.logging import logger
 from app.schemas import Message
 
+MAX_MESSAGE_CONTENT_LENGTH = 3000
+
 
 def dump_messages(messages: list[Message]) -> list[dict]:
     """Dump the messages to a list of dictionaries.
@@ -101,4 +103,13 @@ def prepare_messages(messages: list[Message], llm: BaseChatModel, system_prompt:
         else:
             raise
 
-    return [Message(role="system", content=system_prompt)] + trimmed_messages
+    final_system_prompt = system_prompt
+    if len(final_system_prompt) > MAX_MESSAGE_CONTENT_LENGTH:
+        logger.warning(
+            "system_prompt_truncated",
+            original_length=len(final_system_prompt),
+            truncated_length=MAX_MESSAGE_CONTENT_LENGTH,
+        )
+        final_system_prompt = final_system_prompt[: MAX_MESSAGE_CONTENT_LENGTH - 3] + "..."
+
+    return [Message(role="system", content=final_system_prompt)] + trimmed_messages

@@ -61,6 +61,11 @@ async def chat(
         )
 
         result = await agent.get_response(chat_request.messages, session.id, user_id=session.user_id)
+        if result is None:
+            raise HTTPException(
+                status_code=500,
+                detail="Agent failed to generate a response. Check LLM configuration/logs.",
+            )
 
         logger.info("chat_request_processed", session_id=session.id)
 
