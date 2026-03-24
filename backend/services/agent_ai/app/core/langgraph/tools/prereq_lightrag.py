@@ -13,11 +13,16 @@ def course_prereqs(
     course_code: str,
     depth: int = 2,
 ) -> str:
-    """Get course prerequisites (direct + transitive) from LightRAG.
+    """Look up prerequisites for a specific SJSU course (CMPE/ISE/etc.).
 
-    Returns a JSON string with:
-    - direct
-    - transitive
+    Call this whenever the user names a course and asks about prereqs, requirements to
+    enroll, or what to take first — do not rely on rag_search alone for that.
+
+    Pass a normal course code (e.g. "CMPE-260", "CMPE 260", "ISE-201"). Response JSON
+    includes: direct (AND prereqs), requires_one_of (OR alternatives — if direct is empty
+    but requires_one_of is set, the OR list is still the answer), transitive, source.
+
+    Uses prereq_gateway: curated Neo4j when CURATED_GRAPH_ENABLED, else LightRAG subgraph.
     """
     try:
         prereq_url = f"{settings.PREREQ_GATEWAY_BASE_URL}/prereqs"

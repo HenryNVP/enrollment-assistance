@@ -52,4 +52,12 @@ class PrereqsResponse(BaseModel):
 
     direct: List[str] = Field(default_factory=list)
     transitive: List[str] = Field(default_factory=list)
+    source: str = Field(
+        default="lightrag",
+        description="'curated' from Neo4j :Course graph (YAML load); 'lightrag' from LightRAG subgraph.",
+    )
+    requires_one_of: Optional[List[str]] = Field(
+        default=None,
+        description="Catalog-style alternatives: satisfy any one of these course codes (not encoded as :REQUIRES edges).",
+    )
 

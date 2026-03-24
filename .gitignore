@@ -247,4 +247,4 @@ docs/deployment/*.md
 docs/*.md
 scripts/deploy/
 backend/services/LightRAG/
-
+infrastructure/docker/docker_compose.env.example

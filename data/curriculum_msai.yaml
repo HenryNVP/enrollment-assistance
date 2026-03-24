@@ -1,0 +1,219 @@
+# MS in Artificial Intelligence — curated graph (deterministic).
+# OR-prereqs are stored as:
+#   - Course.prereq_one_of (list), and
+#   - :REQUIRES edges with or_group=true (for graph counts / Browser).
+# AND-prereqs use :REQUIRES with or_group=false (default).
+#
+# Electives (9 units): Area A below are typical MS-AI electives; same courses may also
+# satisfy specialization — both IN_SPECIALIZATION and IN_ELECTIVE_GROUP apply.
+
+version: 1
+program:
+  entity_id: MSAI
+  name: "MS in Artificial Intelligence"
+  total_units: 33
+
+departments:
+  - entity_id: CMPE
+    name: "Computer Engineering"
+  - entity_id: ISE
+    name: "Industrial and Systems Engineering"
+  - entity_id: ENGR
+    name: "Engineering (General)"
+
+specializations:
+  - entity_id: MSAI_SPEC_DATA_SCIENCE
+    name: "Data Science"
+  - entity_id: MSAI_SPEC_AUTONOMOUS_SYSTEMS
+    name: "Autonomous Systems"
+
+groups:
+  core:
+    entity_id: MSAI_CORE
+    name: "Core Courses"
+    min_units: 9
+  elective:
+    entity_id: MSAI_ELECTIVE
+    name: "Elective Courses (Area A examples; 9 units total per catalog)"
+    min_units: 9
+  gwar:
+    entity_id: MSAI_GWAR
+    name: "Graduate Writing (GWAR)"
+  culminating:
+    entity_id: MSAI_CULMINATING
+    name: "Culminating Experience"
+
+courses:
+  # --- Core (9 units) ---
+  - course_code: CMPE-252
+    title: "Artificial Intelligence and Data Engineering"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  - course_code: CMPE-257
+    title: "Machine Learning"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  - course_code: ISE-201
+    title: "Math Foundations for Decision and Data Sciences"
+    units: 3
+    department: ISE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  # Bridge (undergrad); required by several MS-AI courses
+  - course_code: CMPE-180A
+    title: "Undergraduate prerequisite (bridge)"
+    units: 0
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    part_of_program: false
+
+  # --- Data Science specialization ---
+  - course_code: CMPE-255
+    title: "Data Mining"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_DATA_SCIENCE]
+
+  - course_code: CMPE-256
+    title: "Recommender Systems"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_DATA_SCIENCE]
+
+  - course_code: CMPE-259
+    title: "Natural Language Processing"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-252, CMPE-255, CMPE-257]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_DATA_SCIENCE]
+
+  # --- Autonomous Systems specialization ---
+  - course_code: CMPE-249
+    title: "Intelligent Autonomous Systems"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-252, CMPE-257]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_AUTONOMOUS_SYSTEMS]
+
+  - course_code: CMPE-258
+    title: "Deep Learning"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-255, CMPE-257]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_AUTONOMOUS_SYSTEMS]
+
+  - course_code: CMPE-260
+    title: "Reinforcement Learning"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-252, CMPE-255, CMPE-257]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSAI_SPEC_AUTONOMOUS_SYSTEMS]
+
+  # --- GWAR ---
+  - course_code: CMPE-294
+    title: "Computer Engineering Seminar (GWAR)"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_GWAR]
+
+  - course_code: ENGR-200W
+    title: "Engineering Reports and Graduate Research"
+    units: 3
+    department: ENGR
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_GWAR]
+
+  # --- Culminating — thesis ---
+  - course_code: CMPE-299A
+    title: "Master Thesis I"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_CULMINATING]
+
+  - course_code: CMPE-299B
+    title: "Master Thesis II"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-299A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_CULMINATING]
+
+  # --- Culminating — project (Plan B) ---
+  - course_code: CMPE-295A
+    title: "Master Project I"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_CULMINATING]
+
+  - course_code: CMPE-295B
+    title: "Master Project II"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-295A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSAI_CULMINATING]

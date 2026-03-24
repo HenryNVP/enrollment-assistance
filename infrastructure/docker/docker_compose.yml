@@ -62,8 +62,11 @@ services:
       # Agent LLM (required: set OPENAI_API_KEY or OPENROUTER_API_KEY)
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       RAG_BASE_URL: http://rag_api:8000
+      # In-stack prereq gateway (overrides localhost in .env.development)
+      PREREQ_GATEWAY_BASE_URL: http://prereq_gateway:8000
     depends_on:
       - rag_api
+      - prereq_gateway
     ports:
       - "${AGENT_API_PORT:-8000}:8000"
 
@@ -73,7 +76,15 @@ services:
       # Point this at your running LightRAG server.
       # If LightRAG runs on the host machine, the default below should work.
       LIGHTRAG_BASE_URL: ${LIGHTRAG_BASE_URL:-http://host.docker.internal:9621}
-      AUTO_SCAN_ON_STARTUP: ${AUTO_SCAN_ON_STARTUP:-true}
+      # Must match LightRAG NEO4J_WORKSPACE / graph API workspace header (e.g. ms-ai).
+      LIGHTRAG_WORKSPACE: ${LIGHTRAG_WORKSPACE:-ms-ai}
+      # Curated :Course graph (load with scripts/load_curriculum_neo4j.py); falls back to LightRAG if disabled or unknown course.
+      CURATED_GRAPH_ENABLED: ${CURATED_GRAPH_ENABLED:-true}
+      # Neo4j on host (e.g. neo4j-lightrag on 7687). Set NEO4J_PASSWORD to match your DB (export before compose up or use a .env file).
+      NEO4J_URI: ${NEO4J_URI:-bolt://host.docker.internal:7687}
+      NEO4J_USERNAME: ${NEO4J_USERNAME:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-password}
+      AUTO_SCAN_ON_STARTUP: ${AUTO_SCAN_ON_STARTUP:-false}
       PREREQ_DEFAULT_DEPTH: ${PREREQ_DEFAULT_DEPTH:-2}
     extra_hosts:
       - "host.docker.internal:host-gateway"
