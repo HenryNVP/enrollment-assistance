@@ -162,9 +162,9 @@ class Settings:
         # RAG API Configuration
         self.RAG_BASE_URL = os.getenv("RAG_BASE_URL", "http://rag_api:8000")
 
-        # Prerequisites via LightRAG gateway (option 2)
-        self.PREREQ_GATEWAY_BASE_URL = os.getenv(
-            "PREREQ_GATEWAY_BASE_URL", "http://prereq_gateway:8000"
+        # RAG Graph gateway (curated Neo4j prerequisite / program graph)
+        self.RAG_GRAPH_BASE_URL = os.getenv(
+            "RAG_GRAPH_BASE_URL", "http://rag_graph:8000"
         )
         
         # JWT Configuration

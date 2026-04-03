@@ -87,10 +87,11 @@ def merge_curriculum(driver: Any, data: dict) -> None:
         session.run(
             """
             MERGE (p:Program {entity_id: $eid})
-            SET p.name = $name
+            SET p.name = $name, p.total_units = $total_units
             """,
             eid=program["entity_id"],
             name=program["name"],
+            total_units=program.get("total_units"),
         )
 
         for d in departments:

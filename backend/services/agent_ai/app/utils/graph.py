@@ -1,5 +1,7 @@
 """This file contains the graph utilities for the application."""
 
+import os
+
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.messages import BaseMessage
 from langchain_core.messages import trim_messages as _trim_messages
@@ -8,7 +10,7 @@ from app.core.config import settings
 from app.core.logging import logger
 from app.schemas import Message
 
-MAX_MESSAGE_CONTENT_LENGTH = 3000
+MAX_SYSTEM_PROMPT_CHARS = int(os.getenv("MAX_SYSTEM_PROMPT_CHARS", "12000"))
 
 
 def dump_messages(messages: list[Message]) -> list[dict]:
@@ -104,12 +106,12 @@ def prepare_messages(messages: list[Message], llm: BaseChatModel, system_prompt:
             raise
 
     final_system_prompt = system_prompt
-    if len(final_system_prompt) > MAX_MESSAGE_CONTENT_LENGTH:
+    if len(final_system_prompt) > MAX_SYSTEM_PROMPT_CHARS:
         logger.warning(
             "system_prompt_truncated",
             original_length=len(final_system_prompt),
-            truncated_length=MAX_MESSAGE_CONTENT_LENGTH,
+            truncated_length=MAX_SYSTEM_PROMPT_CHARS,
         )
-        final_system_prompt = final_system_prompt[: MAX_MESSAGE_CONTENT_LENGTH - 3] + "..."
+        final_system_prompt = final_system_prompt[: MAX_SYSTEM_PROMPT_CHARS - 3] + "..."
 
     return [Message(role="system", content=final_system_prompt)] + trimmed_messages

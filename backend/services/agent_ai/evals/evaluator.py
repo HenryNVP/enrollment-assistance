@@ -193,7 +193,7 @@ class Evaluator:
         logger.info("fetching_langfuse_traces", from_timestamp=str(last_24_hours))
         try:
             traces = self.langfuse.api.trace.list(
-                from_timestamp=last_24_hours, order_by="timestamp.asc", limit=100
+                from_timestamp=last_24_hours, order_by="timestamp.asc", limit=10
             ).data
             traces_without_scores = [trace for trace in traces if not trace.scores]
             return traces_without_scores

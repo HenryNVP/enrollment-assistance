@@ -357,11 +357,8 @@ class LangGraphAgent:
         """
         config = {
             "configurable": {"thread_id": session_id},
-            "callbacks": [
-                CallbackHandler(
-                    environment=settings.ENVIRONMENT.value, debug=False, user_id=user_id, session_id=session_id
-                )
-            ],
+            # Langfuse CallbackHandler API: only public_key / update_trace; env keys via LANGFUSE_*.
+            "callbacks": [CallbackHandler()],
             "metadata": {
                 "user_id": user_id,
                 "session_id": session_id,

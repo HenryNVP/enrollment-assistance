@@ -19,13 +19,12 @@ def course_prereqs(
     enroll, or what to take first — do not rely on rag_search alone for that.
 
     Pass a normal course code (e.g. "CMPE-260", "CMPE 260", "ISE-201"). Response JSON
-    includes: direct (AND prereqs), requires_one_of (OR alternatives — if direct is empty
-    but requires_one_of is set, the OR list is still the answer), transitive, source.
-
-    Uses prereq_gateway: curated Neo4j when CURATED_GRAPH_ENABLED, else LightRAG subgraph.
+    includes: direct (all immediate prereqs), requires_one_of (OR alternatives — if
+    direct is empty but requires_one_of is set, the OR list is still the answer),
+    transitive (full prerequisite chain including courses reachable through OR paths).
     """
     try:
-        prereq_url = f"{settings.PREREQ_GATEWAY_BASE_URL}/prereqs"
+        prereq_url = f"{settings.RAG_GRAPH_BASE_URL}/prereqs"
 
         request_body = {
             "course_code": course_code,
@@ -38,7 +37,6 @@ def course_prereqs(
 
             payload = response.json()
 
-        # Keep the tool output as JSON so the agent can parse it if needed.
         return json.dumps(payload)
     except httpx.HTTPStatusError as e:
         error_msg = f"Prereq gateway error {e.response.status_code}: {e.response.text}"
@@ -47,11 +45,10 @@ def course_prereqs(
     except httpx.RequestError as e:
         error_msg = f"Failed to connect to prereq gateway: {str(e)}"
         logger.error("course_prereqs_connection_error", error=error_msg, course_code=course_code)
-        return "Error: Could not connect to the prereq gateway. Check PREREQ_GATEWAY_BASE_URL."
+        return "Error: Could not connect to the rag_graph gateway. Check RAG_GRAPH_BASE_URL."
     except Exception as e:
         logger.exception("course_prereqs_failed", course_code=course_code)
         return f"Error: {str(e)}"
 
 
 course_prereqs_tool = course_prereqs
-
