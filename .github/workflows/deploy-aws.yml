@@ -10,6 +10,8 @@ on:
 
 env:
   AWS_REGION: us-west-2
+  # Amazon ECR Public image prefix (repos: agent_api, rag_api, rag_graph)
+  ECR_IMAGE_BASE: public.ecr.aws/f3z6z4g1/enrollment_assistance
 
 jobs:
   build-and-push:
@@ -41,30 +43,30 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Image tag: $VERSION"
 
-      - name: Log in to ECR
+      - name: Log in to Amazon ECR Public
         run: |
-          aws ecr get-login-password --region ${{ env.AWS_REGION }} | \
-            docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+          aws ecr-public get-login-password --region us-east-1 | \
+            docker login --username AWS --password-stdin public.ecr.aws
 
       - name: Build and push Agent API
         run: |
-          docker build -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/agent-api:${{ steps.meta.outputs.version }} \
+          docker build -t ${{ env.ECR_IMAGE_BASE }}/agent_api:${{ steps.meta.outputs.version }} \
             ./backend/services/agent_ai
-          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/agent-api:${{ steps.meta.outputs.version }}
+          docker push ${{ env.ECR_IMAGE_BASE }}/agent_api:${{ steps.meta.outputs.version }}
 
       - name: Build and push RAG API
         run: |
           docker build -f backend/services/rag_api/Dockerfile.lite \
-            -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-api:${{ steps.meta.outputs.version }} \
+            -t ${{ env.ECR_IMAGE_BASE }}/rag_api:${{ steps.meta.outputs.version }} \
             ./backend/services/rag_api
-          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-api:${{ steps.meta.outputs.version }}
+          docker push ${{ env.ECR_IMAGE_BASE }}/rag_api:${{ steps.meta.outputs.version }}
 
       - name: Build and push RAG Graph
         run: |
           docker build \
-            -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-graph:${{ steps.meta.outputs.version }} \
+            -t ${{ env.ECR_IMAGE_BASE }}/rag_graph:${{ steps.meta.outputs.version }} \
             ./backend/services/rag_graph
-          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-graph:${{ steps.meta.outputs.version }}
+          docker push ${{ env.ECR_IMAGE_BASE }}/rag_graph:${{ steps.meta.outputs.version }}
 
   deploy-ec2:
     runs-on: ubuntu-latest
@@ -84,9 +86,9 @@ jobs:
           script: |
             set -e
             cd /opt/enrollment-assistant
-            export ECR_REGISTRY=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+            export ECR_REGISTRY=${{ env.ECR_IMAGE_BASE }}
             export IMAGE_TAG=${{ needs.build-and-push.outputs.image_tag }}
-            aws ecr get-login-password --region ${{ env.AWS_REGION }} | sudo docker login --username AWS --password-stdin $ECR_REGISTRY
+            aws ecr-public get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin public.ecr.aws
             docker compose -f docker-compose.ec2-rds.yml pull
             docker compose -f docker-compose.ec2-rds.yml up -d
             docker compose -f docker-compose.ec2-rds.yml ps

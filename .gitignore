@@ -230,6 +230,7 @@ test_data/**/*.cache
 test_data/generated/
 test_data/**/*.log
 test_data/**/*.txt
+test_data/users/
 
 # PDFs - ignore large PDFs, but allow small test PDFs in test_data
 *.pdf
@@ -246,3 +247,4 @@ tools/scraper/output/*
 docs/deployment/*.md
 docs/*.md
 scripts/deploy/
+*.pem

@@ -6,7 +6,7 @@ This guide provides curl commands to test the basic functionality of the enrollm
 
 Before testing, ensure the required environment variables are set. The `agent_api` container requires:
 
-1. **OPENAI_API_KEY** - Your OpenAI API key (get from https://platform.openai.com/api-keys)
+1. **OPENAI_API_KEY** - Your OpenAI API key
 2. **JWT_SECRET_KEY** - A secret key for JWT token signing
 
 ### Option 1: Create .env.development file (Recommended)

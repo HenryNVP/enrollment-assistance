@@ -1,5 +1,5 @@
 # EC2: all services on one instance (Postgres + RAG API + RAG Graph + Agent API).
-# Set in .env: ECR_REGISTRY (e.g. 123456789.dkr.ecr.us-west-2.amazonaws.com),
+# Set in .env: ECR_REGISTRY (e.g. public.ecr.aws/f3z6z4g1/enrollment_assistance),
 #              POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD,
 #              NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD (and optional NEO4J_DATABASE),
 #              OPENAI_API_KEY (and optional RAG_OPENAI_API_KEY).
@@ -24,7 +24,7 @@ services:
     restart: always
 
   rag_api:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/rag-api:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/rag_api:${IMAGE_TAG:-latest}
     environment:
       DB_HOST: db
       DB_PORT: "5432"
@@ -44,7 +44,7 @@ services:
     restart: always
 
   agent_api:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/agent-api:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/agent_api:${IMAGE_TAG:-latest}
     environment:
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
@@ -63,7 +63,7 @@ services:
     restart: always
 
   rag_graph:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/rag-graph:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/rag_graph:${IMAGE_TAG:-latest}
     environment:
       NEO4J_URI: ${NEO4J_URI:?set NEO4J_URI in .env}
       NEO4J_USERNAME: ${NEO4J_USERNAME:?set NEO4J_USERNAME in .env}

@@ -6,7 +6,7 @@
 
 services:
   rag_api:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/rag-api:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/rag_api:${IMAGE_TAG:-latest}
     env_file: .env
     environment:
       DB_HOST: ${POSTGRES_HOST:?set POSTGRES_HOST (RDS endpoint) in .env}
@@ -25,7 +25,7 @@ services:
     restart: always
 
   agent_api:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/agent-api:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/agent_api:${IMAGE_TAG:-latest}
     env_file: .env
     environment:
       POSTGRES_HOST: ${POSTGRES_HOST}
@@ -46,7 +46,7 @@ services:
     restart: always
 
   rag_graph:
-    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/rag-graph:${IMAGE_TAG:-latest}
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/rag_graph:${IMAGE_TAG:-latest}
     env_file: .env
     environment:
       NEO4J_URI: ${NEO4J_URI:?set NEO4J_URI in .env}

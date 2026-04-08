@@ -1,0 +1,310 @@
+# MS in Software Engineering — Data Science Specialization
+# Source: https://www.sjsu.edu/msse/program-requirements/data-science.php
+# Catalog: https://catalog.sjsu.edu/preview_course_nopop.php?catoid=2&coid=...
+#
+# Corequisites:
+#   CMPE-273, 281, 283, 279 require CMPE-272 concurrently or prior
+#   CMPE-285, 287 require CMPE-202 concurrently or prior
+#   These are stored as requires_all / requires_one_of for advising accuracy.
+#
+# Shared courses with MSAI (MERGE-safe — Neo4j idempotent):
+#   CMPE-180A, CMPE-255, CMPE-257, CMPE-258, CMPE-294, ENGR-200W,
+#   CMPE-295A, CMPE-295B, CMPE-299A, CMPE-299B
+
+version: 1
+program:
+  entity_id: MSSE
+  name: "MS in Software Engineering"
+  total_units: 33
+
+departments:
+  - entity_id: CMPE
+    name: "Computer Engineering"
+  - entity_id: ENGR
+    name: "Engineering (General)"
+
+specializations:
+  - entity_id: MSSE_SPEC_DATA_SCIENCE
+    name: "Data Science"
+
+groups:
+  core:
+    entity_id: MSSE_CORE
+    name: "Degree Core Courses"
+    min_units: 9
+  elective:
+    entity_id: MSSE_ELECTIVE
+    name: "Specialization Elective Courses"
+    min_units: 3
+  gwar:
+    entity_id: MSSE_GWAR
+    name: "Graduate Writing (GWAR)"
+  culminating:
+    entity_id: MSSE_CULMINATING
+    name: "Culminating Experience"
+
+courses:
+
+  # ── Degree Core (9 units — all required) ──────────────────────────────────
+
+  - course_code: CMPE-272
+    title: "Enterprise Software Platforms"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  - course_code: CMPE-202
+    title: "Software Systems Engineering"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  - course_code: CMPE-255
+    title: "Data Mining"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: true
+    in_elective_group: false
+    specializations: []
+
+  # Bridge — undergrad prereq; shared with MSAI; part_of_program: false keeps it
+  # out of unit counts but lets the graph show dependency edges correctly
+  - course_code: CMPE-180A
+    title: "Undergraduate Prerequisite (Bridge)"
+    units: 0
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    part_of_program: false
+
+  # ── Data Science Specialization Core (6 units — BOTH required) ────────────
+
+  # Prereq: CMPE-180A, classified standing, or instructor consent
+  - course_code: CMPE-257
+    title: "Machine Learning"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: CMPE-255 or CMPE-257 or instructor consent
+  - course_code: CMPE-258
+    title: "Deep Learning"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-255, CMPE-257]
+    in_core_group: false
+    in_elective_group: false
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # ── Specialization Elective (choose 1, 3 units) ───────────────────────────
+
+  # Prereq: Java programming | Coreq: CMPE-272
+  - course_code: CMPE-273
+    title: "Enterprise Distributed Systems"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-272]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: CMPE-273 or instructor consent
+  - course_code: CMPE-275
+    title: "Enterprise Application Development"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-273]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Coreq: CMPE-272 or instructor consent
+  - course_code: CMPE-281
+    title: "Cloud Technologies"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-272]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Coreq: CMPE-272 or instructor consent
+  - course_code: CMPE-283
+    title: "Virtualization Technologies"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-272]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Coreq: CMPE-202 or CMPE-220 or instructor consent
+  - course_code: CMPE-285
+    title: "Software Engineering Processes"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-202]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Coreq: CMPE-202 or CMPE-220 or instructor consent
+  - course_code: CMPE-287
+    title: "Software Quality Assurance and Testing"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-202]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: CMPE-180A, classified standing, or instructor consent
+  - course_code: CMPE-206
+    title: "Computer Network Design"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-180A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: CMPE-206 or instructor consent
+  - course_code: CMPE-207
+    title: "Network Programming and Applications"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-206]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: CMPE-206 or EE-281 or instructor consent
+  - course_code: CMPE-209
+    title: "Network Security"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: [CMPE-206]
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Prereq: Classified graduate standing or instructor consent (no course prereq)
+  - course_code: CMPE-219
+    title: "Cybersecurity Clinics with HCI"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # Coreq: CMPE-272 or CMPE-220 or instructor consent
+  - course_code: CMPE-279
+    title: "Software Security Technologies"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-272]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: true
+    specializations: [MSSE_SPEC_DATA_SCIENCE]
+
+  # ── GWAR — 3 units, choose one (shared with MSAI) ─────────────────────────
+
+  - course_code: CMPE-294
+    title: "Computer Engineering Seminar (GWAR)"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_GWAR]
+
+  - course_code: ENGR-200W
+    title: "Engineering Reports and Graduate Research"
+    units: 3
+    department: ENGR
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_GWAR]
+
+  # ── Culminating Experience — Thesis track (shared with MSAI) ──────────────
+
+  - course_code: CMPE-299A
+    title: "Master Thesis I"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_CULMINATING]
+
+  - course_code: CMPE-299B
+    title: "Master Thesis II"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-299A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_CULMINATING]
+
+  # ── Culminating Experience — Project track ────────────────────────────────
+
+  - course_code: CMPE-295A
+    title: "Master Project I"
+    units: 3
+    department: CMPE
+    requires_all: []
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_CULMINATING]
+
+  - course_code: CMPE-295B
+    title: "Master Project II"
+    units: 3
+    department: CMPE
+    requires_all: [CMPE-295A]
+    requires_one_of: []
+    in_core_group: false
+    in_elective_group: false
+    specializations: []
+    requirement_groups: [MSSE_CULMINATING]
