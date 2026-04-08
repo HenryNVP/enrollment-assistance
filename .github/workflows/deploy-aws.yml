@@ -59,6 +59,13 @@ jobs:
             ./backend/services/rag_api
           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-api:${{ steps.meta.outputs.version }}
 
+      - name: Build and push RAG Graph
+        run: |
+          docker build \
+            -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-graph:${{ steps.meta.outputs.version }} \
+            ./backend/services/rag_graph
+          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/enrollment-assistant/rag-graph:${{ steps.meta.outputs.version }}
+
   deploy-ec2:
     runs-on: ubuntu-latest
     needs: build-and-push

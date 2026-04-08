@@ -1,6 +1,7 @@
-# EC2: all services on one instance (Postgres + RAG API + Agent API).
+# EC2: all services on one instance (Postgres + RAG API + RAG Graph + Agent API).
 # Set in .env: ECR_REGISTRY (e.g. 123456789.dkr.ecr.us-west-2.amazonaws.com),
 #              POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD,
+#              NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD (and optional NEO4J_DATABASE),
 #              OPENAI_API_KEY (and optional RAG_OPENAI_API_KEY).
 # Then: docker compose -f docker-compose.ec2.yml up -d
 
@@ -53,10 +54,23 @@ services:
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       JWT_SECRET_KEY: ${JWT_SECRET_KEY:?set JWT_SECRET_KEY in .env}
       RAG_BASE_URL: http://rag_api:8000
+      RAG_GRAPH_BASE_URL: http://rag_graph:8000
     depends_on:
       - rag_api
+      - rag_graph
     ports:
       - "${AGENT_API_PORT:-8000}:8000"
+    restart: always
+
+  rag_graph:
+    image: ${ECR_REGISTRY:?set ECR_REGISTRY in .env}/enrollment-assistant/rag-graph:${IMAGE_TAG:-latest}
+    environment:
+      NEO4J_URI: ${NEO4J_URI:?set NEO4J_URI in .env}
+      NEO4J_USERNAME: ${NEO4J_USERNAME:?set NEO4J_USERNAME in .env}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}
+      NEO4J_DATABASE: ${NEO4J_DATABASE:-}
+    ports:
+      - "${RAG_GRAPH_PORT:-8102}:8000"
     restart: always
 
 volumes:

@@ -6,13 +6,14 @@ import re
 from typing import Any, Optional, Set, Tuple
 
 
-def neo4j_driver_config() -> dict[str, str]:
+def neo4j_driver_config() -> dict[str, str | None]:
     import os
 
     return {
         "uri": os.getenv("NEO4J_URI", os.getenv("NEO4J_URI_BOLT", "bolt://localhost:7687")),
         "user": os.getenv("NEO4J_USERNAME", os.getenv("NEO4J_USER", "neo4j")),
         "password": os.getenv("NEO4J_PASSWORD", ""),
+        "database": os.getenv("NEO4J_DATABASE") or None,
     }
 
 

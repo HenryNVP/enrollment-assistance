@@ -39,21 +39,21 @@ def rag_search(
     try:
         rag_url = f"{settings.RAG_BASE_URL}/query"
 
-        jwt_secret = settings.JWT_SECRET_KEY
+        jwt_secret = settings.RAG_JWT_SECRET
         if not jwt_secret:
-            logger.warning("JWT_SECRET_KEY not set, RAG queries may fail authentication")
-            return "Error: RAG API authentication not configured. Please set JWT_SECRET_KEY."
+            logger.warning("RAG_JWT_SECRET not set, RAG queries may fail authentication")
+            return "Error: RAG API authentication not configured. Please set RAG_JWT_SECRET."
 
         payload = {
             "id": "agent-api-user",
             "exp": datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=1),
         }
-        token = jwt.encode(payload, jwt_secret, algorithm="HS256")
+        token = jwt.encode(payload, jwt_secret, algorithm=settings.RAG_JWT_ALGORITHM)
 
         request_body = {
             "query": query,
             "k": k,
-            "entity_id": None,
+            "entity_id": settings.RAG_QUERY_ENTITY_ID,
         }
         if file_id is not None:
             request_body["file_id"] = file_id

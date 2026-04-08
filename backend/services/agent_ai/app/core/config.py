@@ -161,13 +161,17 @@ class Settings:
         
         # RAG API Configuration
         self.RAG_BASE_URL = os.getenv("RAG_BASE_URL", "http://rag_api:8000")
+        self.RAG_JWT_SECRET = os.getenv("RAG_JWT_SECRET", "")
+        self.RAG_JWT_ALGORITHM = os.getenv("RAG_JWT_ALGORITHM", "HS256")
+        # Must match ingest entity_id (tools/ingest_rag.py defaults to public) or chunks are filtered out.
+        self.RAG_QUERY_ENTITY_ID = os.getenv("RAG_QUERY_ENTITY_ID", "public")
 
         # RAG Graph gateway (curated Neo4j prerequisite / program graph)
         self.RAG_GRAPH_BASE_URL = os.getenv(
             "RAG_GRAPH_BASE_URL", "http://rag_graph:8000"
         )
         
-        # JWT Configuration
+        # JWT Configuration (agent ↔ frontend)
         self.JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "")
         self.JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
         self.JWT_ACCESS_TOKEN_EXPIRE_DAYS = int(os.getenv("JWT_ACCESS_TOKEN_EXPIRE_DAYS", "30"))

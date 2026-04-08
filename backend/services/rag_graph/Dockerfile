@@ -1,4 +1,4 @@
-# Minimal FastAPI gateway service wrapper around LightRAG
+# FastAPI gateway for course prerequisites and program structure (Neo4j)
 FROM python:3.12-slim
 
 WORKDIR /app

@@ -144,3 +144,6 @@ jobs:
 
       - name: Lint agent_ai
         run: ruff check backend/services/agent_ai
+
+      - name: Lint rag_graph
+        run: ruff check backend/services/rag_graph

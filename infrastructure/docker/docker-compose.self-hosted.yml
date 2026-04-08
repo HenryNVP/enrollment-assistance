@@ -30,3 +30,4 @@ services:
       POSTGRES_PORT: ${POSTGRES_PORT:-5432}
     depends_on:
       - rag_api
+      - rag_graph

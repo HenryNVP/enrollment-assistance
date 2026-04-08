@@ -30,6 +30,7 @@ app = FastAPI(title="Prerequisite Gateway", version="2.0.0")
 @app.on_event("startup")
 async def _startup() -> None:
     app.state.neo4j_driver = None
+    app.state.neo4j_database = None
     cfg = neo4j_driver_config()
     if cfg["password"]:
         try:
@@ -37,7 +38,8 @@ async def _startup() -> None:
                 cfg["uri"],
                 auth=(cfg["user"], cfg["password"]),
             )
-            logger.info("neo4j_driver_ready uri=%s", cfg["uri"])
+            app.state.neo4j_database = cfg["database"]
+            logger.info("neo4j_driver_ready uri=%s database=%s", cfg["uri"], cfg["database"])
         except Exception as e:
             logger.error("neo4j_driver_failed: %s", e, exc_info=True)
     else:
@@ -73,8 +75,10 @@ async def prereqs(req: PrereqsRequest) -> PrereqsResponse:
     course_code_norm = normalize_course_code(req.course_code)
     depth = min(req.depth, 6)
 
+    db = app.state.neo4j_database
+
     def _lookup() -> Optional[dict[str, Any]]:
-        with drv.session() as session:
+        with drv.session(database=db) as session:
             return fetch_curated_prereqs_sync(session, course_code_norm, depth, req.course_code)
 
     try:
@@ -101,8 +105,10 @@ async def program(req: ProgramRequest) -> ProgramResponse:
     """Return the full program structure: courses, groups, prereqs, specializations."""
     drv = _require_neo4j()
 
+    db = app.state.neo4j_database
+
     def _lookup() -> Optional[dict[str, Any]]:
-        with drv.session() as session:
+        with drv.session(database=db) as session:
             return fetch_program_structure_sync(session, req.program_id)
 
     try:

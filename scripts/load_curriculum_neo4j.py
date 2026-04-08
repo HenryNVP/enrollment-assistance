@@ -5,14 +5,21 @@ Load data/curriculum_msai.yaml into Neo4j using schema docs/neo4j_course_schema.
 Prereqs:
   pip install neo4j pyyaml
 
-Example:
+Example (Aura):
+  export NEO4J_URI=neo4j+s://<instance-id>.databases.neo4j.io
+  export NEO4J_USERNAME=<instance-id>
+  export NEO4J_PASSWORD=<aura-password>
+  export NEO4J_DATABASE=<instance-id>
+  python3 scripts/load_curriculum_neo4j.py --file data/curriculum_msai.yaml
+
+Example (self-hosted):
   export NEO4J_URI=bolt://localhost:7687
   export NEO4J_USERNAME=neo4j
-  export NEO4J_PASSWORD=your-neo4j-password
+  export NEO4J_PASSWORD=your-password
   python3 scripts/load_curriculum_neo4j.py --file data/curriculum_msai.yaml
 
 If NEO4J_PASSWORD is unset, the script reads NEO4J_* from (in order):
-  backend/services/LightRAG/.env, then ./.env
+  backend/services/rag_graph/.env, then ./.env
 """
 
 from __future__ import annotations
@@ -57,11 +64,11 @@ def _parse_dotenv_neo4j(path: Path) -> dict[str, str]:
 
 
 def _apply_neo4j_dotenv(repo_root: Path) -> None:
-    """If NEO4J_PASSWORD is unset, try LightRAG .env then repo .env."""
+    """If NEO4J_PASSWORD is unset, try rag_graph .env then repo .env."""
     if os.getenv("NEO4J_PASSWORD"):
         return
     candidates = [
-        repo_root / "backend" / "services" / "LightRAG" / ".env",
+        repo_root / "backend" / "services" / "rag_graph" / ".env",
         repo_root / ".env",
     ]
     for p in candidates:
@@ -76,14 +83,14 @@ def load_yaml(path: Path) -> dict:
         return yaml.safe_load(f)
 
 
-def merge_curriculum(driver: Any, data: dict) -> None:
+def merge_curriculum(driver: Any, data: dict, *, database: str | None = None) -> None:
     program = data["program"]
     departments = data["departments"]
     specializations = data["specializations"]
     groups = data["groups"]
     courses = data["courses"]
 
-    with driver.session() as session:
+    with driver.session(database=database) as session:
         session.run(
             """
             MERGE (p:Program {entity_id: $eid})
@@ -335,11 +342,12 @@ def main() -> None:
     uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
     user = os.getenv("NEO4J_USERNAME", os.getenv("NEO4J_USER", "neo4j"))
     password = os.getenv("NEO4J_PASSWORD", "")
+    database = os.getenv("NEO4J_DATABASE") or None
     if not password:
         print(
             "NEO4J_PASSWORD not set.\n"
             "  export NEO4J_PASSWORD='…'   # same password you use in Neo4j Browser\n"
-            "  or add NEO4J_PASSWORD to backend/services/LightRAG/.env",
+            "  or add NEO4J_PASSWORD to backend/services/rag_graph/.env",
             file=sys.stderr,
         )
         sys.exit(1)
@@ -347,8 +355,9 @@ def main() -> None:
     data = load_yaml(path)
     driver = GraphDatabase.driver(uri, auth=(user, password))
     try:
-        merge_curriculum(driver, data)
-        print(f"Loaded curriculum from {path} into {uri}")
+        merge_curriculum(driver, data, database=database)
+        db_label = f"{uri}" + (f" (database={database})" if database else "")
+        print(f"Loaded curriculum from {path} into {db_label}")
     except AuthError as e:
         print(
             f"Neo4j authentication failed ({e}).\n"

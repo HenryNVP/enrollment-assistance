@@ -1,12 +1,8 @@
-# Simplified configuration using environment variable substitution
-# Set these in your shell or .env file before `docker compose up`:
-#   POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD
-#   OPENAI_API_KEY (required for RAG embeddings and Agent LLM unless using alternatives below)
-#   RAG_OPENAI_API_KEY
-#   POSTGRES_PORT, RAG_API_PORT, AGENT_API_PORT, PROMETHEUS_PORT, GRAFANA_PORT,
-#   CADVISOR_PORT (optional; cAdvisor default host port 8081 avoids clash with other stacks on 8080)
+# Copy docker_compose.env.example to .env (same directory as this file), fill in values, then:
+#   docker compose -f infrastructure/docker/docker_compose.yml up -d --build
 #
-# Example: export OPENAI_API_KEY=sk-... && docker compose -f infrastructure/docker/docker_compose.yml up db rag_api agent_api
+# Required in .env: OPENAI_API_KEY, NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
+# See docker_compose.env.example for the full list of variables.
 
 services:
   db:
@@ -27,22 +23,13 @@ services:
     restart: always
 
   rag_api:
-    build: ../../backend/services/rag_api
-    env_file:
-      - ../../backend/services/rag_api/.env
+    build:
+      context: ../../backend/services/rag_api
+      dockerfile: Dockerfile.lite
+    env_file: .env
     environment:
-      # Database connection - uses same vars as db service
       DB_HOST: db
-      DB_PORT: 5432
-      POSTGRES_DB: ${POSTGRES_DB:-ragdb}
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
-      # RAG embeddings (required: set OPENAI_API_KEY or RAG_OPENAI_API_KEY)
-      VECTOR_DB_TYPE: pgvector
-      EMBEDDINGS_PROVIDER: ${EMBEDDINGS_PROVIDER:-openai}
-      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
-      RAG_OPENAI_API_KEY: ${RAG_OPENAI_API_KEY:-}
-      COLLECTION_NAME: ${COLLECTION_NAME:-policy_docs}
+      DB_PORT: "5432"
     depends_on:
       db:
         condition: service_healthy
@@ -51,19 +38,11 @@ services:
 
   agent_api:
     build: ../../backend/services/agent_ai
-    env_file:
-      - ../../backend/services/agent_ai/.env.development
+    env_file: .env
     environment:
-      # Database connection - uses same vars as db service
       POSTGRES_HOST: db
-      POSTGRES_PORT: 5432
-      POSTGRES_DB: ${POSTGRES_DB:-ragdb}
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
-      # Agent LLM (required: set OPENAI_API_KEY or OPENROUTER_API_KEY)
-      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      POSTGRES_PORT: "5432"
       RAG_BASE_URL: http://rag_api:8000
-      # In-stack prereq gateway (overrides localhost in .env.development)
       RAG_GRAPH_BASE_URL: http://rag_graph:8000
     depends_on:
       - rag_api
@@ -74,12 +53,11 @@ services:
   rag_graph:
     build: ../../backend/services/rag_graph
     environment:
-      # Neo4j connection — load graph first with: python scripts/load_curriculum_neo4j.py
-      NEO4J_URI: ${NEO4J_URI:-bolt://host.docker.internal:7687}
-      NEO4J_USERNAME: ${NEO4J_USERNAME:-neo4j}
-      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-password}
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+      # Neo4j connection (Aura or self-hosted) — load graph first with: python scripts/load_curriculum_neo4j.py
+      NEO4J_URI: ${NEO4J_URI:?set NEO4J_URI in .env}
+      NEO4J_USERNAME: ${NEO4J_USERNAME:?set NEO4J_USERNAME in .env}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}
+      NEO4J_DATABASE: ${NEO4J_DATABASE:-}
     ports:
       - "${RAG_GRAPH_PORT:-8102}:8000"
 
