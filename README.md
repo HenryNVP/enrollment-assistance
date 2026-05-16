@@ -1,76 +1,82 @@
 # SAM-E: Enrollment Assistant
 
-**SAM-E** is an AI-powered enrollment assistance tool specialized for San Jose State University (SJSU). The system helps students with enrollment decisions, budgeting, scheduling, multi-term planning, degree audits, and scenario comparisons through an intelligent conversational interface.
+**SAM-E** is an AI-powered enrollment assistant for San Jose State University. It combines a conversational agent, document retrieval, and a curated prerequisite graph to help answer questions about enrollment, program requirements, schedules, and planning.
 
 ![SAM-E enrollment assistant](docs/sam-e.png)
 
+## What It Does
 
-## Key Capabilities
+- Answers enrollment and program questions through a FastAPI/LangGraph agent.
+- Retrieves policy and program information from a PostgreSQL/pgvector RAG service.
+- Looks up curated course prerequisites and program structure from Neo4j.
+- Supports document scraping and ingestion for SJSU source material.
+- Includes integration and end-to-end tests for the Agent API and RAG API.
 
-- **Enrollment Questions**: Course availability, deadlines, prerequisites, capacity limits
-- **Degree Audits**: Progress tracking by major, minor, and concentration
-- **Budget Planning**: Tuition, fees, books, housing, and commuting cost calculations
-- **Schedule Optimization**: Optimal course scheduling with conflict detection
-- **Transfer Assistance**: Course equivalency lookups and transfer policy information
-- **Scenario Comparisons**: Full-time vs. part-time enrollment, delivery mode comparisons
+## Services
 
-## Architecture
+- `backend/services/agent_ai` - main chat and auth API, exposed on port `8000`.
+- `backend/services/rag_api` - document ingestion and vector search API.
+- `backend/services/rag_graph` - prerequisite/program gateway backed by Neo4j.
 
-SAM-E follows a **microservices architecture** with three core services:
+## Repository Layout
 
-1. **Agent Service** (Port 8000) - LangGraph-powered conversational interface
-2. **RAG Service** (Port 8010) - Policy document processing and knowledge retrieval
-3. **Enrollment Service** (Port 8090) - Enrollment domain logic and assistance engines *(planned)*
-
-## Repository Structure
-
-```
-SAM-E/
-├── backend/                    # Backend microservices
-│   ├── services/              # Individual services
-│   │   ├── agent_ai/          # Agent Service (port 8000)
-│   │   └── rag_api/           # RAG Service (port 8010)
-│   └── shared/                # Shared backend code (future)
-│
-├── docs/                       # All documentation
-│   ├── architecture/         # Architecture diagrams
-│   ├── design/                # Design specifications
-│   ├── guides/                # User guides
-│   ├── REPO_ORGANIZATION.md   # Collaboration guide
-│   ├── CONTRIBUTING.md        # Contribution guidelines
-│   └── README.md              # Documentation index
-│
-├── infrastructure/             # Infrastructure configs
-│   └── docker/
-│       └── docker_compose.yml # Docker Compose for all services
-│
-└── .github/                    # GitHub templates & workflows
+```text
+backend/services/agent_ai/   FastAPI + LangGraph agent service
+backend/services/rag_api/    RAG API with PostgreSQL/pgvector storage
+backend/services/rag_graph/  Neo4j prerequisite gateway
+data/                        Curated curriculum YAML data
+docs/architecture/           PlantUML diagrams and architecture notes
+infrastructure/              Docker Compose and AWS deployment files
+tests/                       Root integration and E2E tests
+tools/                       Scraping and RAG ingestion utilities
 ```
 
-## Running the System
+## Quick Start
+
+Run the Agent API locally:
 
 ```bash
-# Start all services
-docker compose -f infrastructure/docker/docker_compose.yml up --build
-
-# Or start individual services
 cd backend/services/agent_ai
-docker compose up
+cp .env.example .env.development
+uv sync
+make dev
 ```
 
-## Key Directories
+Run the RAG API locally:
 
-| Directory | Purpose |
-|-----------|---------|
-| `backend/services/` | Backend microservices code |
-| `backend/shared/` | Shared backend utilities (future) |
-| `docs/guides/` | User-facing documentation |
-| `docs/design/` | Architecture and design specs |
-| `docs/architecture/` | Architecture diagrams |
-| `infrastructure/docker/` | Docker Compose configurations |
+```bash
+cd backend/services/rag_api
+docker compose up --build
+```
+
+For EC2-style deployments, see the compose files in `infrastructure/aws/`.
+
+## Testing
+
+Install root test dependencies, then run the top-level tests:
+
+```bash
+pip install -r tests/requirements.txt
+pytest
+```
+
+The root tests default to:
+
+- Agent API: `http://localhost:8000`
+- RAG API: `http://localhost:8010`
+
+Override with `AGENT_API_URL` and `RAG_API_URL` when needed. See `TESTING.md` for curl examples and more complete test setup.
+
+## More Docs
+
+- `backend/services/agent_ai/README.md` - agent service setup and evaluation commands.
+- `backend/services/rag_api/README.md` - RAG API setup, environment variables, and ingestion behavior.
+- `docs/architecture/docs/README.md` - architecture documentation.
+- `tools/README.md` - scraper and RAG ingestion utilities.
 
 ## Credits
-This project builds on the following upstream open-source repositories:
+
+This project builds on:
+
 - [`danny-avila/rag_api`](https://github.com/danny-avila/rag_api)
 - [`wassim249/fastapi-langgraph-agent-production-ready-template`](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)
-
