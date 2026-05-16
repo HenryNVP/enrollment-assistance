@@ -1,0 +1,31 @@
+Source: https://www.sjsu.edu/registrar/academic-records/enrollment-status.php
+Title: Enrollment Status
+Type: HTML
+
+Enrollment Status
+Full-time, three-quarter time, half-time, and part-time enrollment is determined as follow.
+Undergraduate or Postbaccalaureate Students
+|
+Full-time |
+Three-quarter time |
+Half-time |
+Less than half-time |
+|---|---|---|---|
+|
+12.0 or more units |
+9.0-11.0 units |
+6.0-8.0 units |
+less than 6.0 units |
+Graduate Students
+|
+Full-time |
+Three-quarter time |
+Half-time |
+Less than half-time |
+|---|---|---|---|
+|
+*8.0 or more units or Any combination |
+*6.0-7.0 units or Any combination |
+*4.0-5.0 units or Any combination |
+*3.0 or less units |
+*All graduate courses (200 level) are weighted 1.5 units.

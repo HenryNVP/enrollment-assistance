@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/hspm/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+To get started, check in with our HTEM staff for direction on who to contact to set up an appointment. Whether you are transferring from a different SJSU major, another University, or you're just beginning your studies here at SJSU we will guide and assist you in achieving your goals.

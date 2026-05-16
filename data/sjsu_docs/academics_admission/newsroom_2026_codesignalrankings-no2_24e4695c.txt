@@ -1,0 +1,33 @@
+Source: https://blogs.sjsu.edu/newsroom/2026/codesignalrankings-no2
+Title: San José State Ranks #2 Nationwide in CodeSignal’s 2026 University Report
+Type: HTML
+
+San José State Ranks #2 Nationwide in CodeSignal’s 2026 University Report
+In the newly released CodeSignal’s 2026 University Ranking Report, San José State is ranked #2 in the nation.
+The ranking is based upon the demonstrated programming and software engineering skills of students from various universities. CodeSignal analyzes the median scores of students who take the General Coding Assessment (GCA), which is a proctored, four-question examination that is scored on efficiency, speed and coding abilities.
+Since 2021, San José State has climbed up 47 spots in CodeSignal’s ranking to move into the second position, in front of some of the nation’s most elite universities.
+“San José State’s rise to #2 in the nation is a powerful affirmation of our mission and momentum,” says SJSU President Cynthia Teniente-Matson. “This recognition reflects the dedication of our students, the excellence of our faculty, and our deep engagement with Silicon Valley. We are proud to provide an education that not only builds strong technical foundations, but also prepares students to solve real-world challenges and lead in a rapidly evolving digital economy.”
+As part of their hiring pipeline, companies like Meta, Netflix and Capital One use CodeSignal as an assessment platform to help filter and evaluate potential job candidates. The top-tier ranking of San José State is an indication that graduates in the areas of computer science, computer engineering, software engineering and other related technical areas are emerging as job-ready talent in today’s tech workforce.
+The ranking is a reflection of the work of the Colleges of Engineering, Science, and Information, Data and Society.
+“This reflects steady investment over time. At SJSU, we’ve built programs that combine technical depth with applied, real-world problem solving,” says Mehrdad Aliasgari, dean for SJSU’s College of Information, Data and Society. “Our programs emphasize technical skills, hands-on learning and responsible computing, giving students industry-connected experiences in computing and data.”
+SJSU’s location in the heart of Silicon Valley gives students direct access to the tech industry and all its many opportunities.
+“Our location attracts students who want to build and create in the tech industry, and we do our best to equip them with the tools they need to do this,” says Sheryl Ehrman, dean for SJSU’s Charles W. Davidson College of Engineering. “Their performance on this assessment shows our students have the skills that industry is seeking.”
+Michael Kaufman, dean for the College of Science, feels that SJSU’s high-quality, industry-relevant degree programs combined with dedicated faculty who bring real-world experience and industry connections have played a key role in the university’s rise up the rankings. He also emphasizes that the commitment of the students is central to that success.
+“When I attend events focused on new developments in AI, ML and emerging technologies, SJSU students are there, soaking up the knowledge and building the networks necessary to succeed. This allows them to show off their outstanding technical skills,” says Kaufman.
+Code Signal 2026 Top 10 University rankings:
+- Massachusetts Institute of Technology
+- San José State University
+- University of Pennsylvania
+- Carnegie Mellon University
+- Princeton University
+- California Institute of Technology
+- Yale University
+- University of California Berkeley
+- Brown University
+- University of California Los Angeles
+About CodeSignal
+CodeSignal’s University Ranking Report is a data-driven ranking of universities based on the demonstrated programming and software engineering skills of their graduates.
+CodeSignal is how the world discovers and develops the skills that will shape the future. Our AI-native skills assessment and experiential learning platform helps organizations hire, train, and grow talent at scale while empowering individuals to advance their careers.
+Whether you’re growing your team’s potential or unlocking your own, CodeSignal meets you where you are and gets you where you need to go. With millions of skills evaluations completed, CodeSignal is trusted by companies like Netflix, Capital One, Meta, and Dropbox and used by learners worldwide.
+About San José State University
+San José State University, ranked the No. 5 public university in the nation by Wall Street Journal/College Pulse, is the oldest university in the California State University system. Located in the heart of Silicon Valley, SJSU offers unmatched access to internships and careers with global companies and a culturally rich community, giving our students the SpartanEdge. With a commitment to academic excellence and personalized student support, SJSU empowers students to thrive professionally and personally. Thanks to top-tier R2 research opportunities and faculty mentoring, Spartans graduate with confidence, low debt, and the skills to lead. When purpose meets preparation at SJSU, transformation happens—for Spartan students and the world around them.

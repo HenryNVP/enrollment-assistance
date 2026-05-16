@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/classes/schedules/index.php
+Title: Schedules
+Type: HTML
+
+Schedules
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Real-time class listings, including textbook and course information, are found at one.sjsu.edu by searching for 'Class Search' in the Search Box. View the School of Information course lists separately.
+Current Term
+- Spring 2026 Class Schedule (published on 10/20/25)
+Incoming Terms
+- Summer 2026 Class Schedule
+- Fall 2026 Class Schedule (published on 4/13/26)

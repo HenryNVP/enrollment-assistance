@@ -1,0 +1,10 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13769
+Title: About
+Type: HTML
+
+The Bachelor of Science degree in Computer Engineering (CMPE), offered by the Department of Computer Engineering , goes beyond programming to include engineering methodologies and hands-on project experience. The program prepares students to become engineers, leaders and entrepreneurs. Course topics range from computer hardware design and embedded systems to software design and construction of real-time systems, virtual systems, and enterprise software. The curriculum integrates concepts and hands-on practice using the latest developments in emerging technologies, design, verification, implementation, and computer systems applications to provide students with advanced hardware and software skills.
+High-tech companies seek out our graduates. Our alumni work in hardware/software analysis, design and verification, hardware/software co-design, systems software, domain applications and product testing at many Silicon Valley firms from start-ups to Fortune 100 companies. The Computer Engineering Bachelor of Science degree program is accredited by the Engineering Accreditation Commission of ABET, under the General Program Criteria and the Electrical, Computer, Communications, Telecommunication(s) and Similarly Named Engineering Programs Program Criteria.
+Program Roadmaps
+The 4-Year Roadmap is available online. Roadmaps should be used in consultation with the catalog and your advisor to identify additional requirements for completing the major (for example, course grade minimums). Associate Degrees (ADT) Pathways are also available online.
+Major-Specific Graduation Requirements
+All courses in the Preparation and Required in Major (all courses in preparation, core, and concentration) must be completed with a grade of “C- or better”. The following Preparation for the Major courses must be completed with a grade of “C or better”: MATH 30 , MATH 31 , PHYS 50 and PHYS 51 . CMPE 195A /CMPE 195B and ENGR 195A /ENGR 195B must be completed with C or Better to meet GE Area requirements.

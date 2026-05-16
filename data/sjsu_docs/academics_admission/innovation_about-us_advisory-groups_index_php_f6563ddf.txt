@@ -1,0 +1,13 @@
+Source: https://www.sjsu.edu/innovation/about-us/advisory-groups/index.php
+Title: Advisory Groups
+Type: HTML
+
+Advisory Groups
+Innovation Advisory Council (IAC)
+The SJSU Innovation Advisory Council (IAC) provides advice on issues critical to building and growing innovation, entrepreneurship, and commercialization support for SJSU students, faculty, and staff.
+Patent Review Board
+The SJSU Patent Review Board advises the Vice President for Research and Innovation on matters relating to patentability of inventions disclosed by faculty, staff and students under the SJSU Intellectual Property Policy.
+Incubator Advisory Board
+The SJSU Incubator Advisory Board (IAB) advises the Director of Innovation on programming ideas, opportunities, and resources critical to building and growing the SJSU SpartUp Incubator programs to support SJSU students, faculty, and staff. The IAB serves as a vehicle for ongoing dialogue between SJSU innovation support leadership and community leaders to help inform SJSU’s business incubation agenda, strategy, goals, and programs.
+Copyright Review Board
+To address inquiries pertaining to copyrighted material developed by faculty, staff or students, the Vice President for Research and Innovation may convene a Copyright Review Board. The Board shall consist of at least one college dean, two members of the faculty with copyright experience, and such outside expertise as needed.

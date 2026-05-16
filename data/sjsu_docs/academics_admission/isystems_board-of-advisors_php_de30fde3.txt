@@ -1,0 +1,25 @@
+Source: https://www.sjsu.edu/isystems/board-of-advisors.php
+Title: SISTech Advisory Board
+Type: HTML
+
+SISTech Advisory Board
+Nick Compin, Caltrans
+Dr. Nick Compin is the Chief of the Office of Safety Planning in Caltrans’ Headquarters Division of Transportation Planning. He is involved in numerous national research efforts and standing committees. Nick is also an adjunct professor for the Mineta Transportation Institute at SJSU. He holds a Ph.D. in Urban and Regional Planning from the UC Irvine.
+Lisa Hall, CISO SafeBase
+Lisa is Chief Information Security Officer at SafeBase and Venture Advisor at YL Ventures with 17 years of security industry experience. Previously she served as Head of Security at PagerDuty and held information security leadership roles at Twilio and EY. Lisa also serves on the advisory board for Day of Security.
+Jeremy King, Pinterest
+Jeremy King is Senior Vice President of Engineering at Pinterest. Previously he served as CTO of Walmart, Exec. VP of Technology at LiveOps, and VP of Engineering at Software Development at eBay. He holds a BSBA / MIS from SJSU and also serves on the advisory boards of Wayfair and ILG.
+Sudhir Kumar, The Wine Group
+Sudhir Kumar is Chief Technology Officer at The Wine Group. He has served wine and other industries in various Information Technology management roles since 1991.
+Monique LeFors Edmondson, Cisco
+Monique is an IT Senior Director at Cisco, focused on making it easy for employees to do great work by providing seamless frictionless employee Intranet experiences. Through her 28 years of experience, she has the expertise in IT platforms supporting Marketing, employee and customer learning, HR, Legal, and Sales. She is also a Board member for Child Advocates of the Silicon Valley supporting our communities foster youth.
+Sudhir Reddy, Capgemini
+Sudhir Reddy is Executive Vice President and Group CIO at Capgemini.
+Kyle Rosenthal, TachTech
+Kyle serves as Chair for TachTech, SPIRE ONE, and the CIO Scholarship Fund. TachTech is a trusted cybersecurity solutions provider to the Global 2000. SPIRE ONE is an executive leadership development group. The CIO Scholarship Fund is a 501(c)(3) that raises scholarship funds and countless volunteer hours for nine San Francisco Bay Area schools, including SJSU.
+Nick Sabatini, UBEO
+Nick Sabatini is Vice President of Managed and Workplace Services, at UBEO Business Services. Previously he served as UBEO's Director of Sales and Operations. Nick attended university in Minnesota and has worked in the technology and Information services industry since 1991.
+Michael Todasco, SDSU
+Michael Todasco is a Visiting Fellow at the James Silberrad Brown Center for Artificial Intelligence at San Diego State University. He earned his MBA from UC Berkeley, holds over 100 US utitity patents, and previously served as Senior Director of Innovation at PayPal.
+Ron Wetter, RSM
+Ron Wetter is Director of Business Applications at RSM.

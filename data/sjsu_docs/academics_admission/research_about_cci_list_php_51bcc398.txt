@@ -1,0 +1,35 @@
+Source: https://www.sjsu.edu/research/about/cci/list.php
+Title: Campus Centers and Institutes
+Type: HTML
+
+Campus Centers and Institutes
+College of Business
+Center for Banking and Financial Services
+Global Leadership Advancement Center
+Institute for People and Performance
+Mineta Transportation Institute
+Silicon Valley Center for Entrepreneurship
+Silicon Valley Center for Operations and Technology Management
+College of Education
+Center for Innovation in Applied Education Policy
+Institute for Emancipatory Education
+College of Engineering
+Materials Characterization and Metrology Center
+College of Health and Human Sciences
+Center for Applied Research on Human Services
+Institute for Nursing Research and Practice
+College of Humanities and the Arts
+Advanced Institute for Ethical Technologies
+Center for Comparative Philosophy
+Center for Human Language Technology
+Center for Literary Arts of San José
+Ira F. Brilliant Center for Beethoven Studies
+Martha Heasley Cox Center for Steinbeck Studies
+College of Information, Data and Society
+Silicon Valley Center for Artificial Intelligence and Cybersecurity (CAIC)
+College of Science
+Center for Applied Mathematics, Computation, and Statistics
+Wildfire Interdisciplinary Research Center
+College of Social Sciences
+Center for the Development of Recycling
+Institute for Metropolitan Studies

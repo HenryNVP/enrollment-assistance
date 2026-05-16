@@ -1,0 +1,36 @@
+Source: https://www.sjsu.edu/lucasgsb/prospective-students/msa/curriculum.php
+Title: MSAA Curriculum
+Type: HTML
+
+MSAA Curriculum
+The Lucas Graduate School of Business offers a 30-unit MSAA degree program. The MSAA program consists of 5 required courses, 4 elective courses and one culminating experience course.
+The MSAA degree requirements are as follows:
+Required Courses (15 units):
+- BUS 220J Business Communications and Ethics
+- BUS 220U IT Audit and Internal Controls
+- BUS 220Z Data Analytics for Accounting*
+Choose two of the following courses in consultation with graduate advisor:
+- BUS 220P Taxation of Individuals and Flow-Through Entities*
+- BUS 220H Auditing Concepts & Practice*
+- BUS 220R Software Applications for Accounting
+- BUS 220S Financial Reporting & Analysis III
+- BUS 220V Special Topics in Accounting
+If more than two courses are taken, two fulfill the core course requirements and all others are electives.
+Elective Courses (12 units):
+12 units of elective courses selected in consultation with graduate advisor:
+- BUS 220K Accounting Practicum
+- BUS 220I Forensic Accounting
+- BUS 220L Legal & Ethical Environment of Accounting Practice
+- BUS 220M Accounting Ethics
+- BUS 220X Business Analysis & Valuations Using Financial Statements
+- BUS 223A Tax Research and Decision Making
+- BUS 223G Taxation of Business Entities
+- BUS 225L Accounting for Income Taxes
+- BUS 250 Law and Ethics
+- BUS 253 Negotiations and Conflict Management
+Culminating Experience (3 units):
+Complete one course from:
+- BUS 220A Financial Statement Analysis for Accountants
+- BUS 220N Management of Organizations and Projects
+If both courses are taken, one is the comprehensive project and the other is an elective.
+*If an equivalent upper-division undergraduate course has been completed at an accredited four-year U.S. college or university with a grade of B (3.0) or better, an appropriate elective may be substituted for the course. All equivalent upper-division undergraduate accounting courses are subject to final approval by the MSAA Admissions Committee.

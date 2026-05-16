@@ -1,0 +1,98 @@
+Source: https://www.sjsu.edu/science/research/faculty-research-support.php
+Title: Faculty Research Support Programs
+Type: HTML
+
+Faculty Research Support Programs
+Overview
+SJSU and the College of Science (CoS) have identified supporting and stimulating research, especially involving students, as a strategic priority. Accordingly, we have implemented a number of programs to facilitate and encourage research activity. These programs have been funded through a combination of sources, including funds from the Provost's Office, the Division of Research and Innovation, the College of Science, and F&A reinvestment.
+Research Assigned Time Programs
+Assigned Time for Research-Active Faculty
+The University Faculty RSCA Assigned Time Program is a university-wide program intended to fund research-active faculty after their contractual assigned time for research ends (usually after two years at SJSU). Awardees receive 3 WTUs per semester based on their application and five-year RSCA Metric Score. To register or apply for this program, faculty must submit all registration/application materials, including RSCA Metric Data, by the due date that year and each year that they remain in the program. The CoS Metric, version 2.0 is here [pdf].
+The Spring 2025 deadline for applications will be announced soon (usually mid-March), and a link to a Google form for submission will be posted and emailed. Details about application materials will also be announced soon, but will be the same for all faculty applying to join or continue in the RSCA AT program.
+The following groups should submit applications and RSCA Metric Data in Spring 2025:
+- All probationary faculty in the last year of their contractual assigned time should register (usually after two years at SJSU).
+- All research-active tenure-track and tenured faculty (including Chairs) in the RSCA AT program or who would like to join the RSCA AT program should apply.
+University Faculty RSCA Assigned Time Registration/Application materials will all be submitted via a Google form and must include:
+- Cover sheet information, including name, rank, department, college, date of your initial appointment to SJSU,
+and ORCID iD. For information on how to obtain an ORCID iD and set permissions, see
+orcid.org and/or https://libguides.sjsu.edu/ResearchImpact/ORCID. If you need assistance,
+please contact your librarian:
+- Bernd Becker at bernd.becker@sjsu.edu for Biology faculty
+- Ann Agee at ann.agee@sjsu.edu for Chemistry, Mathematics and Statistics, or Physics and Astronomy faculty
+- Lauren Decelle at lauren.decelle@sjsu.edu for Geology faculty
+- Anamika Megwalu at anamika.megwalu@sjsu.edu for Computer Science faculty
+- Peggy Cabrera at peggy.cabrera@sjsu.edu for Meteorology & Climate Science faculty
+- Kathryn Lage at kathryn.lage@sjsu.edu for Moss Landing Marine Labs faculty.
+- Scholarly Agenda: The scholarly agenda should be concise and must include a brief summary aimed at
+an educated lay audience describing the importance of the proposed line of inquiry.
+The Scholarly Agenda must include two parts:Up to one page describing your RSCA Achievements in the past five years or as many years as you have been at SJSU (whichever is less)
+in the areas outlined in the CoS RSCA Metric. Challenges to research, such as the
+pandemic or laboratory moves should also be noted.
+Up to one page describing your RSCA goals, activities, and expected outcomes/products, in line with the CoS RSCA Metric, for the coming 3-year period. - Curriculum Vitae (CV)
+- RSCA Metric Data. Inclusive dates for this year’s submission of RSCA metric data are March 29, 2024 til the 2025 submission due date. If a faculty member has not previously submitted data, they will need to submit data for the past five years, or for as many years as they have been at SJSU, whichever is less.
+The RSCA metric data submitted for the University program will also be used for the College of Science Assigned Time and Just-in-Time Funding programs if funding is available, as submission of RSCA metric data is also required for eligibility for College programs.
+Please email miri.vanhoven@sjsu.edu if you have questions.
+RSCA Assigned Time FAQ
+How Much Assigned Time Will I Receive?
+Faculty in the RSCA AT program will receive 3 WTUs per semester while in the program. Please note that all awards are dependent on annual submission of CoS RSCA Metric data and other required materials, as well as available budget.
+What is the Selection Process?
+Tenure-track faculty finishing their second year at SJSU will be successfully registered in the program if they submit all of their registration materials by the spring 2025 deadline.
+Tenure-track faculty applying to continue in the RSCA AT program must submit application materials by the spring 2025 due date. The Dean of the CoS will make award selections based on an evaluation of the CoS RSCA Metric, which measures past productivity, and the Scholarly Agenda, which includes a forward-looking component. These recommendations will be based 20% on the 5-year average RSCA metric score and 80% on the Scholarly Agenda. Final notice of award will be announced before the end of the 2024-25 academic year.
+Tenured faculty and faculty who are applying for tenure in spring 2025 must submit application materials by the spring 2025 due date. The Dean of the CoS will make award selections based on an evaluation of the CoS RSCA Metric, which measures past productivity, and the Scholarly Agenda, which includes a forward-looking component. These recommendations will be based 80% on the 5-year average RSCA metric score and 20% on the Scholarly Agenda. Final notice of award will be announced before the end of the 2024-25 academic year.
+What is the Duration of the Award, when are Reviews, and what are the Reporting Requirements?
+Faculty will need to apply to continue in the RSCA AT program each year by the due date. The selection process is described above. Continuation in the program will also depend on the budget available.
+Assigned Time for Mentoring Research Students
+The College of Science provides tenured and tenure-track faculty with assigned time for mentoring research students as follows: 0.33 weighted teaching unit (WTU) for each undergraduate research student enrolled in 180 courses and 0.5 WTU for each graduate research student enrolled in 297 or 298 courses (or similar graduate research courses appropriate to the department), with a maximum of 3 WTUs assignable via this mechanism each semester.
+Seed Grants
+Rapid Response Initiative
+AY 25-26 Deadline: Rolling through 06/30/2026
+AY 25-26 Details and Application Link
+Overview:
+The SJSU Division of Research and Innovation has a request for applications (RFA)
+for the Rapid Response Initiative. The purpose of this RFA is to provide a mechanism
+of internal support for Research, Scholarship and Creative Activity (RSCA) that requires
+a rapid turnaround due to special circumstances.
+RSCA (Research, Scholarship and Creative Activity) Seed Grant Program
+2026 Deadline: Sunday, December 7, 2025 at 11:59PM
+2026 Details and Application Link
+Overview:
+The SJSU Office of Research offers the RSCA Seed Grant Program (formerly known as
+the CSU Central RSCA Grant Program) for Unit 3 faculty for their research, scholarship
+and creative activities. Funding is provided by the Division of Research and Innovation
+and, if available, by the CSU Chancellor’s Office. Applicants are invited to submit
+proposals for funding to assist them as they advance an on-going RSCA project or as
+they launch a new avenue of RSCA. Faculty who receive funding through this program
+are expected to submit a report on award results, share their accomplishments at a
+campus-wide event, and serve as a resource for prospective applicants.
+Just-in-Time Grant Program
+Faculty who have submitted RSCA Metric Data to the College of Science may request funds from the Just-in-Time Grant program for a research-related need at any time during the year. Conferences and conference travel are not eligible to be funded through this program, in line with Dean Kaufman's College Budget Update email from April 16, 2024. Just-in-Time requests need only be a brief description of what is needed, how the funds will advance the research agenda of the requester, and a brief budget. Please submit requests to science-research@sjsu.edu with the title "JIT Request". All such requests are reviewed by the CoS Research Committee, which evaluates the merit of the request. Evaluations are forwarded to the Dean for final funding decisions. We endeavor to release Just-in-Time funds according to the following schedule: half in the first quarter, one quarter in the second quarter, one eighth in the third quarter, and one eighth in the final quarter. This method balances providing funds early to maximally stimulate research with retaining some funds to meet unforeseen needs.
+Grant-writing Support Programs
+University Grants Academy
+Spring 2026 Deadline: Sunday, September 21, 2025 at 11:59PM
+Spring 2026 Details and Application Link
+Overview:
+The University Grants Academy (UGA) provides support to faculty members from across
+the campus over the spring semester in writing a federal grant proposal to fund their
+RSCA. Faculty in the College of Science typically apply in their first year at SJSU,
+however all tenure-track and tenured faculty who have not yet received major external
+grants are eligible to apply. Applications are typically due late in the fall semester
+of the academic year, and are announced by email each year.
+Faculty selected for the UGA program receive 3 WTUs of assigned time for writing a grant in spring of the following year, and are placed in cohorts of five. Each cohort meets weekly with a facilitator, who is a faculty member or administrator with expertise in grant-writing in a related discipline or with the agency to which the UGA faculty are applying. Throughout the semester, UGA faculty learn about and write each section of their grant proposal, while receiving feedback from their facilitators as well as internal (SJSU) mentors in their disciplines who they select. UGA faculty also meet the SJSU Research Foundation staff members who will help them through the grant submission process. Toward the end of the semester, the Office of Research even pays the external reviewer of your choice to review your grant proposal and give you feedback on how to improve it!
+SJSU Research Development Group
+The SJSU Research Development Group was formed to help faculty increase their external grant funding. Headed by Dr. Jessica Trask, this group of four Research Development professionals help faculty with federal grant proposal writing and editing at any stage. The Research Development Specialist who supports the College of Science is Anna Dizack <anna.dizack@sjsu.edu>. Find more information here.
+Center for Faculty Excellence and Teaching Innovation
+The Weir/Galm Award Program
+- Purpose: Support RSCA activity, conference attendance, and/or acquisition of RSCA materials. Proposals that address issues of diversity (broadly defined) are preferred.
+- Eligibility: Pre-tenure faculty
+- 2025 Deadline: Monday, December 1, 2025 at 5:00pm
+- 2025 Details and Application Link
+ERFA Faculty Research and Creative Activity Award
+- Purpose: Support RSCA activity, virtual conference attendance, and/or acquisition of equipment related to RSCA
+- Eligibility: All tenure-line faculty and lecturers with 6+ years of continuous service to SJSU
+- 2025 Deadline: Wednesday, December 3, 2025 at 5:00pm
+- 2025 Details and Application Link
+Mindful Teaching Award
+- Purpose: Recognize faculty who incorporate mindfulness practice into the university classroom
+- Eligibility: All faculty
+- 2026 Deadline: Monday, February 9, 2026 at 5:00pm
+- 2026 Details and Application Link

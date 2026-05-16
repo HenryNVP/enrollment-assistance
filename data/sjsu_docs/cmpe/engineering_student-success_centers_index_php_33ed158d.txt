@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/engineering/student-success/centers/index.php
+Title: Centers
+Type: HTML
+
+Centers
+Materials Characterization and Metrology Center [MC]2
+[MC]2 at San Jose State University provides materials imaging and chemical analysis capabilities for applications in various fields of science and engineering. Instruments are located in various buildings across campus.

@@ -1,0 +1,29 @@
+Source: https://www.sjsu.edu/lucasgsb/prospective-students/msfa/msfa-curriculum.php
+Title: MSFA Curriculum
+Type: HTML
+
+MSFA Curriculum
+The Master of Science in Financial Analytics program consists of 30 units.
+Course sessions will be scheduled in eight week sessions with a hybrid mode of offerings: including but not limited to Zoom sessions, in-person, weekend, or evening class sessions – a convenient format for working professionals.
+We offer courses year-round in the Fall, Spring, and Summer. Students will have the flexibility of pursuing the degree track that best suits their schedule.
+MSFA Courses
+For a detailed view on courses and how to plan your academic roadmap, please check out the MSFA sample course schedule.
+Please note that the parenthesis ( ) contains the number of units equivalent to the respective course.
+Core Courses (21 units)
+- BUS 200F - Leadership Communication for Finance Professionals (2)
+- BUS 220 - Financial Accounting (3)
+- BUS 220A - Financial Statement Analysis for Accountants (3)
+- BUS 265F - Silicon Valley Experience for Finance Professionals (1)
+- BUS 270 - Financial Management (3)
+- BUS 270A - Financial Planning and Analysis (3)
+- BUS 270C - Financial Modeling and Data Visualization (3)
+- BUS 270E - Advanced Corporate Finance (3)
+Electives (6 units)
+Elective courses are offered in the following disciplines including but not limited to:
+- BUS 222 - Profit Planning and Control (3)
+- BUS 270B - Financial Derivatives in Corporate Finance (3)
+- BUS 270F - Corporate Finance Analytics (3)
+- BUS 273 - Business Valuation (3)
+- Other BUS electives - Up to one BUS elective course in the MBA or MSAA programs subject to approval by the MSFA Program Director (up to 3 units only)
+Culminating Experience (3 units)
+- BUS 270D - Case Studies in Corporate Finance (capstone) (3)

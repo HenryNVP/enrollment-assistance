@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/researchfoundation/about/osp/program-admin/roles-responsibilities/itss.php
+Title: ITSS Responsibilities
+Type: HTML
+
+ITSS Responsibilities
+The Information Technology Support Services (ITSS) team oversees the enterprise resource planning (ERP) system that supports all functional areas of the Research Foundation and the OSP Funding Alert system. In collaboration with the SJSU campus Information Technology (IT) team, ITSS provides oversight and maintenance for all Research Foundation IT systems and operations, which includes tools for Central Office and project employees to access their timecards and other records as well as online reporting tools for principal investigators.
+Workday login — provides Central Office and project employees easy access to their records such as timecards, check stubs, vacation and sick leave tracking.
+For Research Foundation systems assistance, contact Information Technology Support Services (ITSS).

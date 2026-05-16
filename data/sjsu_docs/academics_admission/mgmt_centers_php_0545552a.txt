@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/mgmt/centers.php
+Title: Centers and Institutes
+Type: HTML
+
+Centers and Institutes
+The School of Management works closely with the Institute for People and Performance and the Global Leadership Innovation Center. Learn more at the links below.
+Institute for People and Performance (IPP)
+Silicon Valley Center for Entrepreneurship
+The Center fosters and entrepreneurial mindset for students and creates connections
+between students, faculty, entrepreneurs, investors and other stakeholders.
+Global Leadership Advancement Center (GLAC)

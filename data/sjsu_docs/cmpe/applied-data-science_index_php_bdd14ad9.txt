@@ -1,0 +1,7 @@
+Source: http://www.sjsu.edu/applied-data-science/index.php
+Title: Department of Applied Data Science
+Type: HTML
+
+The Applied Data Science Department offers academic programs to address the growing workforce demand for AI and applied data science talent with diverse technical skill sets. Students learn to design and deploy intelligent solutions for complex data challenges. They also gain a comprehensive understanding of the principles, methodologies, and technologies of applied data science and artificial intelligence, including generative AI.
+MS in Applied Data Intelligence
+The demand for applied data intelligence, generative AI, and agentic AI professionals is accelerating rapidly. The World Economic Forum’s Future of Jobs Report 2023 notes that demand for AI and Machine Learning Specialists is expected to grow by 40%, or 1 million jobs, while industry research in 2025 shows that generative AI adoption has expanded quickly, with 71% of organizations now using GenAI in at least one business function, and agentic AI is emerging as the next major wave, with 23% of organizations already scaling at least one agentic AI system and Gartner projecting that by 2028, 33% of enterprise software applications will include agentic AI. This fast-changing landscape is driving strong demand for professionals who can design, deploy, and manage intelligent systems, making the MS in Applied Data Intelligence a strong pathway into one of the most dynamic and high-growth areas of AI and data science.

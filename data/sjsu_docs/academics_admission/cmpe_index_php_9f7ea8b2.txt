@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/cmpe/index.php
+Title: Computer Engineering
+Type: HTML
+
+Our Mission
+Located in the heart of Silicon Valley, the Computer Engineering Department at San José State University (SJSU), serves more than 2000 undergraduate and graduate students, and is a leader in engineering education, by offering nationally accredited bachelor’s and master’s degrees that combine rigorous theoretical foundations with hands-on, experiential learning opportunities. We champion cutting-edge research and innovation, partnering closely with local and global technology leaders, government and non-profit partners to offer programs in computer and software engineering, and artificial intelligence. By fostering an inclusive, entrepreneurial, and collaborative culture, we empower our students, faculty, and staff to solve real‑world challenges and drive positive societal change.

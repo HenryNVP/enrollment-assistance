@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/tuition-and-fees/index.php
+Title: Tuition and Fees
+Type: HTML
+
+Tuition and Fees
+Paying for Your Education
+San José State is dedicated to providing affordable access to high-quality education — providing an excellent value for one of the best colleges in the nation and a fraction of the cost of our neighboring Silicon Valley universities.
+Financial Aid and Scholarships
+Many Spartans take advantage of financial aid and scholarships to help pay for their education. To learn about grants, loans, federal work-study options and more, visit the Financial Aid and Scholarship Office.
+Fees are Subject to Change
+The CSU makes every effort to keep student costs to a minimum. Fees listed in published schedules or student accounts may need to be increased when public funding is inadequate. Therefore, CSU must reserve the right, even after initial fee payments are made, to increase or modify any listed fees, without notice, until the date when instruction for a particular semester or quarter has begun. All CSU listed fees should be regarded as estimates that are subject to change upon approval by The Board of Trustees, the Chancellor, or the Presidents, as appropriate. Changes in mandatory systemwide fees will be made in accordance with the requirements of the Working Families Student Fee Transparency and Accountability Act (Sections 66028 - 66028.6 of the Education Code).

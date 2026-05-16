@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/isystems/faq.php
+Title: FAQ (Frequently Asked Questions)
+Type: HTML
+
+FAQ (Frequently Asked Questions)
+-
+How does Management Information Systems (MIS) fit into the College of Business at
+SJSU?
+-
+MIS "lives" in the space that intersects technology and business. We are housed in the College of Business where all undergraduates earn a BS in Business Administration. MIS is one of the concentrations that students select within that degree, just like Finance, Accounting or Marketing, but MIS has its own school, the School of Information Systems & Technology (SISTech), found in BT 250, just off the elevator lobby. We invite you to stop by and learn more.
+-
+-
+What kinds of jobs are there in Information Systems?
+-
+Information Systems professionals work as systems analysts, project managers, systems administrators, etc., communicating directly with staff and management across the organization. These challenging and stimulating jobs require interpersonal communication and business knowledge which mean they can't be as easily outsourced as pure technical jobs like computer programming. Information Systems professionals are also in high demand. Indeed, our MIS graduates often score the highest salaries offered among all the business concentrations in positions desirable employers like HP, Google, eBay and Cisco.
+-
+-
+What is the MIS concentration like?
+-
+MIS students take all the same "core" business courses as any business major - intro to marketing, accounting, finance, etc. - but they also learn database, networking, systems analysis, application development, project management, etc. There's even a "practicum" course - that means you try out your skills and knowledge on a real project for a real sponsor such as the City of SJ Parks Department. There are also MIS electives in Agentic AI, AI for Social Good, Cloud Computing for Data Professionals, Web Computing, and Business Intelligence.
+-
+-
+What about the SISTech faculty?
+-
+Our award-winning SISTech faculty include Ph.Ds. from top Information System programs, including The University of Oklahoma, Texas Tech, and Indiana University, along with practicing SISTech professionals and CIOs from leading companies including IBM, Cisco, EY, and others. SISTech faculty leverage current tech tools in their classes and engage students with real-world experiences and hands-on projects that teach skills highly sought after by today's organizations.
+-

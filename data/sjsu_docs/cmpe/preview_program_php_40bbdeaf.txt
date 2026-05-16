@@ -1,0 +1,18 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14074
+Title: About
+Type: HTML
+
+MS in Artificial Intelligence program provides students with a state-of-the-art educational experience to become outstanding, socially responsible engineers of AI systems. Students will learn the theoretical foundations and gain practical skills to manage and engineer various data forms, to make predictive analyses, to derive actionable insights, and develop intelligent hardware and software systems and related cutting-edge AI technologies. The program will draw on insights from mathematics, statistical analysis, computer science, software engineering, and systems engineering and is, therefore, best suited for students with software/computer engineering, computer science, mathematics, and closely related backgrounds.
+The program offers specializations in Data Science and Autonomous Systems.
+Visit the program website at https://www.sjsu.edu/cmpe/academic/ms-ai/.
+Admission Requirements
+Candidates must meet all university admission requirements . Applicants can be admitted in either classified or conditionally classified standing. If an applicant’s preparation for advanced graduate work is considered inadequate to meet the course prerequisites or other departmental requirements, the conditions will include taking preparatory courses to meet these requirements. These courses will not count as part of the master’s degree program requirements.
+For acceptance by the Department of Computer Engineering , the applicant must satisfy the following requirements:
+- Undergraduate degree in math, physics, computer science, engineering, or a closely related field, equivalent to a four-year U.S. undergraduate baccalaureate degree, with demonstrated college-level courses in programming, data structures, algorithm design, three-semester sequence of calculus, linear algebra and statistics.
+- Undergraduate GPA of 3.0 or higher.
+- If the undergraduate program is not ABET-accredited, GRE is required with a minimum GRE q+v of 305 and GRE AWA of 3.0. GRE q+v minimum higher than 305 may be required for successful admission depending on the number of applicants.
+- International applicants must meet SJSU’s minimum requirements on English-language proficiency tests.
+Advancement to Candidacy
+Students may advance to candidacy after completing all admission conditions and all prerequisites for the culminating experience including the Graduation Writing Assessment Requirement (GWAR) .
+Graduation Requirements
+Students must complete all residency, curriculum, unit, GPA, and culminating experience requirements as outlined in the Graduation Requirements section of the Graduate Policies & Procedures .

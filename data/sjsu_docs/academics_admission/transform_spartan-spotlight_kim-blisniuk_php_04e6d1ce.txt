@@ -1,0 +1,49 @@
+Source: https://www.sjsu.edu/transform/spartan-spotlight/kim-blisniuk.php
+Title: Shaking Things Up
+Type: HTML
+
+Shaking Things Up
+By Brett Bralley
+Photo: Patrick Record
+Kim Blisniuk reveals new information about the biggest earthquake threat Southern California faces
+Ten years ago, two female geologists went for a hike in the Coachella Valley desert along a southern portion of the San Andreas Fault. One of them was Kimberly Blisniuk, now an associate professor of geology at San José State University. The pair spent days in the desert, traversing the landscape, studying its ridges and formations.
+They weren’t sure what they were looking for. The San Andreas is a well-studied fault: The roughly 750-mile geographical rift running the length of most of California is positioned to set off what’s known as the next “Big One”—a massive earthquake predicted to strike Southern California, devastating the Los Angeles area, in particular.
+Still, Blisniuk wanted to see if the terrain revealed something—anything—that might have been missed or not yet understood by geologists before them.
+Sure enough, she found something. And after a decade of work to confirm her discovery, Blisniuk’s research, published March 24 in Science Advances, indicates that the highly anticipated earthquake—which scientists say is about 80 years overdue—might not ravage LA as much as previously thought.
+Persistent to a fault
+To understand Blisniuk’s findings, it’s important to understand how scientists use the San Andreas Fault to predict earthquakes.
+The fault is the geographical meetup spot between the Pacific Plate and the North American Plate. As two plates move past each other over time, they create friction. That friction, or strain, increases, culminating in an earth-jolting release, as explained by the Los Angeles Times.
+But the fault isn’t just one single line—there are several smaller “strands” that make up the San Andreas, the LA Times reports—and each carries a portion of the strain that may cause an earthquake.
+What scientists try to pinpoint is which strand carries the most strain, says the LA Times. That way, they have a better idea of where the next earthquake might strike. They determine this by looking at how fast two sides of a fault move past, or “slip,” relative to one another, also known as the “slip rate.”
+|
+Kim Blisniuk (featured in back of photo) leads SJSU geology students on a trip to the Mission Creek fault strand in the Coachella Valley, where they learned to map active faults. |
+Three particular strands run through Coachella Valley—Garnet Hill, Banning and Mission Creek. It has long been thought that Garnet Hill and Banning carried the most strain, according to Blisniuk’s study, and that strain would trigger a massive 7.8 magnitude earthquake.
+According to the 2008 Great Southern California ShakeOut scenario, that earthquake could cause unprecedented damage to Southern California, including more than 1,800 deaths, 50,000 injuries and $200 billion in damages and other losses.
+But during her desert expedition, Blisniuk was studying the landscape surrounding Pushawalla Canyon, which sits along the Mission Creek strand. Nearby the canyon, “I saw these channels preserved in the landscape,” she recalled.
+They were what the study refers to as “beheaded” channels. Blisniuk hypothesized that they had been moved from their original location in the canyon by a series of earthquakes. If she were correct, that would mean the impending earthquake might shake out a bit differently.
+“This study really challenges the paradigm of what we thought about the history of the faults and which faults were active,” she explained. “We had to have the soundest data to challenge that paradigm.”
+So Blisniuk began the years-long process of exploring her idea.
+The only way you can transform science is by bringing new ideas and perspectives into that science. San José State is promoting an environment that brings in diverse perspectives so that we can transform science. In doing that, we’re also transforming students and transforming an academic institution. —Kim Blisniuk |
+A new forecast
+Her analysis discovered that the three channels, all of which fell within a little more than a mile from the main canyon, ranged from 25,000 to 95,000 years old—indicating her hypothesis was correct. Seismic activity was occurring in an area that was supposed to be dormant.Blisniuk’s research started while she was a postdoc at UC Berkeley; then she moved her work to San José State in 2015 when she joined the Department of Geology.
+Understanding the ages of those channels—plus confirming their origin through soil composition—allowed them to calculate the slip rate for the Mission Creek strand: 21.6 millimeters per year.
+Compare that to the Banning strand, which had a slip rate of 2.5 millimeters per year. That confirmed that Mission Creek was holding the vast majority of the strain across the plate boundary and the San Andreas fault.
+If the Banning strand were to trigger the next massive earthquake, it would likely hit the Los Angeles area hard. But if the Mission Creek strand released the strain instead, it might not be quite as catastrophic.
+“We’ll still get a lot of shaking and a big earthquake in LA,” Blisniuk noted. “But it will be slightly less because it’s on a slightly different route. This earthquake will still be big, but what will change is where the high risk is distributed.”
+What can Southern Californians, or Californians in general, do with this knowledge?
+“The bottom line is that we should always be prepared for an earthquake in California, because we know it will happen,” Blisniuk emphasized. “It's just a matter of when.”
+Photo: Patrick Record
+Transforming earthquake science at SJSU
+As she put it, some may consider it “old school” what Blisniuk does—studying how earthquakes change geography over time by walking the landscape. But her work adds serious value to understanding how seismic activity can impact society and shape our world.
+“I think the concept of field geologists and going out into the field—less and less people are interested in such work or such challenges,” she explained. “You’re hiking all day, you don't know where you’re going, you’re in the middle of nowhere.
+“There’s a lot of funding for earthquake research for monitoring, funding that goes toward buying fancy equipment,” she continued.
+“But there’s less money that goes to scientists or geologists who go and walk and map faults. I hope from my work people see the value of collecting field data to understand earthquake hazard and earthquake geology. That is one of the key factors in understanding these fault systems and understanding earthquakes—we have to collect that data that the earth preserves for us in any way possible.”
+In 2019, Blisniuk received the National Science Foundation CAREER Award, one of the most prestigious honors supporting early-career faculty. The next year, she was awarded SJSU’s Early Career Investigator Award.
+Working at San José State has not only allowed her to delve into important research; it’s allowed her to make a difference in advancing diversity in her field. An immigrant from Vietnam, Blisniuk said she chose to bring her research to SJSU to help serve the university’s Vietnamese community.
+“San José State prides itself on its diversity and engaging diverse student populations, and as faculty in the geology department, I am part of that diversity,” she explained.
+“The field of geological sciences is one of the least diverse, so I think by coming into the field of earthquake geology as a female, as a minority, I have been able to transform what everyone else saw in the field. I came with my own perspectives and viewpoints to reinterpret the science.”
+The university’s decision to hire a woman of color is part of what makes it transformative, she added.
+“The only way you can transform science is by bringing new ideas and perspectives into that science. San José State is promoting an environment that brings in diverse perspectives so that we can transform science. In doing that, we’re also transforming students and transforming an academic institution.”
+Now that the research has been published, Blisniuk suspects this finding will continue to be explored by other researchers as they work to better understand the looming earthquake awaiting Southern California.
+While earthquakes can be devastating and—yes, even to Blisniuk—scary, each one reveals something we didn’t know before, she explained. And she’s excited to be part of that.
+“I want my research to be meaningful,” she said. “Anything I publish, I want it to stand the test of time. I put as much integrity in my science as I can so that in 100 years, when people say I am wrong, they realize I did the best that I could.”

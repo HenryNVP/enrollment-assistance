@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/cob/about/calendar/index.php
+Title: Lucas College Events Calendar
+Type: HTML
+
+Lucas College Events Calendar
+Upcoming Events
+Discover a variety of upcoming events hosted by the Lucas College of Business and our partners.
+- Check out our canvas calendar for all of our events.
+- Take a look at upcoming events hosted by our student organizations.
+- Join us for a graduate program information session along with other events hosted by the Lucas Graduate School of Business.

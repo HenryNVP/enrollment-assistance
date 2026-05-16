@@ -1,0 +1,70 @@
+Source: https://www.sjsu.edu/isystems/what_can_i_put_on_my_resume.php
+Title: What can I put on my resume?
+Type: HTML
+
+Employed Python programming (loops, branching, file access, and error handling) and
+teamwork skills to develop a notebook-based project to access and analyze data from
+the web.
+BUS4 110A - Fundamentals of Management Information Systems
+Leveraged Google Colab and Python data analytics libraries to analyze 10,000 sales
+records and make value-added business recommendations. Designed an AI-powered solution
+for a social problem and developed a pitch presentation for industry professionals.
+BUS4 110B - Systems Analysis & Design
+Conducted an analysis and design of a web store project. Created a baseline project
+plan and analyzed client requirements using AI and Jira. Leveraged AI to brainstorm,
+refine, and design data flows and use case diagrams implemented in Lucidchart. Completed
+the database logical design and evaluated web design UI/UX with Canva AI components.
+BUS4 111 - Networking & Data Communications
+Applied TCP-IP Hybrid/OSI framework, critical thinking, and problem-solving skills
+to design wifi and physical networks using a wifi-inspector, Archiplain and Lucidchart.
+Visualized and tracked network packets using Wireshark. Enhanced data and file security
+utilizing industry-standard, robust encryption methods, including AES_256. Learned
+how to navigate the dark web and safeguard against online fraud and phishing attacks.
+Completed the Juniper Networks Certification training program.
+BUS4 112 - Database Management Systems
+Designed relational databases using ER diagrams and normalization; developed schemas,
+SQL queries, and stored procedures. Explored NoSQL (MongoDB), Big Data, and data warehousing.
+Applied these concepts in the real-world scenarios emphasizing data integrity, transaction
+management, concurrency, security, and disaster recovery for effective database administration
+and modern data-driven decision-making.
+BUS4 119A - Practicum in MIS
+Employed Agile / Scrum methodologies and Jira to develop a value-added information
+systems solution for a real-world client while effectively managing project scope
+and trends, risk, time, cost, quality, human resources, procurement, and client expectations.
+BUS4 119B - Business Strategy & Information Systems
+Leveraged research, problem solving, team management, and communication skills to
+develop a Digital Transformation business case analysis and technology solution plan
+to help drive profitable revenue growth for a non-tech savvy SMB challenged by larger
+competitors.
+MIS Electives (Pick 2)
+BUS4 118A - Cloud Computing for Data Professionals
+Created and configured a Linux virtual machine and Internet-accessible blob container.
+Provisioned and queried an Azure SQL database. Estimated cost of a two virtual machine
+Web app, SQL database, and application gateway. Provisioned an Azure Cosmos DB database
+service, performed DML operations in JSON documents. Trained, evaluated, and deployed
+a machine learning model with Azure Machine Learning.
+BUS4 118B - Business Intelligence
+Developed visual analytics business performance management (BPM) interactive dashboards
+with Tableau to track performance against planned goals. Performed Python predictive
+analytics, supervised /unsupervised learning techniques, simple/ multiple linear regression;
+logistic regression; cluster analysis; association rules mining (market basket analysis);
+decision trees; and sentiment analysis to analyze business use cases.
+BUS4 118I - AI for Social Good
+Designed and developed generative AI prototypes to address real-world community challenges.
+Conducted user testing to evaluate usability and impact, revealing the potential of
+AI to promote social good through accessible and personalized solutions. Presented
+final projects to community stakeholders and industry professionals. Gained hands-on
+experience in generative AI, prompt engineering, conversational design, user experience
+(UX) research, and design thinking.
+Bus4 118S: Special Topics in MIS: Agentic AI for Business
+Applied Agentic AI frameworks, data analysis, data visualization, and machine learning
+tools to real-world use cases in CRM, HR, Marketing, and Supply Chain. Designed, developed,
+and presented a capstone Agentic AI-driven business solution.
+BUS4 118W - Web Based Computing
+Designed and developed full-stack web applications using HTML, CSS, JavaScript, Node.js,
+and React.js. Implemented responsive UI with wireframes and mock-ups. Created web
+applications using RESTful APIs, and integrated AI tools like chatbots. Collaborated
+on real-world projects in a hands-on, technology-intensive development environment
+Other options
+BUS5 181 - Introduction to Entrepreneurship, TECH 171 - Network Security & Prevention
+Management, and other technology courses on a case-by-case basis.

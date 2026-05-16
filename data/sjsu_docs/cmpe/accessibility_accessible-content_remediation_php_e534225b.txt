@@ -1,0 +1,25 @@
+Source: https://www.sjsu.edu/accessibility/accessible-content/remediation.php
+Title: Document Remediation Assistance
+Type: HTML
+
+Document Remediation Assistance
+This page provides a variety of resources to assist with remediation.
+Request Remediation Assistance
+Our team is available to assist with remediation! Please complete the remediation assistance form.
+Request a Consultation
+For website specific remediation, see the IT SJSU Website support page. For course materials, reach out to an Instructional Designer.
+Training
+Document Accessibility Guidance
+Adobe Acrobat Accessibility: This resource provides guidance on remediating PDFs using Adobe Acrobat. However, it is best practice to remediate the original document (Microsoft Word, PowerPoint, or Google Doc) because their accessibility features are much easier to use.
+Canvas Accessibility: Get to know the Canvas accessibility features with this guide.
+Google Documents: GrackleDocs, GrackleSlides and GrackleSheets are Google add-ons available for faculty and staff.
+Microsoft Accessibility: Use this guide to learn more about using the accessibility features in Word and PowerPoint.
+PDF Accessibility: Use the best practices on this page to create accessible PDFs or remediate them.
+Self-Paced Accessibility Courses
+Accessible Canvas Courses: This four-module course guides faculty in creating more accessible and inclusive course material which aligns with SJSU’s mission and Transformation 2030 strategic goals. You’ll find resources on Universal Design for Learning, Adobe Acrobat, Canvas, Google Suite, Microsoft Word, PowerPoint, TidyUp and UDOIT. Use this self-paced course as a resource or complete it to earn a badge! Consider enrolling in Accessible Canvas Courses to create a more inclusive learning experience for our diverse student population!
+WebAIM Accessible Document Training Course: This course reviews accessibility best practices in Adobe Acrobat, Microsoft Word, and Microsoft PowerPoint. It is provided by the CSU Office of the Chancellor and is available to all faculty and staff as well as student assistants who are connected with document remediation.
+Canvas Accessibility Training
+The TidyUp User Guide and TidyUp Training Videos demonstrate how to use TidyUp to remove repetitive or unused course files. This step is a best practice as it minimizes the amount of time to remediate files.
+The UDOIT User Guide and UDOIT Training Videos guide faculty in using UDOIT to remediate Canvas course materials.
+Web Design Accessibility
+Web Design Accessibility at SJSU: If you're editing an SJSU webpage, use this guide to ensure all your content is accessible.

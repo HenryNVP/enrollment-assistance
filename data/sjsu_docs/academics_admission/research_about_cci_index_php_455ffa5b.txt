@@ -1,0 +1,20 @@
+Source: https://www.sjsu.edu/research/about/cci/index.php
+Title: Campus Centers and Institutes
+Type: HTML
+
+Campus Centers and Institutes
+Thought Leadership. Academic Excellence.
+By intentionally blurring the lines between and among disciplines, San José State ignites curiosity and fosters innovation among students, faculty members, industry partners and future employers.
+Featured Centers and Institutes
+Wildfire Interdisciplinary Research Center
+WIRC conducts high-impact wildfire research so that improved tools and policies can be provided to the community and industry stakeholders around the world. WIRC as an interdisciplinary center is focused on both physical and social aspects of wildfire science.
+Spatial Analytics and Visualization Center
+SAVi uses the power of geography and Geographic Information Science to produce impactful research and professional services to serve our university departments, neighborhood organizations, public agencies and private sector entities in Silicon Valley and the Bay Area.
+Mineta Transportation Institute
+To move is to live. The Mineta Transportation Institute aims to increase mobility for all by improving the safety, efficiency, accessibility, and convenience of our nation's transportation system. Through research, education, workforce development and technology transfer, we help create a connected world.
+Ira F. Brilliant Center for Beethoven Studies
+Housed in SJSU's King Library, the Beethoven Center is an extensive library and museum devoted solely to the life, works and accomplishments of Ludwig van Beethoven (1770-1827).
+Martha Heasley Cox Center for Steinbeck Studies
+Also housed in SJSU's King Library, the Steinbeck Center promotes Steinbeck’s goals of empathy and mutual understanding through public programming, free curriculum for teachers, and fellowships for emerging writers.
+Center for Comparative Philosophy.
+The Center for Comparative Philosophy aims to promote and enhance research and scholarship in comparative philosophy, the concerns of which cut across disciplines and areas of philosophy.

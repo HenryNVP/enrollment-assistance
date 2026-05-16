@@ -1,0 +1,99 @@
+Source: https://www.sjsu.edu/registrar/academic-records/ferpa.php
+Title: Student Privacy Rights – FERPA Information
+Type: HTML
+
+Student Privacy Rights – FERPA Information
+What is FERPA?
+The Family Educational Rights and Privacy Act (FERPA) is a federal law that safeguards the privacy of student education records. It grants you specific rights regarding access to your records and control over how your personal information is disclosed.
+The Board of Trustees of the California State University recognizes that the right of privacy is an inalienable right protected by Article 1, Section 1 of the California State Constitution.
+Under the authority delegated to the Chancellor in Title 5, California Code of Regulations, Section 42396.5, Executive Order 796 (January, 2002), has been established to ensure that each campus of the CSU system adheres to policies governing the administration of student records in compliance with the Family Educational Rights and Privacy Act of 1974 (FERPA, 20 U.S.C. 1232g), and related regulations (34 C.F.R. 99).
+Executive Order 796 mandates each campus within the CSU system to establish written procedures for compliance with FERPA and periodically review practices related to student records at least biennially. San José State University has established these procedures to guarantee student education record privacy rights, ensure compliance with federal and state law, and clearly define the processes and practices related to student records.
+Your FERPA Rights and Annual Notification
+San José State University (SJSU) upholds the rights of all current and former eligible students regarding their education records. These rights, consistent with FERPA and EO 796, include:
+- Inspect and Review Your Records – The right to inspect and review their education records within 45 days of submitting a written request.
+- Request a Correction – The right to request the amendment of their education records if they are believed to be inaccurate, misleading, or otherwise in violation of privacy rights.
+- Decide Who Can See Your Information – The right to restrict the disclosure of personally identifiable information contained within their education records, except where FERPA permits disclosure without consent.
+- File a Complaint – The right to file a complaint with the U.S. Department of Education regarding perceived violations of FERPA.
+Annual notification of these rights is provided to all enrolled students through official SJSU communication channels, including university email and our website.
+Key Definitions You Should Know
+To help you understand your rights and to ensure clarity and consistency, SJSU defines the following key terms:
+- Access: Refers to the inspection or review of student education records.
+- Disclosure: The release, transfer, or communication of education records or personally identifiable information to any party by any means.
+- Education Record: Any record directly related to a student maintained by SJSU or a representative of the university, except as explicitly excluded by FERPA (such as personal notes, law enforcement records, medical treatment records, or alumni records).
+- Eligible Student: A student who is 18 years of age or older or who attends a post‑secondary institution at any age. (§ 99.31(a)(8))
+- Legitimate Educational Interest: Exists when university officials need to access a student’s education records to fulfill their professional responsibilities related to student education, services, discipline, or administrative duties.
+- Personally Identifiable Information (PII): Any data or information that could directly identify a student, including name, address, social security number, or any other specific information that would allow the student’s identity to be easily determined.
+- School Official: Includes persons employed by SJSU, trustees of the CSU, students serving on an official committee, such as a disciplinary or grievance committee. A school official also may include a volunteer or contractor outside of SJSU who performs an institutional service of function for which the school would otherwise use its own employees and who is under the direct control of the school with respect to the use and maintenance of PII from education records, such as an attorney, auditor, or collection agent or an employee under contract with SJSU. 34 C.F.R. §99.31(a)(1)
+- Student: Any individual who is or has been enrolled in courses at SJSU. Enrollment begins on the first day of the initial term in which the individual attends classes, whether in person or through virtual instruction.
+Directory Information:
+San José State University designates certain student information as directory information, which may be disclosed without prior written consent unless the student expressly restricts such disclosure. § 99.37. (§ 99.31(a)(11))
+Directory information at SJSU includes:
+- Student Name
+- Campus ID
+- Dates of Attendance/Enrollment
+- Major field(s) of study
+- Degrees Earned and Dates Conferred
+- Honors and Awards Received
+- SJSU E-Mail Address
+- Enrollment Status (Full, Part Time, or Other)
+- Graduate or Undergraduate Status
+- Class/Student Level
+- Participation in Athletics
+You can restrict who sees this information by updating your FERPA disclosure restrictions. Please follow the instructions below to update your FERPA disclosure restrictions in your MySJSU student portal.
+Types and Locations of Student Records
+SJSU maintains different kinds of education records, such as grades, enrollment, and financial aid information. Each type of record has a university official responsible for keeping it secure and only sharing it as allowed by FERPA. If you need to know where a specific record is maintained or who manages it, please contact the Office of the Registrar.
+How to Request Inspection, Correction, or Appeal
+Eligible students requesting to inspect or amend their education records must submit a written request to the appropriate university official. Inspection requests are fulfilled within 45 days. Requests to amend records believed to be inaccurate or misleading should initially be directed to the responsible official. If the amendment request is denied, students may request a formal hearing conducted by the Senior Associate Vice President for Enrollment Management within 45 days of submitting their appeal.
+Grades are generally not subject to the FERPA amendment process; however, SJSU has a procedure in place to address grade concerns. Please refer to the Grade Appeals and Grade Assignments section of the current SJSU catalog for specific information.
+When SJSU Can Share Your Records: Specific Circumstances
+Generally, written consent from students is required before releasing education records. However, under specific circumstances, FERPA allows disclosure without consent, including:
+- Directory information
+- To school officials with legitimate educational interests. (§ 99.31(a)(1))
+- To institutions in which a student seeks enrollment or is enrolled. § 99.34. (§ 99.31(a)(2))
+- To authorized governmental representatives conducting audits or evaluations. (§§ 99.31(a)(3) and 99.35)
+- In connection with financial aid applications. (§ 99.31(a)(4))
+- To accrediting organizations. (§ 99.31(a)(7))
+- To comply with judicial orders or lawfully issued subpoenas. (§ 99.31(a)(9))
+Record of Disclosures
+SJSU maintains a record of all disclosures of education records except for disclosures to students, disclosures with written consent, disclosures of directory information, and disclosures to university officials with legitimate educational interests.
+Solomon Amendment: By law, colleges and universities must share certain information with U.S. military recruiters. If a school does not comply, it could lose federal funding, including some types of student aid. To prevent this, you must block the release of your directory information. Please follow the instructions below to update your FERPA disclosure restrictions in your MySJSU student portal.
+Filing a FERPA Complaint
+Students who believe their FERPA rights have been violated may file a formal complaint with:
+Student Privacy Policy Office
+U.S. Department of Education
+400 Maryland Avenue, SW
+Washington, DC 20202
+FERPA.Complaints@ed.gov
+Records Retention and Permanent Deletion
+San José State University reserves the right to expunge records no longer deemed necessary for educational or administrative purposes, except when such records are under pending requests for inspection or amendment, or as required by applicable retention policies.
+CSU Records Access Policy
+For further details about access to records within the California State University system, please visit the California State University Records Access webpage.
+Online Privacy Notice
+SJSU respects and protects student privacy as required by state and federal laws. Comprehensive details regarding data collection, maintenance, security, and privacy practices related to SJSU websites can be accessed via the university’s privacy notice webpage.
+Resources Links:
+Federal Government (U.S. Department of Education)
+- Protecting Student Privacy—FERPA (StudentPrivacy.ed.gov)
+- FERPA statute and regulatory reference (20 U.S.C. § 1232g; 34 C.F.R. Part 99)
+California Department of Education
+FERPA Summary & Resource Portal (CA Dept. of Education)
+California State University System
+California State University Office of General Counsel (Access to CSU Records)
+Updating Your FERPA Disclosure Restrictions:
+To edit your FERPA Disclosure restrictions, follow these steps:
+-
+- Log in to MySJSU.
+- In the left menu, click Personal Information, then select FERPA Restrictions in the drop-down menu.
+- Click the yellow Edit FERPA/Directory Restriction button.
+- Check the boxes in front of the information you want to restrict.
+- Scroll down and click the yellow Save button at the bottom of the page.
+See Updating FERPA Disclosure Restrictions Guide [pdf] for step-by-step instructions with screenshots.
+Note: Restricting your directory information does not make you anonymous in the classes you are enrolled in.
+Authorization to Release Information
+If you are a current student, you can give permission in MySJSU for a specific person (such as a parent or legal guardian) to speak with certain university offices about your student records, as allowed by FERPA. You can choose from:
+- Admissions
+- Bursar’s Office
+- Financial Aid & Scholarship Office
+- Office of the Registrar
+- University Housing Services
+See the Authorize Access to Your Records (FERPA) Guide for step-by-step instructions.
+If you are a former student and no longer have access to MySJSU, please contact our office to request FERPA access for your designated person. Requests are reviewed on a case-by-case basis.

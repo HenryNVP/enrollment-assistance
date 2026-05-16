@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/admissions/admission-status/index.php
+Title: Admission Status
+Type: HTML
+
+Admission Status
+To view your admission status:
+- Go to one.sjsu.edu and log in to the SJSU App Portal.
+- Click on the MySJSU tile and navigate to Self Service > Student Center > Application Status.
+Undergraduate Application Status Definitions
+Graduate Application Status Definitions

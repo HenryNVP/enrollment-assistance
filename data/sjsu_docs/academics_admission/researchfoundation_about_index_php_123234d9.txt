@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/researchfoundation/about/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Your Partner in the Pursuit of Knowledge
+Since 1932, The San José State University Research Foundation has enthusiastically supported our faculty, staff, and students in all aspects of their research endeavors. Our team helps researchers plan projects, identify funding sources, develop and submit grant proposals, and manage all the business details once the project is funded.
+Learn more about us
+The Research Foundation supports principal investigators on their quest for knowledge. Meet some of the researchers affiliated with San Jose State University and learn more about their groundbreaking and innovative work in our collection of profiles.

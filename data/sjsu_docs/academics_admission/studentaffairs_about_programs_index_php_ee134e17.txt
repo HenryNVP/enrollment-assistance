@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/studentaffairs/about/programs/index.php
+Title: Programs
+Type: HTML
+
+Student Affairs
+Click on the links below to learn more about programs of the Division of Student Affairs at San José State University.
+NASPA Undergraduate Fellows Program (NUFP)
+Student Success Plan
+Outstanding Graduating Senior Awards

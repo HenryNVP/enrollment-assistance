@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/hspm/student-resources/index.php
+Title: Student Resources
+Type: HTML
+
+The faculty are delighted to have you as part of the HTEM family. We look forward
+to working with you to help you reach your professional goals as you find your own
+voice among professors, peers, and those you will network with in your chosen field.
+We bring together the practical, theoretical, and professional components you will
+need to succeed.
+SJSU provides a wide range of co-curricular programs. In addition, the University
+provides academic support programs to facilitate your progress to graduation.

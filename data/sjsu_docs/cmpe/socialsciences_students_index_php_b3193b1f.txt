@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/socialsciences/students/index.php
+Title: Students
+Type: HTML
+
+Students
+Welcome to the College of Social Science! We are so happy to have you here. Find out more about resources and opportunities to guide your success here! We can’t wait to see what you accomplish!
+Prospective Students
+Interested in Applying? Visit this page to learn more about admissions at SJSU.
+Current Students
+Explore resources like academic support, scholarships, and career development opportunities to fuel your success.

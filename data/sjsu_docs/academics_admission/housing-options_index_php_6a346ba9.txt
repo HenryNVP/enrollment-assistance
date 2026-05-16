@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/housing-options/index.php
+Title: Housing
+Type: HTML
+
+Housing
+Your SJSU Home
+Where you live as a student has a big impact on your educational experience. SJSU offers multiple housing options, from traditional residence halls to Greek houses and downtown city apartments. The University Housing Services website provides information to help you find the right living situation for you. You will find a list of on-campus buildings and current rates, as well as resources for securing off-campus housing, common housing FAQs and more.
+On-Campus Rates
+On-campus housing begins at $7,379 annually. Rates include basic utilities (gas/electricity, water and garbage), and WiFi internet access. Meal plans are required for all residents living in our traditional and suite-style residence halls.

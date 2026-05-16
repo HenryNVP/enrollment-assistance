@@ -1,0 +1,7 @@
+Source: https://one.sjsu.edu/
+Title: one.SJSU
+Type: HTML
+
+one.SJSU
+JavaScript is required for this site to function. Please enable JavaScript.
+Home

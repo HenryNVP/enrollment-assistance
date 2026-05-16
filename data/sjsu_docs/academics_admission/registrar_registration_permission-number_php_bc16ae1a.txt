@@ -1,0 +1,27 @@
+Source: https://www.sjsu.edu/registrar/registration/permission-number.php
+Title: Permission Number
+Type: HTML
+
+Permission Number
+A permission number (also known as an “add code”) is a 5 or 6-digit number given to students, by the instructor or department of the course, which enables the student to enroll in a course.
+Students can obtain permission number by contacting instructor in person, via phone or email. If an instructor is not listed for the course, contact the department offering the course.
+Permission numbers are needed when:
+- MySJSU notes "instructor or department consent is required".
+- MySJSU notes "you do not have the prerequisite(s) for a particular course when you attempted to register". If you have completed the course prerequisite, submit an unofficial transcript as proof to the instructor.
+- Class is closed/ full
+Exceptions: Permission numbers can not override these two requirements:
+- WST passing
+- Upper Division Standing (Junior class level, earned 60 or more units)
+How to add a class with a permission number (If you are on waitlist, you will need to drop yourself from waitlist first):
+- Go to MySJSU and start the process to add the class as usual.
+- After selecting the class, you will see a box to enter a permission number:
+- Put the permission number in the box and finish the enrolling steps.
+- Check your class schedule to make sure you added the class successfully.
+- If needed, see step by step with screenshots on how to add a class.
+Note:
+- Permission numbers are given at the discretion of the instructor or department.
+- A unique permission number must be issued to each student
+- Permission numbers do not expire until successfully used by add deadline. See most current Registration calendar for the current date.
+- A permission number is only valid for one specific section of the course. If you want to change sections, you will need a new permission number.
+- Permission numbers can not override time conflicts. Students must request a Time Conflict Consent.
+See SJSU catalog regarding Instructor Consent or Department consent.

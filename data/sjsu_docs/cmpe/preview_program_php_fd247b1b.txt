@@ -1,0 +1,48 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13754
+Title: About
+Type: HTML
+
+The Master of Science in Civil Engineering program is designed for students to specialize in their choice of sub-discipline in Civil Engineering. The Department of Civil and Environmental Engineering offers specializations in Construction Management, Environmental Engineering, Geotechnical Engineering, Structural Engineering, Transportation Engineering, and Water Resources Engineering. Courses are practical-oriented, focusing on content and skills that prepare engineers to enter and/or advance in industry or enter doctoral programs. The program offers coursework in a once-per-week format in the afternoons and evenings to accommodate working individuals who wish to pursue their studies while gaining industry experience. Additional information is available at cee.sjsu.edu.
+Program Educational Objectives and Graduate Program Outcomes
+The graduate program’s educational objectives (PEOs) for Civil Engineering are to
+- Prepare students for their professional careers and licensure by strengthening their knowledge in their specialization (depth) and extending their skills and knowledge base (breadth);
+- Provide students advanced proficiencies for professional practice to enable them to advance in the licensing process and equip them for advancement in their career;
+- Improve students’ research skills and prepare them for further graduate study;
+- Provide students with experience and skills for multi-disciplinary and cross-CE disciplinary practice.
+Four graduate program learning outcomes (PLOs) are aligned with the PEOs and are assessed in individual graduate courses. By the end of the program, students should be able to
+- Apply advanced concepts, theory, and analysis for problem-solving;
+- Synthesize and integrate necessary engineering concepts into engineering solution process;
+- Apply modern tools for computations, simulations, analysis, and design;
+- Communicate effectively.
+Admissions Requirements
+Requirements for Admission to Classified Standing
+Prospective students must apply separately to the university to obtain approval for graduate-level admission and to the department to obtain admission into the MS in Civil Engineering program. In addition to meeting university admission requirements , an applicant must have:
+- A bachelor’s degree in civil engineering
+- A 2.7 grade point average (4.0-based scale)
+Requirements for Admission to Conditionally Classified Standing
+Applicants who do not qualify for classified standing in civil engineering but who meet university requirements for graduate admission and whose academic records or professional achievements and maturity give promise of satisfactory performance in graduate study in civil engineering may, upon approval of a committee of department faculty, be admitted, with specific conditions, as conditionally classified. The conditions must be fulfilled before the student can be advanced to candidacy for the degree. If the conditions are not fulfilled, the program reserves the right to dismiss the student from the program by notifying the Associate Dean of Graduate Studies. This process is known as an administrative academic disqualification (see Section 41300.1, Title 5, California Code of Regulations). Applicants whose bachelor’s degrees are not in civil engineering will be required to take additional courses that will not be counted in the graduate degree program for the MSCE. Details can be obtained on the department website at cee.sjsu.edu/graduate-studies/makeup-requirements.
+English Proficiency Requirements
+If an applicant’s bachelor’s degree is not from a U.S. or Canadian university, a GRE must be taken; minimum scores acceptable for admission are listed on the Graduate Program Test Requirements webpage at GAPE. Applicants from countries in which the native language is not English must achieve a minimum English-language proficiency test score as indicated on the Graduate Program Test Requirements webpage at GAPE.
+Requirements for Advancement to Graduate Candidacy
+Conditionally classified students must satisfy the conditional requirements listed in their letter of acceptance prior to advancing to candidacy. Students who have completed matriculation and achieved classified standing in the MS degree may advance to candidacy after completing a minimum of 9 units of graded work as a graduate student in letter-graded 100 or 200-level courses acceptable to the CE Department. Students must also fulfill other university requirements for advancement to candidacy for the master’s degree as outlined in the Graduate Policies and Procedures section. Candidacy includes the successful completion of the Graduation Writing Assessment Requirement (GWAR) .
+Requirements for Graduation
+University Graduation Requirements
+Students must complete all residency, curriculum, unit, GPA, and culminating experience requirements as outlined in the Graduation Requirements section of the Graduate Policies and Procedures .
+Approved courses may include graduate courses and upper-division elective courses in Civil Engineering and graduate or upper-division courses in other university departments from a list approved by the Civil Engineering Department Curriculum Committee. The maximum number of upper-division undergraduate units that can be applied toward the master’s degree is 15. At least 60% of the courses taken must be letter-graded. No more than 30% of the courses listed for candidacy can be transfer units, including any graduate-level courses taken in the senior undergraduate year at SJSU.
+Upon completion of the degree requirements, the student must have achieved minimum candidacy and SJSU cumulative grade point averages of 3.0 in order to graduate.
+Eligible primary and secondary areas of specialization in civil engineering areas are:
+- Construction Engineering
+- Environmental Engineering
+- Geotechnical Engineering
+- Structural Engineering
+- Transportation Engineering
+- Water Resources Engineering
+Graduation Writing Assessment Requirement
+At SJSU, students must pass the Graduation Writing Assessment Requirement (GWAR) . The GWAR is satisfied with CE 204 or CE 248 for this degree.
+Culminating Experience
+Plan A (Thesis)
+Students choosing this option must complete 6 units of Project and Thesis courses. The student is responsible for securing the commitment of three committee members, in accordance with university policy, to serve as the student’s thesis committee. One faculty member in the CEE department must agree to serve as the thesis committee chair. The thesis must meet university requirements as stipulated in this catalog and in the SJSU Master’s Thesis and Doctoral Dissertation Guidelines. The candidate must pass a final oral defense of the thesis. Meeting thesis standards and passing the oral defense is solely the responsibility of the student and a student who fails to meet these standards will be required to maintain continuous enrollment at the university until the work is complete.
+Plan B (Project)
+Students choosing the Project option must complete 3 units of CE 298 under the advisement of at least one departmental faculty member. The student is also responsible for securing a committee to review the project. The project must culminate in a project report and an oral defense of the project. In addition to the project, the student must select and complete a program in a secondary area of emphasis in consultation with their advisor.
+Plan B (Comprehensive Exam)
+Students choosing this option must sign up for and pass the departmental comprehensive exam, given once per semester, during the final term of study. The student is responsible for applying for graduation prior to signing up for the exam. In addition to the comprehensive exam, the student must select and complete a program in a secondary area of emphasis in consultation with their advisor. The comprehensive exam covers topics in the student’s primary and secondary areas of emphasis. Signing up for the exam does not necessarily meet enrollment requirements for external agencies and cannot be used for that purpose. Students who fail to register for or pass the comprehensive exam in their final term of study will be required to maintain continuous enrollment with the university in subsequent semesters and may be required to complete remedial work.

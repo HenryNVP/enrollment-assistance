@@ -1,0 +1,6 @@
+Source: http://www.sjsu.edu/apex/index.php
+Title: Applied Computing Programming Experiences
+Type: HTML
+
+APEX Mission
+The APEX program aims to expose diverse students to computer programming by embedding Python-based computing modules into existing introductory Statistics and Biology courses. These experiences are intended to de-mystify computer programming and help students better understand the relevance of programming to their interests, in turn helping to inform future educational and career choices in this increasingly digital world.

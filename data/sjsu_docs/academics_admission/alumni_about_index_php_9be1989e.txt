@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/alumni/about/index.php
+Title: About
+Type: HTML
+
+About
+San José State Alumni Association
+Since 1873, the San José State University Alumni Association has endeavored to connect graduates to their alma mater and each other, while adding value to the SJSU degree. Here, you can learn about the organization, its leaders and history.

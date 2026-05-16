@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/registrar/registration/index.php
+Title: Registration
+Type: HTML
+
+Registration
+Enrollment:
+- Registration Basics:
+- Enrollment Appointments
+- Tutorials: How to add/ drop classes
+- Common Registration Issues
+- 1290R registration for graduate students
+- Registration Holds
+- Permission numbers
+- Enrollment Limit and Waitlist (with Automated and Variable Waitlist Unit Process)
+- Swapping Classes FAQs
+- Repeat: How and when to register?
+- Returning Open University Registration
+- Early Registration for Students with Dependents
+Grading:
+- Repeat/ Grade forgiveness
+- Grading options (Credit/ No Credit/ Audit)
+Other Enrollment programs:
+- CSU Fully Online (Fully Online Courses through other CSU campuses)
+- Open University
+- Special Session
+- Special Enrollment Programs: Concurrent | Visitor | Cross Enrollment | Step to College/ Unitrack

@@ -1,0 +1,43 @@
+Source: https://www.sjsu.edu/engineering/student-success/centers/svcgee.php
+Title: Silicon Valley Center for Global Engineering Education
+Type: HTML
+
+Silicon Valley Center for Global Engineering Education
+The Silicon Valley Center for Global Engineering enhances engineering students’ educational experience and career prospects in the global context by cultivating a vital relationship between SJSU and international engineering education institutions. The following activities of the Center are are designed to address the needs of SJSU, Silicon Valley companies, and the global engineering community:
+- Develop, market, and implement global collaborative degree programs international universities
+- Initiates and coordinates global outreach programs around multinational engineering education
+Global Collaborative Degree Programs
+Coordinate the development and implementation of Educational Cooperation Models (ECMs) for the offerings of engineering degree programs to global partner universities.
+Some potential ECMs:
+- Undergraduate ECMs:
+- 1 year at a partner university and 3 years at SJSU
+- 2 years at a partner university and 2 years at SJSU
+- Graduate ECMs
+- 1 year at a partner university and 1.5 years at SJSU
+- 2 years at a partner university and 1 year at SJSU
+Global Outreach Programs
+- Support selected SJSU engineering students to study in foreign countries during the summer sessions through Global Technology Institute.
+- Host annual Summer Institute in Silicon Valley at SJSU for engineering students from U.S. and international universities to participate in seminars, team projects, company visits, cultural trips, etc.
+- Offer Silicon Valley Executive Forum to the international engineering communities with focus on engineering technologies, engineering innovation, and engineering entrepreneurship.
+Global Engineering Institute (GTI)
+The International Innovation and Entrepreneur Leadership workshop offers the opportunity for engineering students to create an innovative product and then develop a business model to market it. You will be working with students from other countries on teams during this workshop. Participants will compile an end project presentation and a report, which will be presented and evaluated by a team consisting of professors and business owners.
+For more information visit the GTI page
+Summer in Silicon Valley (SSV)
+- Participating in a 3 week program during the summer in Silicon Valley with American and international students. This program is packed with innovative and exciting events.
+- Attending speaker sessions to learn from instructors with practical experience in product innovation, technology transfer, marketing strategies, engineering entrepreneurship, and multicultural exchange
+- Engaging in team project activities by collaborating with students from around the globe
+- Comprehending the operation of business enterprise by visiting Silicon Valley high-technology companies
+- Exploring Silicon Valley culture by touring the San Francisco Bay Area
+Visit our SSV page for more information.
+Silicon Valley Executive Forum (SVEF)
+Offer seminars, workshops, conferences, competitions and short courses to the international engineering communities with focus on engineering technologies, engineering innovation, and engineering entrepreneurship.
+Examples of focused topics:
+- Current development and future of green technologies
+- Applications of Big Data, cloud computing and mobile technologies
+- Intelligent transportation system and “smart cities”
+- Sustainability and emerging environment issues
+- New technologies and application in infrastructure management
+- From an engineering idea to a start-up company
+- New technologies in manufacturing and its impact on economy
+- Prospect and impact of new technologies in biomedical industry
+- Engineering education in the US and in the world

@@ -1,0 +1,13 @@
+Source: https://www.sjsu.edu/ee/index.php
+Title: Electrical Engineering
+Type: HTML
+
+Welcome to Electrical Engineering
+San José State University is located in one of the most exciting environments for engineers to learn in: the heart of Silicon Valley. Our Electrical Engineering Department is committed to preparing students like you to innovate and solve the problems of the future. Look through our site to see how you can be part of our program.
+Updates
+Spring 2026 Student Project Symposium
+Spring 2026 Student Project Symposium will be on Monday, May 11, 2026 from 9:00 AM to 12(noon) at SJSU Student Union Ballroom. More than 50 senior and master projects in many EE areas, including embedded systems, machine learning, computer vision, robotics, communications, IoT, nano electronics, power and energy systems, quantum information and computing, etc. will be presented at the event. The event is open to the general public.
+Electrical Engineering Lecturer Pool
+EE Newsletters
+Welcome to a new academic year at the EE Department! Download and read our latest newsletter.
+SJSU hosts numerous events exclusively for EE students. See our calendar to learn when those events are happening and how you can participate.

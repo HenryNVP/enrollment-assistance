@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/acctfin/programs/index.php
+Title: Programs
+Type: HTML
+
+Masters of Science in Accounting and Analytics
+This is a unique one-year graduate cohort experience for students who have an undergraduate
+degree in areas other than accounting. The MSAA program prepares you for a diverse
+and in-demand career in accounting, finance, corporate management, and public or financial
+management. Potential careers include CPA, Managing Partner, Certified Management
+Accountant, Personal Financial Planner, Tax Accountant, Controller, or CFO, but this
+degree prepares you for nearly anything in the business world.

@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/acctfin/student-resources/index.php
+Title: Student Resources
+Type: HTML
+
+Jack Holland Student Success Center
+The central advisement office for all undergraduate business majors. JHSSC assists
+with academic planning, the graduation application process, understanding college
+and university policies and procedures, career coaching, and advice for students on
+academic probation or those disqualified.

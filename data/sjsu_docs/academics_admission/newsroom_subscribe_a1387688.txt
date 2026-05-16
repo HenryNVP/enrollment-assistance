@@ -1,0 +1,5 @@
+Source: https://blogs.sjsu.edu/newsroom/subscribe
+Title: Subscribe
+Type: HTML
+
+Subscribe SJSU NewsCenter Newsletter Sign up for weekly emails to get the latest SJSU NewsCenter stories delivered to your inbox. Please, insert a valid email. Thank you, your email will be added to the mailing list once you click on the link in the confirmation email. Your Email Leave this field blank Spam protection has stopped this request. Please contact site owner for help. This form is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.

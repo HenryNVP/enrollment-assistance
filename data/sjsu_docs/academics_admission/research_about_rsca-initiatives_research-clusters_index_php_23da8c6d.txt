@@ -1,0 +1,23 @@
+Source: https://www.sjsu.edu/research/about/rsca-initiatives/research-clusters/index.php
+Title: Research Clusters Initiative
+Type: HTML
+
+Research Clusters Initiative
+The Office of Research is proud to support the Research Clusters Initiative, which intentionally brings SJSU researchers, scholars, and practioners together to tackle large-scale problems that require multidisciplinary approaches. With a team-based perspective, the research clusters will facilitate:
+-
+Interdisciplinary research collaboration,
+-
+Engagement with external partners, and
+- Strategic large-scale funding opportunities.
+Capitalizing on faculty expertise and hiring themes, the research clusters aim not only to expand our research enterprise, but also to provide research as opportunities for experiential learning and workforce development.
+The activities of the research clusters are supported by Division of Research and Innovation staff, college associate deans of research, and University Grants Academy Team Cluster funding.
+AY2025-2026 Research Cluster Themes
+ArtificiaI Intelligence and Machine Learning: This Cluster will advance fundamental and applied research in AI and ML, connecting researchers from computer science, engineering, health, and the humanities to unlock new perspectives on AI challenges. In addition to shaping real-world AI applications, this Cluster prioritizes the ethical considerations of AI and how this technology can contribute to social good.
+Community Engaged Learning: This Cluster fosters interdisciplinary research through the lens of community-engaged learning, seeking solutions to inequalities around race, gender, class, and other historically marginalized groups. Participants in this Cluster will translate RSCA into solutions by centralizing and expanding existing relationships with organizations, local governments, and communities and creating new relationships that leverage the strength of our teams for more significant impact.
+Innovations and Equity in Advancing Health: This Cluster brings together a diverse range of expertise to address health disparities and inequities, including the complex combination of social, economic, and cultural factors that limit access to healthcare in underserved communities. Participants in this Cluster will develop interdisciplinary solutions to build trust among historically marginalized populations and bridge the gap between healthcare discoveries and delivery.
+| Research Cluster Theme | Cluster Lead |
+| Artificial Intelligence and Machine Learning | Magdalini Eirinaki |
+| Community Engaged Research | Ellen Middaugh |
+| Innovations and Equity in Advancing Health | Joe Grzywacz |
+Register for more information!
+Do you have suggestions for future research cluster themes? Please share your ideas by emailing officeofresearch@sjsu.edu.

@@ -1,0 +1,13 @@
+Source: https://www.sjsu.edu/engineering/programs/undergrad.php
+Title: Undergraduate Programs
+Type: HTML
+
+Undergraduate Programs
+Chemical and Materials Engineering
+Civil and Environmental Engineering
+Electrical Engineering
+Industrial and Systems Engineering
+BS, Industrial and Systems Engineering
+Minor, Statistical Quality Engineering
+BS, Industrial and Systems Engineering
+Minor, Statistical Quality Engineering

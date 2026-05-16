@@ -1,0 +1,25 @@
+Source: https://www.sjsu.edu/registrar/registration/registration-holds.php
+Title: Registration Holds
+Type: HTML
+
+Registration Holds
+Before the registration starts, check for any holds that may prevent you from registering. Follow the steps below to find out who to contact and how to resolve it.
+- Sign in to one.sjsu.edu and click on the tile for MySJSU.
+- Your Student Center will be the first page that appears.
+- You can click the "Holds" from the left navigation pane or click the "Holds" button on the top.
+4. Your Holds page will show any holds placed on your record. Click on each hold link under “Hold Item” column for more information:
+5. The reason, contact information and instructions to resolve the hold will be displayed.
+6. Contact the department that placed the hold
+7. After the issue is resolved, the department will remove the hold from your record
+so you can proceed with your registration. This may take several days.
+Common holds include:
+| Hold | What does it do? | Why is it placed? | What do I do to have it removed? |
+| Documents Outstanding | Prevents you from enrolling in classes | You have not submitted admission documents (previously requested by Graduate or Undergraduate Admissions) required to verify your admission. | Please forward the official document(s) listed on your MySJSU To Do List immediately or follow the instructions above to find contact information. |
+| International Student Insurance | Prevents you from enrolling in classes | F1 and J1 students must purchase the University approved health insurance plan before enrollment. | Purchase the University approved health insurance, see details or contact ISSS office. |
+| Measles, Mumps, Rubella (MMR) or Hepatitis Immunization | Prevents you from enrolling in classes | You must submit proof of required immunization | Submit proof of immunization. Visit Immunization website for info. |
+| Past Due Charges | Prevents you from enrolling in classes and receiving your diploma | There is a past due amount in your account. | Pay outstanding balance. Visit Bursar's office website for methods of payment and payment instructions. |
+| Academic Notice Advising | Prevents you from enrolling in classes | You are on academic notice. | You must meet with an advisor before registering for classes.
+|
+| College or Major Specific Advising | Prevents you from enrolling in classes | You must meet with an advisor prior to enrollment | Click on the link for this hold in MySJSU for specific contact information |
+| Sexual Assault Prevention | Prevents you from enrolling in classes | You have not completed the Sexual Assault Prevention training required for all students | Follow the instructions posted at Sexual Violence Prevention Online Training Programs |
+| Alcohol and Drug Abuse Prevention | Prevents you from enrolling in classes | You have not completed the AlcoholEdu training required for all students. | Follow the instructions posted at Online Training Programs |

@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/giving/tower-foundation/index.php
+Title: SJSU Tower Foundation
+Type: HTML
+
+Tower Foundation is SJSU's auxiliary organization dedicated solely to philanthropy.
+Established to encourage connections between alumni, donors and the community, the
+Tower Foundation is dedicated to growing the university's endowment through donations,
+bequests and prudent investment management.

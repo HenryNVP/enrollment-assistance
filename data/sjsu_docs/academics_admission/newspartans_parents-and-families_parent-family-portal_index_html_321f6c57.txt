@@ -1,0 +1,12 @@
+Source: http://www.sjsu.edu/newspartans/parents-and-families/parent-family-portal/index.html
+Title: Multiple Choices
+Type: HTML
+
+Multiple Choices
+The document name you requested (
+/newspartans/parents-and-families/parent-family-portal/index.html
+) could not be found on this server. However, we found documents with names similar to the one you requested.
+Available documents:
+/newspartans/parents-and-families/parent-family-portal.php/index.html
+(common basename)
+Apache Server at www.sjsu.edu Port 443

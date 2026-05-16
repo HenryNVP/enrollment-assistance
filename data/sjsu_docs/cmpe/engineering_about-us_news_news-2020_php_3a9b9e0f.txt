@@ -1,0 +1,17 @@
+Source: https://www.sjsu.edu/engineering/about-us/news/news-2020.php
+Title: 2020 College of Engineering News
+Type: HTML
+
+2020 College of Engineering News
+SJSU Materials Engineering Designs Shine at Technical Meeting
+April 8, 2020
+Materials Engineering undergraduates from San Jose State University participated in a virtual technical presentation at the November joint technical meeting hosted by the Santa Clara Valley chapter of ASM International and the Northern California chapter of SAMPE, the world’s largest associations of metals and composites-centric materials engineers and scientists.
+SJSU Professor Badawy is Enlightening Photovoltaic Convertors
+April 10, 2020
+How would you like your residential solar photovoltaic system to operate at maximum efficiency, regardless of whether shade hits your solar panels? SJSU Electrical Engineering professor Mohamed Badawy and his students have created a differential power-processing architecture for a partially shaded photovoltaic string that could increase the extracted amount of solar energy by 15-30% compared to conventional systems.
+New MS program in Artificial Intelligence Coming in Fall 2020
+April 10, 2020
+The Davidson College of Engineering is launching a new Masters of Science program in Artificial Intelligence (AI) in fall 2020. The first cohort of the MSAI program will be offered through Engineering Extended Studies with one of the College of Engineering’s off-campus corporate partners.
+New Study Presents Mathematical Models to Pre-empt Gerrymandering
+April 8, 2020
+The unfair and non-competitive political redistricting process known as gerrymandering could be solved using new mathematical models and computer implementation, according to a recent study by a San Jose State University research team that appeared in Computers & Industrial Engineering, an Elsevier publication.

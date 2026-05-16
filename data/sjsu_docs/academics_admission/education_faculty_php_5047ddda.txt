@@ -1,0 +1,19 @@
+Source: https://www.sjsu.edu/education/faculty.php
+Title: Faculty
+Type: HTML
+
+Connie L. Lurie College of Education
+Department of Child and Adolescent Development
+Contact ChAD at childdev@sjsu.edu or call at 408-924-3718
+Department of Communicative Disorders and Sciences Faculty
+Contact CDS at communicative-disorders-sciences@sjsu.edu or call us at 408-924-3688
+Department of Counselor Education Faculty
+Contact us at counselor-ed@sjsu.edu or call us at 408-924-3634
+Department of Educational Leadership Faculty
+Contact us at edleadership@sjsu.edu or call us at 408-924-3616
+Department of Special Education Faculty
+Contact us at specialed@sjsu.edu or call us at 408-924-3700
+Department of Teacher Education Faculty
+Contact us at teacher-education@sjsu.edu or call us at 408-924-2300
+EdD Leadership Program Faculty
+Contact us at edd-leadership@sjsu.edu or call us at 408-924-4098

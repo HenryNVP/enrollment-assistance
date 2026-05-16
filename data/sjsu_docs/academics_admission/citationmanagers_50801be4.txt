@@ -1,0 +1,26 @@
+Source: https://library.sjsu.edu/citationmanagers
+Title: Dr. Martin Luther King, Jr. Library: Citation Managers: Getting Started
+Type: HTML
+
+What is a Citation Manager?
+Citation managers such as Zotero and Paperpile are programs that allow the users to collect, organize, and cite sources. They also allow for collaboration and some provide the ability to store and annotate PDFs within the system.
+Why should you use a citation manager?
+-
+Organize sources using folders, tags, and even group libraries for collaboration with people across the world.
+-
+Many have browser extensions or integration with library software to make it easy to collect items when you research so you don't forget about the paper you saw 10 pages ago.
+-
+Many integrate with Google Docs and/or Microsoft Word to make it easy to cite sources while writing.
+Comparing Citation Managers
+SJSU King Library supports PaperPile and Zotero. Use the table below to compare features and choose the citation manager that will fit your needs.
+| Name | Zotero | PaperPile |
+| Desktop or Web | Desktop, with online library and browser extension; iOS and Android apps available | Web-based; Chrome-specific; iOS and Android apps available |
+| Cost | Free to everyone | Free to SJSU users |
+| Storage | 300mb standard; can pay for more | unlimited; uses Google Drive |
+| Write’n’cite integration | Word, Google Docs, and LibreOffice | Google Docs & Word |
+| Citation Styles | 10,000+ | 10,000+ |
+Compare all available citation managers here.
+Note: Chromebook users should choose a web-based citation manager.
+Not Ready for Commitment? Try ZBib from Zotero!
+ZoteroBib, or ZBib, is a free citation generator from Zotero.
+Tired of citation generators that are full of ads or ask for payment? Powered by the same technology behind Zotero, ZoteroBib lets you seamlessly add items from across the web — using Zotero’s unmatched metadata extraction abilities —and generate bibliographies in more than 9,000 citation styles. There’s no software to install or account to create, and it works on any device, including tablets and phones. Your bibliography is stored right on your device —in your browser’s local storage — unless you create a version to share or load elsewhere, so your data remains entirely under your control. (Source)

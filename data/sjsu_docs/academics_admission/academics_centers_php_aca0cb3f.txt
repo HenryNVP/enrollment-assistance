@@ -1,0 +1,18 @@
+Source: https://www.sjsu.edu/academics/centers.php
+Title: Centers and Institutes
+Type: HTML
+
+Centers and Institutes
+Thought Leadership. Academic Excellence.
+By intentionally blurring the lines between and among disciplines, San Jose State ignites curiosity and fosters innovation among students, faculty members, industry partners and future employers.
+Big Data and Cybersecurity Center
+The Silicon Valley Big Data and Cybersecurity Center supports the development of a broadly informed and well prepared citizenry and workforce who understand the security, privacy and policy challenges of a highly integrated, information-rich world, and who have an appreciation of how big data methods can be used to gather, extract and present information.
+The Center for STEM Education is a collaborative effort dedicated to increasing the capacity of teachers to deliver effective instruction in science, technology, engineering, and mathematics (STEM); inspiring and mentoring youths to enter and excel in the STEM career pipeline; and inspiring and supporting SJSU STEM students to mentor youth in STEM-related endeavors.
+Silicon Valley Center for Entrepreneurship
+The Silicon Valley Center for Entrepreneurship is dedicated to cultivating and supporting entrepreneurs and promotes entrepreneurship through knowledge dissemination, collaborative partnerships and activities such as lectures and fairs.
+Ira F. Brilliant Center for Beethoven Studies
+Housed in SJSU's King Library, the Beethoven Center is an extensive library and museum devoted solely to the life, works and accomplishments of Ludwig van Beethoven (1770-1827).
+Martha Heasley Cox Center for Steinbeck Studies
+Also housed in SJSU's King Library, the Steinbeck Center promotes Steinbeck’s goals of empathy and mutual understanding through public programming, free curriculum for teachers, and fellowships for emerging writers.
+Center for Comparative Philosophy
+The Center for Comparative Philosophy aims to promote and enhance research and scholarship in comparative philosophy, the concerns of which cut across disciplines and areas of philosophy.

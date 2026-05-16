@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/professional/events.php
+Title: Events
+Type: HTML
+
+Announcement
+New Program - MS in Speech-Language Pathology
+San José State University now offers an online MS in Speech-Language Pathology. Through rigorous coursework and clinical practicum, students are equipped to meet the needs of our culturally and linguistically diverse community. Join us to make a meaningful impact!
+MS in Speech-Language PathologyEvents
+Register for upcoming events to learn more about the programs you are interested in.
+Speech Language Pathology (MS)
+- SPEAKS Open House

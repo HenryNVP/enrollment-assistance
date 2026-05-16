@@ -1,0 +1,16 @@
+Source: https://sjsu.edu/police/emergency-preparedness/spartan-safe.php
+Title: Spartan Safe App
+Type: HTML
+
+Spartan Safe App
+Spartan Safe is the official safety app of San José State University, integrating the campus’ safety and security systems into an accessible and easy-to-use app. The Emergency Management department, a unit of UPD, has worked to develop a unique app that provides students, faculty and staff with added safety on the campus, with features including:
+- Police/Fire/EMS: Contact the relevant services for all emergency and non-emergency safety concerns at SJSU.
+- Mobile Bluelight: This feature sends your location to UPD in real-time in case of a crisis and connects you with emergency dispatch.
+- King Library Security: Report criminal activity or safety concerns happening at the King Library.
+- Friend Walk: Send your live location to a friend to monitor your safety until you reach your destination.
+- Report a Tip: Suspicious activity, prior criminal activity or any safety concerns.
+- Safety Escort/Safe Ride Program: Easy access to request to be accompanied by a police officer or shuttled to a destination within a designated radius around campus.
+- Parking Information: Access parking information, see parking garage capacities, and access transportation solutions.
+- Resources and Information: Access various resources for emergency response, preparedness, and support.
+A note on immigration-related activities
+SpartanSafe will be used to deliver notifications to the campus community - in addition to email - in the event of confirmed federal immigration enforcement activities. Download SpartanSafe and ensure push notifications are turned on. Learn more on the Immigration Resources website.

@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/engineering/about-us/deans-profile.php
+Title: Dean’s Profile
+Type: HTML
+
+Dean’s Profile
+Dr. Sheryl Ehrman has served as the Don Beall Dean of the College of Engineering at San Jose State University since 2017. As dean, she oversees 26 academic programs, delivered by 290 faculty and instructors, that serve 6500+ students, as well as the college of engineering's growing research enterprise. She has cultivated strong relationships between the university and Silicon Valley companies, hired award-winning engineering faculty, and established new speaker series and career-prep incentive programs for the college's students. On her watch, the percentage of female engineering professors has grown to one of the highest in the country.
+Before her current role, Dean Ehrman served as Keystone professor and chair of the Department of Chemical and Biomolecular Engineering at the University of Maryland, College Park. She is a licensed professional engineer in the state of Maryland. Dean Ehrman has a Ph.D. in Chemical Engineering (Aerosol Science and Technology with a minor in Atmospheric Science) from UCLA and a B.S. Chemical Engineering from U.C. Santa Barbara.
+Dean Ehrman served as a visiting scientist with the National Institute of Standards and Technology, in Maryland and as a National Science Foundation-sponsored post-doctoral fellow at the Paul. Scherrer Institute, in Switzerland. In 2006, she was named a Fulbright Scholar and visiting associate professor at the Indian Institute of Technology, Bombay, where she engaged with students and faculty in the Department of Chemical Engineering. She served as a Fulbright Alumni Ambassador from 2013-16.

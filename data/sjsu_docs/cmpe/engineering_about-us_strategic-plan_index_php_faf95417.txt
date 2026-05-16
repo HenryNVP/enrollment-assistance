@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/engineering/about-us/strategic-plan/index.php
+Title: Strategic Plan
+Type: HTML
+
+Strategic Plan
+Mission
+Our mission is to advance the field of engineering through research, innovation, and inclusive pedagogy and empower our diverse community of students to become ethically-minded engineers and leaders in Silicon Valley and beyond.

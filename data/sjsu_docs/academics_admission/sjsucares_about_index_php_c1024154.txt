@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/sjsucares/about/index.php
+Title: About
+Type: HTML
+
+About
+Mission: We partner with students on overcoming barriers to their basic needs and well-being by offering holistic and personalized support, resources, and referrals.
+Vision: On their path toward academic success, all students have access to a just and equitable environment where they can utilize resources and feel empowered to secure their well-being and basic needs.
+To request assistance from us, fill out and submit a Request for Assistance Form. Once you submit a request for assistance, we will contact you within one business day.

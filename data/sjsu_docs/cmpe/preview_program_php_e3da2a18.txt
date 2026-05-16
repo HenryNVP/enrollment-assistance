@@ -1,0 +1,39 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13939
+Title: About
+Type: HTML
+
+The MSSE program, offered by the Department of Computer Engineering , provides students with an educational experience that builds on traditional computer science and engineering and takes an integrative approach to software engineering. The program integrates the forces shaping software development, including emerging technologies, with the understanding of rapidly changing technologies and architectures and their influence on software engineering processes, where large-scale design is pre-eminent, service and component integration is the standard mode of development, and there is increased globalization of the software development workforce.
+The program offers specializations in Enterprise Software Technologies, Cloud Computing and Virtualization, Software Systems Engineering, Data Science, Cybersecurity and Networking Software.
+Class schedules are designed for the convenience of employed engineers who wish to pursue graduate work on a part-time basis.
+The MSSE Program welcomes students with undergraduate degrees in other engineering or science disciplines that have strong programming skills.
+Program Website: https://www.sjsu.edu/cmpe/academic/ms-software-engineering/.
+Educational Objectives of the Graduate Program
+To provide MSSE graduates with the ability to:
+- Acquire advanced knowledge of the practice of software engineering, from vision to analysis, design, validation, and deployment.
+- Tackle complex engineering problems and tasks, using contemporary engineering principles, methodologies, and tools.
+- Demonstrate leadership and the ability to participate in teamwork in an environment with different disciplines of engineering, science, and business.
+- Understand the ethical, economic, and environmental implications of their work, as appropriate.
+- Advance successfully in the engineering profession and sustain a process of life-long learning in engineering or other professional areas.
+- Communicate effectively in both oral and written forms.
+Admissions Requirements
+Candidates must meet all university admissions requirements . Applicants can be admitted in either classified or conditionally classified standing. If an applicant’s preparation for advanced graduate work is considered inadequate to meet the course prerequisites or other departmental requirements, the conditions will include taking preparatory courses to meet these requirements. Such courses will not count as part of the master’s degree program requirements.
+Applicants may be considered for admission with conditionally classified standing if they have a BS degree in any engineering or science discipline from an accredited institution. Students with conditionally classified standing will take a series of core programming courses based on their evaluation by the MSSE Graduate Advisor.
+For admission with classified standing, an applicant must possess a BSSE or BSCS degree from an accredited institution with a grade point average of 3.0 or better.
+The admission letter will explain required coursework, terms and conditions for removing deficiencies and attaining classified standing.
+GRE scores must be submitted if an applicant’s bachelor’s degree is not from an ABET-accredited U.S. university degree program. Under some circumstances, a waiver of the GRE test requirement will be granted. Descriptions of the minimum GRE scores acceptable for admission and the conditions for a waiver are listed on the admissions requirements webpage. In addition, applicants who do not possess a degree from a U.S. university must achieve a minimum English-language proficiency test score as indicated on the GAPE website.
+Requirements for Advancement to Graduate Candidacy
+Students may advance to candidacy after completing all prerequisites assigned during admissions, the degree core courses, specialization courses, and the Graduation Writing Assessment Requirement (GWAR) . MSSE program course requirements and the links to specialization course requirements are listed at www.sjsu.edu/msse.
+Requirements for Graduation
+University Graduation Requirements
+Students must complete all residency, curriculum, unit, GPA, and culminating experience requirements as outlined in the Graduation Requirements section of the Graduate Policies and Procedures .
+MS - Software Engineering Graduation Requirements
+The Computer Engineering Department offers courses designed to provide a flexible curriculum structure that allows students to follow a course of study to meet their individual career goals. As shown below, the program consists of 33 semester units of 200-level courses with a cumulative GPA of 3.0 or better. At least 27 units must be 200-level software engineering courses, and undergraduate coursework will not count towards the master’s degree unless approved by the MSSE Graduate Advisor. A detailed description of elective class requirements can be found at www.sjsu.edu/msse. Students may further their degree by adding internships (CMPE 298I ) to their plan of study.
+Graduation Writing Assessment Requirement
+At SJSU, students must pass the Graduation Writing Assessment Requirement (GWAR) .
+This requirement is satisfied by passing CMPE 294 or ENGR 200W or CMPE 295W .
+Culminating Experience (Plan A or Plan B)
+All students must complete one of the following culminating experiences: thesis or project. Theses and projects are completed under the supervision of an advisor.
+Plan A (Thesis)
+A master’s thesis includes original research on a topic approved by the thesis committee and must meet university requirements as stipulated in this catalog and in the SJSU Master’s Thesis and Doctoral Dissertation Guidelines. It undergoes a thorough review and revision process under the guidance of the candidate’s thesis committee chair with the assistance of the thesis committee.
+Plan B (Project)
+A master’s project is a research or development effort performed by a student individually on a topic chosen by mutual agreement between an advisor and the student. The choice of project topic is also approved by the Graduate Advisor. The individual student projects could be distinct components of a larger integrated project performed by a team of students. At the end of CMPE 295B , a project report is submitted for department review, and students present their project work in a department project exposition.

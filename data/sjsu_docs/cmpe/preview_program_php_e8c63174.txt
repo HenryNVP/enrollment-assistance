@@ -1,0 +1,42 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13770
+Title: About
+Type: HTML
+
+The MS-CMPE program provides students with an educational experience that combines electrical engineering and computer science with the best of academia, the high-tech industry, and Silicon Valley. The high-tech industry increasingly requires engineers to be equipped with both hardware and software development knowledge and skills. The program provides in-class theory with hands-on hardware design and software development exercises to give students the skills necessary to create contemporary microelectronic products that are typically embedded computing systems containing both hardware and software. Graduates with an MS in Computer Engineering can expect to find significant opportunities in digital and computer hardware design and verification, system-level software development, and prototyping and testing as well as technical support and marketing.
+Class schedules are designed for the convenience of employed engineers who wish to pursue graduate work on a part-time basis.
+For more information, visit https://www.sjsu.edu/cmpe/academic/ms-cmpe/.
+Educational Objectives of the Graduate Program
+To provide MS CMPE graduates with
+- advanced knowledge of the practice of computer engineering, from vision to analysis, design, validation, and deployment.
+- the ability to tackle complex engineering problems and tasks, using contemporary engineering principles, methodologies, and tools.
+- leadership skills and the ability to participate in teamwork in an environment with people of different disciplines of engineering, science, and business.
+- understanding of the ethical, economic, and environmental implications of their work, as appropriate.
+- the ability to advance successfully in the engineering profession and sustain a process of life-long learning in engineering or other professional areas.
+- the ability to communicate effectively in both oral and written forms.
+Admissions Requirements
+Candidates must meet all university admissions requirements . Applicants can be admitted in either classified or conditionally classified standing. If an applicant’s preparation for advanced graduate work is considered inadequate to meet the course prerequisites or other departmental requirements, the conditions will include taking preparatory courses to meet these requirements. These courses will not count as part of the master’s degree program requirements.
+For acceptance by the Department of Computer Engineering , the applicant must satisfy the following requirements:
+- Academic Background
+An applicant must have a degree equivalent to a four-year U.S. undergraduate baccalaureate degree with a GPA of 3.25 (B+) or higher in a computer-hardware related field, such as computer engineering or electrical engineering. Those with backgrounds and interests in software development should consider the MS in Software Engineering program. They will receive lower priority in admissions into the MS-Computer Engineering program than those with hardware backgrounds and interests.
+- Standard Test Scores
+An applicant without a baccalaureate degree from an accredited university in the United States must meet SJSU’s minimum requirements on an English-Language Proficiency Exam (TOEFL or equivalent; please visit the Graduate Program Test Requirements website at GAPE for more information). The GRE is required of any applicant whose bachelor’s degree was from a non-ABET-accredited program or whose bachelor’s degree GPA was beneath 3.0. Under rare circumstances, usually involving a minimum of 5 years of employment in hardware development, applicants are eligible for a waiver of the GRE test requirement.
+Requirements for Advancement to Graduate Candidacy
+Students may advance to candidacy after completing all admission conditions and all prerequisites for the culminating experience (refer to the MS-CMPE Student Handbook) including the Graduation Writing Assessment Requirement (GWAR) . CMPE 294 satisfies the requirement in this program, although ENGR 200W will also be accepted. If a student qualifies for a university-approved GWAR waiver, they must select an additional elective class to achieve the 33-unit program requirement.
+Requirements for Graduation
+University Graduation Requirements
+Students must complete all residency, curriculum, unit, GPA, and culminating experience requirements as outlined in the Graduation Requirements section of the Graduate Policies and Procedures .
+MS - Computer Engineering Graduation Requirements
+To obtain an MS degree in Computer Engineering, a student must meet the following requirements:
+- achieve a classified student status, i.e., a conditionally admitted student must meet the admission conditions specified in the student’s admission letter;
+- complete all course requirements leading up to the culminating experience courses, as listed below.
+- complete 33 semester units of 200-level courses with a cumulative GPA of 3.0 or better. At least 27 units must be 200-level Computer Engineering courses.
+Undergraduate coursework does not count towards the master’s degree. Students may enhance their degree by adding internships (CMPE 298I ) to their plan of study.
+Graduation Writing Assessment Requirement
+At SJSU, students must pass the Graduation Writing Assessment Requirement (GWAR) .
+This requirement is satisfied by passing CMPE 294 or ENGR 200W .
+Culminating Experience (Plan A or Plan B)
+All students must complete one of the following culminating experiences: thesis or project. Theses and projects are completed under the supervision of an advisor.
+Plan A (Thesis)
+A master’s thesis includes original research on a topic approved by the thesis committee and must meet university requirements as stipulated in this catalog and in the SJSU Master’s Thesis and Doctoral Dissertation Guidelines. It undergoes a thorough review and revision process under the guidance of the candidate’s thesis committee chair with the assistance of the thesis committee.
+Plan B (Project)
+A master’s project is a research or development effort performed by a student individually on a topic chosen by mutual agreement between an advisor and the student. The choice of project topic is also approved by the Graduate Advisor. The individual student projects could be distinct components of a larger integrated project performed by a team of students. At the end of CMPE 295B , a project report is submitted for department review, and students present their project work in a department project exposition.

@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/accessibility/your-role/index.php
+Title: Your Role
+Type: HTML
+
+Accessibility at SJSU
+I Am a Student Who Needs an Accommodation
+Accessibility is a key component of student success, and SJSU has a range of resources for students.
+I Am an Employee Who Needs an Accommodation
+SJSU is dedicated to ensuring that faculty and staff have the accommodations that enable you to do your work.
+I Want to be an Ally
+There is always something new to learn, no matter where you are on your journey to better understand issues related to accessibility.

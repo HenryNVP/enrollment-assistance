@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/accessibility/about-us/policy-guidelines.php
+Title: Policy Guidelines
+Type: HTML
+
+Policy Guidelines
+SJSU’s approach to accessibility is rooted in research on best practices, as well as the key policies outlined below.
+CSU Accessible Technology Initiative
+“The initiative involves training and support for faculty and staff to integrate accessible practices into their work, with an emphasis on the principles of universal design for learning. By addressing accessibility proactively, CSU ATI seeks to enhance the educational experience for all students, promote equal opportunities, and comply with legal requirements related to accessibility.”
+Campus Accessibility Strategy for Online Education
+Campus Accessibility Strategy for Online Education [pdf], a letter to CSU Presidents, emphasizes campus responsibilities to address accessibility within their online learning environments.
+CSU ATI Accessibility Requirements
+The CSU ATI Accessibility Requirements are the compliance standards used in support of federal and state legislation as well as the CSU Policy; these are a combination of Section 508 and WCAG 2.0.
+CSU Executive Order 926
+CSU Executive Order 926 Policy for the Provision of Accommodations and Support Services to Students with Disabilities
+“This policy is intended to ensure that no qualified individual with a disability shall, on the basis of disability, be excluded from participation in the services, programs, or activities of the CSU and its campuses.
+CSU Executive Order 1111
+Executive Order 1111 Disability Support and Accommodations Policy
+"The California State University (CSU) is committed to providing a diverse and supportive academic and work environment that facilitates learning, teaching, working and conducting research for all students, employees and visitors. It is CSU policy to ensure that individuals with disabilities shall have equal access to and the opportunity to participate in CSU programs, activities and services."
+CSU Policy on Service and Emotional Support Animals for Students on Campus
+This CSU Policy “address[es] the use of service and emotional support animals by eligible students who meet the criteria for services for students with disabilities, with a special emphasis on university housing.”
+SJSU Presidential Directive 97-03
+SJSU Presidential Directive 97-03 [pdf]: Accommodations for Students with Disabilities
+“It is the policy of San Jose State University (SJSU) that otherwise qualified students who have disabilities shall be given academic adjustments and auxiliary aids as necessary to ensure access k to all SJSU services, programs and activities. SJSU accommodates students with disabilities on an individual basis, based on their specific needs.”
+University Policy S22-3
+University Policy S22-3 [pdf]: Accessibility in Curricular Materials
+“The California State University Board of Trustees Policy on Disability Support and Accommodations requires all CSU campuses to create and implement plans to promote faculty and administrative practices that will assure timely access to curricular materials for all students, and states that “Each campus and the Chancellor's Office shall provide funding, resources, and training to members of its campus community to ensure compliance with this executive order.

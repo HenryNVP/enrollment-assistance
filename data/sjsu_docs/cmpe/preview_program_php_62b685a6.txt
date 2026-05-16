@@ -1,0 +1,11 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13871
+Title: About
+Type: HTML
+
+The Bachelor of Science in Engineering Technology with a concentration in Computer Network System Management (CNSM), offered by the Department of Aviation and Technology , is designed to prepare graduates for the ever-increasing employment opportunities in the field of Computer Network Systems and Management. You will gain knowledge, skills, and practical experiences in the Internet of Things (IoT), network theory and administration, wireless communication, network security and prevention management, and cybersecurity management.
+The computer network professional plans for implementation of systems, maintains the software and hardware, monitors the system for potential disturbances, analyzes problems, and develops plans for potential solutions. A computer network specialist professional is a problem solver who assures the network system is operational, secure, and protected at all times against cyber-attacks.
+Computer and networking professionals are employed to facilitate the exchange and use of data in an organization in furtherance of organization goals. They also protect individuals, companies, and government organizations and their information throughout the enterprise. This requires that such professionals be knowledgeable about and familiar with constantly changing technologies and security processes. The major priority of the computer networking specialist professional is the day-to-day support that keeps the network functioning and secure.
+Program Roadmaps
+The 4-Year Roadmap is available online. Roadmaps should be used in consultation with the catalog and your advisor to identify additional requirements for completing the major (for example, course grade minimums). Associate Degrees (ADT) Pathways are also available online.
+Major-Specific Graduation Requirements
+All courses in the Preparation and Required in the Major and required Business Minor (all courses in preparation, core, and concentration and minor) must be completed with a grade of “C- or better”, with the exception of ENGR 100W which must be completed with a “C” or better.

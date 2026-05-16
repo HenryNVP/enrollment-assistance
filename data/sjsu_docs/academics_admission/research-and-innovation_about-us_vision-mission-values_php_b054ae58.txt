@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/research-and-innovation/about-us/vision-mission-values.php
+Title: Our R&I Vision, Mission and Values
+Type: HTML
+
+Our R&I Vision, Mission and Values
+Vision
+Guided by the teacher-scholar model, we will build a strong, inclusive SJSU faculty-led, student-focused platform of innovation, research, scholarship, and creative activity that translates intellectual capital into transformational impact in our communities.
+Mission
+We support the sustainable and inclusive growth of the SJSU research and innovation enterprise and help develop and strengthen a vibrant, inventive, responsible, and entrepreneurial campus culture to bring educational, economic, and social benefits to our local and global communities.
+Values
+The Division of Research and Innovation will strive to uphold the following values in all our dealings with our stakeholders: Trust, Inclusion, Accountability, Empathy, Collaboration and Creativity.

@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/innovation/spartup/index.php
+Title: Office of Innovation
+Type: HTML
+
+SpartUp commits to supporting its members with the resources, networks, technologies,
+and experiences they need to advance through ideation, prototyping, planning, and
+fundraising. Become a Spartaneur, a special breed of entrepreneur with the heart of
+an SJSU Spartan!

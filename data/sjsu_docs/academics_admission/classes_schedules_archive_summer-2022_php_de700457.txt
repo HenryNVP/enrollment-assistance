@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/classes/schedules/archive/summer-2022.php
+Title: Summer 2022 Class Schedule
+Type: HTML
+
+Summer 2022 Class Schedule
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). The majority of courses will be offered online.
+Real-time class listings, including textbook and course information, are found at one.sjsu.edu by searching for 'Class Search' in the Search Box. Some classes have multiple class notes, but this website only displays the first class note. A full list of class notes can be found in the Class Search and clicking on the class section title.
+Using the Search
+Use the Search bar to filter by section and/or mode of instruction (e.g. typing "Fully Online MATH" will provide a list of all MATH courses taught fully online.) When the schedule indicates TBA (to be announced) or TBD (to be determined) in the days, times, or notes columns, it means that the class is scheduled with asynchronous instruction (no designated day/time meetings).
+Real-time class listings, including textbook and course information, are found at one.sjsu.edu by searching for 'Class Search' in the Search Box.
+Class Schedule Listing

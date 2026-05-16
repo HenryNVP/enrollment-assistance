@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/classes/schedules/archive/summer-2020.php
+Title: Summer 2020 Class Schedule
+Type: HTML
+
+Summer 2020 Class Schedule
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). For Summer 2020, all courses will be offered fully online or hybrid.
+Real-time class listings, including textbook and course information, are found at one.sjsu.edu by searching for 'Class Search' in the Search Box. Some classes have multiple class notes, but this website only displays the first class note. A full list of class notes can be found in the Class Search and clicking on the class section title.
+If the class note indicates that the class has multiple meeting patterns, please review in your MySJSU the courses additional meeting patterns dates and times - only one meeting pattern is included in this schedule.
+Class Schedule Listing
+Use the Search bar to filter by section and/or mode of instruction (e.g. typing "Fully Online MATH" will provide a list of all MATH courses taught fully online.)

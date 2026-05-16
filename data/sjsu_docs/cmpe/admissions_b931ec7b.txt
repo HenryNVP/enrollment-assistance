@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/admissions
+Title: Admissions
+Type: HTML
+
+Join the Spartan Family
+When you become a student at San José State University, you’re not just beginning your college experience, you’re joining a new, extended family. The Spartan family is a diverse, close-knit community that supports, encourages, and guides new students along a path toward success at the largest public university in Silicon Valley.

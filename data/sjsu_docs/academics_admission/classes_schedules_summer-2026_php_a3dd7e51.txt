@@ -1,0 +1,703 @@
+Source: https://www.sjsu.edu/classes/schedules/summer-2026.php
+Title: Summer 2026 Class Schedule
+Type: HTML
+
+Summer 2026 Class Schedule
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens. In addition to offering classes, students can also explore Study and Abroad Programs.
+Calendars
+Current Students | Open University Students
+Summer 2026 Culminating Activities & Final Exams are normally scheduled on the last day of class. SJSU does not offer winter term commencement ceremonies.
+Class Schedule Listing
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+Online Learning Readiness
+Before enrolling in an online course, students should first assess their readiness for stepping into the online learning environment by completing the Online Learning Readiness Questionnaire.Using the Search
+Use the Search bar to filter by section and/or mode of instruction (e.g. typing "Fully Online MATH" will provide a list of all MATH courses taught fully online.)
+When the schedule indicates TBA (to be announced) it means that the class is scheduled with no designated day/time meetings.
+Real-time class listings, including textbook and course information, are found at one.sjsu.edu by searching for 'Class Search' in the Search Box.
+| Section | Class Number | Mode of Instruction | Course Title | Satisfies | Units | Type | Days | Times | Instructor | Location | Dates | Open Seats | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| AAS 1 (Section 01) | 30609 | In Person | Introduction to Asian American Studies | GE: 6 | 3.0 | LEC | TR | 10:00AM-02:15PM | Joanne Rondilla | 06/01/26-07/02/26 | 13 | ||
+| AAS 1 (Section 80) | 30228 | Fully Online | Introduction to Asian American Studies | GE: 6 | 3.0 | LEC | TBA | TBA | Saugher Nojan | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AAS 25 (Section 80) | 31091 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 06/01/26-07/02/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AAS 25 (Section 81) | 31092 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 07/06/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AAS 33A (Section 01) | 30231 | In Person | Asian Americans in U.S. History I | GE: 4 | 3.0 | LEC | MW | 09:00AM-01:15PM | Yvonne Kwan | 06/01/26-07/02/26 | 33 | ||
+| AE 180 (Section 80) | 30219 | Fully Online | Individual Studies | 1.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 180 (Section 81) | 30220 | Fully Online | Individual Studies | 2.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 180 (Section 82) | 30221 | Fully Online | Individual Studies | 3.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 295A (Section 80) | 30222 | Fully Online | Aerospace Engineering Masters Project I | 3.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 295B (Section 80) | 30223 | Fully Online | Aerospace Engineering Masters Project II | 3.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 298 (Section 80) | 30224 | Fully Online | Special Projects in Aerospace Engineering | 1.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 298 (Section 81) | 30225 | Fully Online | Special Projects in Aerospace Engineering | 2.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AE 298 (Section 82) | 30226 | Fully Online | Special Projects in Aerospace Engineering | 3.0 | SUP | M | 01:00PM-02:20PM | Yawo Ezunkpe | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AFAM 2A (Section 80) | 30133 | Fully Online | African Americans and the Development of America's History and Government | GE: 4 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 2B (Section 80) | 30429 | Fully Online | African Americans and the Development of America's History and Government | GE: 4+US | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 07/06/26-08/07/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 22 (Section 80) | 30134 | Fully Online | The Humanities in African American Culture | GE: 6 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 22 (Section 81) | 30438 | Fully Online | The Humanities in African American Culture | GE: 6 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 07/06/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 25 (Section 80) | 31090 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 06/01/26-07/02/26 | 36 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 25 (Section 81) | 31093 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 07/06/26-08/07/26 | 38 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AFAM 134 (Section 80) | 30135 | Fully Online | The Black Civil Rights Movements | GE: 6 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AMS 10 (Section 80) | 30881 | Fully Online | Stories that Make America | GE: 3B+US1 | 3.0 | LEC | TBA | TBA | Kim Knight | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AMS 139 (Section 80) | 30257 | Fully Online | Animals and Society | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Daniel Rivers | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AMS 159 (Section 80) | 30890 | Fully Online | Nature and World Cultures | GE: UD 3 | 3.0 | SEM | TBA | TBA | Daniel Rivers | ONLINE | 07/06/26-08/07/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 115 (Section 80) | 31036 | Fully Online | The Emerging Global Culture | GE: UD 3 | 3.0 | LEC | TBA | TBA | Melissa Beresford | ONLINE | 06/01/26-07/02/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 115 (Section 81) | 31037 | Fully Online | The Emerging Global Culture | GE: UD 3 | 3.0 | LEC | TBA | TBA | Amanda Feldman | ONLINE | 07/06/26-08/07/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 140 (Section 80) | 31038 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Sung Jay Ou | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 140 (Section 81) | 31039 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Kanak Somani | ONLINE | 07/06/26-08/07/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 145 (Section 80) | 31107 | Fully Online | Middle Eastern Traditions | GE: UD 3 | 3.0 | LEC | TBA | TBA | Arthur Zarate | ONLINE | 06/01/26-07/02/26 | 11 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 146 (Section 80) | 30005 | Fully Online | Culture and Conflict | GE: UD 3 | 3.0 | LEC | TBA | TBA | A J Faas | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 146 (Section 81) | 30399 | Fully Online | Culture and Conflict | GE: UD 3 | 3.0 | LEC | TBA | TBA | Gisele Bousquet | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 146 (Section 82) | 31041 | Fully Online | Culture and Conflict | GE: UD 3 | 3.0 | LEC | TBA | TBA | Quincy Mccrary | ONLINE | 07/06/26-08/07/26 | 14 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 160 (Section 80) | 30369 | Fully Online | Mysteries of Ancient Civilizations | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Alicia Hedges | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 160 (Section 81) | 30006 | Fully Online | Mysteries of Ancient Civilizations | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Gustavo Flores | ONLINE | 06/01/26-07/02/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ANTH 160 (Section 82) | 30400 | Fully Online | Mysteries of Ancient Civilizations | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Charlotte Sunseri | ONLINE | 07/06/26-08/07/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ART 12 (Section 01) | 30745 | In Person | Two-Dimensional Design and Color Concepts | 3.0 | ACT | MTWR | 12:00PM-04:00PM | Zoey Mubiru | 07/06/26-08/07/26 | 24 | |||
+| ARTH 72 (Section 80) | 30323 | Fully Online | Design in Society | GE: 3A | 3.0 | LEC | MTWR | 10:00AM-12:00PM | Molly Hankwitz | ONLINE | 06/01/26-07/02/26 | 46 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 19 (Section 80) | 31067 | Fully Online | Music in World Cultures | GE: 3A | 3.0 | LEC | TBA | TBA | Robin Sacolick | ONLINE | 06/01/26-07/02/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 19 (Section 81) | 31068 | Fully Online | Music in World Cultures | GE: 3A | 3.0 | LEC | TBA | TBA | Timothy Harris | ONLINE | 07/06/26-08/07/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 104 (Section 80) | 30812 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 104 (Section 81) | 30828 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 115 (Section 80) | 31058 | Fully Online | The Emerging Global Culture | GE: UD 3 | 3.0 | LEC | TBA | TBA | Melissa Beresford | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASIA 115 (Section 81) | 31059 | Fully Online | The Emerging Global Culture | GE: UD 3 | 3.0 | LEC | TBA | TBA | Amanda Feldman | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ASTR 101 (Section 01) | 30655 | In Person | Modern Astronomy | GE: UD 2/5 | 3.0 | LEC | MTWR | 09:00AM-10:45AM | Staff | 06/01/26-07/09/26 | 29 | ||
+| ASTR 101 (Section 80) | 30163 | Fully Online | Modern Astronomy | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| AVIA 180 (Section 80) | 30009 | Fully Online | Individual Research Study | 1.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AVIA 180 (Section 81) | 30010 | Fully Online | Individual Research Study | 2.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AVIA 180 (Section 82) | 30699 | Fully Online | Individual Research Study | 3.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AVIA 180H (Section 80) | 30701 | Fully Online | Individual Studies | 1.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AVIA 195 (Section 80) | 30276 | Fully Online | Internship with the Aviation Industry | 1.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| AVIA 195 (Section 81) | 30277 | Fully Online | Internship with the Aviation Industry | 3.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BIOL 10 (Section 80) | 30045 | Fully Online | The Living World | GE: 5B | 3.0 | LEC | TBA | TBA | Mary Poffenroth | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BIOL 10 (Section 81) | 30595 | Fully Online | The Living World | GE: 5B | 3.0 | LEC | TBA | TBA | Mary Poffenroth | ONLINE | 07/06/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BIOL 129 (Section 80) | 31065 | Fully Online | Neuroscience | 3.0 | LEC | TR | 10:00AM-02:30PM | Cheryl Chancellor-Freeland | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BIOL 140 (Section 80) | 31062 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Sung Jay Ou | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BIOL 140 (Section 81) | 31063 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Kanak Somani | ONLINE | 07/06/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS1 20 (Section 01) | 30262 | In Person | Financial Accounting | 3.0 | LEC | TR | 01:00PM-05:00PM | Kourosh Amirkhani | 06/01/26-07/02/26 | 0 | |||
+| BUS1 21 (Section 80) | 30961 | Fully Online | Managerial Accounting | 3.0 | LEC | MW | 09:00AM-01:00PM | Esperanza Huerta Espinosa | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS1 170 (Section 01) | 30138 | In Person | Fundamentals of Finance | 3.0 | LEC | TR | 09:00AM-01:00PM | Artem Meshcheryakov | 06/01/26-07/02/26 | 24 | |||
+| BUS1 170 (Section 02) | 30139 | In Person | Fundamentals of Finance | 3.0 | LEC | MW | 01:00PM-05:00PM | Matthew Faulkner | 06/01/26-07/02/26 | 0 | |||
+| BUS1 170 (Section 03) | 30481 | In Person | Fundamentals of Finance | 3.0 | LEC | MW | 01:00PM-05:00PM | Tijana Rajkovic | 07/06/26-08/07/26 | 0 | |||
+| BUS1 170 (Section 80) | 30140 | Fully Online | Fundamentals of Finance | 3.0 | LEC | TR | 06:00PM-10:00PM | Salman Tahsin | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS1 171A (Section 80) | 30960 | Fully Online | Financial Institutions and Markets | 3.0 | LEC | MW | 06:00PM-10:00PM | Daniela Balkanska | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS1 175 (Section 01) | 30141 | In Person | Real Estate Finance | 3.0 | LEC | TR | 09:00AM-01:00PM | Stoyu Ivanov | 06/01/26-07/02/26 | 0 | |||
+| BUS1 180A (Section 80) | 30142 | Fully Online | Individual Study Accounting | 1.0 | SUP | TBA | TBA | Elizabeth Grace | ONLINE | 06/01/26-08/07/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 90 (Section 80) | 30239 | Fully Online | Business Statistics | 3.0 | SEM | TR | 11:00AM-03:15PM | Steven Silver | ONLINE | 06/01/26-07/02/26 | 15 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 130 (Section 80) | 30064 | Fully Online | Introduction to Marketing | 3.0 | LEC | TR | 09:00AM-01:15PM | Kenneth Gehrt | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 130 (Section 81) | 30373 | Fully Online | Introduction to Marketing | 3.0 | LEC | MW | 01:00PM-05:15PM | Gary Castro | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 134A (Section 80) | 30917 | Fully Online | Consumer Behavior | 3.0 | SEM | TR | 08:00AM-12:15PM | Miwa Merz | ONLINE | 06/01/26-07/02/26 | 1 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 136 (Section 01) | 30411 | In Person | Product Development | 3.0 | SEM | MW | 01:00PM-05:15PM | Vivek Agarwal | 06/01/26-07/02/26 | 30 | |||
+| BUS2 139 (Section 80) | 30412 | Fully Online | Marketing Management | 3.0 | SEM | TR | 09:00AM-01:15PM | Kenneth Gehrt | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 190 (Section 80) | 30248 | Fully Online | Fundamentals of Business Analytics | 3.0 | SEM | MW | 10:00AM-02:15PM | Jooyeon Ha | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 190 (Section 81) | 30413 | Fully Online | Fundamentals of Business Analytics | 3.0 | SEM | TR | 06:00PM-10:15PM | Staff | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS2 190 (Section 82) | 30329 | Fully Online | Fundamentals of Business Analytics | 3.0 | SEM | TR | 06:00PM-10:15PM | Yinghua Huang | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 160 (Section 80) | 30447 | Fully Online | Fundamentals of Management and Organizational Behavior | 3.0 | LEC | MW | 11:00AM-03:15PM | Ginevra Scherini | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 160 (Section 81) | 30869 | Fully Online | Fundamentals of Management and Organizational Behavior | 3.0 | LEC | MTWR | 05:00PM-07:15PM | Elizabeth Garcia | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 166 (Section 80) | 30067 | Fully Online | Business, Government, a Society | 3.0 | LEC | MW | 10:00AM-02:15PM | Matthew Maguire | ONLINE | 06/01/26-07/02/26 | 28 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 186 (Section 01) | 30833 | In Person | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | MTWR | 09:00AM-11:00AM | David Mcreynolds | 06/01/26-07/02/26 | 26 | ||
+| BUS3 186 (Section 02) | 30834 | In Person | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TR | 11:00AM-03:00PM | Andrew Delunas | 07/06/26-08/07/26 | 23 | ||
+| BUS3 186 (Section 80) | 30839 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Rebecca Chan | ONLINE | 06/01/26-07/02/26 | 15 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 81) | 30840 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Carlos Sanchez | ONLINE | 06/01/26-07/02/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 82) | 30841 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Timothy Johnston | ONLINE | 06/01/26-07/02/26 | 5 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 83) | 30842 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 84) | 30848 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Carlos Sanchez | ONLINE | 07/06/26-08/07/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 85) | 30849 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Rebecca Chan | ONLINE | 07/06/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 86) | 30850 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Jordan Liz | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 87) | 30851 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Lisa Bernasconi | ONLINE | 07/06/26-08/07/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 186 (Section 88) | 30852 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 07/06/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| BUS3 189 (Section 80) | 30069 | Fully Online | Strategic Management | 3.0 | SEM | MW | 09:00AM-01:30PM | Yeonji No | ONLINE | 06/01/26-07/02/26 | 17 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 189 (Section 81) | 30374 | Fully Online | Strategic Management | 3.0 | SEM | TR | 09:00AM-01:15PM | Thomas Shirley | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 189 (Section 82) | 30414 | Fully Online | Strategic Management | 3.0 | SEM | TR | 03:00PM-07:30PM | Yeonji No | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS3 189 (Section 83) | 30868 | Fully Online | Strategic Management | 3.0 | SEM | MW | 09:00AM-01:15PM | Thomas Shirley | ONLINE | 07/06/26-08/07/26 | 10 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS4 91L (Section 80) | 30475 | Fully Online | Computer Tools for Business | 1.0 | LEC | TBA | TBA | Usha Andra | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti Additional fees and/or materials required. Contact department office. |
+|
+| BUS4 180I (Section 01) | 30046 | In Person | Individual Studies MIS | 1.0 | SUP | TBA | TBA | David Czerwinski | 06/01/26-08/07/26 | 8 | Requires department release of permission number. Not available to Open University students. |
+||
+| BUS4 188 (Section 80) | 30011 | Fully Online | Business Systems and Policy | 3.0 | LEC | MW | 09:00AM-01:15PM | Nitin Aggarwal | ONLINE | 07/06/26-08/07/26 | 0 | Additional fees and/or materials required. Contact department office. FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS4 188 (Section 81) | 30401 | Fully Online | Business Systems and Policy | 3.0 | LEC | MW | 01:00PM-05:15PM | Yasin Ceran | ONLINE | 06/01/26-07/02/26 | 0 | Additional fees and/or materials required. Contact department office. FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS5 140 (Section 01) | 30267 | In Person | Fundamentals of Operations Management | 3.0 | LEC | MW | 09:00AM-01:15PM | Christopher Lim | 06/01/26-07/02/26 | 0 | |||
+| BUS5 140 (Section 80) | 30227 | Fully Online | Fundamentals of Operations Management | 3.0 | LEC | TR | 09:00AM-01:15PM | Taeho Park | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS5 146 (Section 80) | 30629 | Fully Online | Fundamentals of Project Management | 3.0 | LEC | TR | 09:00AM-01:15PM | Sharon Qi | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS5 187 (Section 80) | 30879 | Fully Online | Global Dimensions of Business | 3.0 | LEC | MW | 01:00PM-05:15PM | Arvinder Loomba | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| BUS5 187 (Section 81) | 30880 | Fully Online | Global Dimensions of Business | 3.0 | LEC | MW | 08:00AM-12:15PM | Tanvi Kothari | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CA 172 (Section 80) | 30882 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 06/01/26-07/02/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CA 172 (Section 80) | 30887 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CA 177 (Section 80) | 30891 | Fully Online | Interdisciplinary Arts for Teaching | 3.0 | SEM | TBA | TBA | Eleni Duret | ONLINE | 07/06/26-08/07/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CCS 1 (Section 80) | 30290 | Fully Online | Introduction to Chicana and Chicano Studies | GE: 6 | 3.0 | LEC | TBA | TBA | Sergio Barrera | ONLINE | 06/01/26-07/02/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 1 (Section 81) | 30291 | Fully Online | Introduction to Chicana and Chicano Studies | GE: 6 | 3.0 | LEC | TBA | TBA | Christine Vega | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 1 (Section 82) | 30451 | Fully Online | Introduction to Chicana and Chicano Studies | GE: 6 | 3.0 | LEC | TBA | TBA | Sergio Barrera | ONLINE | 07/06/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 10A (Section 80) | 30200 | Fully Online | Mexican Americans and the Development of U.S. History and Government | GE: 4 | 3.0 | LEC | TBA | TBA | Felipe Ponce | ONLINE | 06/01/26-07/02/26 | 35 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies. |
+| CCS 10A (Section 81) | 31085 | Fully Online | Mexican Americans and the Development of U.S. History and Government | GE: 4 | 3.0 | LEC | TBA | TBA | Ernesto Martinez | ONLINE | 06/01/26-07/02/26 | 38 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies. |
+| CCS 10B (Section 80) | 30452 | Fully Online | Mexican Americans and the Development of U.S. History and Government | GE: 4+US | 3.0 | LEC | TBA | TBA | Jesus Covarrubias | ONLINE | 07/06/26-08/07/26 | 35 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 25 (Section 80) | 31086 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 25 (Section 81) | 31087 | Fully Online | The Changing Majority: Power and Ethnicity in America | GE: 6 | 3.0 | LEC | TBA | TBA | Kim Miranda | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 30 (Section 80) | 31088 | Fully Online | Race and Ethnicity in Public Space | GE: 6 | 3.0 | SEM | TBA | TBA | Jonathan Gomez | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 30 (Section 81) | 31089 | Fully Online | Race and Ethnicity in Public Space | GE: 6 | 3.0 | SEM | TBA | TBA | Jonathan Gomez | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 130 (Section 80) | 30202 | Fully Online | Chicanas and Chicanos in American Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Gustavo Flores | ONLINE | 06/01/26-07/02/26 | 34 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CCS 160 (Section 80) | 30391 | Fully Online | Gender and Sexuality in the Chicana/o Community | GE: UD 4 | 3.0 | LEC | TBA | TBA | Christine Vega | ONLINE | 07/06/26-08/07/26 | 34 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CHAD 102 (Section 80) | 30048 | Fully Online | Development of Self in a Culturally Diverse Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | John Jabagchourian | ONLINE | 06/01/26-07/02/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CHAD 106 (Section 80) | 30049 | Fully Online | Concepts of Childhood | GE: UD 3 | 3.0 | LEC | TBA | TBA | Laura Pirazzi | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CHAD 106 (Section 80) | 30410 | Fully Online | Concepts of Childhood | GE: UD 3 | 3.0 | LEC | TBA | TBA | Ravisha Mathur | ONLINE | 07/06/26-08/07/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CHE 280 (Section 80) | 30303 | Fully Online | Graduate Research | 2.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CHE 280I (Section 80) | 30052 | Fully Online | Graduate Research Internship | 2.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CHE 283C (Section 80) | 30707 | Fully Online | Graduate Curricular Practical Training | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CHE 298 (Section 80) | 30054 | Fully Online | MS Research/Project | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CHE 298I (Section 80) | 30055 | Fully Online | MS Research/Project Internship | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CHE 299 (Section 80) | 30056 | Fully Online | Master's Thesis | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 180 (Section 80) | 30906 | Fully Online | Individual Studies | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 198 (Section 80) | 31070 | Fully Online | Technology and Civilization | GE: UD 3 | 3.0 | LEC | MW | 06:00PM-08:00PM | Nik Tehrani | ONLINE | 06/01/26-08/07/26 | 37 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| CMPE 295A (Section 01) | 30234 | Hybrid | Master Project I | 3.0 | LAB | F TBA |
+F 06:00PM-08:45PM TBA TBA |
+Staff | HYBRID |
+06/01/26-07/02/26 | 30 | HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 295B (Section 01) | 30235 | Hybrid | Master Project II | 3.0 | LAB | F TBA |
+F 06:00PM-08:45PM TBA TBA |
+Staff | HYBRID |
+06/01/26-07/02/26 | 21 | HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 80) | 30236 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 81) | 30237 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 82) | 30238 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 83) | 30250 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 84) | 30334 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CMPE 298I (Section 85) | 30363 | Fully Online | Computer/Software Engineering Internship | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 10 (Section 80) | 30449 | Fully Online | Communication and Human Relationships | GE: 4 | 3.0 | LEC | TBA | TBA | Arjun Buxi | ONLINE | 06/01/26-07/02/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 10 (Section 81) | 30632 | Fully Online | Communication and Human Relationships | GE: 4 | 3.0 | LEC | TBA | TBA | Minna Holopainen | ONLINE | 06/01/26-07/02/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 10 (Section 82) | 30636 | Fully Online | Communication and Human Relationships | GE: 4 | 3.0 | LEC | TBA | TBA | Roxanne Cnudde | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 01) | 30480 | In Person | Public Speaking | GE: 1C | 3.0 | LEC | MW | 09:00AM-01:00PM | David Amancio | 06/01/26-07/02/26 | 24 | ||
+| COMM 20 (Section 80) | 30187 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Priya Raman | ONLINE | 06/01/26-07/02/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 81) | 30188 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Arjun Buxi | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 82) | 30189 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | David Ramos | ONLINE | 06/01/26-07/02/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 83) | 30266 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Ash Rahmani | ONLINE | 06/01/26-07/02/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 84) | 30638 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Roxanne Cnudde | ONLINE | 07/06/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 85) | 30639 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Priya Raman | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 86) | 30640 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Kathy Werking | ONLINE | 06/01/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 87) | 30492 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TR | 09:00AM-01:00PM | Ash Rahmani | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 88) | 30637 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | MW | 09:00AM-01:00PM | Andrew Carter | ONLINE | 07/06/26-08/07/26 | 25 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 20 (Section 89) | 30648 | Fully Online | Public Speaking | GE: 1C | 3.0 | LEC | TBA | TBA | Randy Marchman | ONLINE | 06/01/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 41 (Section 80) | 30641 | Fully Online | Critical Decision Making | GE: 1B | 3.0 | SEM | TBA | TBA | Kathy Werking | ONLINE | 06/01/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 45 (Section 01) | 30633 | In Person | Media and Culture | GE: 1B | 3.0 | LEC | TR | 09:00AM-01:00PM | David Amancio | 06/01/26-07/02/26 | 24 | ||
+| COMM 45 (Section 80) | 30194 | Fully Online | Media and Culture | GE: 1B | 3.0 | LEC | TBA | TBA | Gina Firenzi | ONLINE | 06/01/26-07/02/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 45 (Section 81) | 30642 | Fully Online | Media and Culture | GE: 1B | 3.0 | LEC | TBA | TBA | Dana Morella-Pozzi | ONLINE | 06/01/26-08/07/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 80) | 30197 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Leigh Via | ONLINE | 06/01/26-08/07/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 81) | 30199 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Jean-Pierre Lacrampe | ONLINE | 06/01/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 82) | 30643 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Dana Morella-Pozzi | ONLINE | 06/01/26-08/07/26 | 11 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 83) | 30644 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Jean-Pierre Lacrampe | ONLINE | 06/01/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 84) | 30645 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Zainab Nisa | ONLINE | 06/01/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 100W (Section 85) | 30646 | Fully Online | Writing Workshop: Writing for Influence | WID | 3.0 | SEM | TBA | TBA | Leigh Via | ONLINE | 06/01/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 110F (Section 80) | 30634 | Fully Online | Interpersonal Communication | 4.0 | SEM | TBA | TBA | Marie Haverfield | ONLINE | 06/01/26-07/02/26 | 8 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 111P (Section 80) | 30437 | Fully Online | Interviewing | 4.0 | LEC | TBA | TBA | Gina Firenzi | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 115P (Section 80) | 30635 | Fully Online | Communication and Conflict | 4.0 | LEC | TBA | TBA | Carol-Lynn Perez | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 149F (Section 80) | 30647 | Fully Online | Rhetoric and Public Life | 4.0 | LEC | TBA | TBA | Andrew Wood | ONLINE | 06/01/26-08/07/26 | 15 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 154I (Section 80) | 30203 | Fully Online | Ethnography for Communication Studies | 4.0 | LEC | TBA | TBA | Tabitha Hart | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 155I (Section 80) | 30204 | Fully Online | Quantitative Communication Inquiry | 4.0 | LEC | TBA | TBA | Felipe Gómez | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 174 (Section 80) | 30195 | Fully Online | Intercultural Comm and Structural Inequalities | GE: UD 4 | 3.0 | LEC | TBA | TBA | Rona Halualani | ONLINE | 06/01/26-07/02/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| COMM 176P (Section 80) | 30307 | Fully Online | Communication and Gender | 4.0 | LEC | TBA | TBA | Rona Halualani | ONLINE | 07/06/26-08/07/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| COMM 179 (Section 80) | 30196 | Fully Online | Global Media and Resistance | GE: UD 3 | 3.0 | LEC | TBA | TBA | Carol-Lynn Perez | ONLINE | 07/06/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| CS 46B (Section 01) | 30955 | In Person | Introduction to Data Structures | 4.0 | LEC | MW | 01:00PM-03:40PM | Zhiqiang Luo | 06/01/26-08/07/26 | 35 | |||
+| CS 100W (Section 01) | 30952 | In Person | Technical Writing Workshop | WID | 3.0 | SEM | TR | 11:00AM-01:00PM | Craig Jones | 06/01/26-08/07/26 | 21 | ||
+| CS 100W (Section 02) | 30956 | In Person | Technical Writing Workshop | WID | 3.0 | SEM | MW | 11:00AM-01:00PM | Gregory Tomlinson | 06/01/26-08/07/26 | 0 | ||
+| CS 122 (Section 01) | 30954 | In Person | Advanced Programming with Python | 3.0 | SEM | MW | 09:00AM-11:00AM | Zhiqiang Luo | 06/01/26-08/07/26 | 18 | |||
+| CS 131 (Section 01) | 30107 | In Person | Processing Big Data: Tools and Techniques | 3.0 | LEC | MW | 09:00AM-11:00AM | Genya Ishigaki | 06/01/26-08/07/26 | 7 | |||
+| CS 134 (Section 01) | 30951 | In Person | Computer Game Design and Programming | 3.0 | SEM | TR | 09:00AM-11:00AM | Vuthea Chheang | 06/01/26-08/07/26 | 29 | |||
+| CS 146 (Section 01) | 31141 | In Person | Data Structures and Algorithms | 3.0 | LEC | MW | 01:00PM-03:00PM | William Andreopoulos | 06/01/26-08/07/26 | 25 | |||
+| CS 146 (Section 02) | 31143 | In Person | Data Structures and Algorithms | 3.0 | LEC | MW | 11:00AM-01:00PM | William Andreopoulos | 06/01/26-08/07/26 | 17 | |||
+| CS 154 (Section 01) | 30111 | In Person | Formal Languages and Computability | 3.0 | SEM | MW | 09:00AM-11:00AM | Yan Chen | 06/01/26-08/07/26 | 20 | |||
+| CS 156 (Section 01) | 30110 | In Person | Introduction to Artificial Intelligence | 3.0 | LEC | TR | 11:00AM-01:00PM | Amith Kamath Belman | 06/01/26-08/07/26 | 0 | |||
+| CS 157A (Section 01) | 30109 | In Person | Introduction to Database Management Systems | 3.0 | SEM | TR | 09:00AM-11:00AM | Ching-Seh Wu | 06/01/26-08/07/26 | 13 | |||
+| CS 157A (Section 02) | 31080 | In Person | Introduction to Database Management Systems | 3.0 | SEM | TR | 11:00AM-01:00PM | Ramin Moazeni | 06/01/26-08/07/26 | 13 | |||
+| CS 158A (Section 01) | 30293 | In Person | Computer Networks | 3.0 | LEC | MW | 11:00AM-01:00PM | Genya Ishigaki | 06/01/26-08/07/26 | 21 | |||
+| CS 171 (Section 01) | 30953 | In Person | Introduction to Machine Learning | 3.0 | LEC | TR | 09:00AM-11:00AM | Amith Kamath Belman | 06/01/26-08/07/26 | 3 | |||
+| CS 190 (Section 80) | 30342 | Fully Online | Internship Project | 1.0 | LEC | MW | 06:00PM-07:00PM | Robert Chun | ONLINE | 06/01/26-08/07/26 | 26 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CS 190I (Section 80) | 30116 | Fully Online | Internship Project | 3.0 | LEC | MW | 06:00PM-08:00PM | Robert Chun | ONLINE | 06/01/26-08/07/26 | 32 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| CS 200W (Section 01) | 30114 | In Person | Graduate Technical Writing | GWAR | 3.0 | LEC | TR | 01:00PM-03:00PM | Deborah Choe | 06/01/26-08/07/26 | 25 | ||
+| CS 200W (Section 02) | 31142 | In Person | Graduate Technical Writing | GWAR | 3.0 | LEC | MW | 09:00AM-11:00AM | Craig Jones | 06/01/26-08/07/26 | 24 | ||
+| DANC 102 (Section 80) | 31128 | Fully Online | Dance in World Cultures | GE: UD 3 | 3.0 | LEC | TBA | TBA | Stephanie Sherman | ONLINE | 06/01/26-07/02/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| DANC 102 (Section 81) | 31129 | Fully Online | Dance in World Cultures | GE: UD 3 | 3.0 | LEC | TBA | TBA | Stephanie Sherman | ONLINE | 07/06/26-08/07/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ECON 1A (Section 80) | 30121 | Fully Online | Principles of Economics: Macroeconomics | 3.0 | LEC | TBA | TBA | Ghislaine Lang | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ECON 1A (Section 81) | 30476 | Fully Online | Principles of Economics: Macroeconomics | 3.0 | LEC | TBA | TBA | Nicole Norton | ONLINE | 07/06/26-08/07/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ECON 1B (Section 80) | 30122 | Fully Online | Principles of Economics: Microeconomics | GE: 4 | 3.0 | LEC | TBA | TBA | Fahmida Fakhruddin | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ECON 1B (Section 81) | 30426 | Fully Online | Principles of Economics: Microeconomics | GE: 4 | 3.0 | LEC | TBA | TBA | Gregory Hanle | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ECON 101 (Section 80) | 30300 | Fully Online | Microeconomic Analysis | 4.0 | SEM | TBA | TBA | Ninos Malek | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ECON 104 (Section 80) | 30379 | Fully Online | Mathematical Methods for Economics | 4.0 | SEM | TBA | TBA | Rui Liu | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ECON 121 (Section 80) | 30124 | Fully Online | Industrial Organization | 4.0 | SEM | TBA | TBA | Paul-Vincent Lombardi | ONLINE | 07/06/26-08/07/26 | 32 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ECON 132 (Section 80) | 30380 | Fully Online | Public Finance | 4.0 | SEM | TBA | TBA | Patralekha Ukil | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| EE 298I (Section 80) | 30016 | Fully Online | Electrical Engineering Internship Experience | 1.0 | SUP | TBA | TBA | Thuy Le | ONLINE | 06/01/26-08/07/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ENGL 1A (Section 80) | 30018 | Fully Online | First Year Writing | GE: 1A | 3.0 | LEC | MW | 01:00PM-03:00PM | Regina Arnold | ONLINE | 06/01/26-08/07/26 | 16 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 1A (Section 81) | 30019 | Fully Online | First Year Writing | GE: 1A | 3.0 | LEC | TR | 09:00AM-11:00AM | Raina Levesque | ONLINE | 06/01/26-08/07/26 | 18 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 1B (Section 80) | 30023 | Fully Online | Argument and Analysis | GE: 3B | 3.0 | LEC | TBA | TBA | Sherri Harvey | ONLINE | 06/01/26-07/02/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 1B (Section 81) | 30403 | Fully Online | Argument and Analysis | GE: 3B | 3.0 | LEC | MW | 09:00AM-01:00PM | Colton Saylor | ONLINE | 07/06/26-08/07/26 | 15 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 2 (Section 80) | 30024 | Fully Online | Critical Thinking and Writing | GE: 1B | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 2 (Section 81) | 30404 | Fully Online | Critical Thinking and Writing | GE: 1B | 3.0 | LEC | TBA | TBA | Mostafa Jalal | ONLINE | 07/06/26-08/07/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 22 (Section 80) | 30025 | Fully Online | Fantasy and Science Fiction | GE: 3B | 3.0 | LEC | TBA | TBA | Tanja Nathanael | ONLINE | 06/01/26-08/07/26 | 33 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 60 (Section 80) | 30958 | Fully Online | Literatures of the Atlantic World, 1680-1860 | 4.0 | LEC | TR | 11:00AM-01:40PM | Allison Johnson | ONLINE | 06/01/26-08/07/26 | 33 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ENGL 71 (Section 80) | 30256 | Fully Online | Creative Writing | GE: 3A | 3.0 | SEM | MW | 10:00AM-12:00PM | Selena Anderson | ONLINE | 06/01/26-08/07/26 | 21 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 100WB (Section 80) | 30036 | Fully Online | Written Communication: Business | WID | 3.0 | LEC | MW | 09:00AM-11:00AM | Kristin Fitzpatrick Ezell | ONLINE | 06/01/26-08/07/26 | 13 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 123D (Section 80) | 30037 | Fully Online | Literatures of Asia | GE: UD 3 | 3.0 | LEC | TBA | TBA | Nicholas Taylor | ONLINE | 06/01/26-07/02/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 145 (Section 80) | 30957 | Fully Online | Shakespeare and Performance | 4.0 | LEC | TBA | TBA | Adrienne Eastwood | ONLINE | 06/01/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ENGL 169 (Section 80) | 30959 | Fully Online | Ethnicity in American Literature | GE: UD 4 | 3.0 | LEC | TR | 01:00PM-03:00PM | Keenan Norris | ONLINE | 06/01/26-08/07/26 | 28 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 172 (Section 80) | 30883 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGL 172 (Section 80) | 30888 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 100) | 31082 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 03:00PM-03:50PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 101) | 31084 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 04:00PM-05:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 80) | 30070 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 07:00AM-07:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 81) | 30071 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 08:00AM-09:15AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 82) | 30072 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 08:00AM-08:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 83) | 30073 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 09:00AM-10:15AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 84) | 30074 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 10:00AM-10:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 85) | 30075 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 11:00AM-12:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 86) | 30076 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 10:00AM-10:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 87) | 30077 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 11:00AM-12:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 88) | 30078 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 11:00AM-11:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 13 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 89) | 30079 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 12:00PM-01:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 13 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 90) | 30080 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 12:00PM-12:50PM | Staff | ONLINE | 06/01/26-07/23/26 | 9 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 91) | 30081 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 01:00PM-02:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 9 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 92) | 30082 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 05:00PM-05:50PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 93) | 30083 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 06:00PM-07:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 94) | 30084 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 06:00PM-06:50PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 95) | 30085 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 07:00PM-08:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 0 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 96) | 30086 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 02:00PM-02:50PM | Staff | ONLINE | 06/01/26-07/23/26 | 12 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 97) | 30087 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 03:00PM-04:15PM | Staff | ONLINE | 06/01/26-07/23/26 | 12 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 98) | 30325 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | SEM | MTWR | 09:00AM-09:50AM | Staff | ONLINE | 06/01/26-07/23/26 | 5 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 100W (Section 99) | 30326 | Fully Online | Engineering Reports | GE: WID+3 | 3.0 | LAB | MTWR | 10:00AM-11:15AM | Staff | ONLINE | 06/01/26-07/23/26 | 5 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENGR 198 (Section 80) | 31094 | Fully Online | Technology and Civilization | GE: UD 3 | 3.0 | LEC | MW | 06:00PM-08:00PM | Nik Tehrani | ONLINE | 06/01/26-08/07/26 | 39 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENVS 10 (Section 80) | 31008 | Fully Online | Life on a Changing Planet | GE: 5B | 3.0 | LEC | TBA | TBA | Rachel Lazzeri-Aerts | ONLINE | 06/01/26-07/02/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENVS 111 (Section 80) | 31072 | Fully Online | Geology and the Environment | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Roland Theiss | ONLINE | 06/01/26-07/02/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENVS 159 (Section 80) | 31074 | Fully Online | Nature and World Cultures | GE: UD 3 | 3.0 | SEM | TBA | TBA | Daniel Rivers | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ENVS 166 (Section 80) | 31009 | Fully Online | Nature and Conservation Photography | 4.0 | LEC | TBA | TBA | Benoit Delaveau | ONLINE | 06/01/26-07/02/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ENVS 166 (Section 81) | 31011 | Fully Online | Nature and Conservation Photography | 4.0 | ACT | TBA | TBA | Benoit Delaveau | ONLINE | 06/01/26-07/02/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ENVS 193 (Section 80) | 31130 | Hybrid | Supervised Projects and Research | 1.0 | SUP | TBA | TBA | Katherine Cushing | HYBRID | 06/01/26-08/07/26 | 4 | HYBRID - NO designated day/time online meetings (TBA) with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 11 (Section 80) | 31049 | Fully Online | Survey of Forensic Science | 3.0 | LEC | TBA | TBA | Shawna Bolton | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 12 (Section 80) | 31054 | Fully Online | Introduction to Digital Evidence Investigations | 3.0 | LEC | TBA | TBA | Ryan Kim | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 101 (Section 01) | 31051 | Hybrid | Expert Witness Testimony | 3.0 | LEC | TR TR |
+TR 09:00AM-01:00PM TR 09:00AM-01:00PM |
+Carlos Singh / Carlos Singh | HYBRID |
+06/01/26-07/02/26 | 20 | HYBRID - 2 meetings patterns: (1) designated In Person with day/time meetings; and (2) designated online with day/time meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 160 (Section 80) | 30459 | Fully Online | Special Topics in Forensic Science | 3.0 | SEM | TBA | TBA | Gil Zamora | ONLINE | 07/06/26-08/07/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 162 (Section 01) | 30388 | Fully Online | Forensic Science Applications | 3.0 | LEC | TBA | TBA | Samantha Peek | ONLINE | 07/06/26-08/07/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| FS 162 (Section 11) | 30389 | In Person | Forensic Science Applications | 3.0 | ACT | MW | 09:00AM-12:00PM | Samantha Peek | 07/06/26-08/07/26 | 10 | |||
+| FS 170 (Section 80) | 31050 | Fully Online | Forensic Science in Human Rights Investigations | 3.0 | LEC | MW TBA |
+MW 09:00AM-11:00AM TBA TBA |
+Jodie Warren / Jodie Warren | ONLINE ONLINE |
+06/01/26-07/02/26 | 16 | FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| GEOG 1 (Section 80) | 30460 | Fully Online | Physical Geography | GE: 5A | 3.0 | LEC | TBA | TBA | Joseph Hasty | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| GEOG 112 (Section 80) | 30477 | Fully Online | Nations, Cultures a Globalization | GE: UD 3 | 3.0 | LEC | TBA | TBA | Maureen Kelley | ONLINE | 07/06/26-08/07/26 | 14 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| GEOL 103 (Section 80) | 30026 | Fully Online | Earth Systems and the Environment | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Joseph Petsche | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| GEOL 103 (Section 81) | 30458 | Fully Online | Earth Systems and the Environment | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Joseph Petsche | ONLINE | 07/06/26-08/07/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| GEOL 111 (Section 80) | 30962 | Fully Online | Geology and the Environment | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Roland Theiss | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| GERO 114 (Section 80) | 31064 | Fully Online | Psychology of Aging | 3.0 | LEC | TBA | TBA | Erin Woodhead | ONLINE | 06/01/26-07/02/26 | 33 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| GLST 1B (Section 80) | 30382 | Fully Online | Introduction to Global Studies | GE: 5B | 3.0 | LEC | TBA | TBA | Mary Poffenroth | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 15 (Section 80) | 30021 | Fully Online | Essentials of U.S. History | GE: 4+US1 | 3.0 | LEC | TBA | TBA | Robert Cirivilleri | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 15 (Section 81) | 30252 | Fully Online | Essentials of U.S. History | GE: 4+US1 | 3.0 | LEC | TBA | TBA | Wendy Rouse | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 15 (Section 82) | 30440 | Fully Online | Essentials of U.S. History | GE: 4+US1 | 3.0 | LEC | TBA | TBA | Robert Cirivilleri | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 153 (Section 80) | 30020 | Fully Online | History of Women in Europe | GE: UD 3 | 3.0 | LEC | TBA | TBA | Katharine Olson | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 170S (Section 80) | 31101 | Fully Online | Topics in American History: American Identities and Institutions | GE: 4+US1 | 3.0 | LEC | TBA | TBA | Katherine Chilton | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 185 (Section 80) | 30370 | Fully Online | LGBTQ+ History in the United States | GE: UD 4 | 3.0 | LEC | TBA | TBA | Wendy Rouse | ONLINE | 06/01/26-07/02/26 | 5 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HIST 189B (Section 80) | 30253 | Fully Online | California History Since 1900 | AI: US3 | 4.0 | LEC | TBA | TBA | Glen Gendzel | ONLINE | 07/06/26-08/07/26 | 14 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| HUM 159 (Section 80) | 31073 | Fully Online | Nature and World Cultures | GE: UD 3 | 3.0 | SEM | TBA | TBA | Daniel Rivers | ONLINE | 07/06/26-08/07/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ISE 241 (Section 80) | 30198 | Fully Online | Advanced Operations Planning and Control | 3.0 | SEM | TR | 03:00PM-07:15PM | Yasser Dessouky | ONLINE | 06/01/26-07/02/26 | 40 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ISE 295C (Section 80) | 30279 | Fully Online | Graduate Curricular Practical Training | 1.0 | SUP | TBA | TBA | Yasser Dessouky | ONLINE | 06/01/26-08/07/26 | 34 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 15 (Section 80) | 31052 | Fully Online | Introductory Statistics in Justice Studies | GE: 2 | 3.0 | LEC | TBA | TBA | Dennis Estrada | ONLINE | 06/01/26-07/02/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| JS 25 (Section 80) | 31053 | Fully Online | Introduction to Human Rights and Justice | GE: 4 | 3.0 | LEC | TBA | TBA | Roni Abusaad | ONLINE | 06/01/26-07/02/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| JS 100W (Section 80) | 30432 | Fully Online | Writing Workshop | WID | 3.0 | SEM | TBA | TBA | Staff | ONLINE | 07/06/26-08/07/26 | 8 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| JS 102 (Section 80) | 31056 | Fully Online | Police and Society | 3.0 | LEC | TBA | TBA | Greg Woods | ONLINE | 07/06/26-08/07/26 | 3 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 103 (Section 80) | 30161 | Fully Online | Courts and Society | 3.0 | LEC | TBA | TBA | Harold Peterson | ONLINE | 06/01/26-07/02/26 | 3 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 107 (Section 80) | 31057 | Fully Online | Justice Management and Ethics | 3.0 | LEC | TBA | TBA | Natalie Birthelmer | ONLINE | 07/06/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 114 (Section 80) | 30434 | Fully Online | Research Methods in Justice Studies | 3.0 | LEC | TBA | TBA | Yue Yuan | ONLINE | 07/06/26-08/07/26 | 3 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 132 (Section 80) | 30162 | Fully Online | Race, Gender, Inequality and the Law | GE: UD 4 | 3.0 | LEC | TBA | TBA | Ericka Adams | ONLINE | 06/01/26-07/02/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| JS 151 (Section 80) | 30170 | Fully Online | Criminological Theory | 3.0 | LEC | TBA | TBA | Claudio Vera Sanchez | ONLINE | 06/01/26-07/02/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 152 (Section 80) | 30171 | Fully Online | Juvenile Delinquency a Justice | 3.0 | LEC | TBA | TBA | Susie Rivera | ONLINE | 06/01/26-07/02/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 155 (Section 80) | 30436 | Fully Online | Victimology | 3.0 | LEC | TBA | TBA | Sheree Martinek | ONLINE | 07/06/26-08/07/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 171 (Section 80) | 30180 | Fully Online | Human Rights and Justice | GE: UD 3 | 3.0 | LEC | TBA | TBA | Edith Kinney | ONLINE | 06/01/26-07/02/26 | 11 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| JS 181 (Section 80) | 30186 | Fully Online | Internship: Justice Studies | 3.0 | SUP | TBA | TBA | Paul Knepper | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| JS 189 (Section 80) | 30182 | Fully Online | Senior Seminar: Contemporary Problems | 3.0 | SEM | TBA | TBA | Dina Kameda | ONLINE | 06/01/26-07/02/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| KIN 34 (Section 80) | 30208 | Fully Online | Step Training | PE: PhysEd | 1.0 | ACT | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| KIN 52A (Section 01) | 30306 | In Person | Beginning Judo | PE: PhysEd | 1.0 | ACT | MWF | 10:30AM-12:20PM | Staff | 06/01/26-07/02/26 | 0 | ||
+| KIN 54A (Section 01) | 30455 | In Person | Beginning Tae Kwon Do | PE: PhysEd | 1.0 | ACT | MWF | 08:30AM-10:20AM | Staff | 07/06/26-08/07/26 | 0 | ||
+| KIN 111 (Section 80) | 30209 | Fully Online | Sport a Movement in a Global Context | GE: UD 3 | 3.0 | LEC | MW TBA |
+MW 12:00PM-01:15PM TBA TBA |
+Staff | ONLINE ONLINE |
+06/01/26-07/02/26 | 13 | FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| KIN 155 (Section 01) | 30210 | In Person | Exercise Physiology | 3.0 | LEC | TR TBA |
+TR 11:00AM-01:50PM TBA TBA |
+Staff | |
+06/01/26-07/02/26 | 5 | ||
+| KIN 155 (Section 11) | 30211 | In Person | Exercise Physiology | 0 | ACT | TR | 08:00AM-10:50AM | Staff | 06/01/26-07/02/26 | 0 | |||
+| KIN 155 (Section 12) | 30212 | In Person | Exercise Physiology | 0 | ACT | TR | 02:00PM-04:50PM | Staff | 06/01/26-07/02/26 | 5 | |||
+| KIN 158 (Section 01) | 30652 | In Person | Biomechanics | 3.0 | LEC | MW | 11:00AM-01:50PM | Staff | 06/01/26-07/02/26 | 13 | |||
+| KIN 158 (Section 11) | 30653 | In Person | Biomechanics | 0 | ACT | MW | 08:00AM-10:50AM | Staff | 06/01/26-07/02/26 | 1 | |||
+| KIN 158 (Section 12) | 30654 | In Person | Biomechanics | 0 | ACT | MW | 02:00PM-04:50PM | Staff | 06/01/26-07/02/26 | 12 | |||
+| KIN 165 (Section 80) | 30393 | Fully Online | Motor Development | 3.0 | LEC | TR TBA |
+TR 12:00PM-03:45PM TBA TBA |
+Staff | ONLINE ONLINE |
+07/06/26-08/07/26 | 1 | FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| KIN 198 (Section 01) | 30213 | In Person | Internship in Kinesiology | 1.0 | SUP | TBA | TBA | Staff | 06/01/26-08/07/26 | 5 | Requires department release of permission number. Requires negotiated agreements or contracts. Consult department. |
+||
+| KIN 198 (Section 02) | 30214 | In Person | Internship in Kinesiology | 2.0 | SUP | TBA | TBA | Staff | 06/01/26-08/07/26 | 5 | Requires department release of permission number. Requires negotiated agreements or contracts. Consult department. |
+||
+| KIN 198 (Section 03) | 30215 | In Person | Internship in Kinesiology | 3.0 | SUP | TBA | TBA | Staff | 06/01/26-08/07/26 | 5 | Requires department release of permission number. Requires negotiated agreements or contracts. Consult department. |
+||
+| LING 21 (Section 80) | 30014 | Fully Online | Critical Thinking and Language | GE: 1B | 3.0 | SEM | TBA | TBA | Mahsa Modirzadeh | ONLINE | 06/01/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 21 (Section 81) | 30893 | Fully Online | Critical Thinking and Language | GE: 1B | 3.0 | SEM | TBA | TBA | Kaye Sanders | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 21 (Section 83) | 30445 | Fully Online | Critical Thinking and Language | GE: 1B | 3.0 | SEM | TBA | TBA | Effie Chiu | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 24 (Section 80) | 30894 | Fully Online | Language Variation in Space, Time, a Culture | GE: 1Bor4 | 3.0 | LEC | TBA | TBA | Julia Swan | ONLINE | 06/01/26-07/02/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 123 (Section 80) | 30012 | Fully Online | Sound and Communication | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Richard Abend | ONLINE | 06/01/26-08/07/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 123 (Section 81) | 30013 | Fully Online | Sound and Communication | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Reiko Kataoka | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 123 (Section 82) | 30402 | Fully Online | Sound and Communication | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Hahn Koo | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LING 123 (Section 83) | 30892 | Fully Online | Sound and Communication | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Hahn Koo | ONLINE | 07/06/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LLD 100WB (Section 80) | 30895 | Fully Online | Writing Workshop for Business Students | WID | 3.0 | SEM | TBA | TBA | Effie Chiu | ONLINE | 06/01/26-08/07/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LLD 100WB (Section 81) | 30015 | Fully Online | Writing Workshop for Business Students | WID | 3.0 | SEM | TBA | TBA | Mahsa Modirzadeh | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LLD 100WB (Section 82) | 30272 | Fully Online | Writing Workshop for Business Students | WID | 3.0 | SEM | TBA | TBA | Kaye Sanders | ONLINE | 06/01/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| LLD 100WB (Section 83) | 30896 | Fully Online | Writing Workshop for Business Students | WID | 3.0 | SEM | TBA | TBA | Nathapong Shugan | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MATE 280 (Section 80) | 30304 | Fully Online | Graduate Research | 2.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATE 280I (Section 80) | 30059 | Fully Online | Graduate Research Internship | 2.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATE 283C (Section 80) | 30708 | Fully Online | Graduate Curricular Practical Training | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATE 298 (Section 80) | 30061 | Fully Online | MS Research/Project | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATE 298I (Section 80) | 30062 | Fully Online | Master's Project Internship | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATE 299 (Section 80) | 30063 | Fully Online | Master's Thesis | 1.0 | SUP | TBA | TBA | Anand Ramasubramanian | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MATH 18A (Section 01) | 30285 | In Person | College Algebra | GE: 2 | 3.0 | SEM | MTWRF | 09:00AM-10:50AM | Phuong Phan | 06/01/26-07/02/26 | 31 | ||
+| MATH 30 (Section 01) | 30088 | In Person | Calculus I | GE: 2 | 3.0 | LEC | MTWR | 08:00AM-09:00AM | Minh Vu | 06/01/26-08/07/26 | 23 | ||
+| MATH 30W (Section 01) | 30089 | In Person | Calculus I Workshop | 2.0 | LAB | MTWR | 09:15AM-11:20AM | Minh Vu | 06/01/26-08/07/26 | 25 | |||
+| MATH 31 (Section 01) | 30090 | In Person | Calculus II | GE: 2 | 4.0 | SEM | MTWR | 09:00AM-10:20AM | Misako Van Der Poel | 06/01/26-08/07/26 | 28 | ||
+| MATH 31W (Section 01) | 30091 | In Person | Calculus II Workshop | 1.0 | LAB | MTWR | 10:30AM-11:30AM | Misako Van Der Poel | 06/01/26-08/07/26 | 33 | |||
+| MATH 32 (Section 01) | 30092 | In Person | Calculus III | GE: 2 | 3.0 | LEC | MTWR | 11:00AM-12:00PM | Viet Nguyen | 06/01/26-08/07/26 | 32 | ||
+| MATH 32W (Section 01) | 30093 | In Person | Calculus III Workshop | 1.0 | LAB | MTWR | 12:15PM-01:15PM | Viet Nguyen | 06/01/26-08/07/26 | 34 | |||
+| MATH 39 (Section 01) | 30286 | In Person | Linear Algebra I | 3.0 | LEC | MTWRF | 02:00PM-03:50PM | Olga Kovaleva | 06/01/26-07/02/26 | 34 | |||
+| MATH 70 (Section 01) | 30094 | In Person | Mathematics for Business | GE: 2 | 3.0 | LEC | MTWRF | 08:00AM-09:50AM | Abera Jiru | 06/01/26-07/02/26 | 24 | ||
+| MATH 70W (Section 01) | 30095 | In Person | Mathematics for Business Workshop | 1.0 | LAB | MTWRF | 10:00AM-11:50AM | Abera Jiru | 06/01/26-07/02/26 | 28 | |||
+| MATH 161A (Section 01) | 30096 | In Person | Applied Probability and Statistics I | 3.0 | SEM | MTWRF | 09:00AM-10:50AM | Tahir Bachar Issa | 06/01/26-07/02/26 | 24 | |||
+| MCOM 63 (Section 80) | 30120 | Fully Online | New Media | 3.0 | LEC | TBA | TBA | Nisha Garud Patkar | ONLINE | 06/01/26-07/02/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MCOM 72 (Section 80) | 30651 | Fully Online | Mass Communication and Society | 3.0 | LEC | TBA | TBA | Manel Palos Pons | ONLINE | 07/06/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MCOM 100W (Section 80) | 30268 | Fully Online | Writing Workshop: Mass Communications | WID | 3.0 | SEM | TBA | TBA | Ralph Nichols | ONLINE | 06/01/26-07/02/26 | 14 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MCOM 111 (Section 80) | 30301 | Fully Online | Internship | 3.0 | SEM | TBA | TBA | Shaun Fletcher | ONLINE | 06/01/26-08/07/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MCOM 180 (Section 80) | 30117 | Fully Online | Independent Study | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MCOM 180 (Section 81) | 30118 | Fully Online | Independent Study | 2.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MCOM 180 (Section 82) | 30119 | Fully Online | Independent Study | 3.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| MDES 145 (Section 80) | 31108 | Fully Online | Middle Eastern Traditions | GE: UD 3 | 3.0 | LEC | TBA | TBA | Arthur Zarate | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ME 114 (Section 01) | 30282 | Hybrid | Heat Transfer | 3.0 | SEM | MW TBA |
+MW 06:00PM-07:55PM TBA TBA |
+Hussameddine Kabbani / Hussameddine Kabbani | ONLINE HYBRID |
+06/01/26-08/07/26 | 13 | HYBRID - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). Both include occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ME 130 (Section 01) | 30630 | In Person | Applied Engineering Analysis | 3.0 | LEC | TR | 02:00PM-04:10PM | Charan Bhaskar | 06/01/26-08/07/26 | 31 | |||
+| ME 147 (Section 01) | 30242 | In Person | Dynamic Systems Vibration and Control | 3.0 | SEM | TW | 11:00AM-01:10PM | Syed Zaidi | 06/01/26-08/07/26 | 27 | |||
+| ME 154 (Section 80) | 30631 | Fully Online | Mechanical Engineering Design | 4.0 | SEM | TR | 05:00PM-07:40PM | Vimal Viswanathan | ONLINE | 06/01/26-08/07/26 | 31 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ME 180 (Section 81) | 30240 | Fully Online | Individual Studies | 1.0 | SUP | TBA | TBA | Hohyun Lee | ONLINE | 06/01/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ME 180 (Section 83) | 30284 | Fully Online | Individual Studies | 3.0 | SUP | TBA | TBA | Hohyun Lee | ONLINE | 06/01/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| ME 198 (Section 80) | 31069 | Fully Online | Technology and Civilization | GE: UD 3 | 3.0 | LEC | MW | 06:00PM-08:00PM | Nik Tehrani | ONLINE | 06/01/26-08/07/26 | 39 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| ME 291 (Section 84) | 30289 | Fully Online | Project Planning | GWAR | 3.0 | LEC | W TBA |
+W 06:00PM-07:55PM TBA TBA |
+John Lee / John Lee | ONLINE ONLINE |
+06/01/26-08/07/26 | 27 | FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| ME 298 (Section 91) | 30241 | Fully Online | Special Project in Mechanical Engineering | 1.0 | SUP | TBA | TBA | Hohyun Lee | ONLINE | 06/01/26-08/07/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| METR 112 (Section 80) | 30043 | Fully Online | Global Climate Changes | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Henry Bartholomew | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| METR 112 (Section 81) | 30044 | Fully Online | Global Climate Changes | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Henry Bartholomew | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 10A (Section 80) | 30041 | Fully Online | Music Appreciation | GE: 3A | 3.0 | LEC | TBA | TBA | Ray Furuta | ONLINE | 06/01/26-07/02/26 | 39 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 10A (Section 82) | 30408 | Fully Online | Music Appreciation | GE: 3A | 3.0 | LEC | TBA | TBA | Christopher Luna-Mega | ONLINE | 07/06/26-08/07/26 | 41 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 10C (Section 80) | 30742 | Fully Online | Pop and Rock in the U.S. | GE: 3A | 3.0 | LEC | TBA | TBA | Ontario Alexander | ONLINE | 07/06/26-08/07/26 | 49 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 10D (Section 80) | 30441 | Fully Online | Introduction to Hip Hop | GE: 3A | 3.0 | LEC | MTWR | 01:00PM-03:05PM | Dave Ma | ONLINE | 06/01/26-07/02/26 | 47 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 19 (Section 80) | 30740 | Fully Online | Music in World Cultures | GE: 3A | 3.0 | LEC | TBA | TBA | Robin Sacolick | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 19 (Section 81) | 30741 | Fully Online | Music in World Cultures | GE: 3A | 3.0 | LEC | TBA | TBA | Timothy Harris | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 117 (Section 80) | 30743 | Fully Online | Music and Culture in Latin America | GE: UD 3 | 3.0 | LEC | TBA | TBA | Jose Torres | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 120 (Section 80) | 30040 | Fully Online | Worlds of Jazz | GE: UD 4 | 3.0 | LEC | TBA | TBA | Aaron Lington | ONLINE | 06/01/26-07/02/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 172 (Section 80) | 30884 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 06/01/26-07/02/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| MUSC 172 (Section 80) | 30889 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| NAIS 1 (Section 80) | 30610 | Fully Online | Intro to Native American and Indigenous Studies | GE: 6 | 3.0 | LEC | TBA | TBA | Abel Gomez | ONLINE | 06/01/26-07/02/26 | 11 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| NAIS 2 (Section 80) | 30457 | Fully Online | California Indigenous Peoples | GE: 6 | 3.0 | LEC | TBA | TBA | Kerri Malloy | ONLINE | 07/06/26-08/07/26 | 31 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| NUFS 139 (Section 80) | 31137 | Fully Online | Hunger and Environmental Nutrition | GE: UD 2/5 | 3.0 | SEM | TBA | TBA | Natsuko Tsuji | ONLINE | 06/01/26-07/02/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| NUFS 144 (Section 80) | 31138 | Fully Online | Food Culture: Consuming Passions | GE: UD 3 | 3.0 | LEC | TBA | TBA | Stephanie Spencer | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PH 140 (Section 80) | 31060 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Sung Jay Ou | ONLINE | 06/01/26-07/02/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PH 140 (Section 81) | 31061 | Fully Online | Human Sexuality | GE: UD 4 | 3.0 | LEC | TBA | TBA | Kanak Somani | ONLINE | 07/06/26-08/07/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PH 165C (Section 80) | 30146 | Fully Online | Public Health Leadership Series III Fieldwork Experience | 2.0 | FLD | TBA | TBA | Robert Rinck | ONLINE | 06/01/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 165C (Section 81) | 30247 | Fully Online | Public Health Leadership Series III Fieldwork Experience | 2.0 | FLD | TBA | TBA | Robert Rinck | ONLINE | 06/01/26-08/07/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 165D (Section 70) | 31099 | Fully Online | Public Health Leadership Series IV | 1.0 | LEC | TBA | TBA | Anji Buckner | ONLINE | 06/01/26-07/22/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 179 (Section 70) | 31100 | Fully Online | Public Health Capstone | 3.0 | SEM | TBA | TBA | Anji Buckner | ONLINE | 06/01/26-07/22/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 280 (Section 80) | 30627 | Fully Online | Individual Graduate Studies | 1.0 | SEM | TBA | TBA | Staff | ONLINE | 06/01/26-08/07/26 | 5 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 280 (Section 81) | 30628 | Fully Online | Individual Graduate Studies | 2.0 | SEM | TBA | TBA | Staff | ONLINE | 06/01/26-08/07/26 | 5 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 291B (Section 80) | 30143 | Fully Online | Fieldwork Practicum | 1.0 | SUP | TBA | TBA | Robert Rinck | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 291B (Section 81) | 30144 | Fully Online | Fieldwork Practicum | 2.0 | SUP | TBA | TBA | Robert Rinck | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PH 291P (Section 80) | 30145 | Fully Online | Professional Development | 1.0 | SUP | TBA | TBA | Robert Rinck | ONLINE | 06/01/26-08/07/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| PHIL 10 (Section 80) | 30097 | Fully Online | Introduction to Philosophy | GE: 3B | 3.0 | LEC | TBA | TBA | Casey Smith | ONLINE | 06/01/26-07/02/26 | 6 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 10 (Section 81) | 30797 | Fully Online | Introduction to Philosophy | GE: 3B | 3.0 | LEC | TBA | TBA | Michael Sudduth | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 12 (Section 80) | 30798 | Fully Online | Human Nature and the Meaning of Life | GE: E | 3.0 | LEC | TBA | TBA | Janet Giddings | ONLINE | 06/01/26-07/02/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 57 (Section 80) | 30799 | Fully Online | Logic and Critical Reasoning | GE: 1B | 3.0 | SEM | TBA | TBA | Krupa Patel | ONLINE | 06/01/26-07/02/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 57 (Section 81) | 30415 | Fully Online | Logic and Critical Reasoning | GE: 1B | 3.0 | SEM | TBA | TBA | Nathan Osborne | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 61 (Section 80) | 30416 | Fully Online | Moral Issues | GE: 3B | 3.0 | LEC | TBA | TBA | Lisa Bernasconi | ONLINE | 07/06/26-08/07/26 | 13 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 66 (Section 80) | 30098 | Fully Online | Introduction to Aesthetics | GE: 3A | 3.0 | LEC | TBA | TBA | Iman Roohnavaz | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 70B (Section 80) | 30299 | Fully Online | Early Modern Philosophy | GE: 3B | 3.0 | LEC | TBA | TBA | Michael Jordan | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 104 (Section 80) | 30810 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 104 (Section 81) | 30829 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 110 (Section 80) | 30259 | Fully Online | Science, Technology and Human Values | GE: UD 3 | 3.0 | LEC | TBA | TBA | Kyle Hertsch | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 133 (Section 80) | 30099 | Fully Online | Ethics in Science | GE: UD 3 | 3.0 | LEC | TBA | TBA | Jordan Liz | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 134 (Section 80) | 30100 | Fully Online | Computers, Ethics and Society | GE: UD 3 | 3.0 | LEC | TBA | TBA | Raymond Noriega | ONLINE | 06/01/26-07/02/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 134 (Section 81) | 30420 | Fully Online | Computers, Ethics and Society | GE: UD 3 | 3.0 | LEC | TBA | TBA | Javier Cardoza-Kon | ONLINE | 07/06/26-08/07/26 | 17 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 160 (Section 80) | 30101 | Fully Online | Philosophy of Science | GE: UD 2/5 | 3.0 | LEC | TBA | TBA | Trevor Gullion | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 01) | 30831 | In Person | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | MTWR | 09:00AM-11:00AM | David Mcreynolds | 06/01/26-07/02/26 | 28 | ||
+| PHIL 186 (Section 02) | 30832 | In Person | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TR | 11:00AM-03:00PM | Andrew Delunas | 07/06/26-08/07/26 | 29 | ||
+| PHIL 186 (Section 80) | 30835 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Rebecca Chan | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 81) | 30836 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Carlos Sanchez | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 82) | 30837 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Timothy Johnston | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 83) | 30838 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 84) | 30843 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Carlos Sanchez | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 85) | 30844 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Rebecca Chan | ONLINE | 07/06/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 86) | 30845 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Jordan Liz | ONLINE | 07/06/26-08/07/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 87) | 30846 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Lisa Bernasconi | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHIL 186 (Section 88) | 30847 | Fully Online | Professional and Business Ethics | GE: UD 4 | 3.0 | LEC | TBA | TBA | Staff | ONLINE | 07/06/26-08/07/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PHOT 40 (Section 01) | 30744 | In Person | Beginning Photography | 3.0 | ACT | MTWR | 12:00PM-04:00PM | Erin De Jauregui | 06/01/26-07/02/26 | 22 | |||
+| PHYS 2A (Section 01) | 30166 | In Person | Fundamentals of Physics | 0 | LEC | MTWR | 09:00AM-09:35AM | Staff | 06/01/26-07/09/26 | 21 | |||
+| PHYS 2A (Section 10) | 30164 | In Person | Fundamentals of Physics | GE: 5A+5C | 4.0 | DIS | MTWR | 09:40AM-10:50AM | Staff | 06/01/26-07/09/26 | 3 | ||
+| PHYS 2A (Section 11) | 30165 | In Person | Fundamentals of Physics | GE: 5A+5C | 4.0 | LAB | MW | 11:00AM-02:35PM | Staff | 06/01/26-07/09/26 | 3 | ||
+| PHYS 2A (Section 12) | 30167 | In Person | Fundamentals of Physics | GE: 5A+5C | 4.0 | DIS | MTWR | 09:40AM-10:50AM | Staff | 06/01/26-07/09/26 | 18 | ||
+| PHYS 2A (Section 13) | 30168 | In Person | Fundamentals of Physics | GE: 5A+5C | 4.0 | LAB | TR | 11:00AM-02:35PM | Staff | 06/01/26-07/09/26 | 18 | ||
+| PHYS 2B (Section 01) | 30172 | In Person | Fundamentals of Physics | GE: 5A+5C | 4.0 | LEC | MTWR | 09:00AM-10:45AM | Staff | 06/01/26-07/09/26 | 6 | ||
+| PHYS 2B (Section 11) | 30173 | In Person | Fundamentals of Physics | 0 | LAB | MW | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 0 | |||
+| PHYS 2B (Section 12) | 30174 | In Person | Fundamentals of Physics | 0 | LAB | TR | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 6 | |||
+| PHYS 50 (Section 01) | 30175 | In Person | General Physics I: Mechanics | GE: 5A+5C | 4.0 | LEC | MTWR | 09:00AM-10:45AM | Staff | 06/01/26-07/09/26 | 28 | ||
+| PHYS 50 (Section 11) | 30176 | In Person | General Physics I: Mechanics | 0 | LAB | MW | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 12 | |||
+| PHYS 50 (Section 12) | 30177 | In Person | General Physics I: Mechanics | 0 | LAB | TR | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 16 | |||
+| PHYS 51 (Section 01) | 30178 | In Person | General Physics II: Electricity and Magnetism | GE: 5A+5C | 4.0 | LEC | MTWR | 09:00AM-10:45AM | Staff | 06/01/26-07/09/26 | 21 | ||
+| PHYS 51 (Section 11) | 30179 | In Person | General Physics II: Electricity and Magnetism | 0 | LAB | MW | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 9 | |||
+| PHYS 51 (Section 12) | 30181 | In Person | General Physics II: Electricity and Magnetism | 0 | LAB | TR | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 12 | |||
+| PHYS 52 (Section 01) | 30183 | In Person | General Physics III: Waves, Light, Heat | GE: 5A+5C | 4.0 | LEC | MTWR | 09:00AM-10:45AM | Staff | 06/01/26-07/09/26 | 17 | ||
+| PHYS 52 (Section 11) | 30184 | In Person | General Physics III: Waves, Light, Heat | 0 | LAB | MW | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 6 | |||
+| PHYS 52 (Section 12) | 30185 | In Person | General Physics III: Waves, Light, Heat | 0 | LAB | TR | 11:00AM-02:25PM | Staff | 06/01/26-07/09/26 | 11 | |||
+| POLS 2 (Section 80) | 30280 | Fully Online | Introduction to Comparative Politics | GE: 4 | 3.0 | LEC | TBA | TBA | Danijela Dudley | ONLINE | 07/06/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 3 (Section 80) | 30034 | Fully Online | Introduction to Political Thought | GE: 3B | 3.0 | LEC | TBA | TBA | Lawrence Quill | ONLINE | 06/01/26-07/02/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 4 (Section 80) | 30997 | Fully Online | Introduction to International Relations | GE: 4 | 3.0 | LEC | TBA | TBA | Danijela Dudley | ONLINE | 06/01/26-07/02/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 80) | 30028 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Sara Benson | ONLINE | 06/01/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 81) | 30029 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | James Brent | ONLINE | 06/01/26-08/07/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 82) | 30030 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Mary Currin-Percival | ONLINE | 06/01/26-08/07/26 | 1 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 83) | 30031 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Garrick Percival | ONLINE | 06/01/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 84) | 30032 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Sara Benson | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 85) | 30033 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | James Brent | ONLINE | 06/01/26-07/02/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 86) | 30039 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Mary Currin-Percival | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 87) | 30395 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Garrick Percival | ONLINE | 06/01/26-07/02/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 88) | 30405 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Sara Benson | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 89) | 30406 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | James Brent | ONLINE | 07/06/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 90) | 30407 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Mary Currin-Percival | ONLINE | 07/06/26-08/07/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 15 (Section 91) | 30992 | Fully Online | Essentials of U.S. a California Government | GE: 4+US23 | 3.0 | LEC | TBA | TBA | Lawrence Quill | ONLINE | 07/06/26-08/07/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 16 (Section 01) | 31001 | In Person | Power and Ideas in American Politics | GE:3B+US23 | 3.0 | LEC | MW | 10:00AM-02:00PM | Albert Schendan | 06/01/26-07/02/26 | 30 | ||
+| POLS 16 (Section 80) | 30998 | Fully Online | Power and Ideas in American Politics | GE:3B+US23 | 3.0 | LEC | TBA | TBA | Robert Ovetz | ONLINE | 07/06/26-08/07/26 | 12 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 100W (Section 80) | 30027 | Fully Online | Writing Workshop | WID | 3.0 | SEM | TBA | TBA | Lawrence Quill | ONLINE | 06/01/26-08/07/26 | 14 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 170V (Section 80) | 30993 | Fully Online | American Politics in Global Perspective | GE: 3+US23 | 3.0 | SEM | TBA | TBA | Andrew Alexander | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 170V (Section 81) | 30994 | Fully Online | American Politics in Global Perspective | GE: 3+US23 | 3.0 | SEM | TBA | TBA | Andrew Alexander | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 170V (Section 82) | 30995 | Fully Online | American Politics in Global Perspective | GE: 3+US23 | 3.0 | SEM | TBA | TBA | Andrew Alexander | ONLINE | 07/06/26-08/07/26 | 16 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| POLS 170V (Section 83) | 30996 | Fully Online | American Politics in Global Perspective | GE: 3+US23 | 3.0 | SEM | TBA | TBA | Jeremy Abrams | ONLINE | 07/06/26-08/07/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PORT 1A (Section 80) | 31127 | Fully Online | Elementary Portuguese I | GE: 3B | 4.0 | SEM | TBA | TBA | Duarte Manuel Carvalho Pinheiro | ONLINE | 06/01/26-08/07/26 | 28 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| PSYC 1 (Section 80) | 30147 | Fully Online | Introduction to Psychology | GE: 4 | 3.0 | LEC | MW | 09:00AM-01:30PM | Patrick Cravalho | ONLINE | 06/01/26-07/02/26 | 28 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+| PSYC 1 (Section 81) | 30479 | Fully Online | Introduction to Psychology | GE: 4 | 3.0 | LEC | TBA | TBA | Christine Ma | ONLINE | 07/06/26-08/07/26 | 21 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+| PSYC 18 (Section 80) | 30263 | Fully Online | Introduction to Research Methods | 3.0 | LEC | TBA | TBA | Neelam Rattan | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 30 (Section 80) | 30148 | Fully Online | Introductory Psychobiology | 3.0 | LEC | TR | 09:00AM-01:30PM | Jill Citron | ONLINE | 06/01/26-07/02/26 | 21 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 100W (Section 81) | 30160 | Fully Online | Writing Workshop | WID | 3.0 | SEM | TBA | TBA | Thomas Shirley | ONLINE | 06/01/26-08/07/26 | 7 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Restricted to certain majors. Contact department office for information. |
+| PSYC 102 (Section 80) | 30431 | Fully Online | Psychology of Childhood | 3.0 | LEC | TBA | TBA | Cj Duh | ONLINE | 07/06/26-08/07/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 110 (Section 80) | 30150 | Fully Online | Adult Psychopathology | 3.0 | LEC | TBA | TBA | Glenn Callaghan | ONLINE | 06/01/26-07/02/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 110 (Section 81) | 30450 | Fully Online | Adult Psychopathology | 3.0 | LEC | TBA | TBA | Robin Schulte | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 114 (Section 80) | 30615 | Fully Online | Psychology of Aging | 3.0 | LEC | TBA | TBA | Erin Woodhead | ONLINE | 06/01/26-07/02/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 117 (Section 80) | 30153 | Fully Online | Psychological Tests and Measures | 3.0 | LEC | TBA | TBA | Sandra Trafalis | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 118 (Section 01) | 30327 | In Person | Advanced Research Methods in Psychology | 3.0 | LEC | MTWR | 12:00PM-02:00PM | Angel Villicana | 07/06/26-08/07/26 | 20 | See course description for requirements. Prereq - 100W. |
+||
+| PSYC 118 (Section 02) | 30328 | In Person | Advanced Research Methods in Psychology | 3.0 | ACT | TR | 02:15PM-05:00PM | Angel Villicana | 07/06/26-08/07/26 | 20 | See course description for requirements. Prereq - 100W. |
+||
+| PSYC 118 (Section 80) | 30264 | Fully Online | Advanced Research Methods in Psychology | 3.0 | LEC | TBA | TBA | Leighton Hinkley | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Prereq - 100W. |
+|
+| PSYC 118 (Section 81) | 30265 | Fully Online | Advanced Research Methods in Psychology | 3.0 | ACT | TBA | TBA | Leighton Hinkley | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Prereq - 100W. |
+|
+| PSYC 129 (Section 80) | 30616 | Fully Online | Neuroscience | 3.0 | LEC | TR | 10:00AM-02:30PM | Cheryl Chancellor-Freeland | ONLINE | 06/01/26-07/02/26 | 27 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 135 (Section 80) | 30617 | Fully Online | Cognition | 3.0 | SEM | MW | 12:00PM-04:30PM | Mark Van Selst | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 139 (Section 80) | 30618 | Fully Online | Psychology of Personality | 3.0 | LEC | TR | 11:00AM-03:30PM | Jason Ventura | ONLINE | 06/01/26-07/02/26 | 25 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 142 (Section 80) | 30385 | Fully Online | Child Psychopathology | 3.0 | LEC | TBA | TBA | Jess Chong | ONLINE | 07/06/26-08/07/26 | 19 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 153 (Section 80) | 30386 | Fully Online | Psychology in the Courtroom | 3.0 | LEC | TBA | TBA | Alen Yaghoubi | ONLINE | 07/06/26-08/07/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 154 (Section 80) | 30155 | Fully Online | Social Psychology | 3.0 | LEC | TBA | TBA | Arlene Asuncion | ONLINE | 06/01/26-07/02/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 155 (Section 80) | 30156 | Fully Online | Human Learning | 3.0 | LEC | TBA | TBA | Steven Del Chiaro | ONLINE | 06/01/26-07/02/26 | 8 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 158 (Section 80) | 30394 | Fully Online | Perception | 3.0 | LEC | TBA | TBA | Steven Macramalla | ONLINE | 07/06/26-08/07/26 | 23 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 160 (Section 80) | 30619 | Fully Online | Clinical Psychology | 3.0 | LEC | TBA | TBA | Leslye Whitehead | ONLINE | 07/06/26-08/07/26 | 26 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+|
+| PSYC 190 (Section 80) | 30387 | Fully Online | Current Issues Capstone | 3.0 | LEC | TBA | TBA | Laree Huntsman | ONLINE | 06/01/26-07/02/26 | 11 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Prereq - 100W. |
+|
+| PSYC 190 (Section 81) | 30620 | Fully Online | Current Issues Capstone | 3.0 | LEC | TBA | TBA | Bianca Hinojosa | ONLINE | 07/06/26-08/07/26 | 10 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Prereq - 100W. |
+|
+| PSYC 191 (Section 80) | 30158 | Fully Online | The Psychology of Prejudice | GE: UD 4 | 3.0 | LEC | TBA | TBA | Desiree Ryan | ONLINE | 06/01/26-07/02/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+| RELS 104 (Section 80) | 30811 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RELS 104 (Section 81) | 30813 | Fully Online | Asian Philosophy | GE: UD 3 | 3.0 | LEC | TBA | TBA | Bo Mou | ONLINE | 07/06/26-08/07/26 | 30 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RELS 145 (Section 80) | 31106 | Fully Online | Middle Eastern Traditions | GE: UD 3 | 3.0 | LEC | TBA | TBA | Arthur Zarate | ONLINE | 06/01/26-07/02/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 10 (Section 80) | 30125 | Fully Online | The Art of Film | GE: 3A | 3.0 | LEC | TBA | TBA | Christina Wright | ONLINE | 06/01/26-07/02/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 10 (Section 81) | 30269 | Fully Online | The Art of Film | GE: 3A | 3.0 | LEC | TBA | TBA | Drew Todd | ONLINE | 07/06/26-08/07/26 | 8 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 110 (Section 80) | 30126 | Fully Online | Media and Culture | GE: UD 4 | 3.0 | LEC | TBA | TBA | Hojeong Lee | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 110 (Section 81) | 30127 | Fully Online | Media and Culture | GE: UD 4 | 3.0 | LEC | TBA | TBA | Hojeong Lee | ONLINE | 07/06/26-08/07/26 | 2 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 111 (Section 80) | 30128 | Fully Online | Global Screen Cultures | GE: UD 3 | 3.0 | LEC | TBA | TBA | Drew Todd | ONLINE | 06/01/26-07/02/26 | 0 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 111 (Section 81) | 30129 | Fully Online | Global Screen Cultures | GE: UD 3 | 3.0 | LEC | TBA | TBA | Raha Shojaei | ONLINE | 07/06/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| RTVF 134 (Section 01) | 30270 | In Person | Spartan Film Studio Summer Film Production | 3.0 | LEC | MW | 11:00AM-12:25PM | Nick Martinez / Joe Neto | 06/01/26-08/07/26 | 26 | |||
+| RTVF 134 (Section 02) | 30271 | In Person | Spartan Film Studio Summer Film Production | 3.0 | ACT | MW | 12:35PM-02:00PM | Nick Martinez / Joe Neto | 06/01/26-08/07/26 | 26 | |||
+| RTVF 160 (Section 80) | 30130 | Fully Online | Introduction to Screenwriting | 3.0 | SEM | MW | 02:00PM-04:10PM | Barnaby Dallas / Lawrence Schapiro | ONLINE | 06/01/26-08/07/26 | 27 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| RTVF 198 (Section 80) | 30131 | Fully Online | RTVF Internships, Portfolio, Career Prep | 3.0 | ACT | TBA | TBA | Ashley Seering | ONLINE | 06/01/26-08/07/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| RTVF 198 (Section 81) | 30132 | Fully Online | RTVF Internships, Portfolio, Career Prep | 3.0 | LEC | TBA | TBA | Ashley Seering | ONLINE | 06/01/26-08/07/26 | 27 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| SE 134 (Section 01) | 31071 | In Person | Computer Game Design and Programming | 3.0 | SEM | TR | 09:00AM-11:00AM | Vuthea Chheang | 06/01/26-08/07/26 | 35 | |||
+| SE 180 (Section 80) | 30909 | Fully Online | Individual Studies | 1.0 | SUP | TBA | TBA | Staff | ONLINE | 06/01/26-07/02/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| SOCI 116 (Section 80) | 30612 | Fully Online | Global Society | 3.0 | LEC | TBA | TBA | Mariana Manriquez | ONLINE | 06/01/26-07/02/26 | 9 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| SOCI 162 (Section 01) | 31102 | In Person | Race and Ethnic Relations | GE: UD 4 | 3.0 | LEC | TR | 01:30PM-05:45PM | William Armaline | 07/06/26-08/07/26 | 37 | ||
+| SOCI 170 (Section 80) | 30613 | Fully Online | Sociology of Family | 3.0 | LEC | TBA | TBA | Morgan Sanchez | ONLINE | 06/01/26-07/02/26 | 8 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| SPAN 102B (Section 80) | 30106 | Fully Online | Hispanic American Culture | GE: UD 3 | 3.0 | SEM | TBA | TBA | Damian Bacich | ONLINE | 06/01/26-07/02/26 | 4 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| SPAN 132 (Section 80) | 30899 | Fully Online | Special Topics in Spanish for Careers | 4.0 | LEC | TBA | TBA | Angel Ruiz Blanco | ONLINE | 06/01/26-07/02/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| STAT 95 (Section 80) | 30149 | Fully Online | Elementary Statistics | GE: 2 | 3.0 | LEC | MW | 09:00AM-01:30PM | Howard Tokunaga | ONLINE | 06/01/26-07/02/26 | 29 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+| STAT 95 (Section 81) | 30614 | Fully Online | Elementary Statistics | GE: 2 | 3.0 | LEC | TBA | TBA | Juan Pena | ONLINE | 07/06/26-08/07/26 | 18 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. |
+| STAT 115 (Section 80) | 30383 | Fully Online | Intermediate Statistics | 3.0 | LEC | MW | 09:00AM-01:30PM | Amy Nguyen | ONLINE | 07/06/26-08/07/26 | 26 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti See course description for requirements. Not available to Open University students. |
+|
+| TA 10 (Section 81) | 30428 | Fully Online | Theatre Appreciation | GE: 3A | 3.0 | LEC | TBA | TBA | Kathleen Normington | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| TA 55 (Section 80) | 30920 | Fully Online | Intro to Design for the Performing Arts | GE: 3A | 3.0 | LEC | TBA | TBA | Andrea Bechert | ONLINE | 06/01/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| TA 55 (Section 81) | 30921 | Fully Online | Intro to Design for the Performing Arts | GE: 3A | 3.0 | ACT | TBA | TBA | Andrea Bechert | ONLINE | 06/01/26-08/07/26 | 29 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| TA 145 (Section 80) | 31066 | Fully Online | Shakespeare and Performance | 4.0 | LEC | TBA | TBA | Adrienne Eastwood | ONLINE | 06/01/26-08/07/26 | 35 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| TA 172 (Section 80) | 30885 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 06/01/26-07/02/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| TA 172 (Section 80) | 30886 | Fully Online | The Arts in U.S. Society | GE: UD 4 | 3.0 | LEC | TBA | TBA | Shannon Rose Riley | ONLINE | 07/06/26-08/07/26 | 24 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+| TECH 180J (Section 80) | 30728 | Fully Online | Individual Studies in Technology Issues | 1.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| TECH 180J (Section 81) | 30729 | Fully Online | Individual Studies in Technology Issues | 3.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| TECH 195 (Section 80) | 30007 | Fully Online | Cooperative Internship | 1.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| TECH 195 (Section 81) | 30008 | Fully Online | Cooperative Internship | 3.0 | SUP | TBA | TBA | Freidoon Barez | ONLINE | 06/01/26-08/07/26 | 20 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| TECH 198 (Section 80) | 30697 | Fully Online | Technology and Civilization | GE: UD 3 | 3.0 | LEC | MW | 06:00PM-08:00PM | Nik Tehrani | ONLINE | 06/01/26-08/07/26 | 22 | FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+| URBP 234 (Section 80) | 31131 | Hybrid | Field Study Seminar | 1.0 | SUP | TBA | TBA | Richard Kos | HYBRID | 06/01/26-08/07/26 | 5 | HYBRID - NO designated day/time online meetings (TBA) with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/cfeti |
+|
+| URBP 275G (Section 80) | 30324 | Fully Online | Geographic Information Systems Overview: Urban Planning Applications | 1.0 | SEM | TBA | TBA | Richard Kos | ONLINE | 06/01/26-08/07/26 | 22 | FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/cfeti |

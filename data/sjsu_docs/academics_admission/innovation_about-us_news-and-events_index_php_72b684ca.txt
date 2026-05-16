@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/innovation/about-us/news-and-events/index.php
+Title: News and Events
+Type: HTML
+
+Office of Innovation
+News
+Read the latest stories about SpartUp Incubator and the Office of Innovation & Corporate Partnerships
+Events
+Register for upcoming OICP Events

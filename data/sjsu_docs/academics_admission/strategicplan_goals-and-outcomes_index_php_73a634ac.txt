@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/strategicplan/goals-and-outcomes/index.php
+Title: Goals
+Type: HTML
+
+Goals
+Attract unique and exceptional students, faculty, and staff to actively engage in a teaching, learning, and research environment supporting their interests as creators, innovators, change agents, and champions of the social good in a diverse and changing world.
+Be an academic institution recognized for the leadership contributions of its faculty, staff, students, and alumni to addressing important challenges in our fields of study and in the regional and global communities in which all SJSU community members serve.
+Be an inclusive, welcoming, and caring university community that attracts, retains and sustains faculty, staff members, and students.
+Be an impactful and dynamic urban university with strong connections locally and globally.
+Be a flourishing, downtown campus with modern infrastructure, campus spaces, technology and effective process infrastructure to support a growing university community.

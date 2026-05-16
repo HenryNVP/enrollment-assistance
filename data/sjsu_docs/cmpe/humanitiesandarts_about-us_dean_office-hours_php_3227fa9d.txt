@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/humanitiesandarts/about-us/dean/office-hours.php
+Title: Dean's Office Hours
+Type: HTML
+
+College of Humanities and the Arts
+Please visit this website to schedule an appointment with the Dean of the College of Humanities and the Arts.

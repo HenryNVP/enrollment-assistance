@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/parking/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Parking Services is dedicated to providing a clean and safe parking environment for students, faculty, staff and visitors.
+We maintain 7,500 parking spaces for a campus population of over 32,000 people.
+As part of the University Police Department, we provide the following services to the campus community:
+- Courtesy Motorist Assistance
+- Park & Ride Courtesy Shuttle
+- Safety Escort to Your Car
+- Parking Enforcement
+- Special Event Parking
+- Student, Employee & Visitor Parking Permits
+If you have a question or need our help, contact us at 408-924-6557.

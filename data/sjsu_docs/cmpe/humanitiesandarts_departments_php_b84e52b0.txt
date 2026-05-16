@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/humanitiesandarts/departments.php
+Title: Departments
+Type: HTML
+
+College of Humanities and the Arts
+Department of Art and Art History
+Department of Design
+Department of English and Comparative Literature
+Department of Film, Theatre, and Dance
+Department of Humanities
+School of Journalism and Mass Communications
+Department of Linguistics and Language Development
+School of Music
+Department of Philosophy
+Department of World Languages and Literatures

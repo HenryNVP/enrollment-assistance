@@ -1,0 +1,33 @@
+Source: https://blogs.sjsu.edu/newsroom/2026/csu-releases-findings-after-conducting-the-largest-and-most-comprehensive-survey-on-artificial-intelligence-in-higher-education
+Title: CSU Releases Findings After Conducting the Largest and Most Comprehensive Survey on Artificial Intelligence in Higher Education
+Type: HTML
+
+CSU Releases Findings After Conducting the Largest and Most Comprehensive Survey on Artificial Intelligence in Higher Education
+Responses from more than 94,000 students, faculty and staff reveal higher education’s promising yet complex relationship with AI. Copy and imagery from this post originally appeared on the CSU website.
+The California State University (CSU) has released findings from its first-ever systemwide survey on artificial intelligence (AI), marking the largest and most comprehensive survey to date on generative artificial intelligence in higher education. The survey draws on more than 94,000 responses from faculty, staff, and students, offering key insights into higher education’s relationship with AI — one that is both promising and complex.
+The new report, “Ahead of the Curve: What the Nation’s Largest Public University System is Learning about AI,” comes at a time when colleges and universities across the country are determining how to prepare students for an AI-shaped workforce while preserving academic integrity, critical thinking and public trust. The CSU AI survey’s findings suggest the question is no longer whether AI belongs in higher education, but how institutions should lead its use thoughtfully, consistently and at scale.
+“We launched the largest AI initiative in higher education last year to ensure that this extraordinary technology equitably expands opportunity for CSU students, bolsters faculty and staff excellence, strengthens the California workforce, and is implemented in a manner that reflects the CSU’s core values,” said Chancellor Mildred García. “Data must inform and guide our decision-making moving forward, and this survey — given its size — sets not just a CSU benchmark, but a national one. And it marks an exciting moment for the CSU, one that demonstrates our commitment to student success by boldly and thoughtfully leading through innovation.”
+“The survey results reflect what we are seeing across our universities — widespread engagement with AI tools and technologies,” said Ed Clark, chief information officer for the CSU. “As artificial intelligence becomes increasingly embedded into every academic field and every industry, it is important for us to partner with our faculty, students, employers, industry sector leaders, and state and local government officials to better prepare our students and our community for this AI-infused environment.”
+Developed by researchers at San Diego State University, the CSU AI Survey was conducted in fall 2025. The CSU’s more than 470,000 students and more than 61,000 faculty and staff were invited to participate in the survey, which asked questions in five core sections: awareness and understanding of AI; experience and usage of AI; perceptions and attitudes toward AI; skills education and training of AI; and future expectations of AI. Of the more than 94,000 respondents, just over 80,000 were students — 85% undergraduates — more than 6,000 were faculty and more than 7,300 were staff.
+“This survey captures a moment of transition in higher education, where both students and faculty are actively assessing how AI fits into teaching and learning,” said David Goldberg, SDSU AI faculty fellow, associate professor of management information systems and a lead researcher on the survey. “The data gives us a powerful foundation to better support faculty by tailoring training to real needs, bringing more consistency to AI use in the classroom, and ensuring that its use strengthens learning outcomes. It also offers a roadmap for institutions nationwide to better understand AI’s role and to implement it thoughtfully, consistently, and responsibly.”
+Key Findings
+The survey results reveal that AI awareness across the CSU’s 22 campuses* is high and that most students, faculty and staff are engaging meaningfully with it. What is also clear from the results is that adoption of AI is not without concern. While engagement is high, respondents are taking a cautious approach to AI use, not entirely trusting AI’s accuracy and expressing the importance of verifying AI outputs. There is also a near universal demand for transparency, ethical use, and responsible regulation of AI.
+The following are some of the survey’s key findings:
+- AI use is widespread.
+- More than half of students, six in 10 faculty and two thirds of staff regularly use AI-powered tools.
+- Ninety-five percent of respondents used at least one of the 21 AI tools listed in the survey.
+- Demand for training is real, and the students who need it most want it most.
+- More than eight in 10 staff respondents and roughly seven in 10 faculty want formal AI training.
+- About half of student respondents express the same interest — but first-generation students lead at 53% compared with 45% of non-first-generation students.
+- Ethical lines are being drawn.
+- About 80% of student respondents are not comfortable submitting AI-generated work as their own.
+- The majority of faculty, staff and student respondents say it is necessary to verify the accuracy of AI-generated content.
+- Faculty are addressing AI in the classroom and guiding students on how to use it.
+- More than half of faculty respondents use AI to develop course materials, and 69% provide students with guidance on how to use AI effectively.
+- Two-thirds include an explicit AI statement in their syllabi.
+- There is widespread belief that AI is the future — paired with job security fears.
+- About 82% of staff respondents, 78% of faculty and 69% of students believe AI will become an essential part of most professions.
+- 82% of students, 78% of faculty and 74% of staff express concern about AI’s impact on job security.
+Click here to view the full report.
+In February 2025, the CSU launched a systemwide AI strategy across its 22 universities* to ensure that all CSU students, faculty, and staff have access to free AI tools and resources and to prepare students for a rapidly evolving AI-driven workforce. Since launching CSU AI Commons, over 4,300 faculty have completed voluntary professional development in ethical and effective AI use. Training emphasizes equity, critical thinking, and academic integrity.
+*Transition to 22 universities in progress (Cal Poly San Luis Obispo and Cal Maritime integrating)—official fall 2026.

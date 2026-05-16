@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/facts-and-accomplishments/index.php
+Title: Facts and Accomplishments
+Type: HTML
+
+Who We Are and What We’ve Achieved
+Discover the storied history of SJSU’s past and the current iteration of the university through the Facts and Accomplishments pages. This site showcases SJSU by the numbers and highlights a multitude of successes, from dominance at the world’s biggest athletics stage—the Olympics—to placement at the top of higher education’s most notable rankings.
+2025 Postsecondary Success Recognition Program Winner
+The U.S. Department of Education announced SJSU as one of six winners of the first-ever Postsecondary Success Recognition Program (PSRP). Launched in April 2024 by U.S. Secretary of Education Miguel Cardona, the program celebrates institutions of higher education that are enrolling underserved student populations, facilitating successful student transfers and completions, and equipping graduates for careers that lead to economic mobility.

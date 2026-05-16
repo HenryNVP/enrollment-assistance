@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/science/research/index.php
+Title: Research
+Type: HTML
+
+College of Science
+Research News
+Check out the latest research updates within the College of Science.
+Faculty Research Support Programs
+Learn more about university and college support programs for faculty research.
+Student Research
+Learn more about student research opportunities and the benefits of doing research as an undergraduate student in the College of Science.
+Student Research Support Programs
+Learn more about support programs for student research in the College of Science.
+Travel Information
+Learn more about travel for research.

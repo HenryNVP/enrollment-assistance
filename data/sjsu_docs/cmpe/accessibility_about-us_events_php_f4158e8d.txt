@@ -1,0 +1,17 @@
+Source: https://www.sjsu.edu/accessibility/about-us/events.php
+Title: Accessibility at SJSU Events
+Type: HTML
+
+Accessibility at SJSU Events
+Upcoming Events
+Please check back for upcoming events!
+Past Events
+Teaching for All: Faculty Champions in Accessibility Panel Discussion
+The Teaching for All: Faculty Champions in Accessibility Panel Discussion was held on October 23, 2025. It included an inspiring discussion with Faculty Champions in Accessibility about how they provide accessible and inclusive course content.
+Please see the Faculty Fixes: Accessibility in Action Podcast for a recap of the event.
+Global Accessibility Awareness Day
+Global Accessibility Awareness Day, 2025
+This event consisted of faculty and staff from across the campus community coming
+together to raise awareness of accessibilty! In quick videos, they explain how they're
+working toward making a more inclusive campus!
+Please join us for Global Accessibility Awareness day, 2026 on May 21, 2026! Check back for details.

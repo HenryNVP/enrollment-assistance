@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/admissions/freshman/want-to-apply/success-programs/dual-enrollment/unitrack-homepage/index.php
+Title: Unitrack Program & Partnerships
+Type: HTML
+
+Through Unitrack, a school or district can offer SJSU classes at their own site taught
+by their own instructors. Courses offered through Unitrack must be reviewed for equivalence
+to lower division SJSU classes (numbered in the 1-99 range), and high school instructors
+who teach Unitrack classes must meet the minimum qualifications to be hired as lecturers
+in the authorizing SJSU department.

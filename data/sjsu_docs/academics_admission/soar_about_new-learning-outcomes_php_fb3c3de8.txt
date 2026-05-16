@@ -1,0 +1,30 @@
+Source: https://www.sjsu.edu/soar/about/new-learning-outcomes.php
+Title: Learning Outcomes
+Type: HTML
+
+Learning Outcomes
+University Learning Goals (ULG)
+1. Specialized Knowledge
+Mastered the depth of knowledge required for a degree, as identified by its program learning outcomes.
+2. Broad Integrative Knowledge
+Mastery in each step of an investigative, creative or practical project (i.e. brainstorming, planning, formulating hypotheses or complex questions, designing, creating, completing, and communicating).
+An understanding of the implications of results or findings from a particular work in a societal context (i.e. social or economic implications of a scientific finding).
+Students graduating with a baccalaureate degree will have demonstrated an understanding of critical components of broad academic areas, the arts, humanities, social sciences, and sciences and their integration.
+3. Intellectual Skills
+Fluency in the use of specific theories, tools, technology and graphical representation.
+Skills and abilities necessary for life-long learning: critical and creative thinking, effective communication, conscientious information gathering and processing, mastery of quantitative methodologies, and the ability to engage effectively in collaborative activities.
+4. Applied Knowledge
+The ability to integrate theory, practice, and problem-solving to address practical issues.
+The ability to apply their knowledge and skills to new settings or in addressing complex problems.
+The ability to work productively as individuals and in groups.
+5. Social and Global Responsibilities
+The ability to act intentionally and ethically to address a global or local problem in an informed manner with a multicultural and historical perspective and a clear understanding of societal and civic responsibilities.
+Diverse and global perspectives through engagement with the multidimensional SJSU community.
+Enrollment Services Learning Outcomes
+- Students will know and understand the policies and procedures that guide admission,
+enrollment and graduation at SJSU (Applied Knowledge).
+- Students will demonstrate competence in applying the policies and procedures that
+guide admission, enrollment and graduation at SJSU (Applied Knowledge).
+- Students will utilize MySJSU effectively to access information and conduct business
+with the university (Intellectual Skills).
+- Students will demonstrate effective communication and critical thinking skills in assessing information and services provided by Enrollment Services (Intellectual Skills).

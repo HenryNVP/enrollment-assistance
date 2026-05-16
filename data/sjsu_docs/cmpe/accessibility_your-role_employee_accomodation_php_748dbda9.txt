@@ -1,0 +1,18 @@
+Source: https://www.sjsu.edu/accessibility/your-role/employee_accomodation.php
+Title: I Am an Employee Who Needs an Accommodation
+Type: HTML
+
+I Am an Employee Who Needs an Accommodation
+The Employment Accommodations Resource Center (EARC) is SJSU's program for determining and prescribing employment accommodations based on a verified disability.
+The EARC determines reasonable and appropriate employment accommodations for qualified SJSU employees with verified disabilities on a case-by-case basis. An employee with a disability is entitled to an accommodation only when the accommodation is needed because of the disability. Possible accommodations include:
+- Job restructuring;
+- Modified work schedule;
+- Acquisition or modification of equipment or devices;
+- Adjustment or modifications of examinations, training materials or policies;
+- Qualified reader, interpreter, or captioning services;
+- Removal of physical access barriers; and/or
+- Other similar accommodations for individuals with disabilities
+You can reach the EARC as follows:
+Web: https://www.sjsu.edu/earc/
+Email: employee-accommodations@sjsu.edu
+Phone: 408-924-6003

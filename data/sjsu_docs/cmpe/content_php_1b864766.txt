@@ -1,0 +1,682 @@
+Source: https://catalog.sjsu.edu/content.php?catoid=17&navoid=7667
+Title: About
+Type: HTML
+
+|
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+Graduates will be able to satisfy the following program learning outcomes.
+A
+Accounting and Analytics, MS
+PLO 1 Apply accounting, auditing, and tax principles within the context of a complex business environment.
+PLO 2 Evaluate information technology and internal control processes and their role in financial and managerial reporting.
+PLO 3 Demonstrate conceptual and analytical skills and their real world applications.
+PLO 4 Develop effective oral and written communication skills in a context of conducting research.
+PLO 5 Examine ethical implications of accounting practice.
+Aerospace Engineering, MS
+PLO 1 Model and Solve Problems - Use graduate level mathematics to model and solve aerospace engineering problems.
+PLO 2 Analysis and Design - Apply aerospace engineering science (aerodynamics, propulsion, flight mechanics, stability & control, aerospace structures & materials, etc.) to perform an in-depth analysis and / or design of an aerospace engineering system taking into consideration economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability constraints.
+PLO 3 Computational and Experimental Tools - Use modern tools (computational or experimental).
+PLO 4 Literature Review - Perform a literature search related to a given problem, cite the references in appropriate ways, and demonstrate an understanding of the cited literature.
+PLO 5 Technical Writing - Graduate level technical writing ability, including correct language and terminology, appropriate visuals, and summarizing key ideas.
+Applied Anthropology, MA
+PLO 1 Understand a range of anthropological research methods and be able to conduct research relevant to problem solving in various settings and for different clients/partners.
+PLO 2 Know basic models of applying anthropology in different settings and have the skills to be able to function as practitioners of several of them.
+PLO 3 Be knowledgeable about (1) the discipline of anthropology in general and how it contributes to understanding and improving contemporary society, and (2) a particular field of anthropology in greater depth.
+PLO 4 Be able to function effectively in at least one content area or domain of application.
+PLO 5 Understand personal, political and ethical issues inherent in research and application.
+PLO 6 Develop professionally as practitioners with skills in contracting, project management, and budgeting, as well as the ability to communicate about project goals and findings and the discipline of anthropology to diverse audiences.
+PLO 7 Be knowledgeable about the region as a social and cultural system with complex state national and global interconnections.
+Applied Data Intelligence, MS
+PLO 1 Integrate multidisciplinary knowledge to lead applied data intelligence projects, from requirement analysis to model development and assessment of societal impact.
+PLO 2 Identify, evaluate, and apply current and emerging technologies, tools, and methodologies in applied data intelligence.
+PLO 3 Apply effective oral and written communication skills required for professional documentation and presentations to technical audiences.
+PLO 4 Perform applied research in data intelligence, researching domain-specific solutions.
+PLO 5 Utilize quantitative skills from a rich foundation of essential knowledge to solve complex, dynamic, and applied data intelligence problems in various professional domains.
+PLO 6 Work productively as individuals and in teamwork to perform real-world data intelligence solutions.
+PLO 7 Identify ways in which data intelligence professionals can contribute to the cultural, economic, educational and social well-being in diverse and multicultural local, national and global contexts.
+Archives and Records Administration, MARA
+PLO 1 Articulate the ethics, values, and foundational principles of archives and records management professionals and appreciate the important role record keepers play in social memory and organizational accountability.
+PLO 2 Recognize the social, cultural, and economic dimensions of records, recordkeeping, and records use.
+PLO 3 Understand the evolution of information recordkeeping systems in response to technological change.
+PLO 4 Have expertise in the basic concepts and principles used to identify, evaluate, select, organize, maintain, and provide access to records of current and enduring value.
+PLO 5 Understand the system of standards and structures endorsed and utilized by the recordkeeping professions, particularly in the areas of electronic records and digital assets management.
+PLO 6 Apply fundamental management theories and principles to the administration of records and recordkeeping organizations.
+PLO 7 Know the legal requirements and ethical principles involved in records management and the role the recordkeeper plays in institutional compliance and risk management.
+PLO 8 Be conversant with current information technologies and best practices relating to records preservation and security.
+PLO 9 Understand research design and research methods and possess the analytical, written, and oral communication skills to synthesize and disseminate research findings.
+PLO 10 Identify ways in which archivists and records managers can contribute to the cultural, economic, educational, and social well being of our global communities.
+Art, Art History and Visual Culture Concentration, MA
+PLO 1 Art History Knowledge - Demonstrate knowledge (visual recognition and identification) of significant artworks and of the canon of historical periods customary in Western and Non-Western traditions.
+PLO 2 Art History Skills - Demonstrate increasing skills of visual analysis appropriate to describing and explaining artworks from a variety of historical contexts.
+PLO 3 Writing and Research - Demonstrate the writing and research skills necessary for the accurate and complete investigation and communication of art historical information.
+PLO 4 Methodology - Demonstrate a theoretical, historiographic, and professional understanding of the discipline of Art History and apply this understanding to explaining and solving research problems.
+Art, MFA (Concentrations in Digital Media Art , Photography , Pictorial Art , and Spatial Art )
+PLO 1 Demonstrate Advanced Artistic Creation: Produce complex, innovative artworks demonstrating mastery in diverse techniques and conceptual depth.
+PLO 2 Apply Critical Analysis and Scholarly Research: Develop a deep theoretical and historical understanding that informs artistic practice.
+PLO 3 Demonstrate Professional Practice and Teaching Readiness: Prepare for diverse professional roles through exhibition design, curatorial practice, and teaching.
+PLO 4 Integrate Interdisciplinary Approaches, Global Perspectives, and Ethical Practices: Engage with interdisciplinary approaches, global perspectives, and advocate for ethical practices within the art community.
+Artificial Intelligence, MS
+PLO 1 Identify and apply fundamental concepts, algorithms, and methodologies to formulate, analyze, design, and evaluate artificial intelligence and machine learning systems.
+PLO 2 Tackle complex machine learning and artificial intelligence problems using contemporary principles, algorithms, technologies, methodologies, and tools.
+PLO 3 Lead and participate in a team to develop AI and machine learning applications.
+PLO 4 Recognize the ethical, economic and environmental implications of their work, as appropriate.
+PLO 5 Sustain a process of life-long learning in engineering or other professional areas.
+PLO 6 Communicate effectively and persuasively with a variety of audiences.
+Audiology, AUD
+PLO 1 Specialized Knowledge - Recall, apply, and synthesize their knowledge of the hearing and balance mechanisms, including normal processes, disorders, and treatments.
+PLO 1A Demonstrate knowledge and skill competencies outlined by the Council on Academic Accreditation (CAA) and the Accreditation Commission for Audiology Education (ACAE).
+PLO 2 Social Responsibilities - Summarize and describe the contexts in which they may practice audiology and advise patients, with attention to local and culturally sensitive models of health care.
+PLO 2A Demonstrate the ability to act ethically, intentionally, and conscientiously regarding issues related to inclusion and diversity.
+PLO 3 Intellectual Skills - Correctly interpret theories, assumptions, and protocols appropriate to audiology practice (i.e., diagnosis and treatment) within quantitative and qualitative methodologies. They will also demonstrate the ability to think critically and creatively, effectively communicate, gather and process information thoroughly and ethically, write in a scientific voice, and engage in inter-professional activities.
+PLO 4 Integrative Knowledge and Skills - Design, complete, and present a scholarly research project that will reflect the depth of contemporary audiology knowledge and contribute to knowledge in hearing science or to improvements in audiology practice, policy, or client outcomes.
+PLO 5 Applied Knowledge and Skills - Apply classroom theories and prior clinical experiences to new clinical settings, age groups, disorders, technologies, and devices, with increasing speed, effectiveness, and independence.
+B
+Bioinformatics, MS
+PLO 1 Demonstrate effective scientific written communication skills.
+PLO 2 Demonstrate effective scientific oral communication skills.
+PLO 3 Demonstrate the ability to independently answer complex biological questions using computational methods.
+PLO 4 Demonstrate the ability to develop a research plan using information gained through critical analysis of primary literature
+Biological Sciences, MA
+PLO 1 Develop effective written communication skills, as assessed by a research proposal at baseline, followed by a written exam.
+PLO 2 Develop effective oral communication skills, as assessed by a research proposal at baseline, followed by an oral exam.
+PLO 3 Demonstrate the ability to independently answer questions regarding their specific field of study, as assessed by a research proposal at baseline, followed by an oral exam.
+PLO 4 Demonstrate the ability to develop, present, defend and critically analyze hypotheses and conclusions using information gained through searches of primary literature, as assessed by a research proposal at baseline, followed by an oral exam.
+Biological Science, MS (concentrations in General Biology, Ecology and Evolution , Molecular Biology and Microbiology , and Physiology )
+PLO 1 Develop effective written communication skills, as assessed by a research proposal at baseline, followed by a written thesis or project.
+PLO 2 Develop effective oral communication skills, as assessed by a research proposal at baseline, followed by an oral presentation.
+PLO 3 Demonstrate the ability to independently answer questions regarding their specific field of research, as assessed by a research proposal at baseline, followed by an oral presentation.
+PLO 4 Demonstrate the ability to develop, present, and defend a research plan using information gained through preliminary experiments as well as critical analysis of primary literature, as assessed by a research proposal at baseline, followed by a written thesis or project.
+Biomedical Engineering, MS (Concentrations in General Biomedical Engineering and Biomedical Devices )
+PLO 1 Solve complex engineering problems and tasks, and use engineering, science and statistics principles to justify recommendations.
+PLO 2 Evaluate the impact of their work on society, including ethical, economic, global and environmental aspects.
+PLO 3 Can deliver effective presentations of engineering results in written and oral formats.
+PLO 4 Have life-long learning skills and are able to apply their engineering knowledge to critically evaluate relevant literature and new technologies or systems.
+PLO 5 Are effective leaders, capable of working in diverse environments.
+PLO 6 Are able to apply their engineering education to a variety of career paths.
+Biotechnology, MS
+PLO 1 Apply the five ACRL (Assoc. of College Research Librarians) standards.
+PLO 2 Demonstrate advanced understanding of topics at the interface of biology and business central to the biotechnology industry.
+PLO 3 Demonstrate their ability to efficiently work in teams.
+PLO 4 Demonstrate their ability to communicate effectively, verbally and written, to convey scientific and commercial ideas.
+Biotechnology, Medical Product Development Management Concentration, MS
+PLO 1 The students will apply the five ACRL (Assoc. of College Research Librarians) standards.
+PLO 2 The students will identify and apply of topics at the interface of biology and business central to the biotechnology and medical product industry.
+PLO 3 The students will demonstrate their ability to efficiently work in teams.
+PLO 4 The students will demonstrate their ability to communicate effectively, verbally and written, to convey scientific and commercial ideas.
+Business Administration, MBA (Including Early Career and Professional Programs)
+PLO 1 Demonstrate knowledge of key business functions and the technologies that enable them.
+PLO 2 Apply analytical models and data-driven methods for making business decisions.
+PLO 3A Evaluate the benefits and complexities of cultural diversity.
+PLO 3B Develop strategies for organizations to adapt to global and social changes.
+PLO 4 Develop ethical managerial decisions that consider all stakeholders.
+PLO 5 Identify factors that contribute to effective leadership and demonstrate the skills and behaviors necessary to be a productive team member.
+PLO 6 Integrate knowledge and formulate strategies to deliver value to customers and society.
+PLO 7 Deliver effective oral and written communications in the digital era.
+C
+Chemical Engineering, MS
+PLO 1 Are able to solve complex engineering problems and tasks, and use engineering, science and statistics principles to justify recommendations.
+PLO 2 Are able to evaluate the impact of their work on society, including ethical, economic, global and environmental aspects.
+PLO 3 Can deliver effective presentations of engineering results in written and oral formats.
+PLO 4 Have life-long learning skills and are able to apply their engineering knowledge to critically evaluate relevant literature and new technologies or systems.
+PLO 5 Are effective leaders, capable of working in diverse environments.
+PLO 6 Are able to apply their engineering education to a variety of career paths.
+Chemistry, MA
+PLO 1 Demonstrate an advanced understanding of selected topics in chemistry.
+PLO 2 Demonstrate information literacy skills for acquiring knowledge of chemistry, both as a student and as a life-long learner.
+PLO 3 Demonstrate an understanding of experimentation, observation and data analysis, and their application to defined questions in chemistry.
+PLO 4 Demonstrate a familiarity with available instrumentation for conducting specific scientific research.
+PLO 5 Communicate effectively, verbally and written, for the purposes of conveying chemical information to both professional scientists and to the public.
+Chemistry, MS
+PLO 1 Demonstrate an advanced understanding of selected topics in chemistry.
+PLO 2 Demonstrate information literacy skills for acquiring knowledge of chemistry, both as a student and as a life-long learner.
+PLO 3 Demonstrate an understanding of experimentation, observation and data analysis, and their application to defined questions in chemistry.
+PLO 4 Demonstrate a familiarity with available instrumentation for conducting specific scientific research.
+PLO 5 Communicate effectively, verbally and written, for the purposes of conveying chemical information to both professional scientists and to the public.
+Chicana and Chicano Studies, MA
+PLO 1 Identify and analyze the major issues, questions, and debates driving theory and research in Chicana/o Studies through written and oral discourse, particularly the central role of race and ethnicity and its intersectional relationship to other socially constructed categories, such as gender, class/SES, and normative heterosexuality, and its historically evolving role in shaping individual and group identities, opportunities, and outcomes in US institutions.
+PLO 2 Analyze major theories, paradigms, and methods used to study Chicanx and Latinx communities historically and today, critically evaluate scholarship in the discipline, and conduct an ethically-based research, creative, or community-based project in Chicana/o Studies.
+PLO 3 Effectively present and write insights related to PLOs 1 & 2 in chosen area of emphasis through capstone project that demonstrates the significance of this work and is adequate for effective instruction at the college level.
+Child and Adolescent Development, MA
+PLO 1 Design developmentally appropriate practices to effectively address the individual and collective needs of children, families, and communities.
+PLO 2 Critically analyze different sources of information to evaluate evidence-based practices in social policy, education, and interventions relevant to child and adolescent development.
+PLO 3 Synthesize and translate evidence-based research and information from varied perspectives to communicate with different audiences.
+PLO 4 Demonstrate collaborative leadership skills to implement culturally- and linguistically-responsive practices that ensure equity and respect for individual children, families, and staff, as well as the broader community respect to credibility and validity and determine the appropriate contexts to use each type of source.
+Civil Engineering, MS
+PLO 1 Apply advanced concepts, theory and analysis for problem solving.
+PLO 2 Synthesize and integrate necessary engineering concepts into the engineering solution process.
+PLO 3 Apply modern tools for computations, simulations, analysis and design.
+PLO 4 Communicate effectively.
+Clinical Psychology, MS
+PLO 1.1 Students will be able to apply, compare, and contrast a variety of psychotherapy theories and implement at least one chosen theory or intervention with clinical case material.
+PLO 1.2 Students will be able to evaluate, select, and implement empirically supported clinical interventions for clinical case material and clients.
+PLO 2.1 Students will be able to integrate and communicate clinical case material.
+PLO 2.2 Students will be able to synthesize contextual and cultural variables into their understanding of and presentation of client materials.
+PLO 2.3 Students will effectively respond to queries about clinical material and engage in discussions about their clients with supervisors and peers.
+PLO 2.4 Students will be able to analyze cases other than those they are treating, applying theories, principles, and relevant empirical findings to those cases.
+PLO 3.1 Students will be able to evaluate, select, and implement different assessment devices and strategies for assessing client outcomes and processes of change over the course of treatment including nomothetic and idiographic approaches.
+PLO 4.1 Students will demonstrate competency consistent with professional standards of practice in areas including, but not limited to, psychotherapy theory, service delivery, ethics, assessment, research methods, family/couples therapy, cultural diversity and humility, risk management and safety planning, psychopharmacology, and issues relevant to adult and child clinical populations.
+PLO 5.1 Students will demonstrate fulfillment of coursework and other pre-degree licensing requirements outlined by the Board of Behavioral Sciences.
+Communication Studies, MA
+PLO 1 Students will evaluate communication-related theories, their philosophical assumptions, and their potential for developing knowledge.
+PLO 2 Students will distinguish the ethical implications (e.g., positionality, racial equity, social justice, accessibility, and citational politics) among specific communication-related theories, modes of inquiry, and practices.
+PLO 3 Students will justify modes of inquiry used for communication research and creative activity.
+PLO 4 Students will propose scholarly research and/or creative activity of their own, employing one or more modes of inquiry.
+PLO 5 Students will produce advanced scholarly writing that considers inclusivity amid disciplinary conventions.
+PLO 6 Students will argue their intellectual and creative contributions in scholarly conversation.
+PLO 7 Students will articulate practical application of the knowledge generated from communication research and/or creative activity (e.g., policy, pedagogy, activism).
+Computational Linguistics, MS
+PLO 1 Apply fundamental understandings and knowledge of diverse forms of languages and linguistic phenomena for computational analysis.
+PLO 2 Design, implement, and evaluate theoretical models of linguistic phenomena and Natural Language Processing tasks that involve computer processing of human language.
+PLO 3 Recognize professional responsibilities and make informed judgments in computational linguistics practice based on ethical and legal principles.
+PLO 4 Integrate linguistic theory, advanced computing principles, and tools in the science of language and employ the resulting knowledge and skills to produce computational and linguistic solutions.
+Computer Engineering, MS
+PLO 1 Demonstrate an understanding of advanced knowledge of the practice of computer engineering, from vision to analysis, design, validation, and deployment.
+PLO 2 Tackle complex engineering problems and tasks using contemporary engineering principles, methodologies and tools.
+PLO 3 Demonstrate leadership and the ability to participate in teamwork in an environment with different disciplines of engineering, science, and business.
+PLO 4 Be aware of ethical, economic, and environmental implications of their work, as appropriate.
+PLO 5 Advance successfully in the engineering profession and sustain a process of life-long learning in engineering or other professional areas.
+PLO 6 Communicate effectively in both oral and written forms.
+Computer Science, MS
+PLO 1 Breadth of knowledge in computer science with course work in at least three of the subject areas Foundations, Architecture, Systems Software, Specialty.
+PLO 2 Depth of knowledge in an advanced topic in computer science, including the ability to carry out original work that builds upon the existing body of knowledge in the field.
+PLO 3 Ability to communicate effectively both orally and in writing Computer Science topics to researchers, practitioners, and the public.
+Counseling and Guidance, MA
+PLO 1 Design culturally sustaining prevention and intervention counseling programs within educational environments.
+PLO 2 Model ethical and inclusive leadership skills that promote equity, social justice, and student success.
+PLO 3 Apply effective and inclusive assessment practices within their work with school and community stakeholders.
+PLO 4 Create social, cultural, and educational interventions that support students’ academic advancement.
+PLO 5 Select and apply relevant research methods to conduct program evaluations, supported by effective technological applications.
+Creative Writing, MFA
+PLO 1 Demonstrate a high level of ability to write and complete a publishable, full-length work of literature in a primary genre concentration (fiction, creative nonfiction, poetry, or scriptwriting).
+PLO 2 Demonstrate a high level of proficiency to write works of literature in a secondary genre concentration (fiction, creative nonfiction, poetry, or scriptwriting).
+PLO 3 Demonstrate an appropriate level of knowledge of literary history, literary theory, and craft and theory of creative writing.
+PLO 4 Demonstrate critical and analytical skills in the evaluation and interpretation of literary texts.
+PLO 5 Demonstrate a command of written academic English, including the abilities to: a) organize and present material in a cogent fashion; b) formulate and defend original arguments; c) employ effectively the language of their discipline; d) write under time constraints.
+Criminology, Global Criminology Concentration, MS
+PLO 1 Describe ways to create social change through a critical understanding of the local and global dimensions of crime.
+PLO 2 Articulate and evaluate scholarly-grounded perspectives on issues of crime and justice, including ways that criminology explains crime and reactions to crime, through academic, professional and social media.
+PLO 3 Explain theories, assumptions, foundational knowledge, analytical and interpretive protocols, tools, and technologies within the field of criminology at a level demonstrating preparation for advanced professional responsibilities, or pursuing a PhD in criminology-related areas.
+PLO 4 Demonstrate skills in each step of an investigative, creative, or practical project (e.g., brainstorming, planning, formulating hypotheses or complex questions, designing, creating, completing, and communicating) that helps advance understanding of a criminological or related issue.
+PLO 5 Employ global perspectives on criminology and concepts of justice to support research-informed solutions to contemporary social problems.
+D
+Data Science, MS
+PLO 1 Apply computer science knowledge and tools to assist in performing data science tasks.
+PLO 2 Summarize and evaluate statistical and machine learning concepts, models and techniques.
+PLO 3 Integrate multidisciplinary knowledge and software to tackle challenging, complex data science tasks.
+PLO 4 Communicate effectively, both orally and in writing, data science concepts, algorithms, and results to a broad audience.
+PLO 5 Identify ways in which data scientists can contribute to the cultural and economic well-beings of diverse societies in local, national and global scopes.
+Design, MDes
+PLO1 Utilize creative research methodologies to investigate, discover, and understand complex problems.
+PLO2 Plan, implement, and evaluate creative projects that consider technological, ecological, socio-economic, and/or global contexts.
+PLO3 Employ creative practice and technology to conceptualize unique solution for complex problems as part of a culminating project.
+PLO4 Demonstrate the ability to create, participate in and lead interdisciplinary and collaborative creative projects.
+E
+Economics, MA (Concentrations in General Economics and Applied Economics )
+PLO 1 Students will be able to use microeconomic theory to understand and explain the determinants of prices, optimal behavior in strategic situations, and welfare effects in markets, and to critique real-world policy.
+PLO 2 Students will be able to use macroeconomic theory to understand and explain economic growth, business cycles, and monetary policy, as well as to critique real-world macroeconomic policy.
+PLO 3 Describe an economic study that illustrates one of the following methods of
+economic inquiry: Applied Econometrics, Experimental Economics, or Other (Analytical Narrative, Cost-Benefit Analysis, Simulation, etc.).
+PLO 4 List the subfields of economics and explain the JEL system, describe the contours of economics as a scholarly discipline, and describe in detail one of the two subfields: Economic History / Economic Thought or Econometrics.
+PLO 5 Generate and apply new knowledge to an economics problem, using theory and methods of economic inquiry, and communicate the results through academic writing, speaking, and presentation.
+Educational Leadership, Concentration in Emancipatory School Leadership, MA
+PLO 1 Build organizational cultures that reflect the diversity of experience and knowledge within school communities.
+PLO 2 Identify approaches to educational leadership that include the cultural wealth present in communities that schools serve.
+PLO 3 Design professional development that challenges bias and inequity in school settings.
+PLO 4 Create culturally sustaining approaches to instructional leadership.
+PLO 5 Implement policies and practices that reflect emancipatory school leadership principles.
+Educational Leadership, EdD (Fully Online)
+PLO 1 Analyze the relationship between system structure and system behavior and propose appropriate structural changes to bring about desirable educational outcomes.
+PLO 2 Compare and contrast the strengths and limitations of research and scholarly literature, on the basis of validity, reliability, credibility, bias, and interpretability.
+PLO 3 Apply systemic leadership perspectives for creatively addressing complex challenges in educational settings.
+PLO 4 Apply concepts such as validity, reliability, bias, and consequences to evaluate the technical quality of qualitative and quantitative data.
+PLO 5 Analyze current education policy and school reform trends for equity with integration of research, policy, and practical considerations.
+PLO 6 Design and evaluate educational organizations to foster learner-centered teaching, learning, and research-based professional development.
+PLO 7 Analyze the role of political, social, and economic forces in perpetuating opportunity gaps for BIPOC and other minoritized learners in K-20 educational institutions.
+Electrical Engineering, MS
+PLO 1 Base analysis, problem-solving and design on core advanced EE theory.
+PLO 2 Demonstrate high-level of expertise and competence in an area of concentration in electrical engineering.
+PLO 3 Apply modern tools for research, computation, simulations, analysis, and design.
+PLO 4 Demonstrate leadership skills in the workplace, to function professionally in a globally competitive world, and to communicate engineering results effectively.
+Engineering, MS
+PLO 1 Evaluate and apply advanced engineering principles, methods, and tools to solving problems or improving efficiency.
+PLO 2 Design and implement a component, system, or process to meet design specifications and objectives.
+PLO 3 Understand and advance the frontiers of emerging technologies.
+PLO 4 Understand the social, economic and political context of contemporary engineering practice and its ethics and understand the impact of engineering solutions on society and the environment.
+PLO 5 Communicate effectively in both oral and written forms.
+Engineering Management, MS
+PLO 1 Have an advanced level of ability in applying engineering management knowledge in engineering management decision making.
+PLO 2 Have an advanced level of ability in identifying, formulating, analyzing, and solving managerial decision-making problems.
+PLO 3 Have an advanced level of ability in effectively interpreting, communicating, and implementing managerial solutions of technical and non-technical problems.
+PLO 4 Recognize the need for and to engage in life-long learning.
+PLO 5 Recognize professional and ethical responsibility.
+PLO 6 Recognize different types of leadership in different types of organizational structures.
+PLO 7 Have an advanced level of ability in using techniques and skills in constructing lean solutions to organizational technical problems.
+PLO 8 Have an advanced level of ability in constructing economical, environmentally friendly, and socially responsible managerial decisions.
+Engineering Technology, MS
+PLO 1 Apply advanced analytical, computational, engineering fundamentals, as well as technical and managerial skills to problem solving to improve reliability, security and efficiency of production, services and operational facilities.
+PLO 2 Demonstrate leadership and managerial skills to communicate problems, processes, and solutions to management and relevant audiences using proper technical and analytical tools.
+PLO 3 Conduct independent research, analyze and interpret data and apply the result for improving engineering and technology systems through effective project management methods.
+PLO 4 Evaluate technology systems, operations, products, and processes related to sustainable products, advanced manufacturing, and computer networks to identify failures and problems using engineering concepts and tools and propose solutions for system improvement.
+PLO 5 Demonstrate professionalism with commitment to ethical principles and pursuit of excellence in engineering technology careers and leadership positions.
+English, MA
+PLO 1 Demonstrate an appropriate level of expertise in literary history, literary theory, and rhetoric.
+PLO 2 Demonstrate high-level proficiency in literary research and in the synthesis of research.
+PLO 3 Demonstrate critical and analytical skills in the interpretation and evaluation of literary texts.
+PLO 4 Demonstrate a command of written academic English, including the abilities to a) organize and present material in a cogent fashion, b) formulate and defend original arguments, c) employ effectively the language of their discipline and d) write under time constraints.
+Environmental Studies, MS
+PLO 1 Thoroughly review literature and research in a specific area of environmental studies and be able to formulate original research questions based on critical analysis of aforementioned review.
+PLO 2 Develop appropriate and feasible methods for original research project.
+PLO 3 Possess thorough knowledge of the history of environmental thought.
+PLO 4 Tarry out original research plan and write a high-quality scholarly thesis or professional report.
+PLO 5 Present original research results in a public oral defense.
+F
+Financial Analytics, MS
+PLO 1 Financial Management Knowledge: Apply financial management and accounting principles within the context of a complex business environment.
+PLO 2 Financial Management Solutions: Develop value-enhancing financial solutions employing evidence-based methods and appropriate technology.
+PLO 3 Ethical Awareness: Evaluate the ethical implications of financial management practices.
+PLO 4 Effective Communication: Demonstrate effective oral and written communication skills in the context of financial management.
+G
+Geographic Information Science (GISc), MS
+PLO 1 Analyze geographic patterns in dif erent data types for measuring spatial statistical models to detect non-randomness.
+PLO 2 Use alternative open source tools for practicing GIS besides licensed and conventional platforms for hosting, data development, processing, and sharing.
+PLO 3 Design, evaluate, develop and execute on a GIS project with the appropriate GIS dif erent concepts, spatial analytics and visualization techniques, and datasets to solve a variety of spatial problems.
+PLO 4 Apply and incorporate the applications of data ethics and literacy in GIS projects.
+Geography, MA
+PLO 1 Critically evaluate and interpret published research on the theoretical foundations of geographical information science.
+PLO 2 Explain contemporary issues in geographic information science in the context of current theory.
+PLO 3 Define a research problem and design and execute a research program.
+PLO 4 Evaluate and interpret research results in the context of current theory.
+PLO 5 Communicate research results in written, graphic, and verbal form.
+PLO 6 Demonstrate understanding of how geographic information science and technology may be applied to a variety of problems.
+Geology, MS
+PLO 1 Formulate scientifically sound and logistically reasonable plans for solving geologic problems.
+PLO 2 Apply the appropriate techniques to acquire and interpret data to arrive at scientifically sound conclusions.
+PLO 3 Demonstrate scientific writing of acceptable quality.
+PLO 4 Demonstrate the ability to present results of scientific research in oral format.
+H
+Higher Education Leadership, MA
+PLO 1 Identify the complex history and dimensions that define the discipline of higher education.
+PLO 2 Plan for transformative organizational change through a critical and praxis-based approach to diversity, access, equity, and inclusion.
+PLO 3 Analyze the roles and interests of the varied stakeholders that characterize and sustain the enterprise of higher education.
+PLO 4 Develop the skills to foster responsive, cooperative, mutually beneficial, and ethically sound internal and external relationships with campus and community constituents.
+PLO 5 Identify the ethics and values that distinguish higher education as a “public good” versus a “private good”.
+History, MA
+PLO 1 Identify, summarize, and synthesize historical arguments about how peoples and societies evolved across time and space.
+PLO 2 Interpret, evaluate, compare, and critique historiographical arguments.
+PLO 3 Construct persuasive evidence-based historical arguments using original research including primary sources.
+Human Factors/Ergonomics, MS
+PLO 1 Have an ability to apply knowledge of the sciences of human factors and workplace ergonomics.
+PLO 2 Have an ability to design and conduct experiments, as well as to analyze and interpret data.
+PLO 3 Have an ability to design a system, component, or process to meet accepted human factors and workplace ergonomics standards within realistic constraints such as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability.
+PLO 4 Have an ability to function on multi-disciplinary teams.
+PLO 5 Have an ability to identify, formulate and solve human factors and workplace ergonomics problems.
+PLO 6 Understand professional and ethical responsibility.
+PLO 7 Have an ability to communicate effectively.
+PLO 8 Have the broad education necessary to understand the impact of human factors and workplace ergonomics solutions in a global, economic, environmental, and societal context.
+PLO 9 Have a recognition of the need for, and an ability to engage in, life-long learning.
+PLO 10 Have the knowledge of contemporary issues.
+PLO 11 Have an ability to use the techniques, skills, and modern human factors and workplace ergonomics tools necessary for industrial and systems engineering practice.
+Human Factors/Ergonomics, User Experience Concentration, MS
+PLO 1 Apply research, knowledge, and methods of human factors and workplace ergonomics to improve human-machine systems.
+PLO 2 Design, implement, interpret, and communicate the results of user research, including experiments and usability testing.
+PLO 3 Ethically design systems, components, and processes to meet human factors and workplace ergonomic standards while incorporating realistic constraints.
+I
+Industrial and Systems Engineering, MS
+PLO 1 Apply discipline knowledge and provide effective leadership to derive solutions to problems/challenges within an organization.
+PLO 2 Effectively and productively participate in teams.
+PLO 3 Recognize organizational processes and behaviors.
+PLO 4 Have an advanced level of ability in collecting, analyzing, and interpreting data.
+PLO 5 Have an advanced level of ability in synthesizing and designing solutions for unstructured problems.
+PLO 6 Have an advanced level of ability in evaluating the impact of these solutions in the broader context of the organization and society.
+PLO 7 Have an advanced level of ability in effectively communicating solutions in the form of written, oral and electronic media.
+PLO 8 Have an advanced level knowledge of methodological and computational skills with which they are able to operate (apply) effectively.
+PLO 9 Develop skills to support life-long learning within the field of profession of ISE.
+Informatics, MS
+PLO 1 Apply technology informatics skills to solve specific industry data and information management problems, with a focus on usability and designing for users.
+PLO 2 Evaluate, manage, and develop electronic records programs and applications in a specific organizational setting.
+PLO 3 Demonstrate strong understanding of security and ethics issues related to informatics, user interface, and inter-professional application of informatics in specific fields by designing and implementing appropriate information assurance and ethics and privacy solutions.
+PLO 4 Identify user needs, ideate informatics products and services, prototype new concepts, and evaluate a prototype’s usability.
+PLO 5 Work collaboratively in teams and use project management practices effectively to solve user-centric information and data problems.
+PLO 6 Conduct informatics analysis and visualization applied to different real-world fields, such as health science and sports.
+Instructional Design and Technology, MS
+PLO 1 Identify the foundations and principles of learning theory and instructional systems design.
+PLO 2 Evaluate current and future trends and issues in the field.
+PLO 3 Analyze learner, organizational, and societal needs.
+PLO 4 Design effective instructional and performance solutions.
+PLO 5 Create quality instruction for a variety of learners and organizations in diverse performance environments.
+PLO 6 Evaluate the effectiveness of implemented instruction/intervention/solution.
+PLO 7 Apply technology and non-technology solutions to teaching, learning, assessment, and organizational improvement.
+PLO 8 Apply best practices in leading projects, teams, and organizations.
+PLO 9 Use informatics and analytics to continuously improve teaching, learning, and human and organizational performance.
+J
+Justice Studies, MS
+PLO 1 Evaluate the relationships between social justice and criminal justice across different societies and historical periods.
+PLO 2 Demonstrate knowledge and skills needed to fulfill professional responsibilities or to pursue further postgraduate education in justice-related fields.
+PLO 3 Synthesize knowledge of scholarly approaches, theoretical perspectives, empirical findings, and historical trends within the subject areas of criminal justice and social justice.
+PLO 4 Design, implement, and evaluate research projects in the fields of criminal and social justice, including data collection, analysis, and interpretation.
+PLO 5 Apply multidisciplinary notions and principles of justice when formulating responses to social problems in communities and/or justice-related institutions.
+K
+Kinesiology, MS
+PLO 1 Demonstrate the ability to conduct and critique research using theoretical and applied knowledge.
+PLO 2 Synthesize research findings from a disciplinary perspective.
+PLO 3 Communicate essential theories, scientific applications, and ethical considerations.
+PLO 4 Apply research findings through acquired knowledge to address contemporary issues as agents of change.
+L
+Library and Information Science, MLIS
+PLO 1 Demonstrate awareness of the ethics, values, and foundational principles of one of the information professions, and discuss the importance of those principles within that profession.
+PLO 2 Describe and compare different organizational settings in which information professionals’ practice.
+PLO 3 Articulate the importance of designing programs and services supportive of diversity, inclusion, and equity for clientele and employees.
+PLO 4 Apply the fundamental principles of planning, management, marketing, and advocacy.
+PLO 5 Design, query, and evaluate information retrieval systems.
+PLO 6 Use the basic concepts and principles related to the selection, evaluation, organization, and preservation of physical and digital information items.
+PLO 7 Demonstrate understanding of basic principles and standards involved in organizing information such as classification and controlled vocabulary systems, cataloging systems, metadata schemas or other systems for making information accessible to a particular clientele.
+PLO 8 Demonstrate proficiency in identifying, using, and evaluating current and emerging information and communication technologies.
+PLO 9 Describe the fundamental concepts of information-seeking behaviors and how they should be considered when connecting individuals or groups with accurate, relevant and appropriate information.
+PLO 10 Design collaborative or individual learning experiences based on learning principles and theories.
+PLO 11 Demonstrate understanding of quantitative and qualitative research methods, the ability to design a research project, and the ability to evaluate and synthesize research literature.
+PLO 12 Demonstrate professional leadership and communication skills.
+PLO 13 Evaluate programs and services using measurable criteria.
+PLO 14 Understand global perspectives on effective information practices that are supportive of cultural, economic, educational, or social well-being.
+Linguistics, MA (Not Accepting Students)
+PLO 1A Transcribe, using the International Phonetic Alphabet, and produce speech sounds of the world’s languages. Apply concepts of acoustic theory in analyses of speech data.
+PLO 1B Analyze linguistic sound patterns in terms of their function, their structure, and the pressures that influence their change over time.
+PLO 1C Analyze sentence structure of typologically diverse languages using current formalism and explain how syntactic and semantic structures interface.
+PLO 1D Analyze the meaning of linguistic expressions, elaborate on the role of linguistic, pragmatic, and cultural context in the interpretation of meaning, and understand the role of theories in the analysis of semantic data.
+PLO 1E Show an understanding of current linguistic theories; compare and evaluate different theoretical approaches.
+PLO 2A Extract patterns from complex data sets, motivate categorization procedures, and apply learned analytical principles over such patterns.
+PLO 2B Carry out independent empirical, experimental or theoretical research involving formulating a research project, presenting a literature review, using appropriate methodology, collecting data pertinent to the project, and interpreting the data.
+PLO 2C Use library and electronic research sources effectively.
+PLO 2D Use reading and writing and oral skills effectively.
+PLO 2E Demonstrate proficiency equivalent to a two-year of an Indo-European or a one-year of a non- Indo-European college level study in a language other than their native language.
+PLO 3A Discuss issues in speech synthesis, speech recognition, natural language processing, and develop speech recognition, speech synthesis and natural language processing programs.
+PLO 3B Evaluate theories of first and second language acquisition, and second language teaching.
+PLO 3C Apply linguistic knowledge to address societal issues related to language variation and diversity, and intercultural communication.
+PLO 3D Recognize the relation between language and cognition and evaluate theories of their interaction.
+PLO 3E Identify phonological, morphological, syntactic and semantic changes in the history of a language, discuss the contribution of social factors to language variation and change, explain the genetic and typological classification of languages, and use the comparative method to reconstruct ancestors of related languages.
+PLO 4 Instill in students an appreciation for the diversity and dynamic nature of human languages and cultures in the U.S. and the world.
+M
+Marine Science, MS
+PLO 1A Demonstrate an understanding of fundamental concepts in a particular category of oceanography and marine science.
+PLO 1B Be able to synthesize and integrate across all of these fields, yet achieve a depth of understanding in the student’s individual specialty or field of study.
+PLO 2 Demonstrate the ability to critically analyze scientific research, whether the student’s own research, or that performed by others.
+PLO 3 Pose relevant scientific hypotheses or questions that may then serve to guide thesis research.
+PLO 4 Demonstrate proficiency in the design and implementation of experiments or data collection methodologies to address specific hypotheses/questions.
+PLO 5 Master the skills and tools of data collection and analysis (including analytical and statistical techniques as appropriate) specific to the student’s scientific field of study.
+PLO 6 Demonstrate the ability to place one’s own research within the larger context of relevant field of scientific study and to clearly identify the implications of this research for that field.
+PLO 7 Demonstrate proficiency in oral and written communication by being able to present research clearly and concisely. This includes thoughtful and thorough oral and written presentation of their thesis and their responses to questions.
+Mass Communications, MS
+PLO 1 Demonstrate knowledge of the diversity of groups in a global society in relationship to communications.
+PLO 2 Demonstrate the ability to think critically, creatively and independently.
+PLO 3 Write correctly and clearly in forms and styles appropriate for the communications professions, audiences, and purposes they serve.
+PLO 4 Demonstrate the ability to use tools and technologies appropriate for the communications professions in which they work.
+Materials Engineering, MS
+PLO 1 Are able to solve complex engineering problems and tasks, and use engineering, science and statistics principles to justify recommendations.
+PLO 2 Are able to evaluate the impact of their work on society, including ethical, economic, global and environmental aspects.
+PLO 3 Can deliver effective presentations of engineering results in written and oral formats.
+PLO 4 Have life-long learning skills and are able to apply their engineering knowledge to critically evaluate relevant literature and new technologies or systems.
+PLO 5 Are effective leaders, capable of working in diverse environments.
+PLO 6 Are able to apply their engineering education to a variety of career paths.
+Mathematics, MA
+PLO 1 Demonstrate proficiency in graduate-level abstract algebra.
+PLO 2 Demonstrate proficiency in graduate-level real analysis.
+PLO 3 Evaluate and synthesize research articles in their subfield of mathematics.
+PLO 4 Demonstrate effective written communication of advanced mathematics.
+PLO 5 Demonstrate effective oral communication of advanced mathematics.
+Applied Mathematics, MS
+PLO 1 Orally communicate applied mathematics concepts.
+PLO 2 Create mathematical models in applied mathematics.
+PLO 3 Perform computations and analyze the accuracy of the results.
+Mechanical Engineering, MS
+PLO 1 A strong foundation beyond the undergraduate level in their chosen focus area as well as in mathematics, basic science and engineering fundamentals, to successfully compete for technical engineering positions in the local, national and global engineering market, advance in their current position or pursue doctoral studies.
+PLO 2 Professional and lifelong learning skills to be able to apply and extend theory to solve practical contemporary engineering problems.
+PLO 3 The expertise necessary to design mechanical engineering systems with possible specialization in areas such as energy systems, electronics cooling, electronics packaging & reliability, finite element analysis & CAD, mechatronics & MEMS, product design, robotics, automation & manufacturing.
+PLO 4 Strong verbal and written communication skills, including the ability to read, write and comprehend technical documents.
+PLO 5 Think and work independently to perform design and in-depth analysis in solving open-ended mechanical engineering problems.
+Meteorology, MS
+PLO 1 Conduct an independent research project, and communicate the results in written and oral form in acceptable professional formats.
+PLO 2 Explain meteorological phenomena in terms of advanced physical and dynamic concepts.
+PLO 3 Understand and be able to apply advanced numerical methods to solve atmospheric and climate science problems.
+Multilingual and Multicultural Literacy Education, MA
+PLO 1 Use culturally and linguistically sustaining pedagogy to complete ongoing assessment-instruction cycles to address the literacy needs of students from diverse linguistic and cultural backgrounds;
+PLO 2 Implement approaches to literacy education that include the cultural wealth present in the families and communities that schools serve;
+PLO 3 Discuss and identify the aspects of history, language, and culture undergirding assumptions, values, and beliefs of competing literacy perspectives;
+PLO 4 Create culturally sustaining approaches to literacy leadership that reflect the diversity of experience and knowledge within school communities.
+Music, MM
+PLO 1 Perform, compose, conduct, or research at a professionally competent level, to be assessed in the final recital or project.
+PLO 2 Have an increased breadth of knowledge and skills beyond the undergraduate level in the foundational areas of music theory and history and in other areas related to their music concentration, assessed with final projects in 201, 202, 203 and the WCE for music theory and history.
+PLO 3 Identify and use standard digital and paper research tools in music and produce a comprehensive bibliography that shows their ability to utilize standard scholarly tools relevant to their concentration area according to standards set in a research and bibliographic rubric, to be assessed in final projects for 200 and WCE.
+PLO 4 Produce an independent creative or scholarly product that demonstrates technical proficiency in their concentration area and effective artistic and intellectual judgments, assessed in final projects for 203, 201, 200, 202, WCE, and in-class participation.
+Music Education, MA
+PLO 1 Perform, compose, conduct, or research at a professionally competent level, to be assessed in the final recital or project.
+PLO 2 Have an increased breadth of knowledge and skills beyond the undergraduate level in the foundational areas of music theory and history and in other areas related to their music concentration.
+PLO 3 Identify and use standard digital and paper research tools in music and produce a comprehensive bibliography that shows their ability to utilize standard scholarly tools relevant to their concentration area according to standards set in a research and bibliographic rubric.
+PLO 4 Produce an independent creative or scholarly product that demonstrates technical proficiency in their concentration area and effective artistic and intellectual judgments.
+N
+Nursing, MS
+PLO 1 Apply critical thinking and ethical decision-making including the use of the nursing and research processes.
+PLO 2 Provide theory and research-based culturally competent, safe therapeutic nursing interventions for clients in advanced nursing practice.
+PLO 3 Employ advanced interpersonal skills in professional relationships with clients, families/caregivers, and multidisciplinary health care team members.
+PLO 4 Support health promotion and disease prevention activities in developing and monitoring holistic plans of care for well and at-risk clients, considering access, quality and cost.
+PLO 5 Demonstrate the collaborative and leadership skills required in advanced nursing practice within a multidisciplinary and multicultural (community) health care context.
+PLO 6 Plan, implement, and evaluate advanced nursing practice that promotes and preserves health and healthy lifestyles of individual clients and aggregates.
+PLO 7 Plan, implement, and evaluate advanced therapeutic nursing practice in a rapidly changing, multicultural health care environment.
+PLO 8 Implement care management, including but not limited to case management, resource management, advocacy, and outcome evaluation.
+PLO 9 Employ information technology in advanced nursing practice to evaluate and improve health care delivery and outcomes.
+PLO 10 Actualize the advanced nursing practice role by incorporating professional standards, ethical guidelines, legal mandates, and professional activities.
+Nursing, MS (Concentration in Family Nurse Practitioner )
+PLO 1 Apply critical thinking and ethical decision-making including the use of the nursing and research processes.
+PLO 2 Provide theory and research-based culturally competent, safe therapeutic nursing interventions for clients in advanced nursing practice.
+PLO 3 Employ advanced interpersonal skills in professional relationships with clients, families/caregivers, and multidisciplinary health care team members.
+PLO 4 Support health promotion and disease prevention activities in developing and monitoring holistic plans of care for well and at-risk clients, considering access, quality and cost.
+PLO 5 Demonstrate the collaborative and leadership skills required in advanced nursing practice within a multidisciplinary and multicultural (community) health care context.
+PLO 6 Plan, implement, and evaluate advanced nursing practice that promotes and preserves health and healthy lifestyles of individual clients and aggregates.
+PLO 7 Plan, implement, and evaluate advanced therapeutic nursing practice in a rapidly changing, multicultural health care environment.
+PLO 8 Implement care management, including but not limited to case management, resource management, advocacy, and outcome evaluation.
+PLO 9 Employ information technology in advanced nursing practice to evaluate and improve health care delivery and outcomes.
+PLO 10 Actualize the advanced nursing practice role by incorporating professional standards, ethical guidelines, legal mandates, and professional activities.
+Nursing Practice, DNP (Doctor of Nursing Practice Program)
+PLO 1 Integrate knowledge for advanced nursing practice along with knowledge from other disciplines, including a foundation in liberal arts, natural sciences, and social sciences, to form the basis for clinical judgment and innovation.
+PLO 2 Employ holistic person-centered care including effective communication with clients, families/caregivers to provide respectful, coordinated, and compassionate care that is developmentally appropriate across the lifespan.
+PLO 3 Promote overall population health by promotion and disease prevention while taking into consideration health policy and the social determinants of health to provide diverse, equitable, and inclusive health outcomes.
+PLO 4 Practice advanced scholarship for the nursing discipline by the generation, synthesis, translation, application, and dissemination of nursing knowledge to transform healthcare through evidence-based practice.
+PLO 5 Demonstrate quality and safety in implementation and improvement science required in advanced nursing practice.
+PLO 6 Foster interprofessional partnerships required in advanced nursing practice to optimize intentional multidisciplinary collaboration to strengthen healthcare outcomes.
+PLO 7 Adopt systems-based practice to proactively coordinate resources to provide equitable care in advanced nursing practice to diverse populations.
+PLO 8 Utilize informatics and healthcare technologies to evaluate and improve health care delivery and outcomes in advanced nursing practice.
+PLO 9 Represent professionalism by incorporating advanced practice standards, policy and procedures, the American Nurses Association (ANA) Code of Ethics for Nurses, legal mandates, and high-quality care.
+PLO 10 Embody personal, professional, and leadership development techniques that contribute to lifelong learning, support the acquisition of advanced nursing expertise, and sustain strong leadership.
+Nutritional Science, MS
+PLO 1 To demonstrate advanced competency in professional writing and oral communication of the essential theories, scientific applications, and/or ethical considerations related to the profession.
+PLO 2 To identify and articulate social and cultural issues related to nutrition/packaging for various populations.
+PLO 3 To analyze and critique published research, and design and conduct research studies using the scientific method.
+O
+Occupational Therapy, MS
+PLO 1 Be educated as a generalist with a broad exposure to the delivery models and systems used in settings where occupational therapy is currently practiced and where it is emerging as a service.
+PLO 2 Achieve entry level competence.
+PLO 3 Articulate and apply occupational therapy theory, models of practice, clinical reasoning to evidence-based evaluations and interventions to achieve expected outcomes.
+PLO 4 Uphold the ethical standards, values, and attitudes of the occupational therapy profession.
+PLO 5 Be a competent and critical consumer of research and knowledge that supports practice.
+PLO 6 Understand and value the occupational core of the profession.
+PLO 7 Identify the social, political, economic and cultural issues in a diverse society that impact the ability of individuals, communities and populations (clients) to participate in meaningful occupations.
+PLO 8 Advocate for individuals, communities and populations (clients) and actively promote occupational therapy.
+PLO 9 Demonstrate professional and leadership behaviors.
+PLO 10 Be prepared to make a positive impact on occupational pursuits for the health and well-being of society.
+PLO 11 Be self-directed, life-long learners.
+Occupational Therapy Doctorate, OTD
+PLO 1 Achieve entry-level competence as a generalist with a broad exposure to the delivery models and systems used in settings where occupational therapy is currently practiced and where it is emerging as a service;
+PLO 2 Understand, value and uphold the occupational core of the profession including the ethical standards, attitudes, and professional behaviors;
+PLO 3 Articulate and apply occupational therapy theory, models of practice, clinical reasoning to evidence-based evaluations and interventions to achieve expected outcomes;
+PLO 4 Be a competent and critical consumer of research and knowledge that supports practice; design, implement and present a scholarly project that will contribute to the professional body of knowledge;
+PLO 5 Identify the social, political, economic and cultural issues in a diverse society that impact the ability of individuals, communities and populations (clients) to participate in meaningful; occupations; create opportunities for occupational engagement for individuals, communities, or populations;
+PLO 6 Advocate for individuals, communities, and populations (clients) and actively promote occupational therapy; and,
+PLO 7 Demonstrate professional leadership skills to be prepared to make a positive impact on occupational pursuits for the health and well-being of society.
+P
+Packaging, MS
+PLO 1 To demonstrate advanced competency in professional writing and oral communication of the essential theories, scientific applications, and/or ethical considerations related to the packaging profession.
+PLO 2 To identify and articulate challenges related to packaging and specify holistic, efficient and effective solutions in the realm of packaging and its impact across the global setting.
+PLO 3 To analyze and critique published research, and design and conduct research studies using scientific methods.
+PLO 4 To exhibit the ability to take a packaging design from initial concept through to full-scale production, ensuring it meets functional, aesthetic, and sustainability requirements while aligning with industry standards and production capabilities
+Philosophy, MA
+PLO 1 Demonstrate advanced levels of written and oral communication in philosophical argument as addressed to audiences of both specialists and non-specialists in the field.
+PLO 2 Demonstrate a professional-level ability to formulate a valid research question in a field of philosophical inquiry and address that research question in an article-length essay that includes evidence from both primary and secondary sources.
+PLO 3 Demonstrate advanced knowledge of core areas and methods of the global history of philosophy, including majors figures, ideas, and philosophical traditions.
+PLO 4 Demonstrate advanced knowledge of major ethical and aesthetic theories.
+PLO 5 Demonstrate a professional-level ability to offer philosophically rigorous argumentation on behalf of ethical and/or aesthetic choices.
+PLO 6 Demonstrate an advanced understanding of influential philosophical conceptions of the nature of reality, knowledge, language, and the human mind.
+PLO 7 Demonstrate an advanced understanding of influential philosophical conceptions of the nature of logic and reasoning or an ability to solve philosophical problems by using the tools of logical reasoning and formal languages.
+PLO 8 Demonstrate an advanced understanding of the ways in which culture, race, ethnicity, gender, economic class, sexual orientation, ability or disability, and national membership influence perceptions about the nature of value, practical reason, reality, knowledge, language, or the human mind.
+PLO 9 Students completing an MA in Philosophy will be able to effectively teach a range of courses at the undergraduate level in diverse formats (in-person, online synchronous and online asynchronous).
+Physics, MS
+PLO 1 Students will be able to engage in experiential projects involving the formulation of research questions and the design and execution of empirical studies, computational simulations, and/or theoretical models aimed at addressing these questions.
+PLO 2 Students will demonstrate a deep understanding of physics concepts by applying those concepts to research in physics.
+PLO 3 Students will be able to construct meaningful conclusions from data sets relevant to research activities by applying laboratory, modeling, computational, and/or data analysis skills.
+PLO 4 Students will be able to communicate scientific content and thinking by generating a professionally formatted graduate thesis or project report and by orally presenting their work to an audience of professional physicists. Students will also demonstrate productive collaboration with peers in classroom and/or research contexts.
+PLO 5 Students will be able to communicate to others a sophisticated understanding of how work in physics influences technology, society, and culture.
+Psychology, Industrial/Organizational Psychology Concentration, MS
+PLO 1A Learn core psychological competencies including: History of I/O Psychology and its integration into the broader discipline and Related fields of psychology (i.e. social psychology, personality psychology, psychometrics, motivation, learning theory).
+PLO 1B Students will learn core I/O competencies including: Ethical, legal and professional issues; Measurement of individual differences; Criterion theory and development; Job and task analysis; Employee selection; Performance appraisal and feedback; Training and development; Work motivation; Attitude theory; Organization theory; and Organizational development.
+PLO 1C Learn data collection and analysis skills including: Research methods (i.e. methods, procedures, and techniques used to conduct empirical research in I/O psychology) and Statistical methods (i.e. techniques used in the analysis of data generated by empirical research).
+PLO 2 Perform professional activities related to I/O Psychology including, but not limited to: Administering employee surveys; Evaluating organizational interventions; Conducting job analyses; Creating selection tests; and Developing performance management systems.
+Psychology, Research and Experimental Psychology Concentration, MA
+PLO 1 Demonstrate advanced knowledge of the major theoretical perspectives and research methods across areas of experimental psychology (i.e., Developmental, Social, Cognitive, and Physiological).
+PLO 2 Possess an advanced level of competence in research methods, statistical techniques, and technical writing skills. Students completing the MA in Psychology program are required to complete a thesis. The thesis will demonstrate: creative problem-solving in the design, implementation of empirical research; project management skills in the implementation of empirical research; advanced competency in the statistical analysis and interpretation of empirical research findings; communication (oral and written) of research findings at a professional level.
+PLO 3 Achieve career enhancement through placement in a doctoral program or acceptance of a position requiring a master’s in psychology in the public or private sector.
+Public Administration, MPA
+PLO 1 Lead and manage in public governance
+PLO 1A Apply the project management approach to public management models.
+PLO 1B Manage projects.
+PLO 1B Understand the relationships between public policy, whether proposed or enacted, and leadership and management in implementation.
+PLO 2 Participate in and contribute to the public policy process
+PLO 2A Apply techniques for program evaluation and policy analysis.
+PLO 2B Describe and execute the policy making process, including defining the problem, setting the agenda, formulate policy, implement policy and evaluate policy.
+PLO 2C Prepare a budget reflecting policy priorities.
+PLO 3 Analyze, synthesize, think critically, solve problems and make decisions
+PLO 3A Employ analytical tools for collecting, analyzing, presenting and interpreting data, including appropriate statistical concepts and techniques.
+PLO 3B Identify and employ alternative sources of funding, including grants, taxes and fees.
+PLO 3C Understand and apply the legal context of public affairs, administration and policy.
+PLO 4 Articulate and apply a public service perspective
+PLO 4A Behave ethically and with integrity: tell the truth, keep confidences, admit mistakes.
+PLO 4B Understand and apply criteria appropriate to public affairs, administration and policy.
+PLO 4C Maintain privacy and security of documents and understand Big Data challenges.
+PLO 5 Communicate and interact productively with a diverse and changing workforce and citizenry
+PLO 5A Communicate effectively in writing: prepares clear, concise and well-organized written materials tailored to the audience’s level of expertise and needs.
+PLO 5B Communicate effectively in speech: presents oral information accurately, clearly, concisely persuasively tailored level of expertise and needs.
+PLO 5C Work productively in teams.
+Public Health, MPH
+PLO 1 Apply quantitative and qualitative forms of analysis to emerging trends, priorities, and assets in order to predict future individual, community, and population health needs and opportunities, taking into account public health’s historical foundations and current evidence base, and to communicate the implications for health promotion policy and practice.
+PLO 2 Apply concepts and theories of behavior, education, systems, complexity, communication, and ecological frameworks to design, plan, implement, evaluate, and disseminate health education and health promotion interventions and policy in accordance with public health objectives, community needs, and organizational and community goals.
+PLO 3 Provide technical assistance and act as a health education resource across a broad range of settings to promote community health through community building and organizing with identified stakeholders, including community members, consumers, health practitioners and health care providers, policy and decision-makers.
+PLO 4 Apply principles and skills of leadership and management to human, fiscal, capital, and social resources when administering health education strategies, interventions, and programs.
+PLO 5 Apply the principles and skills of effective inclusive and multicultural practice when engaging with individuals, groups, organizations, and communities from diverse cultures and backgrounds.
+PLO 6 Apply policy analysis methods and develop an advocacy strategy to advance public health policy.
+PLO 7 Advance public health practice and the health education profession by drawing upon historical and contemporary contributions of the field and applying principles of social justice.
+PLO 8 Adhere to standards for ethical practice and research based on their personal values and mission statements, institutional mandates, and the Code of Ethics for the Health Education Profession, in order to apply them to fields of public health and community health education.
+Q
+Quantum Technology, MS
+PLO 1 Demonstrate deep knowledge of basic concepts in quantum theory required for quantum information science by applying them to research and coursework in quantum technologies.
+PLO 2 Formulate research questions related to quantum technologies and design experiments, computational algorithms, and/or analytic models to address those questions.
+PLO 3 Demonstrate knowledge of the applications of quantum technology to solve problems in computing, sensing, and communication.
+PLO 4 Communicate scientific content and thinking effectively as evidenced by productive collaboration with peers, well-reasoned professionally formatted written research papers and visual and oral presentations.
+PLO 5 Communicate the impact of quantum technological solutions in a global, economic, environmental, societal, and ethical context, including political, health, safety, manufacturability, and sustainability.
+PLO 6 Articulate the interdisciplinary nature of quantum technology, including the importance of diverse skill sets in the successful commercialization of quantum technology.
+S
+Science Education, MS
+PLO 1A Synthesize primary literature from science education research and apply how it fits to their project.
+PLO 1B Demonstrate knowledge of at least two areas (e.g. inquiry based instruction, learning theory, assessment) that are related to, or supportive of research for their project.
+PLO 2A Present science and science education content in the form of graduate seminars or in the oral defense of their project (also known as the culminating experience).
+PLO 2B Organize and write the results of their project in a manner consistent with standards in professional science education publications.
+Social Work, MSW
+PLO 1 Demonstrate Ethical and Professional Behavior.
+PLO 2 Engage Diversity and Difference in Practice.
+PLO 3 Advance Human Rights and Social, Economic, and Environmental Justice.
+PLO 4 Engage In Practice-informed Research and Research-informed Practice.
+PLO 5 Engage in Policy Practice.
+PLO 6 Engage with Individuals, Families, Groups, Organizations, and Communities.
+PLO 7 Assess Individuals, Families, Groups, Organizations, and Communities.
+PLO 8 Intervene with Individuals, Families, Groups, Organizations, and Communities.
+PLO 9 Evaluate Practice with Individuals, Families, Groups, Organizations, and Communities.
+Software Engineering, MS
+PLO 1 Demonstrate an understanding of advanced knowledge of the practice of software engineering, from vision to analysis, design, validation and deployment.
+PLO 2 Tackle complex engineering problems and tasks, using contemporary engineering principles, methodologies and tools.
+PLO 3 Demonstrate leadership and the ability to participate in teamwork in an environment with different disciplines of engineering, science and business.
+PLO 4 Be aware of ethical, economic and environmental implications of their work, as appropriate.
+PLO 5 Advance successfully in the engineering profession, and sustain a process of life-long learning in engineering or other professional areas.
+PLO 6 Communicate effectively, in both oral and written forms.
+Spanish, MA
+PLO 1 Ability to understand the historical development of the Spanish language in its external (history, culture) and internal development (morphology, syntax and semantics).
+PLO 2 Knowledge of and familiarity with the linguistic variation of Spanish and its main dialects, including phonology, geographical variation, social dialects, and registers.
+PLO 3 Knowledge of the literatures and cultures of the Spanish-speaking world (Spain, Spanish America and the Hispanic U.S.) and relevant literary and cultural criticism.
+PLO 4 Ability to write and present orally in a scholarly fashion.
+Special Education, MA
+PLO 1 Assess and identify the educational needs and strengths of students with disabilities from diverse socioeconomic, cultural and linguistic backgrounds.
+PLO 2 Critically evaluate pedagogy, curricula and instructional materials grounded in quality indicators of evidence-based practices for students with disabilities.
+PLO 3 Plan, design, implement, and monitor linguistically and culturally appropriate instruction that meets the unique needs of students with disabilities.
+PLO 4 Apply knowledge of the purpose, characteristics, and appropriate use of different types of assessments used for special education eligibility, placement, and service selection.
+PLO 5 Utilize research-based knowledge and theoretical, conceptual and evidence-based practices related to individuals with disabilities to improve services and instruction in the field.
+Speech Language Pathology, MS
+PLO 1 Explain basic human mechanisms and processes including anatomy, physiology, and neurobiology of speech, language, hearing, and swallowing.
+PLO 2 Distinguish between characteristics of human communication differences and disorders across the lifespan.
+PLO 3 Describe common clinical approaches, evidence-based practices and interprofessional collaboration in speech-language pathology and audiology.
+PLO 4 Articulate essential elements of equitable and inclusive educational and healthcare services.
+PLO 5 Apply knowledge, skills, and dispositions to ethical and culturally responsive practice with diverse populations.
+Statistics, MS
+PLO 1 Carry out appropriate inferential procedures based on the mathematical theory of statistics.
+PLO 2 Use technology and statistical software to perform advanced statistical analyses.
+PLO 3 Communicate and present specialized statistical concepts clearly in oral, graphical, and written forms using appropriate technical terms in a way that is accessible to a general audience.
+T
+Taxation, MS
+PLO 1 Evaluate tax compliance and planning issues within the context of our global economy.
+PLO 2 Prepare tax research reports based on primary authority.
+PLO 3 Demonstrate effective written and oral communication skills for tax compliance and planning.
+PLO 4 Explain policy principles for existing tax law and proposals for change.
+PLO 5 Evaluate appropriate approaches to the ethical issues of tax compliance and planning.
+PLO 6 Develop skills for effective tax practice including keeping current, interacting with others, and career advancement.
+Teaching, MAT
+PLO 1 Plan for collaborative relationships with students, leaders, families, organizations, advocates, and / or other community members that center their diverse assets, interests, needs, and expertise in ways that augment students’ educational experiences.
+PLO 2 Critically examine, design, and implement authentic, asset-based learning environments, curricula, and pedagogical approaches that affirm and cultivate students’ diverse cultural, linguistic, cognitive, and socioeconomic resources as disciplinarily relevant instructional and pedagogical resources.
+PLO 3 Critically examine, design, and implement ongoing feedback-based approaches to assessment that center formative guidance during the learning process as opportunities for students to revise, expand, and grow as learners.
+PLO 4 Analyze and critique important intersecting aspects of history, ideology, policy, power, race, class, language, and other facets of culture underlying societal and one’s personal values, biases, and practices within education.
+PLO 5 Design and apply classroom inquiry cycles to address a problem of practice through culturally sustaining, holistic pedagogical practices and critical self-reflection.
+PLO 1 Plan for collaborative relationships with leaders, families, organizations, advocates, and other community members that center their diverse assets, interests, needs, expertise, and linguistic skills in ways that augment students’ educational experiences and agency in bilingual communities.
+PLO 2 Critically examine, design, and implement authentic, asset-based bilingual curricula and bilingual instructional methods that affirm and cultivate students’ diverse cultural, linguistic, cognitive, and socioeconomic resources as disciplinarily relevant instructional and pedagogical resources.
+PLO 3 Critically examine, design, and implement ongoing feedback based approaches to assessment that have a linguistic lens and center formative guidance during the learning process as opportunities for students to revise, expand, and grow as bilingual learners.
+PLO Analyze and critique important intersecting aspects of history, ideology, policy, power, race, class, language, and other facets of culture underlying societal and one’s personal values, biases, bilingual identity, and practices within bilingual education.
+PLO 5 Design and apply classroom inquiry cycles to address a problem of bilingual practice through culturally and linguistically sustaining, holistic pedagogical practices and critical self-reflection.
+PLO 6 Analyze and critique language in education policies at multiple levels, from federal, to state, to local levels, identify areas of personal agency, and be able to determine equitable courses of educational action for bilingual learners.
+Teaching English to Speakers of Other Languages (TESOL), MA (Not Accepting Students)
+PLO 1A Analyze language as a system consisting of phonology, morphology, syntax, semantics, lexis, pragmatics, and discourse and articulate the relationships between the various intrasentential levels and features of English structure.
+PLO 1B Correlate the knowledge and analytical skills in objective 1A with the four skills of reading, writing, listening, and speaking with sufficient precision to teach and assess proficiency in English as a non-native language.
+PLO 2A Demonstrate an understanding of the role of pragmatic knowledge and knowledge of text structure in the comprehension, production, and acquisition of a second language.
+PLO 2B Demonstrate an understanding of the intersection between culture, language, language learning and teaching, and language use with particular reference to English as a global language.
+PLO 2C Apply theoretical knowledge of second language acquisition in second language learning/acquisition contexts.
+PLO 3A Identify the instructional strategies that go with the established teaching methods and apply them to various language learning and teaching situations.
+PLO 3B Critically evaluate the teaching of actual ESL classes with regard to teaching strategies and activities and with regard to goals 1 and 2.
+PLO 3C Demonstrate an understanding of the theory and practice of needs analysis, curriculum design, and assessment techniques.
+PLO 3D Develop ESL curriculum for diverse target groups, design supplementary materials for use with particular instructional strategies, and develop language tests and assessment instruments by synthesizing the objectives of goals 1 and 2 and the teaching strategies in objective 3A.
+PLO 4A Critically examine concepts such as race, ethnicity, identity, and culture and their relationship to language teaching and learning in the context of a globalized world.
+PLO 4B Design syllabi that create classroom and program environments that foster global cultural consciousness.
+PLO 5A Complete a one-semester supervised practicum in which they plan lessons and teach English to an actual ESL class.
+PLO 5B Carry out independent research.
+PLO 5C Effectively write and present for professional audiences.
+Transportation Management, MS
+PLO 1 Transportation Systems and Society - Craft management decisions that integrate knowledge of multi-modal transportation, social, and environmental systems.
+PLO 1A Evaluate transportation proposals to identify impacts on transportation system performance objectives (e.g. accessibility and safety).
+PLO 1B Evaluate transportation proposals to identify impacts on broad policy goals (e.g. equity, economic competitiveness, and environmental sustainability).
+PLO 1C Analyze transportation management proposals to identify the relevant legislative and administrative structures that guide the decision.
+PLO 2 Innovation - Develop innovative solutions for transportation management challenges.
+PLO 2A Develop solutions to transportation management challenges that are informed by global best practices and emerging transportation technologies
+PLO 3 Leadership - Develop high-impact leadership styles and competencies (traits, skills, behaviors).
+PLO 3A Identify effective strategies to improve leadership competencies.
+PLO 4 Communications - Communicate effectively with a diverse workforce and citizenry.
+PLO 4A Prepare written materials that are clear, technically proficient, and tailored to diverse audiences’ needs and level of expertise.
+PLO 4B Deliver oral presentations that are clear, engaging, and tailored to diverse audiences’ needs and level of expertise.
+PLO 5 Analytics - Identify and evaluate transportation management issues using appropriate data and analytical methods.
+PLO 5A Collect, analyze, and synthesize information from multiple sources using appropriate data and analytical methods.
+U
+Urban Planning, MUP
+PLO 1 Conceptualize planning problems from complex, real-world situations so that the problems are meaningful to clients, and are research-worthy.
+PLO 2 Communicate effectively.
+PLO 3 Work effectively as team members and leaders of planning teams, and to apply an understanding of interpersonal and group dynamics to assure effective group action.
+PLO 4 Analyze and synthesize planning knowledge and apply it to address actual planning problems.
+PLO 5 Develop planning strategies to advance community priorities through collaborative engagement with stakeholders, and do so in a manner that deliberately incorporates multicultural and historical perspectives.
+|

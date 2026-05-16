@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/socialsciences/about/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Programs in the College of Social Sciences prepare students for work and life in Silicon Valley and a rapidly changing world.
+The College of Social Sciences empowers students and faculty to be change leaders through teaching and learning, cutting-edge research, and community engagement. We teach and study the social, cultural, economic, psychological, and environmental dimensions of human behavior. Our commitment to innovation, community, and impact is demonstrated every day through our work in San José, Silicon Valley, California, the nation, and beyond.
+We have 11 departments that provide training for careers in counseling, ergonomics, environmental impact assessment and restoration, computerized mapping, public administration, economic analysis, internet communication, and countless other positions in business, government, teaching, and human services.
+Vision
+At the College of Social Sciences, we advance the understanding of what it means to
+be human to build a prosperous, just, and sustainable future.

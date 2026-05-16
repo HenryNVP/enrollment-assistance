@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/provost/about/organizational-chart/index.php
+Title: Organizational Chart
+Type: HTML
+
+Organizational Chart
+The following organization chart is available in PDF format. You will need the free Adobe Acrobat Reader to view these files.
+Academic Affairs Division [pdf]
+Academic Business & Strategic Operations (ABSO) [pdf]
+Academic Innovation
+College of Graduate Studies [pdf]
+Institutional Research & Strategic Analytics (IRSA) [pdf]

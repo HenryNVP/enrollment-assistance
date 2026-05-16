@@ -1,0 +1,47 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14056
+Title: About
+Type: HTML
+
+The Mechanical Engineering graduate program, offered by the Department of Mechanical Engineering , is designed to afford ample opportunity for working engineers to continue their education. Courses and scholarly activities in such areas as computational fluid dynamics, thermodynamics, heat transfer, rigid-body dynamics, robotics, vibrations, product design, finite element methods, computer-aided mechanical engineering design and optimization, controls and manufacturing engineering and mechatronic systems engineering can lead to a degree of Master of Science in Mechanical Engineering (MSME).
+For more information visit the program MSME program website.
+Educational Objectives for Graduate Program
+The Master of Science in Mechanical Engineering degree program provides students with:
+- A strong foundation beyond the undergraduate level in their chosen focus area as well as in mathematics, basic science and engineering fundamentals, that allows them to successfully compete for technical engineering positions in the local, national and global engineering market, advance in their current position or pursue doctoral studies.
+- Professional and lifelong learning skills to be able to apply and extend theory to solve practical contemporary engineering problems.
+- The expertise necessary to design mechanical engineering systems with a possible specialization in areas such as energy systems, thermal management of electronic systems, electronics packaging and reliability, finite element analysis and CAD, mechatronics and MEMS, product design, robotics, automation, and manufacturing.
+- Strong verbal and written communication skills, including the ability to comprehend and write technical documents.
+- Ability to think and work independently to perform design and in-depth analysis in solving open-ended mechanical engineering problems.
+Admission Requirements
+University Admissions
+Applicants must submit a complete graduate application by applying through the CSU Cal State Apply system and meet all the university admission requirements. Applicants apply separately to the department to obtain admission into the Mechanical Engineering Program. See the Graduate Admissions website and this Catalog for general information about graduate admissions at SJSU.
+Applicants from countries in which the native language is not English must achieve a minimum English Language Proficiency (ELP) test score as indicated on the Graduate Program Test Requirements webpage.
+Requirements for Admission to Classified Standing
+Students desiring to pursue a Master of Science in Mechanical Engineering must meet all the university admission requirements and satisfy each of the following requirements for admission to classified standing:
+- A Bachelor of Science degree from an engineering department accredited by the Accreditation Board of Engineering and Technology (ABET) or equivalent. Special programs can be developed for those with degrees from other related disciplines. These programs must be approved by the Graduate Program Advisor.
+- A minimum grade point average (GPA) of 3.0 on a 4.0 scale over the last 60 semester units completed in engineering and/or science.
+- Applicants from non-ABET accredited Mechanical Engineering programs must have obtained minimum GRE scores as stipulated on the Graduate Program Test Requirements webpage.
+Admission to Conditionally Classified Standing
+Applicants whose records show certain deficiencies, such as in GPA or having a non-ME undergraduate major, may be admitted to conditionally classified standing. The Mechanical Engineering Graduate Program Advisor should be contacted for this purpose. Conditionally classified students may later initiate petitions for classified standing in the program when such deficiencies have been removed and their records show promise of success in the degree program. The individual admission letter will explain the required terms and conditions for attaining Classified standing.
+Requirements for Advancement to Graduate Candidacy
+Prior to registering for the first time (or upon reentering), a student should consult with the Mechanical Engineering Graduate Program Advisor. A schedule of courses will be developed at this time. Students admitted as conditionally classified must satisfy the requirements listed on their letter of acceptance and then apply to GAPE for a change of classification. Students who have completed matriculation and received classified standing in a master’s degree curriculum must next be advanced to candidacy for the degree.
+A student may advance to candidacy after completing a minimum of 9 units of graded work as a graduate student in 100- or 200-level courses acceptable to the department in which the degree is sought as well as satisfying all other university requirements for advancement to candidacy . Both the university overall GPA and the GPA in courses listed on the MSME Candidacy Form must be at least 3.0 on a scale of 4.0.
+If a student’s preparation for advanced graduate work is considered inadequate to meet the course prerequisites or other departmental requirements, it will be necessary to take the preparatory courses to meet these requirements. Such courses will not be counted as part of the master’s degree program requirements.
+The University requires that all graduate students complete the Graduation Writing Assessment Requirement (GWAR) as a condition for advancement to candidacy.
+Students must have their advancement to candidacy approved before starting the first semester of their master’s project or thesis classes (ME 295A or ME 299 ).
+Requirements for Graduation
+University Graduation Requirements
+Students must complete all residency, curriculum, unit, GPA, and culminating experience requirements as outlined in the Graduation Requirements section of the Graduate Policies and Procedures.
+Department Graduation Requirements
+The MS program in Mechanical Engineering consists of 30 semester units of approved work as follows:
+- 9 units of required core courses for the degree.
+- 3 units of the 9-unit core satisfy the Graduate Writing Requirement (GWAR).
+- 15 units of elective courses, which ordinarily must be 200-level courses in Mechanical Engineering. With approval by the Graduate Program Advisor, a student may apply up to 6 units of elective coursework from undergraduate (upper division) SJSU Mechanical Engineering electives or graduate courses from other departments, colleges, or universities.
+- 6 units of thesis (Plan A) or project (Plan B).
+Graduation Writing Assessment Requirement
+At SJSU, students must pass the Graduation Writing Assessment Requirement (GWAR) .
+Culminating Experience
+Students choose a Plan A (Thesis) or Plan B (Project) as their program culminating experience.
+Plan A (Thesis)
+Plan A requires two semesters of ME 299 , 3 units each. The thesis will include original research on a topic approved by the thesis committee and must meet university requirements as stipulated in this catalog and in the SJSU Master’s Thesis and Doctoral Dissertation Guidelines. It will undergo a thorough review and revision process under the guidance of the candidate’s thesis committee chair with the assistance of the thesis committee. In addition, an open examination (oral defense) will be conducted by the student’s thesis committee.
+Plan B (Project)
+With Plan B, the master’s project sequence of ME 295A for 3 units followed by ME 295B for 3 units is required. In addition, an open examination (oral defense) will be conducted by the student’s project committee.

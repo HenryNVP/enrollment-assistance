@@ -1,0 +1,56 @@
+Source: https://www.sjsu.edu/registrar/registration/swapping-classes-faqs.php
+Title: Swapping Classes FAQs
+Type: HTML
+
+Swapping Classes FAQs
+-
+What is the Swap function?
+-
+The Swap function can replace an enrolled class with another open or waitlisted class in one action. With the Swap in place, if you are enrolled from the open or waitlisted replacement class, the original class will be dropped automatically.
+-
+- Where can I find the Swap function?
+-
+You can find the Swap tab within the Enroll page in the Student Center.
+-
+-
+When should I use the Swap function?
+-
+Swap is useful in the following scenarios:
+- If you are already enrolled in another section of the same class for which you wish to waitlist.
+- If you have a time conflict between a class you are fully enrolled in and the class for which you want to waitlist.
+- If you are already enrolled in the maximum number of units for a term and want to still get into a preferred class via waitlist (variable waitlist units apply).
+-
+- When is the Swap function available?
+-
+You can swap classes online when registration starts until add/ drop deadlines. For details, go to the Registration Calendar of the term.
+-
+-
+I would like to replace an enrolled class with one that is currently full. Can I waitlist
+in the full class using the swap function in case it becomes open?
+-
+Yes, you can set up your enrolled class to be swapped with a waitlisted class. It is only when the class becomes open that the swap class will take place. Go to the Waitlist page for details.
+-
+-
+I set up one of my classes to be swapped with an open class but nothing happened.
+Why?
+-
+The class swap looks at the class requirements of the replacement class. If there is any issue found, such as time conflict, not meeting prerequisites or corequisites, or you have taken the class before, the system will not perform the class swap.
+-
+-
+Can I swap classes with related class sections (e.g. BIOL 21 lecture and lab)?
+-
+Yes. However, if swapping a zero unit related class section that is full, you will be dropped from all enrolled sections (e.g. Biol 21 lecture and lab) and added to the waitlist of all related class sections.
+-
+-
+How will I know that I have been enrolled in the swapped class I set up?
+-
+If the class is open it will show immediately in your class schedule.
+If the class you want to swap into is waitlisted, then you will receive a MySJSU message once you are enrolled from the waitlist. Please be sure to check your MySJSU messages frequently.
+-
+-
+I need help figuring out what happened to the classes I set up for class swap. Who
+do I contact?
+-
+Contact the registrar’s office. Please provide your name, SJSU ID, and the Swap class information.
+-
+Additional Questions: Contact your advisor

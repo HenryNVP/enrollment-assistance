@@ -1,0 +1,58 @@
+Source: https://www.sjsu.edu/transform/spartan-spotlight/nursing-education.php
+Title: Transforming the Future of Nursing Education
+Type: HTML
+
+Transforming the Future of Nursing Education
+By Brett Bralley
+Photo credit: James Tensuan
+Virtual reality simulation training placed SJSU ahead of the curve when the pandemic struck.
+Before anyone had even heard of COVID-19, Deborah Nelson, lecturer and simulation program coordinator for the San José State Valley Foundation School of Nursing, was preparing for it — she just didn’t know it yet.
+Pre-pandemic, Nelson often gathered a class of about 10 nursing students in the briefing room of SJSU’s simulation lab. The group of undergraduates would pull out their smartphones, position them into a pair of virtual reality (VR) goggles, and place the goggles over their eyes. Then, they would watch as, just a room away, a training simulation took place.
+Using a simulation lab in nursing education is nothing new; many programs across the country teach students clinical skills using manikins before they interact with real patients. Typically, one to two students participate in a simulation at a time while the rest observe. At SJSU, students usually observed on a TV screen outside the simulation room.
+But virtual reality offers a more immersed and individualized approach for onlookers, explained Nelson. Using VR goggles, students can focus on the active participant’s interaction with the patient. Or, they can look around the whole room: They can check the patient’s vital signs on a nearby screen, identify safety hazards and note the patient’s medications.
+“The observer is in control of what they want to focus on to best meet their learning needs,” Nelson said.
+The VR program Nelson uses — along with other faculty in the nursing school and beyond — is Syminar, a health education platform created by alumnus Bryan Dang, ’16 Nursing. The tool combines VR, an immersive 360-degree camera, interactive chat features and learning modules to allow students and instructors to study patient care from anywhere.
+And while Syminar has been instrumental in its own right, as Nelson explained, it was a game-changer when the pandemic began and higher education shifted to mostly online learning. Now, as students and faculty start to return to campus at SJSU and across the country, Syminar has proven that VR in health-care education is here to stay.
+A student, an idea and a space for innovation
+Alice Wu, ’21 Nursing, shows how to view a simulation using VR goggles. Video courtesy of Bryan Dang.
+While nursing educators agree that simulation training is an integral part of learning how to treat patients, simulation labs can be expensive and occupy a lot of space. Dang was looking for a way around that.
+He came to SJSU in 2013 with two interests: nursing and human factors, or the study of how humans interact with and use technology. Dang’s experience volunteering at Stanford Hospital helped him realize he wanted to help others, and time spent working at Google as a real estate specialist taught him that the right technology can make a difference in everyday life.
+When he was a junior, Dang was tapped to collaborate with SJSU’s Interdisciplinary Design Collaborative — now the Innovation Development Center — which works to provide students and faculty with the resources to innovate and become successful entrepreneurs.
+He partnered with a team of graduate engineering students to present an idea at an upcoming showcase challenge. But not just any idea: “The requirement of the challenge was to create a novel application of a new and exciting technology,” Dang explained.
+The team chose to focus on virtual reality, and after some brainstorming, they realized they could simplify simulation training in a way that would bring down costs to institutions and increase student engagement all in one tool.
+Later, Syminar officially launched as a startup in 2018, and San José State was one of the early users of the platform. The School of Nursing implemented Syminar to enhance simulation training. The School of Social Work, the departments of Kinesiology and Audiology, and SJSU’s Stem Cell Internship in Laboratory-Based Learning program have all either adopted or are about to introduce the platform into their curriculum.
+“Schools have been used to buying four or five software components and using them in tandem,” Dang said. “Think about before the iPhone existed: There was a phone, and then there was an mp3 player, and then we used a web browser, right? Those were all separate tools. The iPhone took those tools and brought them together. That’s what we’re trying to do with Syminar.”
+Back in 2011, the School of Nursing received an endowment from the Valley Foundation to expand the Clinical Simulation Center. The facility houses an acute care lab, an ICU and a space where students can deliver babies and monitor postpartum mothers. There’s even a simulated apartment for learning how to manage patients in settings outside of the clinic.
+But not all nursing programs have the opportunity to build such state-of-the-art facilities, explained Dang.
+Syminar offers students the chance to log on from any location to watch nursing simulations, which saves space, requires fewer manikins and also helps to accommodate all types of students and learning needs.
+In fact, Syminar simulations don’t even have to be live; successful demonstrations can be used over and over, which turned out to be crucial for SJSU once COVID-19 took hold.
+Going virtual during a crisis
+SJSU Nursing students testing VR headsets in the classroom. Photo courtesy of Bryan
+Dang.
+When Nelson could no longer hold live simulation sessions in March 2020, she and Dang dug through SJSU’s trove of recordings to set up classes for students remotely.
+“It took only about three days,” she said. “We never would have been able to transition that quickly if it weren’t for Syminar. We did change the objectives in some ways. Now, I create a course that provides content information and structured clinical reasoning questions to guide the students as they view the video.”
+Colleen O’Leary-Kelley, director of the School of Nursing put it simply: While other institutions were scrambling to find solutions once the stay-at-home orders took effect, “we were ahead of the curve,” she said.
+When the pandemic arrived, many clinical sites immediately closed their doors to nursing students who needed direct patient-experience hours for graduation, according to NPR, citing a lack of equipment and resources, plus a need to protect patients.
+In response, California nursing schools advocated for the state to ease the graduation requirement for clinical hours, which resulted in the passage of AB 2288, a bill that allowed up to 50 percent of the hours to be replaced with simulation learning.
+Still, restrictions meant students and faculty couldn’t gather in-person to practice simulations, which presented the added challenge of finding a way to get those hours. Having Syminar in place helped make sure SJSU nursing students graduated on time.
+“Graduating students on time or keeping them on track in the program right now, that’s huge,” said Nelson.
+Ensuring nursing students graduate during the pandemic helps the state keep up with its efforts to address its nursing shortage, NPR reported. The pandemic, coupled with a nursing faculty shortage (something SJSU is also working to address), led some California programs to accept fewer students than usual in the fall — or even opting to not not enroll any new students at all in 2020, according to NPR.
+“Developing nursing competency requires hands-on training that is difficult to accomplish virtually,” said O’Leary-Kelley.
+“Having access to Syminar provided an immersive environment that allowed for students to apply clinical knowledge in a realistic setting. As a result, students were able to graduate or matriculate to the next level without significant loss in knowledge of nursing practice.”
+The case for simulation and the case for VR
+(L-R) O'Leary-Kelley, Dang and Jeland Palicte, '16 Nursing, in the SJSU Simulation
+Center.
+In a world where “Zoom fatigue” has become commonplace, Dang says research shows this isn’t the case when using VR. In fact, out of all the ways students observe simulation training, it may be one of the highest in terms of engagement level.
+In a recent study, Dang tested the engagement and “perceived presence” levels of students observing a simulation in four different ways: an active participant, a bedside observer, an observer watching a TV monitor with live audio-visual feed in a separate room, and an “immersive telepresence,” or VR, observer with Syminar.
+Dang found that VR users scored much higher in their perceived presence and engagement than observers in the audio-visual room, and those scores were similar to active participant learners.
+That perceived presence is high for Jeffrey Beach, ’22 Nursing, who said that when he is watching a scenario using Syminar, he explores the room around him to get the bigger picture of what’s going on with the patient.
+“I can move the camera around and go take a look at the vital sign monitor, for example,” he shared. “With the immersive 360-degree camera, you really get a better feel overall.”
+In fact, he says even observing a pre-recorded simulation can make him feel nervous.
+“Even though you’re not physically doing things, you still feel that pressure. Your instructor is watching you, judging your interactions with the patient, and you feel like, because you’re a student, you could mess something up.”
+But that’s precisely the point, noted O’Leary-Kelley, and that’s why simulation training is such an essential part of nursing education.
+“Simulation is focused on the learner,” she explained. “Students come to a simulation with a certain frame of reference that oftentimes is incorrect. So we have to uncover that gently. Things get clarified in a safe way. It’s positive learning.”
+Bree Casas, ’22 Nursing, who uses she/they pronouns, can attest to that. Through Syminar, Casas has learned to observe the entire room when caring for a patient — including anything that might jeopardize a patient’s safety. They said that instructors have pointed out missed safety hazards, like a patient wearing socks on a slippery tile floor, which could cause the patient to fall.
+“It gives us the chance to be wrong without harming patients or affecting patient outcomes,” she said. “It also gives the chance for students who might not be quite as outgoing or knowledgeable to learn from their peers, which I think is a good thing.”
+That engagement and learning experience with Syminar is one reason VR won’t be going anywhere once students and faculty return to campus, said Nelson.
+“Syminar has proven to be a key tool in effective learning in both the in-person and remote learning environment,” she said. “It has assisted in having options for SJSU’s nursing students to continue on their journey towards graduation and towards service to the community.”
+Learn more about simulation training in nursing education at San José State. To learn more about Syminar and see how it works, visit syminar.com.

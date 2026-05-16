@@ -1,0 +1,112 @@
+Source: https://www.sjsu.edu/mktba/programs/business-analytics.php
+Title: Business Analytics
+Type: HTML
+
+Business Analytics
+Business analytics is a quantitative approach to business, driven by the intelligent use of data and mathematical models. Practitioners leverage methods from statistics and operations research to form insights and make decisions that improve business performance.
+Business analytics is crucial to a broad range of industries. Banks need to perform credit risk analysis and analyze streaming transactions in real time to quickly identify potential fraud. Utility companies need to analyze energy usage data to gain a better understanding of demand patterns. Retailers need to perform markdown optimizations, firm-wide liquidity management, and understand the social sentiment around their products and markets to develop more effective campaigns and promotions. Business Analytics helps such organizations uncover insights from big data, build models that relate actions to consequences, and perform optimization and simulation analyses that lead to quality decisions and better outcomes in shorter times.
+Business Analytics Careers
+The job opportunities for graduates with data analytical skills have never been more numerous. According to the U.S. Bureau of Labor Statistics, Business-analyst jobs are predicted to increase by 22 percent by 2020. A recent study by McKinsey & Company shows that the United States could face a shortage of 140,000 to 190,000 professionals with deep analytical skills by 2018. The proposed business analytics concentration is designed to cater to this need by equipping our undergraduates with the skills needed to crunch huge data sets into meaningful information to further facilitate smart business decision-making.
+Quantitative analyst
+Many business functions, such as marketing, logistics, and operations management, are becoming more data intensive and mathematically sophisticated. The Business Analytics curriculum will equip students with the quantitative tools to become capable business analysts.
+Business manager
+As the business environment becomes increasingly data-driven, the next generation of business managers will require not only leadership skills, but also analytical skills to succeed. The manager with training in Business Analytics will approach decision making from an optimization perspective and will be an intelligent consumer of data analyses.
+Analytics Bridge
+The Business Analytics concentration emphasizes effective communication of technical information, particularly to non-technical audiences. This training will prepare students to be the bridge between an organization’s upper management levels and its analytics team or to be the liaison to outside analytics consultants.
+Visit the University catalog for a list of courses and descriptions.
+The courses specific to Business Analytics Concentration are listed below.
+Required Courses (12 units)
+BUS2 193 - Data Mining
+3 Units
+- Develops knowledge and skills for extracting meaningful patterns and relationships from large, complex datasets
+- Covers data visualization, association rule mining, clustering techniques, and modern classification methods
+- Focus on analyzing structured databases and web-based data to support data-driven decision-making
+- Emphasizes practical applications of data mining techniques in real-world business contexts
+Prerequisites: BUS2 90 or instructor consent
+Grading: Letter Graded
+BUS2 194A - Statistical Analysis
+3 Units
+- Develops fundamental knowledge and skills for applying statistics in business decision-making
+- Covers hypothesis testing, simple and multiple regression, experimental design, time series analysis, and non-parametric estimation
+- Focus on analyzing data to support informed business decisions
+- Emphasizes practical applications of statistical methods in real-world business contexts
+Prerequisites: BUS2 90
+Grading: Letter Graded
+BUS2 194B - Business Analytics
+3 Units
+- Covers applications of linear, nonlinear, and discrete optimization techniques
+- Introduces modeling of stochastic processes, including inventory control and queuing (waiting line) models
+- Focus on using analytical methods to improve business decision-making
+- Emphasizes practical problem-solving through quantitative modeling
+Prerequisites: BUS2 190
+Grading: Letter Graded
+BUS2 195B - Data Visualization
+3 Units
+- Focuses on state-of-the-art techniques for creating effective visualizations of structured and unstructured data
+- Emphasizes using visualizations to enhance understanding and communication of information
+- Develops skills to design clear, insightful, and impactful visual representations of data
+- Applies visualization tools and methods to support business decision-making
+Prerequisites: BUS2 90
+Grading: Letter Graded
+Additional Courses (6 units)
+Complete four courses from:
+BUS2 132B - Business Logistics
+3 Units
+- Focuses on planning, implementing, and controlling the efficient flow and storage of goods, services, and related information
+- Covers the end-to-end supply chain from point of origin to point of consumption
+- Emphasizes meeting customer requirements through effective logistics strategies
+- Integrates concepts of inventory management, transportation, and distribution planning
+Prerequisites: BUS2 130; BUS2 190; Upper Division Standing
+Grading: Letter Graded
+BUS2 137H - Marketing Honors Practicum
+3 Units
+- Involves sponsored, project-based work in collaboration with a host company in the areas of Marketing and Business Analytics
+- Students work closely with both a faculty advisor and company representatives on a real-world marketing and/or analytics project
+- Emphasizes applied problem-solving, professional communication, and integration of classroom knowledge in organizational settings
+- Culminates in a formal written report and presentation
+Course may be repeated for credit for up to 6 units.
+Prerequisites: BUS2 130 (Marketing Concentration), BUS2 190 (Business Analytics Concentration),
+or instructor consent
+Corequisite: BUS2 138 (Marketing Concentration majors)
+Grading: Letter Graded
+BUS2 191 - Decision Making Under Uncertainty
+3 Units
+- Covers decision analysis models and methods for optimizing decision policies
+- Topics include Bayes’ Theorem, decision trees, influence diagrams, utility functions, and certainty equivalence for risk-averse analysis
+- Explores measures of the value of information and applications in decision-making
+- Utilizes relevant spreadsheet tools for modeling and analysis
+Prerequisites: BUS2 90 or one of the following: BUS2 190, PH 167, ISE 130, ECON 3, ECON 103A, or
+Instructor Consent
+Grading: Letter Graded
+BUS2 195A - Spreadsheet Modeling
+3 Units
+- Develops analytical modeling skills using advanced Excel features
+- Focus on modeling real-world decision-making problems in business contexts
+- Covers Excel tools including IF functions, lookup tables, date and text manipulation, sorting, filtering, graphing, and VBA programming
+- Emphasizes practical applications to support data-driven business decisions
+Prerequisites: BUS2 190
+Grading: Letter Graded
+BUS2 195C - Simulation Modeling and Analysis
+3 Units
+- Focuses on building and using simulation models in business systems with Excel and advanced simulation softwareCovers discrete-event simulation, Monte Carlo simulation, and simulation input data collection and analysis
+- Emphasizes statistical analysis and interpretation of simulation outputs
+- Develops skills to model complex business processes and support decision-making
+Prerequisites: BUS2 190
+Grading: Letter Graded
+BUS4 116 - Advanced Database Management Systems
+3 Units
+- Covers advanced topics in relational data management and analysis, including SQL, PL/SQL, and database functions, procedures, and triggers
+- Explores dimensional modeling, data warehousing, and data visualization techniques
+- Introduces non-relational (NoSQL, big data) databases and analytical methods
+- Focus on designing, managing, and analyzing complex data systems to support business decision-making
+Prerequisites: BUS4 112
+Grading: Letter Graded
+BUS4 118D - Big Data
+3 Units
+- Develops skills in formulating business questions and applying Big Data analytics technologies to address organizational challenges
+- Provides hands-on experience wrangling, querying, and visualizing relationships within large, unstructured datasets
+- Covers Big Data strategy development, business value creation, and implementation considerations
+- Examines ethical issues and governance challenges associated with Big Data analytics
+Prerequisites: BUS4 112
+Corequisite: BUS4 110A
+Grading: Letter Graded

@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/diversity/campus/demographics.php
+Title: SJSU: By the Numbers
+Type: HTML
+
+SJSU: By the Numbers
+Student Information: Application figures, degrees awarded, university quick facts, enrollment statistics and more at Institutional Research and Strategic Analytics.
+San Jose State Employee Quick Facts: An easy-to-use reference for demographic information of university employees, including primary employment classification (or occupational group), full/part-time status, race/ethnicity, gender and age distribution.
+Faculty Diversity on Campus: The Office of Faculty Affairs is responsible for the recruitment of a diverse faculty. In addition, the office takes the lead in supporting initiatives that help to retain faculty, regardless of race, sex, color, ethnicity or national origin, and prepare them for a successful tenure and promotion review.
+Recruitment Action Plan: [pdf] Designed to address the underutilization of women/minorities/veterans/persons with disabilities.

@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/mktba/programs/index.php
+Title: Programs
+Type: HTML
+
+Programs
+Welcome to the Department of Marketing and Business Analytics. There is vast opportunity for our students with an extraordinarily wide range of career options open to our graduates. Besides a dedicated, high-energy faculty that provides their students with cutting-edge knowledge in the classroom, the department also offers outstanding experiential learning opportunities. Some of these opportunities accrue within the curriculum. The department's Honors Program, for instance, provides real-world experience for credit that has often led to offers for paid internships and executive training program career opportunities. The department's Marketing Association and Bay Area Retail Leadership Center also stage events which put students and executives face-to-face. These encounters have often led directly to lucrative and challenging career opportunities.
+The Department of Marketing and Business Analytics offers concentrations in Marketing and in Business Analytics
+Marketing Concentration
+The Marketing concentration focuses on the fulfillment of consumer and industrial needs for goods and services and the methods and institutions which satisfy those needs. This challenging and creative field is studied as an interacting system, with particular emphasis on:
+- Market objectives, Definition and Segmentation
+- Consumer behavior and Promotional strategy
+- Logistics and Physical distribution
+- Marketing Institutions and Channels
+- Market research
+- Policies, Plans and Strategies
+Marketing examines the most dynamic aspect of business. As you go through the marketing courses you'll feel the excitement of learning about and dealing with issues and trends faced by real world marketing managers, even as they struggle with the same realities and opportunities. In the Marketing concentration students will learn about creating a product or service and managing relationships with customers. In the effort to continuously keep pace with the Silicon Valley, the marketing program is designed to spark student innovation and provide multi-disciplinary opportunities through an academically challenging curriculum. For instance, a cluster of high technology marketing electives is offered to keep majors on top of the latest advancements in the marketing field.
+Keeping in step with the global marketplace, you may take courses in International Marketing, providing instruction on national and international concepts for developing and selling products. The marketing program also focuses on the business functions concerned with market definition and objectives, product or service development, customer segmentation and product positioning. When you graduate, you will have the confidence of entering the world of marketing ready and primed to take part in this fast-changing and exciting career field.
+Business Analytics
+Business Analytics is a cutting-edge approach to decision making and strategy, driven by the intelligent use of data and mathematical models. The concentration focuses on developing capabilities in the areas of:
+- Deriving insights from data
+- Framing and modeling business problems
+- Making decisions in uncertain situations
+- Developing optimal strategies
+- Visual and technical communication
+Business Analytics is a quantitative approach to business, driven by the intelligent use of data and mathematical models. Practitioners leverage methods from statistics and operations research to form insights and make decisions that improve business performance. Business analytics is crucial to a broad range of industries. Banks need to perform credit risk analysis and analyze streaming transactions in real time to quickly identify potential fraud. Utility companies need to analyze energy usage data to gain a better understanding of demand patterns. Retailers need to perform markdown optimizations, firm-wide liquidity management, and understand the social sentiment around their products and markets to develop more effective campaigns and promotions. Business Analytics helps such organizations uncover insights from big data, build models that relate actions to consequences, and perform optimization and simulation analyses that lead to quality decisions and better outcomes in shorter times.
+The job opportunities for graduates with data analytical skills have never been more numerous. According to the U.S. Bureau of Labor Statistics, Business-analyst [1] jobs are predicted to increase by 22 percent by 2020. A recent study by McKinsey & Company [2] shows that the United States could face a shortage of 140,000 to 190,000 professionals with deep analytical skills by 2018. The business analytics concentration is designed to cater to this need by equipping our undergraduates with the skills needed to crunch huge data sets into meaningful information to further facilitate smart business decision-making

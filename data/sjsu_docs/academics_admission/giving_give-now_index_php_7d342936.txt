@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/giving/give-now/index.php
+Title: Give Now
+Type: HTML
+
+Give to SJSU
+Giving today helps our students discover what they can do at SJSU. Thank you for your generous support.
+Give Now

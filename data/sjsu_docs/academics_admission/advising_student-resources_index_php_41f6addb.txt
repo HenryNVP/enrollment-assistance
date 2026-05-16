@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/advising/student-resources/index.php
+Title: Student Resources
+Type: HTML
+
+Undergraduate Advising and Success
+Academic Calendar
+Academic Catalog
+ASPIRE Program
+Career Support
+Educational Opportunity Program (EOP)
+Faculty and Staff Directory
+Financial Aid
+McNair Scholars Program
+San Jose State University Library
+Social Justice and Success Centers

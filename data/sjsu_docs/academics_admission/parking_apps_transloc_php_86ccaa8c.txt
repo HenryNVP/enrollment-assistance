@@ -1,0 +1,14 @@
+Source: https://www.sjsu.edu/parking/apps/transloc.php
+Title: Transloc App - Shuttle Location
+Type: HTML
+
+Transloc App - Shuttle Location
+Parking Services partnered with Transloc App to provide real time shuttle locations and estimated time of arrival (ETA) predictions
+Transloc App features:
+- View buses in real time on the map
+- View specific routes and associated stops
+- View your current location if GPS is enabled
+- View current bus system related announcements such as delays and re-routing
+- Made specifically for Apple or Android devices, so it's smoother than the Transloc bus tracker mobile website
+Get the Transloc App
+Note: Transloc App displays only the routes currently in service.

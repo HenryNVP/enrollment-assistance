@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/careers/equal-opportunity/presidents-statement.php
+Title: President's Statement
+Type: HTML
+
+President's Statement
+San José State University on Equal Opportunity and Non-Discrimination
+San José State University plays a vital role in the dynamic and multicultural Silicon Valley in developing future leaders and in preparing our graduates to succeed in an increasingly global marketplace. The University is dedicated to the principles of equal opportunity and non-discrimination. These principles permeate all facets of University life: in the admission, housing and education of students; in policies and practices governing programs of extracurricular life and activities; and in the employment of faculty, staff, and students. Discrimination of any kind, including, but not limited to age, ancestry, color, creed, disability, marital status, medical condition, national origin, pregnancy, race, religion, sex, or sexual orientation, is an affront to the entire University community and is strictly prohibited.
+San José State University works vigorously to achieve an atmosphere free of discrimination and harassment - one that is reflective of our richly multicultural society. By doing so, we ensure the interchange of diverse views and growth of mutual respect. The University is proud of its record and recognizes the immeasurable contributions this work has had in making it a distinguished institution of higher learning and an employer of choice in Silicon Valley.
+If you have any questions regarding our University's equal employment opportunity policies or the complaint procedure, you may contact the Office for Equal Opportunity Office at (408) 924-2450.

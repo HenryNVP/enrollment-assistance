@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/science/research/centers-and-institutes.php
+Title: Campus Centers and Institutes
+Type: HTML
+
+Campus Centers and Institutes
+CAMCOS (Center for Applied Mathematics, Computation, and Statistics) is a student research program in the Department of Mathematics and Statistics at SJSU. Our goal is to give SJSU students the experience of working on a real-world problem in the applied mathematical sciences. We therefore look for local businesses and government agencies to sponsor student teams that will investigate problems arising from their work.
+The Institute for Modern Optics (IMO) at SJSU's Department of Physics and Astronomy is a Campus Institute aimed at facilitating communication, collaboration, and coordination among faculty members and students in the areas of modern optics, including electro-optics and lasers. The mission of IMO is to raise awareness of research in modern optics at SJSU, and to expose students to research opportunities and collaboration with industries.
+Wildfire Interdisciplinary Research Center (WIRC) is a group of researchers who focus on all aspects, including physical and social aspects, of wildfire science and management to better understand fire in California and around the world. The core mission of WIRC is to conduct high-impact wildfire research so that improved tools and policies can be provided to the community and industry stakeholders across the world.

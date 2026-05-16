@@ -1,0 +1,18 @@
+Source: https://www.sjsu.edu/engineering/about-us/departments.php
+Title: Departments
+Type: HTML
+
+Departments
+The SJSU College of Engineering comprises of ten departments and independent programs. The departments are overseen by a department chair, and may contain one or more areas of study. The independent programs are overseen by a director, and are generally smaller than departments.
+- Aerospace Engineering
+- Aviation and Technology
+- Biomedical Engineering
+- Chemical and Materials Engineering
+- Civil and Environmental Engineering
+- Computer Engineering
+- Electrical Engineering
+- Industrial and Systems Engineering
+- Interdisciplinary Engineering
+- Mechanical Engineering
+- Extended Studies
+The degrees, minors, and certificate programs offered by each department car be found on our Programs page.

@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/researchfoundation/about/who-we-are/index.php
+Title: Who We Are
+Type: HTML
+
+Who We Are
+The San José State University Research Foundation is a non-profit 501(c)(3) California corporation that operates solely for the benefit of San José State University. It is an “auxiliary” of San José State University.
+Auxiliary organizations at the California State University (CSU) are nonprofit organizations and separate legal entities. They operate pursuant to written operating agreements with the CSU Board of Trustees, have separate governing boards with close connections to a campus, and follow all legal and policy rules established by the CSU system and the respective campus administration.
+Auxiliary organizations were created to perform essential functions associated with a post-secondary educational institution, which under California law were difficult, cumbersome, or legally restricted for the university and were not supported by state funding.
+The entire team at the SJSU Research Foundation continues to be inspired by the endeavors and accomplishments of SJSU researchers. We are committed to supporting their efforts through our dedication to providing streamlined, robust, and efficient research administration systems and services.

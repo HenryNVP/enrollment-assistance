@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/cee/index.php
+Title: Civil and Environmental Engineering
+Type: HTML
+
+Welcome to the Civil and Environmental Engineering Department!
+We offer degree programs at both undergraduate (Bachelor of Science) and graduate (Master of Science) in Civil Engineering.
+Civil engineers plan, design and supervise construction of water supply and distribution systems, wastewater collection systems, highways, bridges, buildings, drinking water treatment plants, wastewater treatment plants, and help solve local and regional pollution problems. They design and test structures that probe the limit of knowledge from the frontiers of space to the ocean depth.
+Example of our graduates employers are: City and Regional Engineering Departments, State Agencies such as the California Department of Transportation, California Water Board, EPA, Departments of Natural Resources, Barry Swanson Builders, BFK Engineers, Charles Davidson Co., City of San José Public Works, Hatch Mott MacDonald, Mark Thomas & ASSOCIATES, Pakpour Consulting Group, Santa Clara Water District, Schaff & Wheeler, URS Corporation, West Valley Construction, etc.
+Accreditation
+The undergraduate program is accredited by the Engineering Accreditation Commission of ABET.

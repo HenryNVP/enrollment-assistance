@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/isystems/about-us/Accomplishments.php
+Title: Faculty Accomplishments
+Type: HTML
+
+Faculty Accomplishments
+The AI For Social Good (AI4SG), a multi-university project led by Dr. Yu Chen, project offers curriculum that engages students from all disciplines to propose or develop AI powered solutions that address social issues in their communities. This project is sponsored by National Science Foundation IUSE/HSI program (#2142783, #2142503, #2142490, #2142594, #2142439).
+Data Science for All NSF Grant
+Data Science for All, an NSF-funded project (#1829622) led by Dr. Leslie Albert and her colleagues Dr. Scott Jensen and Dr. Esperanza Huerta-Espinosa provided introductory data science training via extracurricular seminars to over 1200 students from non-technical backgrounds between fall 2018 and summer 2022.
+Integrating Standards Education into the Business School Curriculum
+Emeritus Faculty Dr. Stephen Kwan and Dr. Nitin Aggarwal were funded by a NIST Standards Services Group Education Challenge Grant to develop course materials on standards and standardization for integration into existing business curriculum. Materials include case studies, supplemental resources, student study and discussion questions, and teaching notes to guide faculty. Here is the Final Summary Paper [pdf]. Course materials may be found here: Part 1, [docx] Part 2. [docx]

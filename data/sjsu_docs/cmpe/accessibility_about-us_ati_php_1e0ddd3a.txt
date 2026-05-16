@@ -1,0 +1,39 @@
+Source: https://www.sjsu.edu/accessibility/about-us/ati.php
+Title: Accessible Technology Initiative
+Type: HTML
+
+Accessible Technology Initiative
+The California State University (CSU) system launched the Accessible Technology Initiative (ATI) in 2006 to make technology and information accessible to all students, faculty, and staff across all 23 campuses. The initiative involves training and support for faculty and staff to integrate accessible practices into their work, with an emphasis on the principles of universal design for learning. By addressing accessibility proactively, CSU ATI seeks to enhance the educational experience for all students, promote equal opportunities, and comply with legal requirements related to accessibility.
+SJSU’s ATI committee is sponsored by the Office of the Provost. Our committee meets every six weeks to discuss accessibility-related concerns and make recommendations to the Provost and President.
+The ATI committee also prepares an annual report for the CSU Chancellor’s Office with updates on the work plans and deliverables of our three communities of practice:
+- Instructional Materials: Access to instructional documents and media;
+- Procurement: Access to electronic and information technology purchases; and
+- Web: Access to the web.
+| Unit | Representative |
+|---|---|
+| Office of the Provost |
+Magdalena Barrera, Vice Provost for Faculty Success (ATI Chair) |
+| Accessible Education Center |
+Ignacia Villavelazquez-Hill, Director, AEC |
+| Center for Faculty Excellence and Teaching Innovation |
+Friederike Bruehoefener, Assistant Vice Provost for Faculty Excellence Jennifer Redd, Senior Director |
+| Facilities Development and Operations |
+Maria O'Callaghan-Cassidy, Senior Associate Vice President, FD&O |
+| Information Technology |
+Amy Segeren, Director, IT Program Management
+|
+| Office of Diversity, Equity, and Inclusion |
+craig John Alimo, Director, Social Justice Education |
+| Procurement |
+Sara Bonakdar, Associate Vice President Strategic Business Services and ATI Procurement Lead |
+| Academic Senate |
+Tabitha Hart, Senate Chair and Professor, Communication Studies |
+| University Library |
+Christina Mune, Associate Dean, Innovation and Research Management |
+| University Marketing and Communication |
+Rock Fredell, Assistant Director of Web Development |
+| Title IX |
+Mary Keating, Title IX Investigator |
+You can reach the ATI committee as follows:
+- Email: faculty-success@sjsu.edu
+- Phone: 408-924-2404

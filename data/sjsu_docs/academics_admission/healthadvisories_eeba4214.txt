@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/healthadvisories
+Title: Health Advisories
+Type: HTML
+
+Masks are recommended for at-risk individuals in indoor spaces around campus. Effective
+November 1, 2023 through March 31, 2024, anyone entering the Student Wellness Center,
+a health care providing facility, will be required to wear a mask per Santa Clara
+County guidelines.

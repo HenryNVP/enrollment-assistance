@@ -1,0 +1,11 @@
+Source: https://sjsu.edu/aspire
+Title: ASPIRE Program
+Type: HTML
+
+Since 1977, the TRIO (SSS/ASPIRE) Program has been helping first-generation, low-income,
+and students with disabilities with class scheduling, major/career exploration, academic
+advising and financial aid assistance. We support and motivate our students towards
+a successful completion of their college education.
+The Federal TRIO Programs aim to identify and provide services for individuals from
+disadvantaged backgrounds. This includes individuals who are low-income, first-generation
+college students, and individuals with disabilities.

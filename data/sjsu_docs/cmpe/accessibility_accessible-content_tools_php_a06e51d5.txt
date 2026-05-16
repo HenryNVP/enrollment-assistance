@@ -1,0 +1,54 @@
+Source: https://www.sjsu.edu/accessibility/accessible-content/tools.php
+Title: Tools for Creating Accessible Content
+Type: HTML
+
+Tools for Creating Accessible Content
+SJSU has invested in a range of tools that can help you make content more accessible. Expand the links below to learn more about each resource.
+PDF Document Accessibility Application
+The PDF Document Accessibility Application is a CSU system-wide tool that remediates some inaccessible content in PDFs. Upload your documents and review the report to see which issues were automatically fixed and which issues need manual remediation.
+Check out the PDF Document Accessibility Application page for guidance and the PDF Accessibility page for best practices.
+Academic Fusion License
+All students, faculty, and staff at SJSU are eligible for the CSU Academic Fusion License to install JAWS, ZoomText, or Fusion on their personal (non-CSU) computers. Just sign up using your SJSU email address. Two concurrent installations are permitted on personal machines and machine authorizations can be managed to move licenses where they are needed.
+To get this software installed on a campus computer, please contact your IT Desktop Support Technician.
+Please check out the CSU Academic Fusion Training Resources for support using this tool.
+Canvas Accessibility Checker
+The Canvas Accessibility Checker provides an additional review of Canvas rich text editor content. Whether it be a Canvas page or assignment instructions in a Canvas assignment, use the Canvas accessibility checker to ensure your content is accessible.
+For more guidance, utilize the Canvas Course Accessibility Checklist.
+Equidox
+Equidox is a powerful PDF remediation tool designed to make digital documents accessible to individuals with disabilities. It is user friendly and simplifies PDF remediation such as tagging, alternative text, and logical reading order.
+To gain access, email cfeti@sjsu.edu.
+Equidox How-to-Videos
+Equidox User Guide
+Equidox FAQs
+Equidox Training (CSU)
+Note: Some of the videos show an older version of Equidox due to a recent update of the user interface.
+GrackleDocs
+GrackleDocs is an add-on for Google Docs, Google Slides and Google Sheets. It scans your documents and provides guidance on remediating the accessibility issues. These add-ons are only available for SJSU employees.
+SJSU Official Syllabus Template
+Select SJSU Official Syllabus Template in the left navigation in Canvas. The institutional and departmental sections will be automatically populated and updated when necessary.
+Reach out to cfeti@sjsu.edu with any questions and consider working through the Audit your Syllabus Self-Directed Course to review your syllabus from accessibility, cost and diversity perspectives. The course is open to all faculty and staff.
+UDOIT Accessibility Tool
+UDOIT is an accessibility tool integrated into Canvas. It provides faculty with feedback on the accessibility of their Canvas materials and provides guidance on how to fix accessibility issues.
+Please note: The UDOIT tab is only viewable by instructors.
+Resources: Consider enrolling in the self-paced Accessible Canvas Courses to learn more about UDOIT and how to remediate other common accessibility issues in higher-education using Adobe Acrobat, Canvas, Google Docs and Microsoft. Complete the course for a certificate or just use it as a resource!
+Email cfeti@sjsu.edu for assistance or to request an instructional design consultation.
+Zoom
+Here are some ways to increase the accessibility of your Zoom sessions:
+- Enable closed captioning for live Zoom sessions
+- Provide descriptive alt text for screen sharing
+- Encourage students to use virtual backgrounds for privacy
+- Offer recorded sessions with transcripts
+- Use live captioners when needed. Connect with the Accessible Education Center if needed.
+- Enable sign language interpretation view if a Deaf or hard of hearing student is registered in your course. Empower your students and foster inclusivity by configuring Zoom for ASL interpretation. This ensures that Deaf and hard of hearing students can fully participate in your classes.
+Panopto
+With Panopto, captions are automatically generated. Users just have to correct the captions to make them 100% accurate and add audio descriptions when the content on the screen isn't spoken about.
+Panopto helps meet accessibility requirements for online video content through flexible captioning options, screen reader support, textual and visual searching and more.
+Note: Students can only record using Panopto if they are accessing it through a Canvas assignment. Please see How to Create a Panopto Video Assignment.
+Social Media Accessibility
+SJSU’s Social Media Accessibility Guidelines is a great starting point for creating more accessible social media posts. SJSU Writing Center’s Inclusive Writing Part 1 [pdf] has specific guidance on using inclusive language thereby reaching and connecting with more viewers. Review pages 37-40 of the SJSU Brand Style Guide [pdf] to align your posts with SJSU’s mission.
+Email Guidelines
+Please refer to Creating Accessible Content for guidance on the general principles required for creating accessible email including font size, color contrast and alternative text.
+Gmail doesn’t support heading structure, so this is the only time that using larger font size or bold text can work in lieu of proper heading structure. See SJSU Writing Center’s Inclusive Writing Part 1 [pdf] for guidance.
+Docusign Accessibility Guidelines
+Please refer to Creating Accessible Content for guidance on the general principles required for creating accessible documents. Use the accessibility checker in Docusign to review the document. Select “review” then “check accessibility.”
+Making the Signing Experience Accessible for All has more information on using Docusign.

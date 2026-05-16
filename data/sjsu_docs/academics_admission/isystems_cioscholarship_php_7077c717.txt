@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/isystems/cioscholarship.php
+Title: CIO Scholarship
+Type: HTML
+
+CIO Scholarship
+The CIO Scholarship is designed to support the educational goals of the next generation of technology leaders. Each year, The CIO Scholarship Fund awards two one-time scholarships of $2500 to deserving San Jose State undergraduate students majoring in Management Information Systems, Computer Science and/or Computer/Software Engineering. In addition to being declared as one of these majors, eligible candidates must be in "Good Standing," academically, with a 2.5 GPA or better.
+To apply, go to SJSU Academic Works
+The CIO Scholarship Fund is generously sponsored by the SPIRE ONE Technology Leadership Council.

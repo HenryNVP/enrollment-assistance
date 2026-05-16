@@ -247,6 +247,7 @@ tools/scraper/output/*
 docs/deployment/*.md
 docs/*.md
 scripts/deploy/
+docs/architecture/docs/
 *.pem
 data/sjsu_docs/docs/DATABASE_AND_VECTOR_STORE.md
 docs/MS_AI_KG_AND_PREREQS.md

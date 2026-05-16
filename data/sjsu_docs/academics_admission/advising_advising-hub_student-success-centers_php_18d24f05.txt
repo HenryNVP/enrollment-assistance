@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/advising/advising-hub/student-success-centers.php
+Title: Student Success Centers
+Type: HTML
+
+Student Success Centers
+We understand that there are many factors in the road to success. The Undergraduate Advising Hub and Student Success centers are vital in helping students thrive, academically, personally and professionally. Their primary role is to help students stay enrolled and keep moving forward in their education while making progress towards a degree. In other words, we want students to stay enrolled and stick with their goal to graduate. Both are important to student success, and we are here to help students every step of the way!
+- College of Health and Human Sciences Student Success Center
+- College of Science Student Success Center
+- College of Social Sciences Student Success Center
+- Engineering Student Success Center
+- Exploratory Student Success Center
+- Humanities and the Arts Student Success Center
+- Jack Holland Student Success Center (Lucas College of Business)
+- Lurie College of Education Student Success Center
+- Student Athlete Resource Center (SARC)

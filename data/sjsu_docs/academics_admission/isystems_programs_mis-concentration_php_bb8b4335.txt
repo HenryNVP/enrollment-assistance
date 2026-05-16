@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/isystems/programs/mis-concentration.php
+Title: MIS Concentration Overview
+Type: HTML
+
+MIS Concentration Overview
+Like most other undergraduate MIS concentrations, our curriculum reflects the best practice recommendations of the Association for Information Systems (AIS), building on the core fundamentals of the business degree to provide a grounding in business technology. The MIS core is comprised of coursework in systems analysis & design, database management, networks and programming fundamentals, along with a hands-on practicum on project management with a real-world sponsor and a capstone course in MIS strategy. In addition, two MIS electives allow students to go into depth with advanced study in these areas or specialized subjects such as web applications, e-business, service systems management, etc.

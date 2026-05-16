@@ -1,0 +1,21 @@
+Source: https://www.sjsu.edu/cds/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Mission
+The mission of the Department of Communicative Disorders and Sciences is to prepare
+creative, evidence-informed, critical thinkers and change agents for a profession
+in speech-language pathology and related fields.
+This work prioritizes clinical education and research that reflect, elevate, and advocate
+for the interests and needs of our diverse communities. We do this with a culturally
+responsive and student-centered focus.
+Vision
+The Department of Communicative Disorders and Sciences prepares innovative scholars via transformative education and high-impact, equity-minded research.
+Values
+- Equity- and justice-focused approaches across teaching, research, and practice
+- Deep knowledge of communicative disorders and sciences
+- Innovative academic and clinical education
+- Student-centered and culturally sustaining pedagogy
+- Community-engaged practice and scholarship
+- Commitment to ongoing reflection and improvement of our programs

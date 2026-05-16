@@ -1,0 +1,80 @@
+Source: https://www.sjsu.edu/humanitiesandarts/resources/makerspace/policies.php
+Title: Launch Pad Policies
+Type: HTML
+
+Launch Pad Policies
+Please read through the IS 233 Makerspace policies before using the space.
+Download the H&A Launch Pad Policies - Updated 03/21/2022 [pdf]
+- General Rules
+-
+- Any H&A Student or Faculty in the College may use the Makerspace from 9:00 AM to 9:00
+PM, Mondays through Friday
+- Students and Faculty must reserve time before using the 3D Printers, Laser Cutter, Photoshooting Station, or Conference Room.
+- 3D Printers, Laser Cutter, and hand tools may only be used or checked out when a student assistant is on duty.
+- Unsupervised use after hours of Laser Cutter is not permitted.
+- The Main Room is available for student use whether the Tool Room is open or not during operating hours. Certain equipment items are only available during staffed Tool Room hours. Please plan accordingly or email to confirm the Tool Room will be available to you.
+- The IS 233 space is a "clean" space. We do not allow woodworking, grinding, cutting tools, etc. in the space. Those kinds of fabrication activities should occur in ART Central Shops in the Art Building.
+- Any H&A Student or Faculty in the College may use the Makerspace from 9:00 AM to 9:00
+PM, Mondays through Friday
+-
+- Class Visits
+-
+- Classes can be brought in by a faculty member for occasional use, but no recurring classes can be booked in the space.
+- Faculty demo sessions need to be booked by the faculty, just as a student would (any equipment will also require reservation).
+- When a class is brought in for demonstration purposes, other students may still be using other equipment and working in the spaces.
+- Classes can be brought in by a faculty member for occasional use, but no recurring classes can be booked in the space.
+-
+Equipment-specific Policies
+- VLS6.75 Laser Cutter Policies
+-
+Good Materials for Cutting, 1/4" (6mm) limit:
+- Wood (avoid resinous woods as they may catch fire)
+- Plywood
+- MDF (Medium-Density Fibreboard)
+- Acrylic (cast or extruded)
+- Delrin
+- Paper
+- Cork
+- Cloth (natural fibers only)
+- Magnetic sheeting
+- Chipboard
+- Gator Board (doesn't look great, plastic shrinks and yellows)
+- Leather (thinner than 1/8")
+All of the above can be etched. Even if it is thicker than 1/4", the laser bed can be lowered up to four inches to accomodate thicker material.
+Materials good for etching ONLY:
+- Glass
+- Ceramic Tile
+- Anodized Alumnium
+- Painted or Coated Metals
+- Marble, Granite, Soapstone, Onyx
+Not Allowed (Forbidden):
+- Corrugated cardboard
+- Foam Core Board
+- PVC (Polyvinyl Chloride)
+- Vinyl/Pleather/Artificial Leather
+- ABS Polymer
+- Polycarbonate/Lexan
+- HDPE/Milk Bottle Plastic
+- Polystyrene Foam
+- Polypropylene Foam
+- Fiberglass
+- Coated Carbon Fiber
+Read more about the Laser Systems Cutting Process [pdf].
+-
+- Raise3D Pro2 3D Printer Policies (2 Machines Available)
+-
+- Currently, print media is limited to materials on hand. No outside printer media is allowed.
+- Prints must be able to be completed before closing time. Overnight printing is currently allowable only in special instances.
+- Software and Model Proofing: Please check your model using the Ideamaker software, specific to the Raise3D Pro2 devices. Bring the model in on a USB device at your print time to meet with the Lab Monitor.
+-
+- Photo Table Policies
+-
+- Shooting area available by reservation or first come, first serve. Three backgrounds are available (Black, Gray, White).
+- LED light kit is available for use in the 233 Space (not availalble for off-site use).
+- No camera is provided. Users must provide their own camera and tripod, or use a smartphone.
+Read the Photo Table Guide [pdf].
+-
+- Meeting Room Policies
+-
+- Available by reservation or first come, first serve. As of 3/2022, a data projector is available for use from the Tool Room. An HDMI cable is supplied with the projector.
+-

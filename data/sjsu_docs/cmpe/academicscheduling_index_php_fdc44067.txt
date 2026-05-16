@@ -1,0 +1,6 @@
+Source: http://www.sjsu.edu/academicscheduling/index.php
+Title: Academic Scheduling & Space Management
+Type: HTML
+
+Academic Scheduling & Space Management
+Per University Policy S17-1, each course is assigned a specific day and time for its culminating activity or final exam, based on the course start time, meeting pattern, and mode of instruction as outlined in the published schedule of the current term. Instructors may request a date and/or time change of the assigned culminating activity period or final by submitting this exception request form before term starts with a deadline of approval by Enrollment Census Date (the 20th day of instruction). All exception requests must be approved by the department chair/director and the college dean or their designee of the course’s home department. Approved exception requests are only valid for the current term and must be resubmitted for approval each semester.

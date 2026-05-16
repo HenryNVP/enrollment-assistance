@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/studentaffairs/about/index.php
+Title: About
+Type: HTML
+
+About
+The Division of Student Affairs (DSA) at San José State offers impactful services, events, programs and resources to enhance the lives of students. DSA consists of over 30 departments that work to remove barriers and support students in moving forward on their journey.

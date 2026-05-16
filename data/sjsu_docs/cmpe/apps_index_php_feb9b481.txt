@@ -1,0 +1,9 @@
+Source: http://www.sjsu.edu/apps/index.php
+Title: Spartan App Portal Static Backup
+Type: HTML
+
+one.sjsu.edu - Top 20
+SJSU App Links
+You should be using one.sjsu.edu This page contains the one.sjsu.edu top 20 links. It was created as a backup in case of unplanned outage.
+SJSU App Links
+You should be using one.sjsu.edu This page contains the one.sjsu.edu top 20 links. It was created as a backup in case of unplanned outage.

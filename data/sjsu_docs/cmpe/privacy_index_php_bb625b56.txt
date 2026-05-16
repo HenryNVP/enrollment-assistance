@@ -1,0 +1,10 @@
+Source: http://www.sjsu.edu/privacy/index.php
+Title: Privacy Notice
+Type: HTML
+
+Privacy
+Last Updated: February 16, 2026
+California State University Privacy Notice
+San Jose State University is governed by the CSU Privacy Notice.
+Contact Us
+If you have any questions about privacy, you may contact us by writing to digitalprivacy@sjsu.edu

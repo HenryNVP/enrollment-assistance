@@ -1,0 +1,6 @@
+Source: http://www.sjsu.edu/ae/index.php
+Title: Aerospace Engineering
+Type: HTML
+
+Welcome to SJSU Aerospace Engineering
+SJSU's AE Department offers an ABET-accredited Bachelor of Science (BSAE) and a Master of Science (MSAE) in Aerospace Engineering. Our hands-on curriculum and small class sizes give students the best opportunity to learn and interact with our faculty.

@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/accessibility/accessible-content/index.php
+Title: Creating Accessible Content
+Type: HTML
+
+Accessibility at SJSU
+Guidelines
+For students, faculty, and staff alike, it is critical to make your social media and course content accessible to all.
+Tools
+SJSU offers numerous resources that provide support for you to use accessible tools.
+Remediation
+Here you will find guidance on remediating documents and webpages and a link to request assistance.

@@ -1,0 +1,5 @@
+Source: http://www.sjsu.edu/emergency
+Title: Emergency Information
+Type: HTML
+
+In addition to text messages and emails to the campus community, the university will share critical life and safety information during emergencies or urgent events for students, faculty and staff on this website. If you need immediate assistance call 9-1-1 for all emergencies or call 9-8-8 for mental or behavioral emergencies. Download the Spartan Safe mobile app for on-the-go reporting and safety tools.

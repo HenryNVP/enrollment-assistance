@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/oscm/about-us/index.php
+Title: About Us
+Type: HTML
+
+The education students receive at the School of Global Innovation and Leadership will
+serve them for a lifetime. Our expert faculty, cutting-edge curriculum, and myriad
+of resources will help students develop invaluable skills, get hands-on experience,
+and gain access to numerous networking opportunities.
+Our experienced faculty and staff are here to help you be successful in your studies.
+See who they are and how you can get in touch with them by visiting our faculty and
+staff contacts page.

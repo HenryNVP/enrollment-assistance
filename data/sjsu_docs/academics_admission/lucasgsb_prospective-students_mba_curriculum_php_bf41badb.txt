@@ -1,0 +1,48 @@
+Source: https://www.sjsu.edu/lucasgsb/prospective-students/mba/curriculum.php
+Title: MBA Curriculum
+Type: HTML
+
+MBA Curriculum
+The College of Business offers the MBA program in two formats. Both the Early Career MBA and MBA for Professionals formats allow you to choose four electives in areas that interest you. These electives supplement a core of eleven courses and two prerequisite courses. Each MBA program consists of a total of fifteen courses (42 units) in addition to the two prerequisites. Coursework follows a progression.
+Prerequisite Courses
+Depending on a student's previous academic preparation, zero to two prerequisite courses may be required. The required prerequisites are a grade of B or higher in economics (can be Microeconomics or Macroeconomics or Principles of Economics) and statistics. Any of the two foundation courses may be waived through evidence of recent prior coursework.
+MBA for Professionals
+Core Courses
+There are eleven required courses (30 units). The core courses are often prerequisites to electives. Also, BUS 220 is a prerequisite to BUS 270. The final course in the program is BUS 290, Strategic Thinking. This capstone course requires department approval.
+Course Number/Course Name
+- BUS 200L Leadership Communication
+- BUS 202 Managing in the Global Economy OR BUS 203 International Experience for American Executives OR BUS 244 Information Technologies for Business: Essentials & Emerging
+- BUS 210 Developing and Managing People
+- BUS 220 Financial and Managerial Accounting
+- BUS 230 Marketing Management
+- BUS 250 Law and Ethics
+- BUS 260 Managerial Decision Analysis
+- BUS 265P Silicon Valley Experience for Professionals
+- BUS 270 Financial Management
+- BUS 280 Operations and Supply Chain Management
+- BUS 290 Strategic Thinking
+Early Career MBA
+Core Courses
+There are eleven courses (30 units). The core courses are often prerequisites to electives. Also, BUS 220 is a prerequisite to BUS 270. The final course in the program is BUS 290, Strategic Thinking. This capstone course requires department approval.
+Course Number/Course Name
+- BUS 201 Business Communications
+- BUS 202 Managing in the Global Economy OR BUS 244 Information Technologies for Business: Essentials & Emerging
+- BUS 210 Developing and Managing People
+- BUS 220 Financial and Managerial Accounting
+- BUS 230 Marketing Management
+- BUS 250 Law and Ethics
+- BUS 260 Managerial Decision Analysis
+- BUS 265 Silicon Valley Experience
+- BUS 270 Financial Management
+- BUS 280 Operations and Supply Chain Management
+- BUS 290 Strategic Thinking
+Electives
+Students must take a minimum of four classes (12 units) of elective course work. Elective courses are offered in the following disciplines:
+- Accounting
+- Finance
+- Marketing
+- Organizational Development
+- Global Business Development
+- Entrepreneurship & Venture Development
+- Information Systems
+- Operations Management

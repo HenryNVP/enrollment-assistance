@@ -1,0 +1,11 @@
+Source: https://go.sjsu.edu/ehsan
+Title: Faculty Spotlight: Ehsan Khatami’s “Super” Research with Machines
+Type: HTML
+
+Faculty Spotlight: Ehsan Khatami’s “Super” Research with Machines
+“It’s very encouraging to see that I have the freedom to pursue my research with lots of room to grow.” — Ehsan Khatami
+Are machines better than humans at understanding quantum physics? Sometimes, says Ehsan Khatami, associate professor in SJSU’s physics and astronomy department and 2017-2018 recipient of San Jose State’s Early Career Investigator Award.
+Khatami’s research aims to help scientists understand how superconductivity works—a finding that could potentially pave the way for a room-temperature superconductor, which would improve transportation and data storage and make homes more energy efficient by creating materials that allow better use of electricity. That is, as electricity goes through a device such as a phone or laptop, none of the electronic components would heat up.
+Superconductivity is the property of zero electrical resistance in some substances at very low temperatures (<-135 degrees Celsius). Using a high-performance computing cluster—a computer cluster that he was instrumental in building at SJSU—Khatami creates and studies electronic configurations to figure out what’s going on with individual particles in transitions to superconductors or strong magnets.
+“Something goes on in these configurations that are not possible to be seen by the naked eye,” Khatami explains in a recent interview on PBS Digital Studio’s Webseries Physics Girl. “But what we realized was that we could design an artificial neural network that can distinguish these configurations at very high temperatures from those below a critical temperature.”
+Machines, in Khatami’s case, are indeed helping to solve a problem not yet solved by humans alone. The new technology in the computing cluster, funded by a National Science Foundation grant, allows Khatami, other faculty members and students from a variety of disciplines to analyze large data sets that could lead to breakthroughs in atmospheric science, condensed matter physics, astrophysics, bioinformatics and genomics, aerospace engineering and applied mathematics.

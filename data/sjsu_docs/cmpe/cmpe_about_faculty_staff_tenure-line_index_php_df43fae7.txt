@@ -1,0 +1,48 @@
+Source: https://www.sjsu.edu/cmpe/about/faculty_staff/tenure-line/index.php
+Title: Faculty Directory
+Type: HTML
+
+Faculty Directory
+| Faculty | Contact Information |
+|---|---|
+|
+Mahima Agumbe Suresh mahima.agumbesuresh@sjsu.edu |
+|
+|
+Magdalini Eirinaki magdalini.eirinaki@sjsu.edu |
+|
+|
+Bernardo Flores bernardo.flores@sjsu.edu |
+|
+|
+Jerry Gao jerry.gao@sjsu.edu |
+|
+|
+Gheorghi Guzun gheorghi.guzun@sjsu.edu |
+|
+|
+Jorjeta Jetcheva chair-computer-engineering@sjsu.edu |
+|
+|
+Rafael Kaliski rafael.kaliski@sjsu.edu |
+|
+|
+Jun Liu junliu@sjsu.edu |
+|
+|
+Kaikai Liu kaikai.liu@sjsu.edu |
+|
+|
+Younghee Park |
+|
+|
+Ben Reed ben.reed@sjsu.edu |
+|
+|
+Carlos Rojas carlos.rojas@sjsu.edu |
+|
+|
+Haonan Wang haonan.wang@sjsu.edu |
+|
+|
+Wencen Wu wencen.wu@sjsu.edu |

@@ -1,0 +1,8 @@
+Source: https://www.sjsu.edu/oscm/programs/welcome.php
+Title: Welcome
+Type: HTML
+
+Welcome
+The School of Global Innovation and Leadership houses the Operations and Supply Chain Management concentration. We help students gain knowledge in global operations and supply chain processes for both manufacturing and service industries. Each of our concentrations has some unique and valuable activities. We also host guest speakers from the industry to provide opportunities for students to learn about real-world operations.
+We hope to see you on campus soon!
+Head to the Lucas College of Business Explore our Major page for more general information on student organizations, our advisement center and more!

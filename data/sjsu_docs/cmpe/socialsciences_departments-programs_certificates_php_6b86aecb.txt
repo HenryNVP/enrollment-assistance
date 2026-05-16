@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/socialsciences/departments-programs/certificates.php
+Title: Certificates
+Type: HTML
+
+Certificates
+Certificates signify that you have reached a recognized standard of knowledge about a certain vocational or professional subject. Undergraduate certificates represent completion of a specific program offered in coordination with a bachelor's degree, while graduate certificates represent completion of studies beyond the bachelor's degree, yet short of a master's degree. Most of the certificates listed below are designed to further one's professional career and engage the learner in a concentrated and specialized program of study.
+School of Planning, Policy, and Environmental Studies
+- Global Citizenship Certificate (Graduate)
+- Advanced Certificate in Geographic Information Systems (GIS) Certificate (Graduate)
+- Affordable Housing and Community Development Finance Certificate (Graduate)
+- Applications of Technology in Planning Certificate (Graduate)
+- Community Design and Development Certificate (Graduate)
+- Environmental Planning Certificate (Graduate)
+- Real Estate Development Certificate (Graduate)
+- Transportation and Land Use Planning Certificate (Graduate)

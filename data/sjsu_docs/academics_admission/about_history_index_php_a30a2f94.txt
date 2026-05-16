@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/about/history/index.php
+Title: History
+Type: HTML
+
+The Story of Spartans
+Throughout our history, from a small institution focused on preparing teachers for the frontier to a dynamic comprehensive university in the heart of the global innovation economy, we have changed and evolved along with the needs of our students, our region and the world in which we live.

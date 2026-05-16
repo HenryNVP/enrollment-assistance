@@ -1,0 +1,126 @@
+Source: https://www.sjsu.edu/researchfoundation/about/osp/glossary.php
+Title: Glossary: Terms and Abbreviations
+Type: HTML
+
+Glossary: Terms and Abbreviations
+To help our investigators and other team members through the application and proposal process, we've put together a list of abbreviations, acronyms and terms you might come across. These might include agency names or common funding programs.
+Vocabulary of Research Terms
+A | B | C | D | E | F | G | H | I | M | N | O | P | R | S | T | U
+A
+ACUC: Animal Care and Use Committee (also called IACUC elsewhere) - campus committee that reviews protocols for animal subject research
+AHRQ: Agency for Healthcare Research and QualityAOR: Authorized Organization RepresentativeAREA: Academic Research Enhancement Award - NIH grant program
+B
+BAA: Broad Agency Announcement
+C
+CA700U: California Form 700U Statement of Economic Interest
+CCLI: Course, Curriculum and Laboratory Improvement - NSF grant program
+CDC: Center for Disease Control - federal agency
+CFDA: Catalog of Federal Domestic Assistance
+CFR: Code of Federal Regulations
+COI: Conflict of Interest
+CSR: Center for Scientific Review – NIH component responsible for review of scientific merit of all applications submitted to NIH
+CSREES: Cooperative State Research, Education, and Extension Service - funding arm of USDA
+D
+DARPA: Defense Advanced Research Project Agency
+DHHS: Department of Health and Human Services (also HHS) - federal agency
+DoD: United States Department of Defense
+DoE: United States Department of Energy
+DoED: United States. Department of Education
+DoJ: United States Department of Justice
+E
+EPA: Environmental Protection Agency - federal agency
+Equipment: The federal definition of “equipment” means an article of nonexpendable, tangible personal property having a useful life of more than one year that has a cost (including tax, shipping, and installation) of more than $5000. Anything under this threshold is considered Supplies.
+eRA: Electronic Research Administration
+F
+F&A: Facilities and Administrative costs – also called indirect costs or IDC
+FAR: Federal Acquisition Regulation
+FICA: Federal Insurance Contributions Act – the combined taxes withheld for Social Security and Medicare
+FIPSE: Fund for the Improvement of Post-Secondary Schools – US Dept. of Education grant program
+Fringe Benefits: Employee benefits paid by the employer (FICA, Worker’s Compensation, Withholding Tax, Insurance, etc.).
+FOA: Funding Opportunity Announcement
+FY: Fiscal Year. Any twelve-month period. The SJSU Research Foundation fiscal year is July 1 through June 30; the federal fiscal year is October 1 through September 30.
+G
+GSA: U.S. General Services Administration
+H
+HBCU: Historically Black College and University
+HIPAA: Health Insurance Portability and Accountability Act – The 1996 government regulation that governs the protection of individually identifiable health information.
+HSI: Hispanic-Serving Institution
+HUD: Department of Housing and Urban Development – federal agency
+I
+IACUC: Institutional Animal Care and Use Committee
+IC: Independent contractor
+ICR: Indirect Cost Recovery – what we collect in F&A
+IDC: Indirect costs – also called F&A or Facilities and Administrative costs
+IHE: Institute of Higher Education
+IP: Intellectual property
+IRB: Institutional Review Board – campus committee that reviews protocols for human subject research
+L
+LOI: Letter of Intent
+M
+MRI: Major Research Instrumentation – NSF grant program
+MSI: Minority Serving Institution
+MTDC: Modified Total Direct Cost
+N
+NCURA: National Council of University Research Administrators – professional society
+NDA: Non-disclosure Agreement
+NEA: National Endowment for the Arts
+NEH: National Endowment for the Humanities
+NIA: National Institute on Aging (NIH)
+NIBIB: National Institute of Biomedical Imaging and Bioengineering
+NICHD: National Institute of Child Health and Human Development (NIH)
+NIDA: National Institute on Drug Abuse (NIH)
+NIDCD: National Institute on Deafness and Other Communication Disorders
+NIEHS: National Institute of Environmental Health Sciences (NIH)
+NIH: National Institutes of Health
+NIJ: National Institute of Justice
+NINDS: National Institute of Neurological Disorders and Stroke (NIH)
+NOAA: National Oceanic and Atmospheric Administration
+NOI: Notice of Intent
+NSA: National Security Agency
+NSF: National Science Foundation
+O
+OCR: Office for Civil Rights
+OIG: Office of the Inspector General (or just IG)
+OER: Office of Extramural Research (NIH)
+OMB: Office of Management and Budget – US government office that sets rules for receiving and administering federal grants
+ORI: Office of Research Integrity (HHS office)
+P
+PA: Program Announcement
+PAPPG: Proposal & Award Policies & Procedures Guide – National Science Foundation’s guidelines for proposal and award processes
+PD: Program Director sometimes also used to refer to the principal investigator
+PHS: Public Health Service
+PI: Principal Investigator – individual who directs the project or program to be supported by the award
+PO: Program officer or project officer
+PPC: Proposal Preparation Checklist
+PRAF: Proposal Routing and Approval Form
+R
+R&D: Research and Development
+R01: NIH Research Program Grant
+R03: NIH Small Grant Program
+R21: NIH Exploratory Research Grant
+REU: Research Experience for Undergrads – NSF grant program
+RFA: Request For Application; Request for Funding Assistance
+RFP: Request For Proposal
+RFQ: Request for Quotation
+RISE: Research Initiative for Scientific Enhancement – NIH grant program
+ROI: Return on Investment
+RPPR: Research Performance Progress Report
+S
+SAM: System for Award Management
+SBA: Small Business Administration
+SBIR: Small Business Innovation Research
+SCORE: Support of Continuous Research Excellence – NIH grant program
+SOW: Statement of Work – needed for subcontracts
+SPIN: Sponsored Programs Information Network – RF Subscription: Funding opportunity search service
+SRA: Society of Research Administrators – professional society
+STEAM: An educational approach to learning that uses Science, Technology, Engineering, the Arts and Mathematics as access points for guiding student inquiry, dialogue, and critical thinking.STEM: Curriculum based on four specific disciplines — Science, Technology, Engineering and Mathematics — in an interdisciplinary and applied approach.
+STTR: Small Business Technology Transfer Program
+SWAMP: Surface Water Ambient Monitoring Program
+U
+TDC: Total Direct Cost – cost base for applying an F&A rate
+Time & Effort: Official reports on the time and/or effort someone expends working on an externally funded project. Also called Effort Reporting
+TIN: Taxpayer Identification Number
+U
+USAID: United States Agency for International Development
+USDA: United States Department of Agriculture
+USDE: United States Department of Education

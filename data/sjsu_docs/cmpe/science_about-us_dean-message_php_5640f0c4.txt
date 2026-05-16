@@ -1,0 +1,22 @@
+Source: https://www.sjsu.edu/science/about-us/dean-message.php
+Title: Dean's Message
+Type: HTML
+
+Dean's Message
+It is my pleasure to welcome you to the San José State University College of Science, where we Create Knowledge and Expand Opportunity. Take a walk through any of our classrooms, research labs, or field sites and you will find extraordinary things going on. Our faculty and students work together to discover knowledge at the frontiers of their fields and at the interfaces between fields. Their research programs cover issues of great importance to modern society, including such diverse topics as:
+- Climate change and its influence on Urban Heat Islands
+- Development of chemical defenses against human pathogens
+- Mathematical behavior of social/financial systems
+- Construction of AI-based cybersecurity defenses
+- Behavior of nanomaterials for Silicon Valley applications
+- Decoding neurological disorders
+- Teaching techniques that best help students learn scientific topics such as physics, chemistry and biology
+- Making aquaculture sustainable
+- Invention of medical diagnostic devices for use in the developing world.
+Of course, we also pursue knowledge for its own sake, so you will find groups that study the properties of prime numbers, dark matter and galaxy formation, the history of extinctions on Earth, and the meaning of time. Government agencies and foundations such as the National Science Foundation, National Institutes of Health, Department of Defense, NASA, EPA, The State of California, Mozilla Foundation, Center for Inclusive Computing, and others fund our research and education efforts. We are committed broadly to the scientific enterprise, one of the greatest ongoing human achievements, while ensuring that all of our students, regardless of socioeconomic status, ethnicity, gender, or sexual orientation have the opportunity to join the scientific field of their choice.
+The research we undertake greatly informs our teaching and ensures that students are up-to-date in the latest knowledge and techniques within their fields of study. Our traditional degree programs are evolving to include interdisciplinary fields like Computational Linguistics, Bioinformatics, Quantum Technology, and Data Science. When they complete a degree from the College of Science, students will be ready to take the next steps in their careers, whether in industry research labs, K-12 classrooms, or advanced graduate programs. I encourage you to browse our department web pages and learn about the wide range of programs and research opportunities.
+We are extremely excited about the completion of our newest facility, the 8-story Interdisciplinary Science Building, where teaching, research and collaboration are integrated to ensure our students are expertly trained and ready to solve some of the world’s most challenging problems: virology, cancer, wildfire, high performance computing, and more. .
+I believe in communicating all of the exciting events, opportunities, and results coming out of the College of Science. You can follow me on Facebook or Twitter, or register to be added to our college mailing list. I look forward to hearing from you.
+Michael J. Kaufman
+Dean
+San José State University College of Science

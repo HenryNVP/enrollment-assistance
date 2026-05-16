@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/admissions/graduate/index.php
+Title: Graduate Admissions
+Type: HTML
+
+We are honored that you are considering San Jose State University to further your
+education. Our graduate programs include credentials, master's degrees, doctoral degrees,
+and advanced certificates. Our office can guide you through the application process,
+and support you in reaching your educational goals!
+View the graduate programs offered at San Jose State University. Visit our Outreach and Recruiting website for additional support as you consider a graduate program at SJSU.

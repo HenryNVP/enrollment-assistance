@@ -1,0 +1,35 @@
+Source: https://blogs.sjsu.edu/newsroom/2025/sjsu-students-accepted-into-highly-selective-y-combinator-program
+Title: SJSU Students Accepted into Highly-Selective Y Combinator Program
+Type: HTML
+
+SJSU Students Accepted into Highly-Selective Y Combinator Program
+Mizan Rupan-Tompkins (left) and Hunter Nguyen (right) at the Y Combinator office in San Francisco.
+Mizan Rupan-Tompkins, ’28 Computer Science and Linguistics, and Hunter Nguyen, ’28 Computer Science, were recently accepted into the prestigious Y Combinator program, a startup accelerator that is well-known for incubating companies like Airbnb and Doordash.
+Y Combinator is a three-month program that runs four times a year with the goal of providing funding and mentorship to support startups. Getting into the program is a highly competitive process, with acceptance rates at around 1-3%.
+Rupan-Tompkins and Nguyen entered together as a team with their current project, known as Stratus Aviation, a suite of AI-powered tools to modernize air traffic communication and safety. They officially started the program on September 24.
+The journey leading to Y Combinator
+“Stratus Aviation is my way of building something in aviation and computer science – two things I’m passionate about,” says Rupan-Tompkins, who has been a pilot for the past several years.
+When he was just 13 years old, Rupan-Tompkins started learning how to fly planes. It all began in middle school when a friend recommended he try playing a certain flight simulator game.
+“I started playing the game and got attached,” says Rupan-Tompkins. He saved up $300 for a flight lesson so that he could fly a glider, also known as a sailplane, in Hollister. Before attending SJSU, he completed one year at flight school and got his pilot’s license to fly high-performance and complex aircrafts.
+When Rupan-Tompkins entered SJSU as a freshman last year, he connected with Nguyen, who had similar interests.
+This fall, before starting Y Combinator, Nguyen interned at NASA in Moffett Field at the Ames Research Center, where he worked on aviation safety.
+“That experience really allowed me to see the problem that we’re trying to solve,” says Nguyen, referring to the staffing shortages, outdated technology and operational strain that have brought some major challenges to air traffic control and airport safety in recent months.
+Before getting accepted into the Y Combinator program, both Nguyen and Rupan-Tompkins were part of SJSU’s Undergraduate Research Program (UROP) as freshmen.
+Rupan-Tompkins did research on aviation safety and unmanned aerial vehicles (UAVs), while Hunter did machine learning research related to computer applied design (CAD), both under the mentorship of Assistant Professor Veneice Guillory-Lacy from the Connie L. Lurie College of Education.
+But it wasn’t until they joined the Software and Computer Engineering Society (SCE), SJSU’s largest engineering club, when they started working together.
+“The SCE has played a large role in helping me to find the community and mentorship I was always looking for,” said Nguyen. “Coding wasn’t something I picked up naturally. It’s something in the last couple years I started getting into. Finding that community where that kind of environment was encouraged really helped me.”
+In the SCE, Nguyen and Rupan-Tompkins started tackling projects together. In no time, they moved on to start participating in regular hackathons.
+This past May, they were a part of an AGI House hackathon, which was sponsored by entities like OpenAI and Shopify. Nguyen and Rupan-Tompkins, along with Ryan Pham, ’25 Software Engineering, ended up winning $6,000.
+In June, the duo went on to compete in Cal Hacks, which is the world’s largest AI hackathon. This is when they initially started asking themselves how they could find ways to use AI in light of recent safety incidents at various airports. They ended up winning a $5,000 prize.
+This is when the idea for Stratus Aviation started coming into focus.
+“Stratus Aviation started as a Hackathon project and then now, at Y Combinator, we’ve started to scale it,” says Rupan-Tompkins.
+From June to August, Rupan-Tompkins was also part of Founders Inc., a six-week program where he expanded upon the concept. This helped him to get some additional funding. It also caught the attention of major media outlets, which led to him being featured in places like NBC, Fox News and CBS.
+“I felt like this gave us enough traction to get into Y Combinator,” says Rupan-Tompkins.
+Going all in
+Stratus Aviation would give airports an AI tool that has the ability to listen to radio traffic and make pilots aware of potential dangers, especially in situations where there is no control tower offering support. The pair has been working with San Mateo County Airports, along with various airports around the Bay Area and throughout California, to run tests and collaborate on enhancing the software.
+Both students decided not to enroll in any classes this semester at SJSU, so they could focus their efforts on developing their startup in the Y Combinator program.
+“Y Combinator encourages you to take a gap semester so you can go all in and see how far you can take things with your startup,” says Nguyen.
+All teams who are accepted into the Y Combinator program receive a minimum of $500,000 in funding. Over the course of three months, they receive mentoring in weekly in-person sessions that happen in San Francisco. Then, on December 3rd, all teams will participate in Demo Day, where they will have exactly one minute to pitch their startup to a room full of investors.
+If both students are able to raise a seed round from investors, they may consider taking another gap semester (or year) to continue working on Stratus Aviation.
+After graduating from SJSU, both Rupan-Tompkins and Nguyen hope to work at a big tech company, like Google. But for now, they’re honing in on completing the Y Combinator program and having a successful Demo Day.
+“The Y Combinator program has been an incredible learning experience. We’ve been surrounded by an amazing community of founders and mentors,” says Nguyen. “We’re continuing to refine our direction and make sure we’re tackling a meaningful problem. So there’s definitely a sense of urgency, but also a lot of motivation.”

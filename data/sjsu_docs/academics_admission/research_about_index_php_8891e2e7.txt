@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/research/about/index.php
+Title: About Us
+Type: HTML
+
+About Us
+As the # 1 "Most Transformative College" in the nation, San José State is ready for big change. As part of Transformation 2030, SJSU's strategic plan, the Office of Research is dedicated to realizing the university's potential as a nationally prominent public university.
+The Office of Research is focused on growing a robust SJSU research culture in support of faculty-led, student-focused, multidisciplinary research, scholarship, and creative activity. As teachers and leading edge scholars, our faculty will empower SJSU to lead in the creation of public impact research delivering social and economic benefits to our local, regional, and global communities.
+We work closely with the SJSU Research Foundation who provides administrative and business support to the research enterprise.
+The Office of Research is part of the Division of Research and Innovation. Discover the division's vision, mission and values.

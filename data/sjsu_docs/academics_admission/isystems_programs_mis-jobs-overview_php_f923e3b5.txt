@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/isystems/programs/mis-jobs-overview.php
+Title: MIS Jobs Overview
+Type: HTML
+
+MIS Jobs Overview
+Reflecting the value of combining business and technology, particularly here in Silicon Valley, MIS graduates typically rank at or near the top among the nine College of Business concentrations in terms of starting salaries as reported in the SJSU Career Center's Annual Salary Survey. MIS jobs range from traditional Information Technology (IT) Management to Technical Sales & Marketing, from the high-tech industry to transportation, government or financial services, from small family businesses and startups to industry behemoths. A quick scan of MIS alumni job titles on LinkedIn highlights the diversity of possibilities:
+- Business Systems Analyst at Xilinx
+- Online Program Specialist at Symantec
+- Senior Project Manager at Alaska Airlines
+- Internal Tools Developer at Google
+- Sr. Sales Engineer at Nuance
+- Systems Analyst at Countrywide Financial
+- Program Manager at iTradeNetwork
+- Associate Project Manager at eBay
+- Software QA Engineer at Apple
+- Data Analyst at Yahoo!
+- Business Analyst at Novellus Systems
+- IT Support Specialist at Intel
+- Project/ Program Manager, Global Services at Brocade
+- Director of Global Services at WildPackets
+- IT Auditor at SalesForce.com
+- Solution Architect at Applied Materials
+- Consultant at Accenture
+- ERP Business Analyst at Lockheed Martin Information Technology
+- Services Channel Manager at Cisco Systems
+MIS jobs are communication and teamwork-intensive and are managerially oriented, thus they are not subject to outsourcing/off-shoring. As the shift toward a knowledge / information economy continues into the 21 st century, demand for MIS professionals is expected to grow and with the continual rapid evolution and innovation in technology, MIS is a dynamic and attractive career choice.

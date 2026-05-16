@@ -1,0 +1,22 @@
+Source: https://www.sjsu.edu/cob/about/calendar/will-conference/panel-speakers.php
+Title: Industry Speakers
+Type: HTML
+
+Industry Speakers
+Leadership Across Generations Panelists:
+Lavanya Gopalakrishnan
+SVP, Customer Success, Cisco
+As Senior Vice President of Customer Success at Cisco, Lavanya Gopalakrishnan leads a global organization dedicated to helping customers realize the full value of their Cisco investments. A transformative technology leader, she is recognized for driving impactful customer outcomes, building high-performing global teams, and inspiring innovation at scale. With more than 25 years of experience spanning engineering, business strategy, supply chain operations, and professional services, Lavanya has also pioneered global centers of excellence that drive consistency, efficiency, and growth worldwide.
+Lavanya previously led the Global Customer Success Specialists organization, delivering measurable customer value and exceptional partner experiences. She has held key leadership positions within Cisco’s Customer Experience, Professional Services, and Support, and earlier served in engineering and supply chain operations roles at Cisco, Ciena, and Nortel Networks. She also co-authored several publications and journal articles.
+A passionate advocate for women in STEM, Lavanya serves as the executive sponsor of Cisco's Women in Science and Engineering (WISE) in North America, as well as the Bay Area Chapter of Women of Cisco. She has also mentored technology talent on the board of N/Core, The/Nudge Centre for Social Innovation, a non-profit incubator dedicated to solving India’s most pressing challenges.
+Lavanya holds a Master of Science in Systems Science Engineering from Binghamton University, a bachelor’s degree in mechanical engineering from BITS Pilani in India, and is a Wharton University of Pennsylvania Aresty Scholar and certified ITIL Expert.
+Madison Huang
+Senior Director of Product and Technical Marketing for Physical AI Platforms, NVIDIA
+Madison Huang is senior director of product and technical marketing for physical AI platforms at NVIDIA including NVIDIA Omniverse™, the OpenUSD development platform for physical and industrial AI simulation applications, NVIDIA Cosmos™ world foundation models, and NVIDIA Isaac™ robotics platforms including Isaac GR00T for humanoid robot development. Madison’s team is responsible for driving marketing initiatives, go-to-market strategies, and developer enablement across NVIDIA’s industrial digitalization and physical AI efforts. Prior to NVIDIA, Madison led marketing strategy and development in the luxury industry, working for the Louis Vuitton-Moët Hennessy Group. Madison received an MBA in Marketing and Strategy from London Business School.
+Dr. Cynthia Teniente-Matson
+President, San José State University
+Dr. Cynthia Teniente-Matson serves as the 31st president of San José State University (SJSU), assuming the role in January ‘23. As an internationally recognized Latina leader with extensive executive experience across multiple state university systems, President Teniente-Matson is a champion for student success, institutional innovation, and industry partnerships that drive economic mobility. Her leadership at SJSU has been marked by strategic growth, national recognition, and facilities initiatives, repositioning the University as a premier public urban research institution.
+Moderator
+Rangapriya "Priya" Kannan
+Dean, Lucas College and Graduate School of Business, SJSU
+Rangapriya (Priya) Kannan is the dean of the Lucas College and Graduate School of Business and a professor in the School of Global Innovation & Leadership. Her research primarily focuses on how individuals achieve innovation within limited resources using creative resourcing and reframing. Kannan’s background includes expertise in leadership to affect strategic change, designing interdisciplinary programs, employee development, alumni and community outreach, and creating inclusive work environments. Her educational background includes a PhD from UCLA Anderson School of Management and degrees from SJSU, Tata Institute of Social Sciences, and the University of Bombay.

@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/education/academics/undergraduate-programs/index.php
+Title: Undergraduate Programs
+Type: HTML
+
+This undergraduate program is a fast track for obtaining a bachelor's degree in Liberal
+Studies and a Multiple Subject Teaching Credential to teach at the elementary school
+level
+This program is for Multiple Subject credential holders who need to complete coursework
+to meet the requirements for teaching transitional kindergarten

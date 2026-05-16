@@ -1,0 +1,12 @@
+Source: https://www.sjsu.edu/mktba/news-and-events.php
+Title: News and Events
+Type: HTML
+
+News and Events
+New Business Analytics Concentration
+We are excited to announce that we are now offering a new concentration in Business Analytics. Business Analytics is a cutting-edge approach to decision making and strategy, driven by the intelligent use of data and mathematical models.
+The concentration focuses on developing capabilities in the areas of deriving insights from data, framing and modeling business problems, making decisions in uncertain situations, developing optimal strategies and visual and technical communication.
+Marketing Association
+With over 100 members, the Marketing Association is operating at full speed this semester. The Marketing Association is a student-run organization for all majors that provides insight, networking opportunities and a competitive advantage to students, alumni and others who are passionate about marketing. The Marketing Association delivers experiences that develop next generation marketers.
+Honors Program
+Comprised of the top ten percent of Business majors, the Gary J. Sbona Honors Program offers student participants unique opportunities to work with industry professionals. The Honors Practicum is at the center of the program, with participating organizations sponsoring projects specifically designed for their companies. In the past, students have completed projects for Subaru, Target, Hewlett-Packard and Applied Materials. Honor students have even sought out alien life-forms for client SETI.

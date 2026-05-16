@@ -1,0 +1,54 @@
+Source: https://www.sjsu.edu/sjsulovessj/explore-san-jose/index.php
+Title: Explore San José Together
+Type: HTML
+
+Explore San José Together
+To help you find the must-visit spots in San José, we’ve created an interactive Google Map with information on what you’ll find in local neighborhoods, where to catch a show, the next museum you should visit and how to get around the city.
+You can also enjoy a video playlist of students exploring downtown!
+Neighborhoods
+| Location | Description |
+|---|---|
+| San José |
+Get to know the different neighborhoods, events, and history of San Jose. |
+| Downtown San Jose |
+Check out their website for discounts, free parking info, safety app and security escorts. |
+| Japantown |
+It started as the site where Japanese immigrants first settled in Santa Clara Valley and soon evolved into a popular spot for visitors and locals alike. The neighborhood remains one of the last three historical Japantowns in the United States offering authentic eateries, museums, art galleries, traditional shops, and boutiques. Check out Jtown.org for more events and information. |
+| San Pedro Square Market Building |
+Looking to satisfy every taste bud on a budget? San Pedro Square offers an amazing range of culinary tastes from all over the world such as tapas, Middle Eastern, Continental, Italian, multiple Asian influences, Cuban and retro American cuisine. |
+| Little Italy San José |
+Little Italy may only be a few blocks long but it’s history as the first Italian immigrant neighborhood in San José and the delicious food makes this neighborhood the center of Italian pride. |
+| Fountain Alley |
+Fountain Alley is part of San Jose’s Historic Downtown District and sits between two VTA light-rail stations. While the alley is small and surrounded by various businesses, the walls are full of vibrant and artistic murals. |
+| Plaza de César Chávez |
+Take a stroll in San Jose’s beautiful two-acre park located at the center of downtown close to the city’s popular museum attractions. Plaza de Cesar Chavez regularly hosts musical performances, festivals, and dancing events to give you a unique experience of the local culture. |
+Museums and Arts
+| Location | Description |
+|---|---|
+| San Jose Museum of Art |
+Featuring art by many West Coast artists, the San Jose Museum of Art is a popular tourist attraction for art lovers hoping to witness paintings, sculptures, photography, and much more. |
+| The Tech Interactive |
+The Tech Interactive is the place to learn and try hands-on activities that empower people to innovate with creativity, curiosity, and compassion. The museum is also home to the IMAX Dome theater that offers a technically advanced and visually stunning movie watching experience. |
+| SJSU Hammer Theatre Center |
+The Hammer Theatre is home to high-quality showcases of live theatre, music, dance, and film expressive of the city’s diversity and innovations. |
+| MACLA |
+Check out this unique, hybrid urban arts space located in downtown San Jose that is rooted in the Chicano/Latino experience. MACLA intersects many communities, cultures, and aesthetic approaches. |
+Arenas
+| Location | Description |
+|---|---|
+| SAP Center at San Jose |
+The SAP Center, also known as the “Shark Tank,” is home to the San Jose Sharks, the local national hockey team. The indoor arena also hosts large concerts, Olympic, and sporting events. |
+| San Jose Civic Center |
+Frank Sinatra, the Rolling Stones, and Bob Dylan are just a few of the legendary performers the San Jose Civic has hosted since it was built in 1934. You’re sure to enjoy any performance hosted here. |
+Transportation
+| Location | Description |
+|---|---|
+| Diridon Train Station |
+San Jose Diridon is the central passenger rail depot for San Jose, California serving as a transit hub for Santa Clara County and Silicon Valley. Among the various transportations you’ll find Caltrain, ACE, VTA light rail, and Amtrak trains as well as Greyhound, Megabus, Monterey-Salinas Transit, Santa Cruz Metro (Highway 17 Express), and VTA buses. |
+| San Antonio Station |
+Paseo de San Antonio is a light rail station operated by Santa Clara Valley Transportation Authority. This station is served by the Blue and Green lines of the VTA Light Rail system and is located in downtown on 1st and 2nd Streets just north of East San Carlos Street. |
+City Buildings
+| Location | Description |
+|---|---|
+| San José City Hall |
+Located just a couple blocks from campus is City Hall, a building designed by Pritzker Prize-winning architect Richard Meier in a Postmodern style. It consists of an 18-story tower, an iconic glass rotunda, and a city council chamber wing, laid out within a two-block-long public square known as San José Civic Plaza. |

@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/humanitiesandarts/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Welcome!
+The College of Humanities and the Arts at San José State University provides a high-quality liberal arts education focused on creativity, innovation, and problem solving. We prepare students to be compassionate, informed citizens of the world. The College of Humanities and the Arts proudly serves approximately 3,800 major and graduate students. We are also privileged to support all undergraduates at SJSU through a wide range of General Education offerings in humanities and arts disciplines.

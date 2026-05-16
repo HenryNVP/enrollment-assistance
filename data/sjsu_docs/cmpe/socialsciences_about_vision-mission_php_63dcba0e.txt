@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/socialsciences/about/vision-mission.php
+Title: Our Mission and Vision
+Type: HTML
+
+Our Mission and Vision
+Vision
+At the College of Social Sciences, we advance the understanding of what it means to be human to build a prosperous, just, and sustainable future.
+Mission
+The College of Social Sciences empowers students and faculty to be change leaders through teaching and learning, cutting-edge research, and community engagement. We teach and study the social, cultural, economic, psychological, and environmental dimensions of human behavior. Our commitment to innovation, community, and impact is demonstrated every day through our work in San José, Silicon Valley, California, the nation, and beyond.

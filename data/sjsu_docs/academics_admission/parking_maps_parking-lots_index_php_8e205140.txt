@@ -1,0 +1,29 @@
+Source: https://www.sjsu.edu/parking/maps/parking-lots/index.php
+Title: Parking Lots
+Type: HTML
+
+Parking Lots
+Parking Lot 1
+Located at the corner of E. San Fernando and S. 7th Streets. Entrance is on E. San Fernando Street. Lot is open for:
+- Disabled (38)
+- R-Permits Only (13)
+- 20-Minute Time Zone (3)
+Parking Lot 3
+Located behind the Industrial Studies building near E. San Fernando and S. 8th Streets. Entrance is on E. San Fernando Street. Lot is open for:
+- Disabled (6)
+Parking Lot 4
+Located near the corner of E. San Antonio and S. 10th Streets. Entrance is on S. 10th Street. Lot is open for:
+- Disabled (19)
+- Employee (116)
+- R-Permits Only (8)
+Parking Lot 7
+Located between the Art building and Health building. Entrance is on S. 10th Street. Lot is open for:
+- Disabled (3)
+- 20-Minute Loading Zone (7)
+Parking Lot 8
+Located at the corner of E. San Salvador and S. 8th Streets. Entrance is on E. San Salvador Street. Lot is open for:
+- Disabled (1)
+- Freight Loading Zone (1)
+- 20-Minute Time Zones (12)
+- 20-Minute Loading Zone (3)
+- Vendor parking (1)

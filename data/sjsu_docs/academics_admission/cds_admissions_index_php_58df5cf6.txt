@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/cds/admissions/index.php
+Title: Admissions
+Type: HTML
+
+Admissions
+To ensure you’re prepared to apply, please review the specific admission requirements listed on the specific program page. There you’ll find details on prerequisites, GPA minimums, application steps, and important deadlines for both undergraduate and graduate programs.

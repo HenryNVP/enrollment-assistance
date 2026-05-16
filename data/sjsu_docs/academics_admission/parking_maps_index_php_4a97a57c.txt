@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/parking/maps/index.php
+Title: Parking Maps
+Type: HTML
+
+Parking Maps
+Main Campus Map
+The SJSU main campus is located in downtown San José between San Fernando and San Salvador Streets and between 4th and 10th Streets.
+For additional information regarding SJSU main campus, go to Online Campus Map.
+Parking Garages and Parking Lots Information
+For additional information regarding parking garages or parking lots on SJSU main campus, click on one of the following links:
+Park & Ride Lot/Additional Parking

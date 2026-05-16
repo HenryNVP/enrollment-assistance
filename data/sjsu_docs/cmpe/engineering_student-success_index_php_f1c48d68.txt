@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/engineering/student-success/index.php
+Title: Student Success
+Type: HTML
+
+Student Success
+The Charles W. Davidson College of Engineering is dedicated to supporting the mission of San José State University: to enrich the lives of its students, to transmit knowledge to its students along with the necessary skills for applying it in the service of our society, and to expand the base of knowledge through research and scholarship. The Davidson College of Engineering and the University fosters student success and the enhancement of professional preparedness by offering an array of courses, programs and cocurricular experiences that utilize diverse learning approaches, foundational and pioneering curriculum, and state-of-the-art technology both inside and outside the traditional classroom setting. We invite you to explore the various resources and opportunities available to our students.

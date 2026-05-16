@@ -1,0 +1,12 @@
+Source: https://www.sjsu.edu/soar/about/index.php
+Title: About
+Type: HTML
+
+The Office of Undergraduate Admissions and Outreach assists prospective students and
+their families with the admission processing requirements and the subsequent steps
+for admission to San José State University for both domestic and international applicants.
+SOAR counselors/recruiters consistently visit high schools and community colleges
+in the local area and throughout the Greater Bay Area. We attend college fairs and
+education based outreach events, conduct presentations and build relationships with
+community partners and educators locally, throughout California and in select target
+states all throughout the country.

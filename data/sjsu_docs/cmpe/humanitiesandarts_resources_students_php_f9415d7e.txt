@@ -1,0 +1,26 @@
+Source: https://www.sjsu.edu/humanitiesandarts/resources/students.php
+Title: Student Resources
+Type: HTML
+
+Student Resources
+This page contains a helpful list of resources for both incoming and current students.
+Social Media
+- Twitter (@SJSU_HA): https://twitter.com/SJSU_HA
+- Facebook (SJSU College of Humanities and the Arts): https://www.facebook.com/CollegeOfHumanitiesAndTheArts
+- Instagram (@sjsu.ha): https://www.instagram.com/sjsu.ha/
+Student Services
+- Financial Aid and Scholarship Office: https://www.sjsu.edu/faso/
+- Dr. Martin Luther King Jr. Library: https://library.sjsu.edu/
+- Career Center: https://careercenter.sjsu.edu/
+- Writing Center: https://www.sjsu.edu/writingcenter/
+- Advising Hub: https://www.sjsu.edu/advising/student_resources/advising
+- College of H&A Success Center/Advising: https://www.sjsu.edu/ha-advising/
+- Student Health Center: https://www.sjsu.edu/medical/
+- Accessible Education Center: https://www.sjsu.edu/aec/
+- Counseling and Psychological Services: https://www.sjsu.edu/counseling/
+Academics
+- San José State University Main Website: https://www.sjsu.edu/
+- Spartan App Portal: https://one.sjsu.edu/
+Events
+- Campus Events Calendar: https://events.sjsu.edu/
+- H&A Event Calendar: https://bit.ly/3iIY9fu

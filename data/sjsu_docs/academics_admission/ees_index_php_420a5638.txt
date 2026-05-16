@@ -1,0 +1,14 @@
+Source: https://www.sjsu.edu/ees/index.php
+Title: Engineering Extended Studies
+Type: HTML
+
+As the agile arm of the College of Engineering, EES develops and delivers Masters programs specifically tailored to the needs of our industry partners. From Artificial Intelligence to Business Leadership, Cloud Computing to Optoelectronics, we offer programs across the engineering spectrum.
+Engineering Extended Studies' public, non-corporate programs are designed for working professionals and offered at SJSU main campus. Students earn a master’s degree or certificate within two years.
+Engineering Extended Studies' corporate degree and certificate programs are customized based on company requirements. The curriculum is co-developed by a joint steering committee with an emphasis on hands-on learning and real-world applications. Classes for these programs are taught on location at the corporation.
+- KLA - MS Engineering, Specialization in Optoelectronic Systems
+- Lam Research MS Engineering, Specialization in Systems Engineering
+- Lockheed Martin MS AI Program
+- Lockheed Martin MS Engineering, Business Analytics
+- Lockheed Martin MS Mechanical Engineering
+- Lockheed Martin MSEE, Robotics and Autonomy
+- Applied Materials MSE Semiconductor Process Engineering

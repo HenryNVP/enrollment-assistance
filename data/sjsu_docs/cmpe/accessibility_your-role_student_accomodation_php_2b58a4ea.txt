@@ -1,0 +1,22 @@
+Source: https://www.sjsu.edu/accessibility/your-role/student_accomodation.php
+Title: I Am a Student Who Needs an Accommodation
+Type: HTML
+
+I Am a Student Who Needs an Accommodation
+The Accessible Education Center (AEC) is the primary resource for students who may need accommodation. The AEC tem redefines ability at SJSU by providing comprehensive services in support of students' educational development and success.
+Students with disabilities can register with the AEC to request accommodations that eliminate and/or reduce disability-related barriers in the environment and curriculum. They support the following types of accommodations:
+- Accessible Classroom Furniture
+- Computer Lab
+- Alternative Formats & Training
+- Assistive Technology & Training
+- Deaf or Hard of Hearing Services
+- Dining Accommodations
+- Housing Accommodations
+- Note-taking Services
+- Testing Accommodations
+- Other Academic Accommodations
+You can reach the AEC as follows:
+- Web: https://www.sjsu.edu/aec/
+- Email: aec-info@sjsu.edu (preferred)
+- Phone: 408-924-6000
+- In person: ADM Room 110

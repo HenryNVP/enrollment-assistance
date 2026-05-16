@@ -1,0 +1,91 @@
+Source: https://catalog.sjsu.edu/preview_entity.php?catoid=17&ent_oid=2295
+Title: About
+Type: HTML
+
+2025-2026 Academic Catalog [ARCHIVED CATALOG]
+Charles W. Davidson College of Engineering
+|
+|
+Office: Engineering Building 493
+Telephone: (408) 924-3800
+Email: engineering@sjsu.edu
+Website: engineering.sjsu.edu
+Leadership:
+Sheryl Ehrman, Dean
+Nicole Okamoto, Associate Dean for Undergraduate Programs and Student Success
+Raymond Yee, Associate Dean of Extended Studies
+Xiao Su, Associate Dean of Graduate Studies and Research
+Overview
+The Charles W. Davidson College of Engineering offers undergraduate and graduate programs in Aerospace Engineering; Aviation (BS only); Biomedical, Chemical and Materials Engineering; Civil and Environmental Engineering; Computer and Software Engineering; Electrical Engineering; Engineering Technology, Interdisciplinary Engineering; Industrial and Systems Engineering; and Mechanical Engineering. Additional graduate programs are offered in Artificial Intelligence, Engineering Management, Human Factors/Ergonomics, and Quantum Technology. Each department offers a variety of major and minor programs which are identified in their respective parts of this catalog.
+Engineering Student Success Center (ESSC)
+Office: Engineering Building 116
+Telephone: 408-924-3990
+Email: success-engineering@sjsu.edu
+Website: www.sjsu.edu/essc
+The mission of the Engineering Student Success Center (ESSC) is to empower engineering students from application to graduation, support their academic and personal growth, and engage them as lifetime members of the college learning community. The ESSC will provide programs and advising for undergraduate and graduate students in the College of Engineering that support students’ smooth transition to SJSU, their transformation into active learners and owners of their academic careers, and promote their personal and professional development.
+The Community for Engineering Learning and Living (CELL) is a themed living community offered by the University Housing Services for first year engineering students. CELL’s objectives are to provide a cooperative learning environment, to encourage and build the engineering community and to foster a sense of belonging and responsibility to the community. Through facilitated study groups, CELL students will experience the academic support and cooperation of a community committed to academic success. CELL students will have regular access to faculty, advisors and industry professionals through workshops and programs. CELL is about shared experiences and creating a vibrant and caring engineering community.
+MESA Engineering Program
+Office: Engineering Building 366
+Telephone: 408-924-3830
+Email: mesa.engineering@sjsu.edu
+The MESA Engineering Program and the Women in Engineering Program work to increase the number of graduates entering the engineering profession from traditionally under-represented and economically disadvantaged groups. The MESA Engineering Program actively recruits students, provides support services until graduation and acts as liaison with companies offering employment experiences. It assists students with admissions, academic and personal counseling, financial aid and scholarships, and registration. The MESA Engineering Program also maintains a study center for tutoring, workshops, individual and group study and social functions. A summer job placement program assists students in obtaining jobs in industry.
+Preparation for Engineering Programs
+To prepare for engineering, the high school student should take as much advanced math and science as possible, as well as high school engineering and technology courses that may be available at their school. Students with scores of 3 or above on the AP Calculus exams may be able to reduce the number of math courses taken at SJSU; students who are not calculus-ready on entrance may take a longer time to graduate. Students transferring from California community colleges will be given junior level standing in the major if they have successfully completed the following course work:
+- 12 semester units of calculus and differential equations
+- 5-10 semester units of chemistry
+- 8-13 semester units of physics which require calculus as a prerequisite
+- 10-14 units of lower division engineering appropriate to their engineering major
+All engineering majors require certain coursework (typically two semesters of calculus and one of calculus-based physics) before transfer. Completion of supplemental major-specific coursework will result in improved chances for admission and shorter time to graduation. The list of required and supplemental courses for each major can be found here. Transfer students should use assist.org or this SJSU online catalog to determine the specific lower division requirements of their major. Graduation following two academic years of study is possible if the student completes all lower division units before transfer, satisfactorily completes the required upper division coursework and remains in good standing in the major.
+Preparation for Technology and Aviation Programs
+To prepare for technology and aviation majors, the high school student should take industrial technology classes such as electronics, computer-aided design, and manufacturing, or any engineering classes offered at their school, and should complete courses in physics, chemistry, and pre-calculus or calculus. Community college students are urged to complete as many of the lower division requirements as possible in chemistry, physics, mathematics and technology or aviation at the community college.
+Progress to Degree Requirements
+All College of Engineering undergraduates are required to stay in good standing in their major by maintaining a Major GPA of 2.0 or above. The Major GPA includes all courses required for the major, including both lower and upper division math, science, engineering, technology, aviation or business courses required by their major. Some departments have additional grade requirements for individual courses, groups of courses or all courses taken in their department. See departmental sections for these requirements. Additional university GPA requirements are specified elsewhere in this catalog. The Engineering Major Academic Notice Policy can be found on the Engineering Student Success Center website.
+Incoming Engineering frosh, or other students seeking to change major into Engineering, must complete MATH 30 , MATH 31 and PHYS 50 within their first 60 units at SJSU. Change of major information can be found on the Engineering Student Success Center website.
+General Education Requirements
+Transfer students may satisfy core GE through the IGETC or CSU breadth requirements. Students should consult advisors in the Engineering Student Success Center for details for their specific programs.
+Undergraduate Programs Offered
+The College of Engineering offers BS degrees in:
+- Aerospace Engineering, BS
+- Aviation, BS
+- Biomedical Engineering, BS
+- Chemical Engineering, BS
+- Civil Engineering, BS
+- Computer Engineering, BS
+- Electrical Engineering, BS
+- Engineering Technology, Computer Network System Management (CNSM) Concentration, BS
+- Engineering Technology, Manufacturing Systems Concentration, BS
+- Industrial and Systems Engineering, BS
+- Interdisciplinary Engineering, BS
+- Interdisciplinary Engineering, BS (SJSU Online) (Currently Not Accepting Students)
+- Materials Engineering, BS
+- Mechanical Engineering, BS
+- Software Engineering, BS
+Please see the Academic Programs or Colleges and Departments listings in this catalog for information about each undergraduate major.
+Graduate Programs Offered
+The College of Engineering offers graduate work leading to Master of Science degrees in:
+- Aerospace Engineering, MS
+- Artificial Intelligence, MS
+- Biomedical Engineering, MS
+- Biomedical Engineering, Biomedical Devices Concentration, MS
+- Chemical Engineering, MS
+- Civil Engineering, MS
+- Computer Engineering, MS
+- Electrical Engineering, MS
+- Engineering Management, MS
+- Engineering Technology, MS
+- Engineering, MS
+- Human Factors/Ergonomics, MS
+- Human Factors/Ergonomics, User Experience Concentration, MS
+- Industrial and Systems Engineering, MS
+- Materials Engineering, MS
+- Mechanical Engineering, MS
+- Quantum Technology, MS (offered jointly by Departments of Electrical Engineering and Physics and Astronomy)
+- Software Engineering, MS
+Graduate work offered by the College of Engineering reflects and supports the advanced scientific and technological endeavor which is typical of California industry, government and business.
+Departmental curricula provide full- and part-time students the opportunity either to obtain master’s degrees or to take specialized courses to improve job capabilities.
+The Master of Science in Engineering offered by the Interdisciplinary Engineering program has unique, interdisciplinary characteristics which may be particularly appealing to persons with a bachelor’s degree in engineering who are currently working in a technical management area and wish to extend their education.
+For students whose native language is not English please see the English Language Proficiency (ELP) test requirements on the Graduate Admissions website. Students who meet this and the requirements for admission to the Graduate Division as outlined in this catalog should see individual department listings for requirements for admission to classified standing, conditionally classified standing and advancement to candidacy for the specific degree in engineering.
+In addition to departmental requirements, the University requires that all graduate students demonstrate competency in written English as a condition for advancement to candidacy. Please refer to the SJSU catalog section titled “Graduation Writing Assessment Requirement (GWAR) ” for details. Each graduate program has a designated GWAR course embedded within the program degree requirements. In addition, all graduates must complete an acceptable thesis, project or comprehensive examination.
+Engineering Extended Studies (EES)
+Engineering Extended Studies (EES) Department at San Jose State University within the Charles W. Davidson College of Engineering supports innovative programs and continuous learning in a climate of constant disruption.
+|

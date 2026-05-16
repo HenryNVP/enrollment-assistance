@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/alumni/join/index.php
+Title: Join the Alumni Association
+Type: HTML
+
+Joining the Alumni Association is one of the best ways to show your Spartan Pride.
+Alumni membership connects you to a network of graduates throughout the country who
+represent the ideals of San José State University. Strengthen the value of your degree,
+access career resources, enjoy money-saving benefits, and stay connected to your alma
+mater that is powering the world. Please note, lifetime membership is non-refundable.
+Thank you for showing your Spartan pride and investing in your alma mater!

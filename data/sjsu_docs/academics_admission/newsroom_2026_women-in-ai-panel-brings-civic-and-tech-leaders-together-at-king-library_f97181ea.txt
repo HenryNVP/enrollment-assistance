@@ -1,0 +1,41 @@
+Source: https://blogs.sjsu.edu/newsroom/2026/women-in-ai-panel-brings-civic-and-tech-leaders-together-at-king-library
+Title: Women in AI Panel Brings Civic and Tech Leaders Together at King Library
+Type: HTML
+
+Women in AI Panel Brings Civic and Tech Leaders Together at King Library
+From left: Sheryl Ehrman, Sandy Hirsh Amanda Renteria, President Cynthia Teniente-Matson and Lili Gangas at King Library on March 23. Photo: Robert C. Bain.
+SAN JOSÉ — On March 23, engineers, city officials, students and community members filled Room 225 of the Dr. Martin Luther King, Jr. Library for a conversation about the role of women in shaping the future of artificial intelligence (AI).
+It was organized by the Mayor’s Office of Technology and Innovation and the City of San José and San José State University, working with the San José Public Library and the SJSU King Library.
+The event, coinciding with the close of Women’s History Month, was the first public program hosted by the AI Center for Civic and Social Good, which the city and university opened March 3 on the first floor of the library.
+Jennifer Schembri, deputy city manager for the City of San José, opened the evening highlighting how the city is already deploying AI to provide real-time translation at city council meetings and streamline public services, and even detect potholes.
+“As we celebrate Women’s History Month, we recognize the accomplishments women have made and continue to make in our city and in our community,” Schembri said. “The future of AI is being built today, and women are at the center of it.”
+SJSU President Cynthia Teniente-Matson focused on the fundamental question facing the technology industry.
+“We know we’re living in a time when artificial intelligence is shaping every sector of society,” she said. “So here’s the big question: Who’s building these systems? It’s not just about equity. It’s about better systems, better decisions and better outcomes for our communities.”
+The panel featured Amanda Renteria, CEO of Code for America, Sheryl Ehrman, dean of SJSU’s Charles W. Davidson College of Engineering, and Lili Gangas, chief technology community officer at the Kapor Center. Each traced personal journeys that brought them to the forefront of civic technology and AI policy.
+For Renteria, who grew up the daughter of farmworkers in California’s Central Valley and became the first Latina chief of staff in U.S. Senate history, the path to technology was rooted in translation.
+“When you grow up as the daughter of former farmworkers, you sort of recognize that you’re just trying to translate the world,” she said. “And when you think about technology right now, and you think about AI, that is the language of power.”
+Gangas, who immigrated from Bolivia as a child and earned a degree in electrical engineering from the University of Southern California, said math became her first universal language when English was not yet available to her. Looking back at her graduating class, she noted that only two or three Latinas earned electrical engineering degrees alongside her in 2004.
+“That’s kind of insane when we think about the percentage of the population,” she said. “We’re leaving so much innovation on the table.”
+Ehrman, who recalled joining a college club called Scientists and Engineers for Responsible Technology during the Cold War era, said the experience shaped her belief that STEM students must engage across disciplines.
+“We need the STEM folks to get out and meet the people in the humanities, the social sciences,” she said, “because that’s where all these things are going to bubble up.”
+At Code for America, Renteria described how AI is already transforming the delivery of government services. When COVID-era Medicaid policies expired and millions of Americans were required to renew their coverage, her organization used AI to identify cases where nothing had changed, triggering automatic renewals.
+“Those kinds of back-end systems really do speed up the process,” she said.
+She also described a shift in how her staff works internally, with employees across the organization now learning to code using AI tools regardless of their job title.
+“If you’re a program person who knows food assistance programs really well, guess what: You’re vibe coding with us and figuring it out,” she said.
+However, Renteria warned that AI is only as reliable as the data beneath it. She warned that overlaying AI on top of outdated or uncleaned government data “could be dangerous” and said her organization always starts by getting the data right before scaling any intervention.
+“Move fast and break things. When you’re in government services, that is not how you should be treating the public,” she said.
+Gangas focused on the concentration of power in the AI funding landscape, noting that in 2024, just nine venture capital firms funded 70% of new AI startups.
+“Follow the money,” she told the audience. “It’ll tell you a lot about why certain decisions and narratives are shaping what you get to use and why.”
+She raised concern about a widening digital divide, one where access to safe and effective AI tools is no longer just about connectivity, but the ability to pay.
+“Not only do we still have families [who] are disconnected, but now it’s going to become another economic situation,” she said.
+Gangas emphasized the ecological footprint of developing AI. Rather than a constant race for the most massive models, she argued for the creation of targeted, smaller-scale systems, noting that AI production consumes significant amounts of energy, water and land.
+“Just because you can build it, doesn’t mean you should build it. Just because you can scale it, doesn’t mean you should scale it,” she said. “It might actually be the opposite: very specific, smaller, smarter systems.”
+Ehrman focused on what the AI moment means for higher education and the engineering pipeline. She said students are already using AI widely, whether universities fully acknowledge it or not, and educators must help them use it critically, rather than passively.
+“Students are definitely using AI,” Ehrman said. “As educators, we have to be able to equip them to be critical collaborators with it, as opposed to just pass-throughs.”
+She also encouraged students to work across disciplines, arguing that the hardest questions around AI will not be solved by engineers alone.
+When asked what excites and concerns them most about the next five years, all three panelists returned to the theme of trust.
+Renteria predicted a moment of reckoning ahead, one where a significant AI-related harm forces a national response.
+Gangas called on the audience to harness the current wave of public curiosity before it passes.
+“If we want to be leveraging all this water and energy and all of our efforts, let’s put it toward things that are really helping our communities, [like] improving health, reducing the cost of housing,” she said. “There are just so many opportunities, and that’s the exciting part.”
+Even with those concerns, the panel closed on a note of urgency and optimism.
+The AI Center for Civic and Social Good is located on the first floor of King Library at 150 E. San Fernando St. in San José. It offers free AI literacy programs at beginner and advanced levels, with drop-in hours open to students and library cardholders. More information is available at library.sjsu.edu/AIcenter.

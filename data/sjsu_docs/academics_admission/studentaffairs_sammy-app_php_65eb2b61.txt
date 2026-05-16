@@ -1,0 +1,17 @@
+Source: https://www.sjsu.edu/studentaffairs/sammy-app.php
+Title: Sammy App
+Type: HTML
+
+Sammy App
+Sammy App
+Download it from the Apple Store.
+San José State University’s Sammy App is the gateway to the campus community. Get access to all the latest events, news, and information. Make connections with other students, find out how to get more involved on campus, and learn about resources and services that are available to you.
+Some exciting features of the Sammy App include:
+Events - Discover all the upcoming events that are happening across campus.
+Groups & Clubs - Find the community you’ve been looking for by joining student clubs and organizations.
+Campus Services - Get access to services and resources that will support you during your time at SJSU.
+Live Chat - Stay connected with fellow Spartans.
+Push Notifications - Get the latest updates in real-time with push notifications sent directly to your phone.
+Campus Map - Locate classes, events and buildings across campus.
+Co-Curricular Transcript - A fun way to track involvement across clubs, events, leadership positions and service work.
+Gamification - Stay engaged by racking up points and climbing the leaderboard based upon your involvement in events and other activities.

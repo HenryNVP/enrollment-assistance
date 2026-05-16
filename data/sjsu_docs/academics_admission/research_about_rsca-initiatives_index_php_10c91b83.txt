@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/research/about/rsca-initiatives/index.php
+Title: RSCA Initiatives
+Type: HTML
+
+Research Clusters
+The Research Clusters Initiative intentionally brings SJSU researchers, scholars,
+and practioners together to tackle large-scale problems that require multidisciplinary
+approaches. Capitalizing on faculty expertise and hiring themes, the research clusters
+aim not only to expand our research enterprise, but also to provide research as opportunities
+for experiential learning and workforce development.

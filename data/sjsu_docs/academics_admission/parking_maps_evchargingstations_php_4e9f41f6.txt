@@ -1,0 +1,7 @@
+Source: https://www.sjsu.edu/parking/maps/evchargingstations.php
+Title: Electric Vehicle Charging Stations
+Type: HTML
+
+Electric Vehicle Charging Stations
+If you need to charge your electric vehicle on campus, please utilize our electric vehicle charging stations that are located in the North parking garage or Lot 4.
+For guidelines and policies on charging your electric vehicle on campus, please visit our electric vehicle charging web page.

@@ -1,0 +1,42 @@
+Source: https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13714
+Title: About
+Type: HTML
+
+Students pursuing the MS, Biomedical Engineering degree, offered by the Department of Biomedical Engineering , will have the satisfaction of being actively engaged in a discipline that has human health and welfare as its primary focus. Biomedical Engineering is an inherently interdisciplinary field in which professionals from engineering and the physical sciences play a major role in developing engineered products for deployment in the human body.
+Requirements for Admission
+Applicants must meet all university admissions requirements . Applicants who have a major GPA of 3.0 or higher are not required to take the GRE. All others must take the GRE General Test and obtain a combined score of 315 or higher in the Verbal and Quantitative sections, and 3.5 or higher in the Analytical Writing section.
+Students can be admitted to either classified or conditionally classified standing. To be admitted to classified standing, a student must possess a BS degree in biomedical engineering, or its equivalent from an accredited institution with a grade point average of 3.0 or better in the last 60 semester units, have met the GRE requirement if their major GPA is below 3.0, and have completed the Transition Courses, or their equivalents, with grades of B or better.
+Conditionally Classified Admission
+Students can be admitted to conditionally classified standing if they have a BS degree in an engineering discipline, chemistry, physics, or biology from an accredited institution. Students with conditionally classified standing will take a series of Transition Courses, as determined by the Graduate Coordinator. Once the series is completed satisfactorily, with grades of B or better, students can petition for transfer to classified standing. For more information on the transition courses see the section on Transition Courses below, or contact the Biomedical Engineering Department Graduate Coordinator at biomedical-engineering@sjsu.edu.
+Advancement to Candidacy
+Students must meet the university’s requirements for candidacy, which include classified standing and the successful completion of a minimum of 9 units of graduate-level classes with grades of B or better. The University requires that all graduate students complete the Graduation Writing Assessment Requirement (GWAR) as a condition for advancement to candidacy .
+Course Requirements
+To meet the requirements for the MS, Biomedical Engineering degree, a student must complete 30 units of approved courses. Students must achieve a minimum of a “C” in each course, a cumulative GPA of 3.0 or better in all their coursework, AND a GPA of 3.0 or higher for the courses listed in the Candidacy form.
+Transition Courses
+Students may be required to complete some or all of the following transition courses (or equivalent courses) prior to being admitted to Classified Standing in the major.
+- 3 unit(s)
+- 3 unit(s)
+- 4 unit(s)
+- 3 unit(s)
+- 3 unit(s)
+- 5 unit(s) (5A + 5C)
+- 5 unit(s) (5A + 5C)
+- 3 unit(s)
+- 3 unit(s)
+- 3 unit(s)
+- 4 unit(s) (5A + 5C)
+- 4 unit(s) (5A + 5C)
+Graduation Writing Assessment Requirement
+At SJSU, students must complete the Graduation Writing Assessment Requirement (GWAR) . The GWAR is satisfied with BME 274 , which is a core course.
+Culminating Experience
+Included in the 30 approved units is the requirement that students must also complete a written thesis or project report and an oral defense of their thesis or project. The candidate may choose either the Plan A (Thesis) or Plan B (Project) option. For either option, the student is required to develop a project proposal in BME 291. This must be approved by the student’s project adviser and the reading committee at the culmination of BME 291 . Once the proposal is approved, the student is required to:
+- implement the approved research plan using appropriate methods for the investigation,
+- use appropriate statistical techniques for analysis of the data and drawing conclusions,
+- discuss the results in light of findings reported by other investigators,
+- write a professional report of appropriate length, and
+- present it and defend the project to the reading committee.
+Plan A (Thesis)
+The student who opts to complete a master’s thesis is responsible for securing the commitment of a full-time tenured or tenure-track BME faculty member who agrees to serve as the thesis committee chair. The student must also secure the commitments of two additional committee members, one of whom must be a full-time tenured or tenure-track faculty member at SJSU, to serve on the student’s thesis committee. The student must write a thesis proposal and have it approved by the thesis committee and pass BME 291 - MS Thesis/Project Preparation Seminar (3 units) and BME 298 - MS Project (3 units) before enrolling in BME 299 - MS Thesis (3 units). The thesis must also meet all university requirements as stipulated in this catalog and in the SJSU Master’s Thesis and Doctoral Dissertation Guidelines. It will be written under the guidance of the candidate’s thesis committee chair with the assistance of the thesis committee.
+Plan B (Project)
+Students opting to complete a master’s project must pass BME 291 - MS Thesis/Project Preparation Seminar (3 units) before enrolling in BME 298 - MS Project (3 units).
+The project proposal is prepared in BME 291 and must be approved by the student’s reading committee at the culmination of that course.

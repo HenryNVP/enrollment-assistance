@@ -1,0 +1,9 @@
+Source: https://www.sjsu.edu/avtech/index.php
+Title: Aviation and Technology
+Type: HTML
+
+Welcome to the Aviation and Technology Department
+We, the Department of Aviation and Technology, take pride in being the West Coast's leading provider of Engineering Technology and Aviation Graduates! Explore our diverse programs, including the pioneering Aviation Program, and the innovative Engineering Technology Program, both united under one department to shape the future of technology and aviation education.
+Navigation
+ATMAE Accreditation
+The Engineering Technology programs at San Jose State University are accredited by the Association for Technology, Management, and Applied Engineering (ATMAE) since 1975.

@@ -1,0 +1,18 @@
+Source: https://www.sjsu.edu/research/research-development/about-us.php
+Title: About Us
+Type: HTML
+
+About Us
+Research Development Specialist
+Charles W. Davidson College of Engineering
+Phone: 408-924-2481
+Email: barbara.sasso@sjsu.edu
+Research Development Specialist
+Connie L. Lurie College of Education and College of Science
+Phone: 408-924-2984
+Email: anna.dizack@sjsu.edu
+Research Development Specialist
+Colleges of Humanities & the Arts, Social Sciences, Health & Human Sciences
+Phone: 408-924-1481
+Email: brigette.brown@sjsu.edu
+If your college does not have a designated Research Development Specialist, please email officeofresearch@sjsu.edu so your inquiry can be directed appropriately.

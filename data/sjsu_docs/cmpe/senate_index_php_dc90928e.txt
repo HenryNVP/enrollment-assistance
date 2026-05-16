@@ -1,0 +1,5 @@
+Source: http://www.sjsu.edu/senate/index.php
+Title: Academic Senate
+Type: HTML
+
+The Academic Senate is a deliberative and policy-setting entity consisting of 60 members including faculty from all colleges, administrators, emeritus faculty, alumni representatives and students committed to the mission of shared governance. The Senate meets monthly in Engineering (ENG) room 285/287.

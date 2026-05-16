@@ -1,0 +1,228 @@
+Source: https://www.sjsu.edu/researchfoundation/about/osp/osp-faqs/index.php
+Title: OSP FAQs
+Type: HTML
+
+OSP FAQs
+F&A – FACILITIES AND ADMINISTRATION
+(1) What Are Indirect Costs or Facilities and Administrative Costs?
+Please note that the term facilities and administrative (F&A) costs is the federal government term for what was previously referred to as indirect costs. Many sponsors have phased out the term "indirect costs" and replaced it with the term "F&A costs."
+Facilities and administrative (F&A) costs are those that are incurred for sponsored programs operating expenses and costs that cannot be readily associated with a single project, account, or transaction. Reimbursements for those costs are paid by sponsors to the institution (San José State University and the San José State University Research Foundation). F&A rates for educational institutions are reviewed and approved by the U.S. Department of Health and Human Services (DHHS) every four to five years.
+Examples of F&A costs include:
+- Depreciation and interest costs associated with the university's physical plant.
+- Operating and maintenance costs such as utility costs, security costs, and custodial costs.
+- Common administrative functions such as payroll and purchasing.
+(2) Why are F&A costs reimbursed by the sponsoring agencies?
+The operation of any enterprise, whether it is non-profit or for-profit, involves costs. In order to fully pay SJSU for the costs of its sponsored research and educational activities, F&A costs must be reimbursed by sponsoring agencies. If these costs are not reimbursed, the university itself would have to pay for them. This, of course, would have an adverse impact on department budgets, student fees, and university resources. Sponsors recognize this fact and, with few exceptions, are willing to pay for F&A costs. The SJSU Research Foundation is directed by the CSU Office of the Chancellor to include the proper F&A costs in proposal budgets and to collect these funds on behalf of SJSU.
+(3) What do F&A costs include?
+- Building use.
+- Library use.
+- Improvement use.
+- Equipment use.
+- Operations and maintenance.
+- General and departmental administration (accounting, human resources, procurement, insurance, legal).
+- Sponsored projects administration (proposal and grant/contract management, information services).
+(4) What F&A costs are NOT:
+- F&A costs are not a tax or "transaction costs,” such as the cost of cutting a check.
+- F&A recoveries are not all kept by SJSU Research Foundation but are used to reimburse the university.
+- F&A costs are not taken out of a grant or contract; they are built into it.
+- F&A costs are not discretionary or arbitrary.
+(5) How are F&A rates determined?
+The procedure for calculating F&A costs is prescribed for all universities by the federal government's Office of Management and Budget (OMB). SJSU and the SJSU Research Foundation work together to determine what the university’s F&A costs are, and present the documentation to the government for review and audit.
+The U.S. Department of Health and Human Services (DHHS) is the federal agency (referred to as cognizant agency) that audits this process for SJSU, and it is with DHHS that the SJSU Research Foundation signs the Colleges and Universities Rate Agreement [pdf] that specifies the F&A rates used when determining budgets.
+(6) What are SJSU’s current F&A rates?
+As with most universities, SJSU has F&A rates that are specific to the type of project being conducted (research, instruction, or other activities) and to the site at which the project will be conducted (on or off campus). The rates are as follows and are in effect until amended.
+SJSU Main Campus
+Research
+On: 46.5%
+Off: 26%
+Instruction
+On: 55.2%
+Off: 26%
+Other Sponsored Activities
+On: 44.6%
+Off: 26%
+SJSU Moss Landing Marine Laboratories
+Research
+On: 52.5%
+Off: 26%
+Instruction
+On: 42.9%
+Off: 26%
+Other
+On: 27.5%
+Off: 26%
+Definitions:
+On-Campus Program
+The majority of activities are conducted using facilities where space-related costs (e.g., rent, utilities and maintenance) are paid for by the university or its affiliates, and are not charged directly in the project budget.
+Off-Campus Program
+The majority of activities are conducted (1) in leased facilities where space-related costs (e.g. rent, utilities and maintenance) are charged directly in the project budget, or (2) in facilities made available (at no cost) to the program by a non-university organization.
+Certain projects do not require a “facility” in that all work (up through analysis) is done in the field. These types of projects are usually in the field over an uninterrupted period of time and would be considered “off-campus.” In the case where the majority of work is in the field without the use of university or university affiliate owned facilities such as buildings, trailers, or vessels, that work would be considered off-campus.
+Research
+Refers to all research and development activities that are sponsored by Federal and non-Federal agencies and organizations. This term includes activities involving the training of individuals in research techniques (commonly called research training) where such activities utilize the same facilities as other research and development activities and where such activities are not included in the instruction function of the university.
+Instruction
+Specific instructional or training activity established by grant, contract, or cooperative agreement. This term does not include the training of individuals in research techniques, commonly referred to as research training.
+Other
+Sponsored activities programs and projects financed by Federal and non-Federal agencies and organizations that involve the performance of work other than instruction and organized research. Examples of such programs and projects are health service projects and community service programs.
+MTDC
+Stands for Modified Total Direct Costs. Full F&A costs are applied on an MTDC basis, which means that certain cost categories of direct costs are excluded when calculating F&A for a given project.
+(7) What items are excluded from F&A?
+The following cost categories are excluded from a Modified Total Direct Cost base:
+- Capital expenditures (buildings; equipment costing more than $5,000 and with a useful life of more than one year; alterations and renovations).
+- That portion of subawards over $25,000.
+- Patient care costs.
+- Participant support costs for workshops and conferences and student support costs
+such as stipends, scholarships and fellowships.
+(Note: these cost reimbursements are generally made directly to the participants or students and are identified as such in the budget.)
+(8) Will adding F&A costs to my budget hurt the chances of my project being funded?
+No. Most sponsors expect to see F&A costs. A well-planned budget includes F&A. As long as all direct- cost items are realistic, F&A will not affect a proposal’s competitiveness. This is true for two reasons. First, other applicants will also be including F&A costs in their budgets. Second, funding agencies recognize that F&A is a necessary part of a budget and do not discriminate against institutions that include F&A. The substance and content of a proposal, including its objectives, methodology, and care of preparation is far more important than F&A in determining whether or not a project gets funded.
+(9) How do San José State University and the Research Foundations F&A costs compare to other major universities?
+San José State University and the Research Foundation’s F&A rates are average when compared to similar institutions across California, although variations in F&A rates from university to university are common. Some institutions have rates above 70%; others charge as little as 35%. When calculating F&A, some institutions use a Modified Total Direct Cost base and others use a Salaries, Wages, Benefits or Total Direct Cost base. There are dozens of factors that account for differences in F&A rates, including costs of heating and cooling, age of buildings, amount of administrative activity devoted to research management, need for replacement of research equipment, and the "balance" between research and instruction on campus.
+(10) A colleague of mine at another institution and I are applying to the same program. Her institution is willing to charge less than their full F&A rate. Why can’t SJSU do the same?
+Some institutions choose to bear a greater share of research costs than others. Reasons why usually correspond to the institution’s prescribed research agenda and its ability to justify for the university to absorb those F&A costs. For the most part those institutions have a budget absorbing some of those costs. A lower F&A rate does not usually mean the research costs are less at one institution than another. More likely it suggests that the costs are being shifted to the university or the state’s taxpayers and not charged to the sponsor.
+(11) I am going on sabbatical. Can I reduce the F&A rate of my award?
+No. An awarded indirect rate cannot be reduced for purposes of a sabbatical leave. Sabbatical leave is for an individual, not the project. When SJSU resources are utilized, full indirect rates for that project will apply. Reducing the indirects for a portion of a grant is not an allowable option.
+The on-campus/off-campus rate for any project will have been determined at submission. Regardless of sabbatical leave, that indirect rate will be maintained.
+(12) May I reduce the indirect rate on my project while I am on sabbatical, and return it to the previous rate when I return from sabbatical?
+No. Fluctuating indirect rates are not allowable. Please see question #11; reducing indirects for a portion of the grant period is not an allowable option. Once the sponsor has committed to the level of indirects, that level is maintained for the life of the grant's overall period of performance. Taking sabbatical will not affect the rate determined at submission and committed to by the sponsor.
+Reference
+For additional information, please consult the Uniform Guidance. The Uniform Guidance 2 CFR Part 200 establishes principles for determining costs applicable to grants, contracts, and other agreements with educational institutions. The principles are designed to provide that the Federal Government bear its fair share of total costs, determined in accordance with generally accepted accounting principles, except where restricted or prohibited by law.
+(13) Is tuition subject to IDC?
+Tuition is not subject to IDC. For NSF, as an example, if the students are receiving tuition who are enrolled at SJSU and will be working on the grant, the line item is moved to the Other Direct Costs - Other category, but there will be no IDC charge on it. Additionally, neither participant support costs nor tuition are subject to indirect costs, so the total budget amounts in direct and indirect costs will be affected by this request.
+(14) How do we categorize research subject payments?
+If the research subjects are not performing any type of service/work and are strictly receiving incentives for participating in the research as human subjects, they will be categorized under "other direct costs - other" (similar to how other federal agencies are handled — i.e., NSF) and refer to them as research subject payments. If there are no special instructions in the solicitation regarding research/human subject payments, the default is to the federal agency practice. These subject payments are subject to indirect costs.
+Human subjects or research subjects provide something to the research project such as data or information. Participants do not provide something to the research, rather they are receiving training or education. Human/research subjects are not receiving any training as thus are not considered participants.
+BUDGET
+(1) What is the minimum wage?
+- CA Minimum Wage — Effective January 1, 2025, California's minimum wage will be $16.50 per hour. This also affects the exempt salary threshold. To maintain exempt status, exempt employees must be paid $68,640 annually (regardless of their FTE).
+- San José Minimum Wage — Effective January 1, 2025, San José minimum wage will be $17.95 per hour. This will impact employees required to work in the San José city limit.
+(2) What is the standard hourly rate for students?
+The standard hourly rate for students can range from the minimum wage up to $25/hour. For anything in addition to that, HR will ask for a justification.
+(3) Can SJSU faculty work during sabbatical leave?
+It depends on their appointment. If they are working 100% during the Fall semester and are on sabbatical at 100% during Spring, they can be paid via the grant during Spring up to 125%. If they are working at SJSU at 50% during Fall and 50% during Spring, they can be paid via grant up to 75% per semester.
+Note: The PI needs to provide the sabbatical approval to OSP.
+(4) What is considered to be “equipment?”
+If the piece of equipment is worth $5,000 or more, for the internal routing process, the PI needs to provide a compliant vendor quote of which should include applicable shipping and taxes along with a vendor expiration date of at least 6-9 months out from the time of proposal submission. If shipping is free, for instance, the vendor should either indicate that it is free on the quote, or confirm with the PI via email. If the vendor does not provide a quote with applicable shipping and taxes, the estimated amount should be added to the budget (9.375% for sales taxes and an estimated 5% for shipping).
+(5) What is an Independent Contractor versus a Service Agreement?
+- Individuals who have their own corporation (using their federal tax ID and not individual SSN) can complete a service or other appropriate agreement with SJSURF and be paid via their corporation.
+- Individuals who need to be paid directly using their own SSN can complete the independent contractor (IC) agreement and will be paid directly. Please note, SJSU Research Foundation or CSU System employees are not eligible for IC status.
+- To learn more about which category your collaborators fall under, please contact your Pre-Award Specialist if you are working on a proposal or Post-Award Analyst if this is in regard to an existing account.
+(6) Can we hire CA residents as Independent Contractors?
+In general, if they are non-sjsu/non-csu folks, they may potentially serve as independent contractors. However, it is quite difficult to become an independent contractor in California. If the individual answers "yes" to most of the questions on pages 1-2 of the attached, they can potentially serve as independent contractors and with review/approval from HR.
+To see if you are eligible to obtain IC status in California, please review the Determination of Independent Contractor Status Checklist & Agreement - CA Only form.
+(7) Can we hire non-US individuals as Independent Contractors?
+When hiring independent contractors or employees in foreign countries, employers have
+to abide by the tax and employment laws in that country. The laws and regulations
+vary greatly with regard to the responsibility of whether the employer or the independent
+contractor must make applicable tax payments at the time of payment or monthly or
+quarterly or on an annual basis.
+Additionally, an independent contractor may later be considered an employee by the
+host-country authorities during or after engagement which can lead to other complications.
+In light of these complications, the Research Foundation will not hire out of country
+employees or independent contractors. If there is a need to do that then the Research
+Foundation HR can work with the project director to find a third party such as iWorkGlobal
+to assist the project director but the contract or grant will bear the cost associated
+to hire a foreign national in foreign country.
+Project directors must contact HR at least 30 days prior to make sure appropriate steps are taken before the employment relationship is established.
+(8) Are gift cards allowable costs?
+We typically have a strict gift card policy unless it is specifically requested by the sponsor or mentioned in the proposal and typically the amount is minimal, around $10 or another de minimis payment. We don't normally see gift cards in such a large amount. A de minimis payment is considered a payment of $600 or less per calendar year.
+Will these individuals be non-students? If yes, you can pay them as a non-service, non-student stipend. A non-service stipend means a payment is made to an individual for their attendance or participation only, NOT for services rendered. The payments cannot be tied to “any obligation for past, present or future services.” There can be no employer/employee relationship associated with the stipend payment. There are no fringe benefits associated with a stipend payment as they are not for services rendered.
+COST SHARE
+(1) Can we use federal SJSURF accounts as cost share on other federal accounts?
+No. No externally-funded sponsored program or grant may be used as cost share, regardless of funding source. Only unrestricted or institutional funds may be used for cost sharing purposes. The PI must provide the account number and also sign the cost share commitment form.
+(2) Can we use non-federal SJSURF accounts as cost share on other federal accounts?
+No. No externally-funded sponsored program or grant may be used as cost share, regardless of funding source. Only unrestricted or institutional funds may be used for cost sharing purposes. The PI must provide the account number and also sign the cost share commitment form.
+(3) Cost share from a third party?
+Cost-share from a third party requires a letter of commitment. The recommended statement should include: "In the event the project titled "Project Title" is funded by "sponsor" under the funding opportunity "RFP," our organization will provide "describe the cost-share, type (in-kind and/or cash), and the monetary value.“
+If the third party is also a collaborator, they can include both the cost-share and their collaboration information, including funding they are requesting.
+(4) Can SJSU student volunteer time be used as Cost Share?
+No. Students may, at their own discretion, volunteer on a project, but their time effort cannot be used as a cost-share (in-kind) on any research project. There is a conflict if a student volunteer is used as cost-share as there is no mechanism to ensure the effort is NOT related to course work.
+Participant Support versus Incentive
+Participant Support
+Per Uniform Guidance – 2 CFR 200.75
+“Participant support costs means direct costs that support participants (see definition below) and their involvement in a Federal award, such as stipends, subsistence allowances, travel allowances, registration fees, temporary dependent care, and per diem paid directly to or on behalf of participants”
+Per Uniform Guidance – 2 CFR 200.1
+"Participant generally means an individual participating in or attending program activities under a Federal award, such as trainings or conferences, but who is not responsible for implementation of the Federal award.
+Individuals committing effort to the development or delivery of program activities under a Federal award (such as consultants, project personnel, or staff members of a recipient or subrecipient) are not participants. Examples of participants may include community members participating in a community outreach program, members of the public whose perspectives or input are sought as part of a program, students, or conference attendees."
+Examples of Participant Support Costs
+- Stipends or subsistence allowances
+- Travel allowances
+- Registration fees paid to or on behalf of participants or trainees (but not employees) in connection with conferences or training projects
+- Compensation for trainees to join and/or complete training sessions
+What does "not" qualify as participant support costs
+- Honoraria – guest speaker at a conference, symposium or workshop
+- Human Subjects – Incentive payments to encourage individuals to participate in research study and provide private data/information through intervention or interaction. This includes participation in surveys and interviews.
+- Fellowships – financial support for a postdoctoral fellow to do things such as attend conferences or workshops
+- SJSU/RF employees (faculty, staff, and student employee on the award)
+- General collaborator including non-SJSU co-PIs
+- Project organizer, consultant, facilitator, or coordinator of the workshop, conference, training session
+- Speaker (unless the majority of time is spent as a participant and not a speaker)
+- Rental fees, catering, and general supplies
+Participant Incentives
+NIH defines Participant Incentives as "payments" to individuals to motivate them to take advantage of grant-supported health care or other services are allowable if within the scope of an approved project.
+Example #1
+Compensation to run on a treadmill for one hour
+Example #2
+Compensation or gift certificates for time to complete a research survey
+Example #3
+Cash “gifts” to encourage rural, foreign, or marginalized communities interviews
+Support versus Incentive
+Support versus Incentive
+Participant Support
+– Overall benefit is to the participant/recipient
+·Training or Educational Workshop
+– Non-employees
+– Exclusionary from Indirect Costs
+·Directly Allocable
+·Paid directly to the participant
+·May be a reimbursement on behalf of specific individuals
+Participant Incentives
+– Overall benefit is the research project or program. The incentive entices participation
+·Completing surveys, interviews, or other consented tasks
+– May be both employees and non-employees
+– Not exclusionary from Indirect Costs
+– Directly Allocated
+·Paid directly to the individual
+Facilities and Administrative Costs (F&A) on Participant Support vs Participant Incentives
+- Participant support costs are Indirect excludable and should be explicitly listed in the proposal budget and budget justification.
+- Participant Incentives are NOT excludable from the Indirect and should be entered on the budget under Other Costs.
+PRE-AWARD SPENDING
+(1) Can I start working on a project if the contract has not been fully executed?
+If the sponsor allows pre-award spending, and the PI has a non-sponsored, discretionary account to use, then yes, it is possible. In fact, some agencies allow for a 90-day pre-award pending (prior to the initial project period start date). If the SJSURF is awaiting a contract from a pass-through entity (PTE), then a pre-award spending account can be created effective the start date of the agreement. In order to set up an account so that the PI can start spending, we will need the following:
+- PI identifies a non-sponsored project account (e.g.: discretionary account, Tower Foundation account) that can be allocated to the program needing pre-award spending authorization in the event the sponsor does not eventually provide the funding.
+- From the PTE or Funding Agency, we will need either a letter of intent of fulfillment or a copy of the draft agreement (in the form of a letter on official letterhead or email from the grants office) confirming the award amount and period of performance.
+- Once the Pre-Award Specialist obtains the above-mentioned approval, they will work with the PI on an internal SJSURF Pre-Award Spending Authorization form, which will allow the Post-Award Analyst to set up the account."
+POST AWARD
+SALARIES/STIPENDS/INDEPENDENT CONTRACTORS
+(1) How do I pay students or project staff (including faculty) from my grant account?
+- Scribe: Faculty New Hire Process
+- Scribe: Non-benefited New Hire Process
+(2) How do I pay for student stipends or tuitions?
+- Non-Service Student Stipends or tuitions: The Financial Aid Office disburses the stipends to the student's account. PI needs to complete/submit a requisition form and Student Award & Acceptance letter to the Post-Award Analyst. Sample of the award letter is posted on the SJSURF website.
+- Service Stipends: considered wages and will be processed through Payroll. PI needs to submit new hire paperwork (non-faculty appointment form) and submit timesheet
+(3) How do I pay an Independent Contractor?
+- According to the AB5 (Assembly Bill) California Law, in order to qualify for the Independent Contractor (IC) status, the PI must complete the "Determination of Independent Contractor Status Checklist and Agreement."
+- The checklist & the IC Agreement need to be submitted to HR for review and approve prior hiring an individual as independent contractor
+- The checklist & the IC Agreement need to be submitted to HR for review and approval prior to hiring an individual as an independent contractor
+PURCHASING/PROCUREMENT
+(1) I want to purchase supplies via CSU Buy, what is the process?
+PI can purchase supplies via CSU Buy. Link to CSUBUY for SJSU Researchers instructions.
+(2) How may I request a P-Card?
+PI can request a P-Card if it meets the eligibility criteria. Link to P-Card instructions and application form.
+(3) Can I purchase Gift Cards for the participants? What is the process?
+A gift card is considered reportable income. It’s best to check with your Post-Award Analyst before purchasing the gift card to verify whether or not the sponsor guidelines allow for the purchase of a gift card.
+(4) What are the limitations of a gift card?
+Gift cards in general, should be a small dollar amount as a token of appreciation ($25 or less). If it’s approved, the PI needs to complete/submit a requisition form along with the original receipt(s) and a list of recipient names who received the gift card to the Post-Award Analyst for reimbursement. Also, the PI must attach backup documentation explaining the need for providing a gift card (e.g., the name of the event that relates to the research project, an agenda, or an email about the event).
+(5) How do I get reimbursed for supplies and materials or request a PO?
+-
+PI can purchase supplies by using a personal credit card and then submitting a requisition form, along with the original receipt(s) to the Post-Award Analyst. If this is the PI’s first time receiving a reimbursement, the PI will need to fill out both the IRS W-9 [pdf] and Supplier Request forms.
+-
+PI can also order supplies via a Purchase Order (PO). Complete a requisition form, remember to check off the PO box on the requisition form, and send it to the Post-Award Analyst along with a list or a quote of the items you want to order.
+-
+Blanket PO - Complete a requisition form, remember to check off the PO box on the requisition form, and send it to the Post-Award Analyst
+TRAVEL
+(1) I’m going to be traveling for a workshop, how do I get reimbursed for travel expenses?
+- For SJSURF employees, and non-faculty: Complete and submit the Request for Approval of Travel (RAT) form to the Post-Award Analyst prior to the trip. Link to the RAT form.
+- For Faculty: The travel approval request must be submitted through the University’s Financial Transaction System (FTS) prior to the trip. After SJSU has approved the travel request, send the approved Travel Authorizations to the Post-Award Analyst.
+- After returning from the trip, the traveler completes/submits the Travel Expenses Claim (TEC) form to the Post-Award Analyst along with all receipts related to the trip for reimbursement. Note: All meal receipts must be itemized, no alcoholic beverages are allowed.
+- Link to the Federal Per Diem website: Per Diem Rates | GSA.
+- Mileage rate: check with the Post-Award Analyst for the current rate.

@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/innovation/about-us/news-and-events/news.php
+Title: News
+Type: HTML
+
+News
+SpartUp Incubator Takes Flight
+September 23, 2022
+On September 22, San José State University launched its SpartUp Incubator, an interdisciplinary program that supports nascent businesses created by SJSU students, alumni, faculty and staff, in front of an estimated 200 students and prospective partners at SJSU’s Dr. Martin Luther King, Jr. Library.
+SJSU Opens New Small Business Development Center, Names Inaugural Director
+January 11, 2022
+Silicon Valley’s bold business ideas now have a new home to make them become a reality. This month, San José State University opened the Silicon Valley Small Business Development Center (SBDC), which focuses on supporting innovative and expanding Santa Clara County small businesses that are involved with the creation, development, or launch of products or services.

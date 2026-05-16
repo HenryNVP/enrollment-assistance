@@ -1,0 +1,13 @@
+Source: https://www.sjsu.edu/parking/apps/index.php
+Title: Parking Apps
+Type: HTML
+
+Parking Services
+Parkmobile
+Pay for and extend parking sessions using a smartphone or web app.
+Trans Loc
+Get real time shuttle locations and estimated time of arrival (ETA) predictions.
+Parking Occupancy
+Check live occupancy status of SJSU garages on the SJSU parking occupancy status webpage.
+ChargePoint
+Sign up to use ChargePoint EV charging stations on campus.

@@ -1,0 +1,36 @@
+Source: https://www.sjsu.edu/parking/apps/chargepoint-app.php
+Title: ChargePoint App
+Type: HTML
+
+ChargePoint App
+To use ChargePoint EV charging stations, users must first sign up for a ChargePoint account or call ChargePoint Customer Service at 888.758.4389. If you already have a ChargePoint account, please skip to Step 3.
+-
+Creating a ChargePoint account
+-
+Please visit chargepoint.com and Sign-up (Chrome or Firefox browsers only).
+-
+Download the ChargePoint App or request a ChargePoint card that can be mailed to the address provided during registration.
+-
+Use the following steps to charge your vehicle at the ChargePoint charging stations on campus.
+- At the charging station
+- Tap to charge. With the ChargePoint app installed, open the app and hold your phone over the reader
+symbol on the station. Your payment will be received via credit card or Android/Apple
+Pay.
+- iPhone:In the ChargePoint app, go to Menu, select Account and then Manage Cards. Pick "set it up,” add your ChargePoint pass to Apple Wallet and tap your phone on the station to charge.
+- Android:Enable NFC, turn your phone screen on and tap your phone on the station to charge.
+- Note: To use tap to charge, you’ll need iPhone SE, 6, 6 Plus, 6S, 6S Plus, 7 and 7 Plus running iOS 10 or newer, Apple Watch Series 2, Series 1 and 1st generation or Android 4.4 or later with NFC.
+- Use the ChargePoint card. Tap your activated ChargePoint card on the card reader symbol on the station.
+- Contact ChargePoint Customer Service. Call 888.758.4389 to start a charging session over the phone.
+- Tap to charge. With the ChargePoint app installed, open the app and hold your phone over the reader
+symbol on the station. Your payment will be received via credit card or Android/Apple
+Pay.
+- Begin charging session
+The charging port will be released.
+-
+- Plug the port into your vehicle to begin charging.
+- The ChargePoint App can now provide you with updates about your vehicle's charging status and notifications when your vehicle is fully charged.
+- End charging session
+Disengage the port from your vehicle and place it back on the ChargePoint station to end your session.
+Want to see how to use the ChargePoint stations? Watch the ChargePoint video
+You can also check out the ChargePoint FAQ
+For questions regarding your account, please call the ChargePoint Customer Service line at 888.758.4389. For questions regarding parking procedures and rates, please contact Parking Services at 408-924-6556 during normal business hours or email parking@sjsu.edu.

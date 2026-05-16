@@ -1,0 +1,14 @@
+Source: https://www.sjsu.edu/provost/faculty-success/coache-2026/privacy.php
+Title: Data Privacy and Confidentiality
+Type: HTML
+
+Data Privacy and Confidentiality
+Protecting the confidentiality of faculty responses is a core principle of the COACHE survey process.
+The COACHE Faculty Job Satisfaction Survey is conducted under protocols approved by the Harvard Graduate School of Education’s Institutional Review Board (IRB). Individual responses are confidential and are not accessible to supervisors, department chairs, deans, or other administrators in evaluative roles. Moreover, eligible faculty will receive their unique survey links only from COACHE via email, not from SJSU administrators, staff, or entitites.
+Key privacy protections include:
+- Survey responses are de-identified before being shared with SJSU.
+- Results are reported only in aggregate form, with minimum group-size thresholds.
+- Names and email addresses are used by COACHE solely for survey administration and reminders.
+- Individual responses are never used for personnel or evaluation decisions.
+At SJSU, aggregated COACHE data are stewarded in collaboration with Institutional Research and Strategic Analytics (IRSA) to ensure responsible use, data security, and consistency with campus policies.
+These protections support honest participation and reflect SJSU’s commitment to ethical research practices, faculty trust, and shared governance.

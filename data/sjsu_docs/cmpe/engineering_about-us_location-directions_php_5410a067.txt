@@ -1,0 +1,16 @@
+Source: https://www.sjsu.edu/engineering/about-us/location-directions.php
+Title: Location and Directions
+Type: HTML
+
+Location and Directions
+Charles W. Davidson College of Engineering
+One Washington Square
+San José California, USA, 95192-0080
+Tel: 408-924-3800
+Fax: 408-924-3818
+E-mail: engineering@sjsu.edu
+The College of Engineering is located at the corner of Seventh and San Fernando Streets.
+The Industrial Systems buildings is located adjacent to the College of Engineering, at the interestion of Ninth and E San Fernando St.
+Parking is available in the SJSU garage at Seventh and San Salvador streets. Permits and day passes are also available.
+Campus Map
+Located on 154 acres, the main campus has more than 50 major buildings (23 academic buildings, 7 residence halls) on 19 city blocks in downtown San Jose.

@@ -1,0 +1,56 @@
+Source: https://www.sjsu.edu/studentaffairs/chatgpt-genai-faqs.php
+Title: ChatGPT/GenAI FAQs
+Type: HTML
+
+ChatGPT/GenAI FAQs
+What is generative artificial intelligence (GenAI)?
+- Generative artificial intelligence, known as GenAI, is a type of artificial intelligence that analyzes different kinds of data to produce content like text, images, or music.
+- GenAI works best when you specify the help you need in the form of a detailed written or spoken prompt. You can also share data, such as a list of numbers or an image, for the GenAI tool to incorporate in its result.
+Why does GenAI matter?
+- All of us must understand and prepare to manage the cultural and ethical implications of widespread GenAI use. The key concerns about GenAI relate to bias or misinformation in results, conflicts related to ownership of creative property, and existential risks to humanity.
+- GenAI and other forms of AI are driving change in every industry and field, from the arts, to business, to healthcare.
+- GenAI tools are being incorporated into education and changing how students learn and study.
+- GenAI is substantially reducing barriers to creative output by accelerating idea generation and enhancement.
+- GenAI supports universal design by creating adaptable, accessible, and personalized content across formats and languages, empowering diverse users to engage more fully with digital resources.
+- GenAI is being used in workplaces to improve productivity and quality in specialized fields, like accounting, and whole systems of work processes, as in manufacturing and logistics.
+What GenAI tools can I use as a SJSU student?
+ChatGPT Edu is created by OpenAI and funded by the CSU Chancellor’s Office.
+Gemini chat is created by Google DeepMind and funded by SJSU.
+- Both tools are freely available to SJSU students. See instructions on one.sjsu.edu for guidance on access.
+- Both tools are secure. Your data isn’t used to train the AI models.
+Why would I want to use these GenAI tools?
+These GenAI tools can support your academic success and career competitiveness.
+- Perform academic work more efficiently. Use GenAI to create study guides, generate citations, or translate languages, for example.
+- Support creative and experimental efforts. Use GenAI to support brainstorming, document editing, or remixing music, for example.
+- Build career-readiness skills. Get comfortable with describing how you use GenAI to learn and perform your work.
+- Develop AI critical thinking skills. Understand how AI works so you can identify when potential biases or other adverse impacts may be present in its results.
+Can I use GenAI in my classes and assignments?
+Different classes may have different standards. Always check with your professor or teaching assistant first.
+When it is allowed:
+- Use the GenAI tools available at SJSU: ChatGPT Edu and/or Gemini chat.
+- Clearly document how you used it. Use SJSU’s Student AI Disclosure (SAID) tool for guidance.
+- Stay engaged in your own learning process. Don’t let it do all the thinking and doing for you.
+How do I get better at using GenAI tools?
+Using GenAI is a skill that you can develop. Here are resources to help you become GenAI ready:
+- Use the SJSU Writing Center’s AI Writer Toolbox for students
+- Attend an AI-related event at SJSU
+- Explore resources in the CSU’s AI Commons, or even earn an Academic Applications of AI (AAAI) Student Microcredential
+Whether you are generating study aids; or exploring new ideas, better prompts = better results.
+What are the ethical and performance considerations for using GenAI in your studies?
+GenAI tools are capable, but they have limits:
+- They’re not human: They don’t "understand" content—they just predict patterns in data
+- They’re not ethical agents: Don’t rely on them for moral or academic integrity guidance
+- They can be biased: Especially toward dominant languages, such as Standard American English
+- They’re not always right: Misinformation, invented sources, nonsensical answers, and outdated information can result
+It is best to use AI as a tool to improve your learning, not a shortcut to avoid challenging growth experiences.
+- When in doubt, consult the CSU guide for Ethical and Responsible Use of AI for Students
+Are there risks with using public GenAI tools?
+Yes—especially when it comes to privacy, accuracy, and cost:
+- Many tools collect your data or use it to train their models
+- Some offer “free trials” that require payment info and may charge you later
+Stick with approved tools when possible.
+How can I protect myself and my data?
+Your digital safety matters. For guidance on how to stay secure online, visit SJSU’s Cyber Security page. You’ll find tips on:
+- Avoiding scams or sketchy AI tools
+- Managing what personal data you share
+- Keeping your devices and accounts safe

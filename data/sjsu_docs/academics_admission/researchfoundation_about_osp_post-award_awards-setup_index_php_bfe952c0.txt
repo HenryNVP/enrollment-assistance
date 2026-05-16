@@ -1,0 +1,48 @@
+Source: https://www.sjsu.edu/researchfoundation/about/osp/post-award/awards-setup/index.php
+Title: Award Negotiation and Setup
+Type: HTML
+
+Award Negotiation and Setup
+When you receive the good news that you have been selected for a grant, the award negotiation phase begins, followed by project setup.
+Award and Contract Negotiation
+The designated Pre-Award specialist will ensure that all final, fully executed contracts and awards are in the best interest of San José State University and the Research Foundation.
+During this review, the OSP team references a standard checklist to ensure all terms and conditions are acceptable to all parties, including the sponsoring agency. Items on this list include, but are not limited to, the following:
+- Terms, budget, and statement of work
+- Dollar amount and, if applicable, carryover
+- Invoicing and reporting requirements
+- Restrictions on academic freedom and right to publish
+- Intellectual property and commercialization of research projects
+- Assessment of risk and insurance requirements
+Project Setup
+When a project has been funded, the assigned Research Foundation Post-Award analyst will assist the principal investigator and their team in managing the administrative and financial details of their projects throughout the duration.
+New Principal Investigator Orientation
+During the new principal investigator orientation, you will meet with your Post-Award analyst to review roles and responsibilities, compliance and reporting, and additional avenues of support from the Research Foundation's Human Resources and Accounting teams.
+PIs leading self-supported projects will provide further details about purpose, goals, and revenue sources and uses.
+Project Account Setup and Structure
+The next step is opening up your account. The Post-Award analyst will assist with setting up and managing accounts for all awarded sponsored projects. The Self-Support Programs manager will assist with setting up and managing all self-supported projects. Investigators leading self-supported projects must first complete and submit the Request/Agreement for Self-Support Project Account [pdf] form. The chart below describes structure and details on account types.
+Account Structure Details
+Project account numbers contain ten digits:
+- The first two digits represent the specific accounting fund
+- The second set of digits represents the associated academic department
+- The last set of digits is randomly assigned to distinguish one account from another
+For example, in #21-1501-4677 the 21 = federal funds and the 1501 represents biology.
+| Prefix | Grantor/Funds Type | Account Manager |
+|---|---|---|
+| 21 | Federal | Post-Award analyst |
+| 22 | State of California | Post-Award analyst |
+| 23 | Nonprofit Foundation | Post-Award analyst |
+| 24 | Privary Industry | Post-Award analyst |
+| 25 | Other Government | Post-Award analyst |
+| 26 | Cost-Share | Post-Award analyst |
+| 34 | Self-Support: General | Self-Support Programs manager |
+| 35 | Self-Support: Sponsor-related | Self-Support Programs manager |
+| 37 | Self-Support: Agency-related | Self-Support Programs manager |
+| 51 | Self-Support: Deans/Chairs | Self-Support Programs manager |
+| 53 | Self-Support: Pls | Self-Support Programs manager |
+| 55 | Self-Support: Other Programs | Self-Support Programs manager |
+Information Sharing and Agreements
+Whenever an exchange of information or data is involved in a sponsored project, principal investigators should work with their project manager to ensure the appropriate confidentiality agreements are properly established and have been approved by all parties.
+For assistance or additional information about award negotiation or project setup, please contact us.
+Other Steps and Resources
+- Find required/related forms and documents
+- Learn more about other steps in the project life cycle:

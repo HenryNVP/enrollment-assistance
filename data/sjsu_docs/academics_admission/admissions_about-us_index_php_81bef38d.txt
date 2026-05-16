@@ -1,0 +1,11 @@
+Source: https://www.sjsu.edu/admissions/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+Mission Statement
+The Office of Undergraduate Admissions and Outreach assists prospective students and their families with the admission processing requirements and the subsequent steps for admission to San José State University for both domestic and international applicants.
+Title IX Nondiscrimination Notice
+The California State University, which includes San José State, does not discriminate on the basis of gender, which includes sex and gender identity or expression, or sexual orientation in its education programs or activities.
+Links to Policies
+CSU Systemwide Sex Discrimination, Sexual Misconduct, Sexual Harassment, Dating and Domestic Violence, and Stalking Policy, please see CSU Executive Order 1095. For policies and procedures regarding complaints by Employees and Third Parties, please see CSU Executive Order 1096 (Revised August 14, 2020). For policies and procedures regarding complaints by students alleging Discrimination, Harassment, and Retaliation, Sexual Misconduct, Dating and Domestic Violence and Stalking, please reference CSU Executive Order 1097.

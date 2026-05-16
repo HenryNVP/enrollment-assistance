@@ -1,0 +1,46 @@
+Source: https://www.sjsu.edu/accessibility/accessible-content/guidelines.php
+Title: Guidelines for Creating Accessible Content
+Type: HTML
+
+Guidelines for Creating Accessible Content
+Creating accessible content breaks down barriers and leads to more seamless access to information which leads to less need for accommodations. Expand the sections below to learn more about best practices for creating accessible content on social media, in your Canvas course, or on a webpage.
+For guides on how to use a variety of accessibility tools, go to Tools for Creating Accessible Content.
+For website design, go to the SJSU IT department's website specific accessibility guidelines.
+Canvas Accessibility
+Use headings, bulleted lists, numbered lists, tables and clear color contrast in your Canvas assignments, discussions, quizzes, announcements and pages.
+Leverage the Canvas Accessibility checker, UDOIT.
+Learn more about the Canvas accessibility standards.
+PDF Accessibility
+PDFs are the biggest issue when it comes to accessibility, but there are many ways to remediate them and best practices to folllow when creating documents.
+Learn more about PDF Accessibility.
+Word and PowerPoint Accessibility
+- Use headings correctly and correct table structure.
+- Check the color contrast and font size in your PowerPoints.
+- Always add ALT text to images.
+- Maintain a consistent layout and organization to assist users in navigating content easily.
+Learn more about accessibility in Microsoft Word and PowerPoint.
+Clear and Concise Lanugage
+Use straightforward language and avoid jargon to enhance readability and comprehension for all users.
+Avoid using abelist language.
+Use ALT Text on all Images
+Provide descriptive alternative text (alt text) for images, conveying the visual content for screen readers and users with vision impairments.
+For example, the Alt text for an image of students looking at a laptop screen would say “Four students studying together on a laptop”. It isn’t necessary to say “Image of” because the screen reader will already say that. For complex images, charts, or graphs, captions can be used or it may be necessary to link a long description (a text document that provides more detail).
+For images that are just decorative, mark the ALT text as decorative.
+Caption Videos
+Include accurate captions and audio descriptions for videos to accommodate Deaf and hard-of-hearing individuals. If automatic captions are used, be sure to edit the captions for 100% accuracy to adhere to accessibility standards.
+Provide transcripts when possible for audio content, making it accessible for individuals with hearing impairments and for access in noisy environments. Panopto automatically creates these from the captions file, so be sure to edit your captions first.
+Avoid auto-play to give users to control multimedia elements like videos and audio to prevent unexpected disruptions.
+Hyperlinks
+Descriptive Hyperlinks: Use descriptive text for hyperlinks instead of generic phrases like "click here." For example, do not write “register here”. Instead write “Accessibility with Ally Course Registration” and hyperlink that whole phrase.
+When sharing external links, consider writing link descriptions which provide context and relevance.
+Readable Fonts and Colors
+Choose legible fonts and high-contrast colors for better visibility. To check color contrast, use WebAIM’s Contrast Checker.
+Check the Accessibility
+Utilize accessibility tools to verify your content's compatibility with different assistive technologies.
+Please see the following guides:
+- Adobe Acrobat DC Accessibility Checker, Microsoft Word, PowerPoint and Excel
+- Canvas Accessibility Checkers
+- GrackleDocs is an excellent add-on to GoogleDocs, GoogleSlides and GoogleSheets and is available to all faculty and staff.
+- UDOIT scans all Canvas course content and provides guidance on remediating the accessibility issues.
+For support, reach out to your subject librarian or email Center for Faculty Excellence and Teaching Innovation at cfeti@sjsu.edu.
+Interested in learning more about Accessibility? Consider enrolling in Accessible Canvas Courses. Complete all modules for a certificate or just use it as a resource!

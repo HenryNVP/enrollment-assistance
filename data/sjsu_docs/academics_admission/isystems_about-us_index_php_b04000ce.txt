@@ -1,0 +1,15 @@
+Source: https://www.sjsu.edu/isystems/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+The School of Information Systems and Technology is one of six departments/schools in the College of Business and home of the MIS Concentration which adds a technical specialization to the BSBA (Bachelor of Science in Business Administration) that all business majors earn.
+The MIS concentration at SJSU is differentiated in a number of ways:
+- Our practicum courses are staffed by instructors with real-world professional experience as project managers
+- There is an emphasis on community service in our project portfolio and we have been recognized for this formally
+- Our honors program is a 2-semester sequence which enables teams to tackle full-scale projects
+- We infuse our curriculum with hands-on use of state-of-the-art tools from IBM, Oracle, etc.
+- Our tenured and tenure-track faculty are active researchers (100% are "scholarly academics" with respect to the foremost business school accreditation board, AACSB)
+- Both faculty and students are well-connected to our local Silicon Valley business community
+- We leverage technology to support learning in and out of the classroom
+- We nurture a thriving student club and a vibrant alumni network.

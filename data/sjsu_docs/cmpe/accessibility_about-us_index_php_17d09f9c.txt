@@ -1,0 +1,6 @@
+Source: https://www.sjsu.edu/accessibility/about-us/index.php
+Title: About Us
+Type: HTML
+
+About Us
+SJSU’s approach to accessibility is guided by California State University system-wide initiatives and policies, as well as key campus committees with representatives from across the divisions. Click on the links below to learn more about the faculty, staff, and students who are engaged in this work.

@@ -1,0 +1,10 @@
+Source: https://www.sjsu.edu/isystems/programs/honors-practicum.php
+Title: Management Information Systems Honors Practicum
+Type: HTML
+
+Management Information Systems Honors Practicum
+Business Honors Program
+The Management Information Systems Honors Practicum (BUS118H/119H) is a special 2-semester class for exceptional MIS majors in their senior year. The class concept is to provide a "real world" experience for the students so they can apply the technical skills they've learned in their studies to a project that an organization will actually implement and use. These are team projects for groups of 3-5 students. The students are responsible for the entire project including defining requirements, designing the product, implementing it (or getting it ready to turn over to the sponsor for implementation), developing user manuals, providing training, etc. as appropriate to the specific project. In addition to active coaching of the teams, we work on project management methods/skills in the classroom which is directly applied to the projects.
+Information Sessions
+An information session for prospective students in all concentrations is held every semester. Please attend to learn more about the program overall and how the MIS program is organized. You will have an opportunity to have your questions answered for MIS specifically by the professor teaching the course.
+To find all the related details on the information sessions, application and the applicable deadlines – please visit the main LCoB Honors Program page or navigate to the Information Systems & Technology page for information on the MIS concentration.
