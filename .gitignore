@@ -248,4 +248,7 @@ docs/deployment/*.md
 docs/*.md
 scripts/deploy/
 *.pem
-data/sjsu_docs/
+data/sjsu_docs/docs/DATABASE_AND_VECTOR_STORE.md
+docs/MS_AI_KG_AND_PREREQS.md
+docs/TEST_STRUCTURE.md
+docs/VECTOR_STORE_INGEST.md
