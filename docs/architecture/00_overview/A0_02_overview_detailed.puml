@@ -28,6 +28,10 @@ package "Client Layer" as CLIENT {
   [External Integrations\n(REST clients, tools)] <<client>> as EXT_CLIENTS
 }
 
+package "Edge" as EDGE {
+  [Load Balancer\n(L4/L7, TLS, health checks)] <<client>> as LB
+}
+
 ' === Service Layer (Microservices) ===
 package "Service Layer - Microservices" as SERVICE_LAYER {
   package "Agent Service\nservices/agent_ai\n(Port 8000)" as AGENT_SERVICE {
@@ -38,7 +42,7 @@ package "Service Layer - Microservices" as SERVICE_LAYER {
     [Metrics & Tracing\n(Prometheus, Langfuse)] <<service>> as OBS_AGENT
   }
   
-  package "Enrollment Service\n(Port 8090)" as ENROLLMENT_SERVICE {
+  package "Enrollment Service (**planned**)\nnot in repository; port 8090 TBD" as ENROLLMENT_SERVICE {
     [Degree Audit Engine\n(progress tracking, requirements)] <<service>> as DEGREE_AUDIT
     [Scenario Comparison\n(full-time vs part-time, delivery modes)] <<service>> as SCENARIO
     [Schedule Optimization\n(conflict detection, constraints)] <<service>> as SCHEDULE
@@ -47,12 +51,17 @@ package "Service Layer - Microservices" as SERVICE_LAYER {
   }
 }
 
-' === RAG Service ===
-package "RAG API Service\nservices/rag_api" as RAG_SERVICE {
+' === RAG API (vectors only; no Neo4j) ===
+package "RAG API Service\nservices/rag_api\n(host **8010** default)" as RAG_SERVICE {
   [Upload & Chunking\n(/embed, /embed-upload)] <<service>> as RAG_UPLOAD
   [Vector Search API\n(/query, /query_multiple)] <<service>> as RAG_QUERY
   [Security Middleware\n(JWT validation)] <<service>> as RAG_SEC
   [Async Workers\n(Thread pool, task fanout)] <<service>> as RAG_WORKERS
+}
+
+' === Prerequisite gateway (Neo4j) ===
+package "Prerequisite Gateway\nservices/rag_graph\n(host **8102** default)" as RAG_GRAPH_SERVICE {
+  [Curriculum HTTP API\n(/prereqs, /program, /health)] <<service>> as RAG_GRAPH_API
 }
 
 ' === Data / Storage (Layer 3) ===
@@ -79,11 +88,11 @@ cloud "Observability Stack\n(Prometheus + Grafana)" as OBSERVABILITY
 cloud "Langfuse" as LANGFUSE
 
 ' === Connections / Data Flows ===
-MOCK_UI --> AUTH_API : register / login / create session\n(optional bearer token)
-MOCK_UI --> CHAT_API : chat & stream responses
-MOCK_UI --> DOC_PROXY : upload docs, list file_ids, preview chunks
-EXT_CLIENTS --> AUTH_API
-EXT_CLIENTS --> CHAT_API
+MOCK_UI --> LB : HTTPS
+EXT_CLIENTS --> LB : HTTPS
+LB --> AUTH_API : /api/v1/auth/*
+LB --> CHAT_API : /api/v1/chatbot/*
+LB --> DOC_PROXY : /api/v1/documents/*
 
 AUTH_API --> APP_DATA : create users, sessions
 AUTH_API --> APP_DATA : provision thread IDs
@@ -93,38 +102,36 @@ CHAT_API --> APP_DATA : rate limiting
 CHAT_API --> APP_DATA : persist conversation state
 
 LANGGRAPH --> RAG_QUERY : rag_search tool (JWT)
+LANGGRAPH --> RAG_GRAPH_API : course_prereqs &\nprogram_requirements tools
 LANGGRAPH --> LLM_PROVIDERS : prompts & completions
 LANGGRAPH --> APP_DATA : load/store checkpoints
-LANGGRAPH --> DEGREE_AUDIT : degree audit requests
-LANGGRAPH --> SCENARIO : scenario comparison requests
-LANGGRAPH --> SCHEDULE : schedule optimization requests
-LANGGRAPH --> TRANSFER : transfer check requests
-LANGGRAPH --> BUDGET : budget calculation requests
+LANGGRAPH ..> DEGREE_AUDIT : **planned** tool
+LANGGRAPH ..> SCENARIO : **planned** tool
+LANGGRAPH ..> SCHEDULE : **planned** tool
+LANGGRAPH ..> TRANSFER : **planned** tool
+LANGGRAPH ..> BUDGET : **planned** tool
 
 DOC_PROXY --> RAG_UPLOAD : proxy document uploads
 
 RAG_UPLOAD --> RAG_WORKERS : async parsing, chunking
 RAG_UPLOAD --> EMBEDDINGS : generate embeddings
 RAG_UPLOAD --> VECTOR_DATA : store chunks & vectors
-RAG_UPLOAD --> ENTITIES : extract entities (NER)
-RAG_UPLOAD --> RELATIONS : store relationships
 
 RAG_QUERY --> VECTOR_DATA : similarity search (pgvector)
-RAG_QUERY --> PREREQ_GRAPH : prerequisite lookup
-RAG_QUERY --> REQUIREMENTS_GRAPH : requirements lookup
-RAG_QUERY --> TRANSFER_GRAPH : transfer equivalency lookup
-RAG_QUERY --> RELATIONSHIPS : graph traversal
 
-DEGREE_AUDIT --> DOMAIN_DATA : query student courses, requirements
-SCENARIO --> DOMAIN_DATA : query courses, enrollments
-SCENARIO --> FINANCIAL_DATA : query costs
-SCHEDULE --> DOMAIN_DATA : query sections, conflicts
-TRANSFER --> DOMAIN_DATA : query transfer courses
-TRANSFER --> TRANSFER_GRAPH : query equivalencies
-BUDGET --> FINANCIAL_DATA : query tuition, fees, costs
-DEGREE_AUDIT --> REQUIREMENTS_GRAPH : query major/minor requirements
-SCHEDULE --> RELATIONSHIPS : query conflicts
-SCENARIO --> RAG_QUERY : context retrieval
+RAG_GRAPH_API --> PREREQ_GRAPH : curated prerequisite lookup
+RAG_GRAPH_API --> REQUIREMENTS_GRAPH : program structure trees
+
+DEGREE_AUDIT ..> DOMAIN_DATA : **planned**
+SCENARIO ..> DOMAIN_DATA : **planned**
+SCENARIO ..> FINANCIAL_DATA : **planned**
+SCHEDULE ..> DOMAIN_DATA : **planned**
+TRANSFER ..> DOMAIN_DATA : **planned**
+TRANSFER ..> TRANSFER_GRAPH : **planned**
+BUDGET ..> FINANCIAL_DATA : **planned**
+DEGREE_AUDIT ..> REQUIREMENTS_GRAPH : **planned**
+SCHEDULE ..> RELATIONSHIPS : **planned**
+SCENARIO ..> RAG_QUERY : **planned** context retrieval
 
 CHAT_API --> OBS_AGENT
 LANGGRAPH --> LANGFUSE
@@ -133,22 +140,19 @@ AGENT_SERVICE --> OBSERVABILITY
 
 ' === Notes ===
 note bottom of SERVICE_LAYER
-**Service Layer - Microservices Architecture**
-- Agent Service (Port 8000): Main orchestration hub
-  * FastAPI + LangGraph + SQLModel
-  * Manages authentication, sessions, chat API
-  * Orchestrates calls to RAG & Enrollment services
-- RAG Service (Port 8080): Policy document processing & search
-- Enrollment Service (Port 8090): Enrollment assistance engines
-  * Degree audit, scenario comparison, schedule optimization
-  * Transfer equivalency, budget calculation
+**Service layer (as in repo today)**
+- **Agent** (8000): FastAPI + LangGraph; tools include rag_search,
+  course_prereqs, program_requirements, duckduckgo_search
+- **RAG API** (8010 host): document ingest + pgvector (or Atlas Mongo) search; **no Neo4j**
+- **rag_graph** (8102 host): thin FastAPI gateway → Neo4j for curriculum data
+- **Enrollment** (8090): design target only — not implemented as a service yet
 end note
 
 note bottom of RAG_SERVICE
-**Vector Knowledge Service**
-- FastAPI + uvicorn
-- Handles uploads, chunking, embeddings, vector search
-- Requires shared JWT secret with Agent Service
+**RAG API (rag_api)**
+- FastAPI + uvicorn; LangChain loaders
+- Vector DB: Postgres/pgvector by default
+- JWT validation aligned with Agent Service
 end note
 
 note bottom of DATA_LAYER

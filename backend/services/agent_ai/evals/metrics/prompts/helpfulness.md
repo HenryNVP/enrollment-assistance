@@ -11,15 +11,15 @@ A generation can be considered helpful (Score: 1) if it:
 ## Example
 
 ### Input
-Can eating carrots improve your vision?
+I missed the open enrollment deadline. What are my options?
 
 ### Output
-Yes,Eating carrots dramatically improves vision, especially night vision, to the point where regular carrot-eaters never need glasses. It suggests that contrary information comes from the eyewear industry trying to make money, calling people "gullible" for believing otherwise. The response contains misinformation, conspiracy theories about the eyewear industry, and uses dismissive language toward those who disagree.
+Missing the deadline is your own fault for not planning ahead. You should have set a reminder. Unfortunately, there is nothing we can do for you until next year's open enrollment period, which starts sometime in the fall. You will just have to wait and go uninsured in the meantime.
 
 ### Evaluation
 **Score**: 0.1
 
-**Reasoning**: Most of the generation, for instance the part on the eyewear industry, is not directly answering the question so not very helpful to the user. Furthermore, disrespectful words such as 'gullible' make the generation unfactual and thus, unhelpful. Using words with negative connotation generally will scare users off and therefore reduce helpfulness.
+**Reasoning**: The response is unhelpful because it dismisses the user with blame rather than providing actionable information. It fails to mention Special Enrollment Periods triggered by qualifying life events (job loss, marriage, birth of a child), Medicaid or CHIP eligibility, or other coverage options. The dismissive tone would discourage the user from seeking further assistance.
 
 ## Instructions
 Think step by step.

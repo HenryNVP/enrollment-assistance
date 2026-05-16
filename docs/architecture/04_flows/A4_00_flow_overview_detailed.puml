@@ -11,9 +11,10 @@ participant "Agent API\n(/api/v1/...)" as AGENT
 participant "LangGraph Orchestrator" as LANGGRAPH
 participant "RAG Proxy\n(/api/v1/documents)" as DOC_PROXY
 participant "RAG API\n(/embed, /query)" as RAG_API
+participant "Prerequisite Gateway\n(rag_graph /prereqs,/program)" as RAG_GRAPH
 database "Postgres\n(pgvector)" as PG
 database "Neo4j\n(Knowledge Graph)" as NEO4J
-participant "Enrollment API\n(/api/v1/enrollment)" as ENROLLMENT
+participant "Enrollment API\n(**planned**)" as ENROLLMENT
 participant "Degree Audit Engine" as DEGREE
 participant "Scenario Comparison Engine" as SCENARIO
 participant "Schedule Optimization Engine" as SCHEDULE
@@ -44,13 +45,19 @@ loop per student turn
   Student -> UI : type enrollment question
   UI -> AGENT : POST /chatbot/chat\nAuthorization: session token
   AGENT -> LANGGRAPH : invoke(session_id, messages)
-  group retrieve context (if needed)
+  opt policy RAG context
     LANGGRAPH -> RAG_API : POST /query\n{query, file_ids, JWT}
     RAG_API -> PG : similarity_search (pgvector)
     PG --> RAG_API : ranked vectors + metadata
     RAG_API --> LANGGRAPH : policy documents, course descriptions
   end
-  alt enrollment tool needed
+  opt curriculum tools (rag_graph)
+    LANGGRAPH -> RAG_GRAPH : POST /prereqs or /program
+    RAG_GRAPH -> NEO4J : Cypher (curated)
+    NEO4J --> RAG_GRAPH
+    RAG_GRAPH --> LANGGRAPH : JSON structures
+  end
+  alt enrollment microservice (**planned**)
     alt degree audit
       LANGGRAPH -> ENROLLMENT : POST /degree-audit\n{student_id, major}
       ENROLLMENT -> DEGREE : execute audit
@@ -119,7 +126,7 @@ AGENT --> UI : confirmation
 == Monitoring ==
 AGENT -> OBS : Prometheus metrics, Langfuse traces
 RAG_API -> OBS : service metrics / logs
-ANALYSIS -> OBS : workflow telemetry
+RAG_GRAPH -> OBS : optional service logs
 
 note right of UI
 **Detailed Flow Diagrams:**

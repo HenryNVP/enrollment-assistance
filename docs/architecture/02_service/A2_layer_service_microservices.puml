@@ -9,20 +9,30 @@ skinparam rectangle {
   BorderThickness 1
 }
 
+package "Edge (north–south)" as EDGE_LAYER {
+  rectangle "**Load balancer**\nTLS · health · routes → Agent" as ELB
+}
+
 package "Service Layer - Microservices" as SERVICE_LAYER {
   
-  rectangle "**Agent Service**\nservices/agent_ai\nPort: 8000" as AGENT {
-    rectangle "• LangGraph orchestration\n• Chat API (sync/stream)\n• Auth & sessions\n• Enrollment tools coordination" as AGENT_CORE
+  rectangle "**Agent Service**\nservices/agent_ai\n**8000**" as AGENT {
+    rectangle "• LangGraph orchestration\n• Chat API (sync/stream)\n• Auth & sessions\n• Tools: rag_search, prereqs,\n  program, web search" as AGENT_CORE
   }
   
-  rectangle "**RAG Service**\nservices/rag_api\nPort: 8080" as RAG {
-    rectangle "• Policy document processing\n• Vector search (pgvector)\n• Knowledge graph (Neo4j)\n• Course catalog retrieval" as RAG_CORE
+  rectangle "**RAG API**\nservices/rag_api\n**8010** (host; 8000 in container)" as RAG {
+    rectangle "• Document ingest & chunking\n• Vector search (pgvector\n  or optional Atlas Mongo)\n• Shared JWT with agent" as RAG_CORE
+  }
+
+  rectangle "**Prerequisite Gateway**\nservices/rag_graph\n**8102** (host; 8000 in container)" as RAG_GRAPH {
+    rectangle "• /prereqs, /program\n• Read-only Neo4j access\n• Curated curriculum graph" as RAG_GRAPH_CORE
   }
   
-  rectangle "**Enrollment Service**\nservices/enrollment_api\nPort: 8090" as ENROLLMENT {
-    rectangle "• Degree audit engine\n• Scenario comparison\n• Schedule optimization\n• Transfer equivalency\n• Budget calculator" as ENROLLMENT_CORE
+  rectangle "**Enrollment Service**\n(not in repo yet)\n**8090** (planned)" as ENROLLMENT {
+    rectangle "• Degree audit, scenarios\n• Schedule optimization\n• Transfer & budget APIs" as ENROLLMENT_CORE
   }
 }
+
+ELB --> AGENT : /api/v1/*\n(optional in local dev)
 
 database "Postgres\n(Relational + Vector)" as DB
 database "Neo4j\n(Knowledge Graph)" as NEO4J
@@ -30,23 +40,25 @@ cloud "OpenAI\n(LLM + Embeddings)" as OPENAI
 cloud "Observability\n(Prometheus, Grafana, Langfuse)" as OBS
 
 ' Service interactions
-AGENT --> RAG : HTTP + JWT\npolicy search, docs
-AGENT --> ENROLLMENT : HTTP\ndegree audit, scenarios
-ENROLLMENT --> RAG : HTTP\ncontext retrieval
+AGENT --> RAG : HTTP + JWT\n/embed, /query, doc proxy
+AGENT --> RAG_GRAPH : HTTP\nprereqs & program tools
+AGENT ..> ENROLLMENT : **planned**\nHTTP APIs
+ENROLLMENT ..> RAG : **planned**\ncontext retrieval
 
 ' Data connections
 AGENT --> DB : sessions, state
-RAG --> DB : vectors
-RAG --> NEO4J : graph
-ENROLLMENT --> DB : enrollment data
-ENROLLMENT --> NEO4J : prerequisites, requirements
+RAG --> DB : vectors, chunks
+RAG_GRAPH --> NEO4J : Cypher reads
+ENROLLMENT ..> DB : **planned**
+ENROLLMENT ..> NEO4J : **planned**
 
 ' External
 AGENT --> OPENAI : LLM completions
 RAG --> OPENAI : embeddings
 AGENT --> OBS
 RAG --> OBS
-ENROLLMENT --> OBS
+RAG_GRAPH --> OBS
+ENROLLMENT ..> OBS : planned
 
 note right of AGENT
 **Stateful Orchestrator**
@@ -56,18 +68,22 @@ Enrollment assistance tools
 end note
 
 note right of RAG
-**Stateless Data Service**
-FastAPI + LangChain
-Policy documents & catalogs
-Vector + graph storage
+**Stateless RAG API**
+FastAPI + LangChain loaders
+Embeddings → vector DB only
+(no Neo4j in this service)
+end note
+
+note right of RAG_GRAPH
+**Neo4j gateway**
+FastAPI + official driver
+Separate from rag_api
 end note
 
 note right of ENROLLMENT
-**Enrollment Engine**
-FastAPI + optimization libs
-Degree audits, scenarios
-Schedule optimization
-Transfer & budget tools
+**Target architecture**
+No `enrollment_api` package
+in the repo yet
 end note
 
 @enduml

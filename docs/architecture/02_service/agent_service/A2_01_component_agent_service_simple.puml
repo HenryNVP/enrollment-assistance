@@ -16,15 +16,17 @@ rectangle "Agent Service\nPort: 8000" as AGENT_SERVICE {
 }
 
 database "Postgres" as DB
-cloud "RAG Service" as RAG
-cloud "Enrollment Service" as ENROLLMENT
+cloud "RAG API" as RAG
+cloud "rag_graph" as RAG_GRAPH
+cloud "Enrollment\n(planned)" as ENROLLMENT
 cloud "OpenAI" as OPENAI
 cloud "Observability" as OBS
 
 API_LAYER --> CORE
 CORE --> STATE
-CORE --> RAG : enrollment tools
-CORE --> ENROLLMENT : enrollment tools
+CORE --> RAG : rag_search
+CORE --> RAG_GRAPH : prereqs / program
+CORE ..> ENROLLMENT : planned tools
 CORE --> OPENAI : LLM
 STATE --> DB : sessions, checkpoints
 AGENT_SERVICE --> OBS

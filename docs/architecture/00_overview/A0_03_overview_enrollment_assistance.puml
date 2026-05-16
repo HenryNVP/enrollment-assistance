@@ -17,22 +17,27 @@ rectangle "Client Layer" as CLIENT_LAYER {
   rectangle "API Clients\n(Third-party)" as API_CLIENTS
 }
 
+rectangle "Load balancer" as LB_A03
+
 ' === Service Layer ===
 package "Service Layer (Microservices)" as SERVICE_LAYER {
   
   rectangle "Agent Service\nPort: 8000" as AGENT_SVC {
     rectangle "Chat API\n/auth, /chatbot" as CHAT_API
     rectangle "LangGraph Agent\n(tool orchestration)" as LANGGRAPH
-    rectangle "Tools:\n• enrollment_search\n• degree_audit\n• scenario_compare\n• schedule_optimize\n• transfer_check\n• budget_calculate" as TOOLS
+    rectangle "Tools (implemented):\n• rag_search\n• course_prereqs\n• program_requirements\n• duckduckgo_search\n\n(planned): degree audit,\nscenarios, schedule, …" as TOOLS
   }
   
-  rectangle "RAG Service\nPort: 8080" as RAG_SVC {
+  rectangle "RAG API\nPort: **8010**" as RAG_SVC {
     rectangle "Document Processing\n(policies, catalogs)" as DOC_PROC
-    rectangle "Vector Search\n(pgvector)" as VECTOR_SEARCH
-    rectangle "Knowledge Graph\n(Neo4j queries)" as GRAPH_SEARCH
+    rectangle "Vector Search\n(pgvector / optional Mongo)" as VECTOR_SEARCH
+  }
+
+  rectangle "Prerequisite Gateway\nPort: **8102**" as RAG_GRAPH_SVC {
+    rectangle "Neo4j read API\n(/prereqs, /program)" as GRAPH_HTTP
   }
   
-  rectangle "Enrollment Service\nPort: 8090" as ENROLLMENT_SVC {
+  rectangle "Enrollment Service\n**8090 (planned)**" as ENROLLMENT_SVC {
     rectangle "Degree Audit Engine" as DEGREE_AUDIT
     rectangle "Scenario Comparison\nEngine" as SCENARIO_COMP
     rectangle "Schedule Optimization\nEngine" as SCHEDULE_OPT
@@ -66,25 +71,28 @@ cloud "SJSU Transfer\nCenter" as TRANSFER_CTR
 cloud "OpenAI\n(LLM + Embeddings)" as OPENAI
 cloud "Observability\n(Prometheus, Grafana)" as OBS
 
-' === Client to Service ===
-WEB_UI --> CHAT_API : enrollment questions
-MOBILE --> CHAT_API : enrollment questions
-API_CLIENTS --> CHAT_API : API calls
+' === Client to edge to Agent ===
+WEB_UI --> LB_A03
+MOBILE --> LB_A03
+API_CLIENTS --> LB_A03
+LB_A03 --> CHAT_API : /api/v1/*
 
 ' === Service to Service ===
 CHAT_API --> LANGGRAPH : invoke workflow
 LANGGRAPH --> TOOLS : execute tools
-TOOLS --> ENROLLMENT_SVC : degree_audit, scenario_compare, etc.
+TOOLS ..> ENROLLMENT_SVC : **planned** tools
 TOOLS --> RAG_SVC : policy search
-ENROLLMENT_SVC --> RAG_SVC : context retrieval
+TOOLS --> GRAPH_HTTP : curriculum graph
+ENROLLMENT_SVC ..> RAG_SVC : **planned** context
 
 ' === Service to Storage ===
 AGENT_SVC --> APP_DATA : sessions, users, checkpoints
 RAG_SVC --> VECTOR_DATA : store/search vectors
-RAG_SVC --> NEO4J : query graph
-ENROLLMENT_SVC --> ENROLL_DATA : query courses, enrollments
-ENROLLMENT_SVC --> FINANCIAL_DATA : query costs
-ENROLLMENT_SVC --> NEO4J : query prerequisites, requirements
+GRAPH_HTTP --> PREREQ_GRAPH : read
+GRAPH_HTTP --> REQUIREMENTS_GRAPH : read
+ENROLLMENT_SVC ..> ENROLL_DATA : **planned**
+ENROLLMENT_SVC ..> FINANCIAL_DATA : **planned**
+ENROLLMENT_SVC ..> NEO4J : **planned**
 
 ' === External Data Sources ===
 SIS --> ENROLL_DATA : course catalog, sections, enrollments

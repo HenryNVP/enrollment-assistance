@@ -9,25 +9,20 @@ skinparam rectangle {
   BorderThickness 1
 }
 
-rectangle "Web Dashboard\n(FastAPI /web/ui)" as DASHBOARD {
-  rectangle "Session Manager\n(JWT storage)" as SESSION
-  rectangle "Chat Interface\n(streaming, message history)" as CHAT_UI
-  rectangle "Document Upload\n(file upload, preview)" as DOC_UI
-}
-
+rectangle "React Web App" as UI
 rectangle "External Integrations\n(REST clients, tools)" as EXTERNAL
 
-rectangle "Agent Service\n(FastAPI)\nservices/agent_ai" as AGENT_SERVICE {
-  rectangle "API Endpoints\n(/api/v1/auth, /api/v1/chatbot, /api/v1/documents)" as ENDPOINTS
-  rectangle "Middleware\n(auth, rate limiting, CORS)" as MIDDLEWARE
-}
+rectangle "Load balancer\n(optional in dev)" as LB
 
-DASHBOARD --> ENDPOINTS : HTTP requests
-EXTERNAL --> ENDPOINTS : API calls
+rectangle "Agent Service API\n(/api/v1/auth, /api/v1/chatbot, /api/v1/documents)" as ENDPOINTS
 
-ENDPOINTS --> MIDDLEWARE : validate & route
-MIDDLEWARE --> CHAT_UI : responses
-MIDDLEWARE --> EXTERNAL : responses
+UI --> LB : HTTPS
+EXTERNAL --> LB : HTTPS
+LB --> ENDPOINTS : /api/v1/*
+
+note bottom of LB
+RAG / rag_graph are usually not exposed to\nclients; Agent calls them internally.
+end note
 
 @enduml
 

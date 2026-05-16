@@ -2,7 +2,18 @@
 # Set in .env: ECR_REGISTRY, POSTGRES_HOST, POSTGRES_PASSWORD, POSTGRES_DB, POSTGRES_USER,
 #              NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD (and optional NEO4J_DATABASE),
 #              OPENAI_API_KEY, JWT_SECRET_KEY. For RDS set POSTGRES_SSLMODE=require.
-# Run from /opt/enrollment-assistant: docker compose -f docker-compose.ec2-rds.yml up -d
+# Run from this directory (e.g. /opt/enrollment-assistant/infrastructure/aws):
+#   docker compose -f docker-compose.ec2-rds.yml up -d
+# Optional Prometheus + Grafana (compose profile):
+#   docker compose -f docker-compose.ec2-rds.yml --profile monitoring up -d
+# UI: Prometheus http://<ec2>:9090  Grafana http://<ec2>:3000
+#
+# Prometheus config file: paths are relative to THIS compose file → ./prometheus/prometheus.ec2-rds.yml
+# If you run compose from repo root with -f infrastructure/aws/docker-compose.ec2-rds.yml, set in .env:
+#   PROMETHEUS_CONFIG=/opt/enrollment-assistant/infrastructure/aws/prometheus/prometheus.ec2-rds.yml
+# Or keep a copy at repo root: prometheus/prometheus.ec2-rds.yml (included in repo).
+# If Prometheus failed earlier: Docker may have created a DIRECTORY named prometheus.ec2-rds.yml — remove it:
+#   rm -rf ./prometheus   # only if wrong; then git checkout prometheus/
 
 services:
   rag_api:
@@ -56,3 +67,37 @@ services:
     ports:
       - "${RAG_GRAPH_PORT:-8102}:8000"
     restart: always
+
+  # Optional monitoring (same Docker network → scrape by service name)
+  prometheus:
+    image: prom/prometheus:latest
+    profiles:
+      - monitoring
+    ports:
+      - "${PROMETHEUS_PORT:-9090}:9090"
+    volumes:
+      - ${PROMETHEUS_CONFIG:-./prometheus/prometheus.ec2-rds.yml}:/etc/prometheus/prometheus.yml:ro
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.retention.time=${PROMETHEUS_RETENTION:-15d}"
+    depends_on:
+      - agent_api
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    profiles:
+      - monitoring
+    ports:
+      - "${GRAFANA_PORT:-3000}:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafana-ec2-storage:/var/lib/grafana
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  grafana-ec2-storage:

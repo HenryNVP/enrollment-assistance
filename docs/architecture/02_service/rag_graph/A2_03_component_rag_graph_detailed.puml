@@ -1,0 +1,39 @@
+@startuml A2_03_component_rag_graph_detailed
+title Prerequisite Gateway (rag_graph) – Detailed Components
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+package "Prerequisite Gateway\nservices/rag_graph\nContainer listens on **8000**\n(exposed as **8102** in root compose)" as RAG_GRAPH {
+
+  package "API" as API_LAYER {
+    rectangle "GET /health" as HEALTH
+    rectangle "POST /prereqs\n(direct + transitive prereqs)" as PREREQS
+    rectangle "POST /program\n(full program tree)" as PROGRAM
+  }
+
+  package "Services" as SVC {
+    rectangle "neo4j_curated\n(Cypher, normalization)" as CURATED
+  }
+}
+
+database "Neo4j\n(Aura or self-hosted)" as NEO4J
+cloud "Agent Service\n(course_prereqs_tool,\nprogram_requirements_tool)" as AGENT
+
+PREREQS --> CURATED
+PROGRAM --> CURATED
+CURATED --> NEO4J : session.run(...)
+AGENT --> PREREQS : HTTP JSON
+AGENT --> PROGRAM : HTTP JSON
+
+note bottom of RAG_GRAPH
+**Configuration:** NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, NEO4J_DATABASE (optional)
+**Compose:** `rag_graph` service; agent uses RAG_GRAPH_BASE_URL (e.g. http://rag_graph:8000)
+end note
+
+@enduml

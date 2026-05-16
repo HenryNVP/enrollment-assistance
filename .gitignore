@@ -248,3 +248,4 @@ docs/deployment/*.md
 docs/*.md
 scripts/deploy/
 *.pem
+data/sjsu_docs/

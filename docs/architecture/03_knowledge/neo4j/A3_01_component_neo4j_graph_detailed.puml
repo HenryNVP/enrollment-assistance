@@ -54,13 +54,11 @@ package "Neo4j Knowledge Graph" as NEO4J_SYSTEM {
   }
 }
 
-package "Integration Points" as INTEGRATION {
-  rectangle "RAG Service\n(rag_api)" as RAG
+package "Integration points (repo)" as INTEGRATION {
+  rectangle "Prerequisite gateway\n(rag_graph)" as RAG_GRAPH
   rectangle "LangGraph Agent\n(agent_ai)" as AGENT
-  rectangle "Enrollment Service\n(enrollment_api)" as ENROLLMENT
+  rectangle "Enrollment Service\n(planned)" as ENROLLMENT
 }
-
-database "Vector Store\n(pgvector)" as VECTOR
 
 ' Entity relationships in the graph
 COURSE --> R1 : prerequisite_for
@@ -96,17 +94,12 @@ TRAVERSE --> QUERIES : execute
 PATH --> MULTIHOP : support
 COMMUNITY --> AGGREGATE : analyze
 
-' Integration with other systems
-RAG --> NER : extract from policy docs
-RAG --> LOOKUP : course, major search
-RAG --> MULTIHOP : graph-augmented RAG
-AGENT --> PATTERN : enrollment queries
-AGENT --> TRAVERSE : prerequisite chains
-ENROLLMENT --> AGGREGATE : degree audit, requirements
-ENROLLMENT --> PATH : prerequisite paths
-ENROLLMENT --> MULTIHOP : transfer equivalencies
-VECTOR -.-> RAG : vector results
-RAG --> VECTOR : hybrid retrieval
+' Integration (aligned with code)
+RAG_GRAPH --> TRAVERSE : curated prereq + program queries
+RAG_GRAPH --> PATH : transitive prereqs
+AGENT --> RAG_GRAPH : HTTP from tools
+ENROLLMENT ..> AGGREGATE : **planned**
+ENROLLMENT ..> MULTIHOP : **planned**
 
 note bottom of SCHEMA
 **Graph Schema Examples:**
@@ -130,12 +123,11 @@ note bottom of QUERIES
 end note
 
 note right of INTEGRATION
-**Hybrid RAG Approach:**
-1. Vector search: policy documents, course descriptions
-2. Graph search: prerequisites, requirements, equivalencies
-3. Combine results: relevance + structural context
-4. Enhanced retrieval with course relationships
-5. Multi-hop reasoning over academic knowledge
+**Current split**
+1. **rag_api** + pgvector: policy / document similarity (no Neo4j)
+2. **rag_graph** + Neo4j: structured curriculum (`/prereqs`, `/program`)
+3. **Agent** merges LLM reasoning with both HTTP sources
+4. Future enrollment service may add more Cypher workloads
 end note
 
 @enduml

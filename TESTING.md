@@ -43,15 +43,22 @@ OPENAI_API_KEY=your_key JWT_SECRET_KEY=your_secret docker compose -f infrastruct
 
 ## Service Ports
 
-- **Agent API**: `http://localhost:8000` (default)
+- **Agent API (EC2, Docker default)**: port **8000** — not port 80. Set a base URL that includes the port, for example:
+  ```bash
+  export EC2_IP=http://35.93.133.15:8000
+  ```
+  If you use only the hostname or IP without `:8000`, curl uses **port 80** and you will see `Failed to connect ... port 80`.
+- **Agent API (local compose)**: `http://localhost:8000`
 - **RAG API**: `http://localhost:8010` (default)
 - **PostgreSQL**: `localhost:55432` (default)
+
+Ensure the EC2 **security group** allows inbound **TCP 8000** (and **8010** if you hit RAG from your machine) from your IP or VPN.
 
 ## 1. Health Checks
 
 ### Agent API Health Check
 ```bash
-curl http://localhost:8000/health
+curl $EC2_IP/health
 ```
 
 ### RAG API Health Check
@@ -63,7 +70,7 @@ curl http://localhost:8010/health
 
 ### Register a New User
 ```bash
-curl -X POST http://localhost:8000/api/v1/auth/register \
+curl -X POST $EC2_IP/api/v1/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "email": "test@example.com",
@@ -75,7 +82,7 @@ curl -X POST http://localhost:8000/api/v1/auth/register \
 
 ### Login (Alternative to Register)
 ```bash
-curl -X POST http://localhost:8000/api/v1/auth/login \
+curl -X POST $EC2_IP/api/v1/auth/login \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "username=test@example.com&password=Test1234!&grant_type=password"
 ```
@@ -85,7 +92,7 @@ curl -X POST http://localhost:8000/api/v1/auth/login \
 ### Create a Chat Session
 ```bash
 # Replace YOUR_USER_TOKEN with the token from register/login
-curl -X POST http://localhost:8000/api/v1/auth/session \
+curl -X POST $EC2_IP/api/v1/auth/session \
   -H "Authorization: Bearer YOUR_USER_TOKEN"
 ```
 
@@ -96,8 +103,8 @@ curl -X POST http://localhost:8000/api/v1/auth/session \
 ### Send a Chat Message
 ```bash
 # Replace YOUR_SESSION_TOKEN with the session token from step 2
-curl -X POST http://localhost:8000/api/v1/chatbot/chat \
-  -H "Authorization: Bearer YOUR_SESSION_TOKEN" \
+curl -X POST $EC2_IP/api/v1/chatbot/chat \
+  -H "Authorization: Bearer $ACCESS_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
     "messages": [
@@ -111,13 +118,13 @@ curl -X POST http://localhost:8000/api/v1/chatbot/chat \
 
 ### Get Chat History
 ```bash
-curl -X GET http://localhost:8000/api/v1/chatbot/messages \
+curl -X GET $EC2_IP/api/v1/chatbot/messages \
   -H "Authorization: Bearer YOUR_SESSION_TOKEN"
 ```
 
 ### Clear Chat History
 ```bash
-curl -X DELETE http://localhost:8000/api/v1/chatbot/messages \
+curl -X DELETE $EC2_IP/api/v1/chatbot/messages \
   -H "Authorization: Bearer YOUR_SESSION_TOKEN"
 ```
 
@@ -161,7 +168,7 @@ Here's a complete workflow from registration to chat:
 Login
 
 ACCESS_TOKEN="$(
-  curl -sS -X POST http://localhost:8000/api/v1/auth/login \
+  curl -sS -X POST $EC2_IP/api/v1/auth/login \
     -H "Content-Type: application/x-www-form-urlencoded" \
     -d 'username=test@example.com&password=Test1234!&grant_type=password' \
   | jq -r .access_token
@@ -171,20 +178,20 @@ echo "access_token_is_null=$([ -z \"$ACCESS_TOKEN\" ] && echo true || echo false
 Create session
 
 SESSION_TOKEN="$(
-  curl -sS -X POST http://localhost:8000/api/v1/auth/session \
+  curl -sS -X POST $EC2_IP/api/v1/auth/session \
     -H "Authorization: Bearer $ACCESS_TOKEN" \
   | jq -r .token.access_token
 )"
 
 Call chatbot
 
-curl -sS -X POST http://localhost:8000/api/v1/chatbot/chat \
+curl -sS -X POST $EC2_IP/api/v1/chatbot/chat \
   -H "Authorization: Bearer $SESSION_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"messages":[{"role":"user","content":"Hello, can you help me with enrollment?"}]}' | jq .
 
 # 4. Get chat history
-curl -X GET http://localhost:8000/api/v1/chatbot/messages \
+curl -X GET $EC2_IP/api/v1/chatbot/messages \
   -H "Authorization: Bearer $SESSION_TOKEN"
 ```
 
@@ -192,8 +199,8 @@ curl -X GET http://localhost:8000/api/v1/chatbot/messages \
 
 Both APIs provide interactive documentation:
 
-- **Agent API Swagger UI**: http://localhost:8000/docs
-- **Agent API ReDoc**: http://localhost:8000/redoc
+- **Agent API Swagger UI**: $EC2_IP/docs
+- **Agent API ReDoc**: $EC2_IP/redoc
 - **RAG API Swagger UI**: http://localhost:8010/docs (if available)
 
 ## 7. Python tests (CI/CD)

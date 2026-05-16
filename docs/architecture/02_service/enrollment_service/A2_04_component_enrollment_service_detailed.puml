@@ -1,5 +1,5 @@
 @startuml A2_04_component_enrollment_service_detailed
-title Enrollment Service – Detailed Components
+title Enrollment Service – Detailed Components (**planned**, not in repo)
 
 skinparam shadowing false
 skinparam defaultFontName Arial
@@ -9,7 +9,7 @@ skinparam rectangle {
   BorderThickness 1
 }
 
-package "Enrollment Service\nservices/enrollment_service\nPort: 8090" as ENROLLMENT_SERVICE {
+package "Enrollment Service (target)\nno enrollment_service package yet\nPort: 8090 TBD" as ENROLLMENT_SERVICE {
   
   package "API Layer" as API_LAYER {
     rectangle "Degree Audit API\nPOST /degree-audit" as DEGREE_API

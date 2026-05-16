@@ -13,15 +13,24 @@ The overview diagrams provide high-level architecture views of the entire SJSU E
 
 ---
 
-## Simplified View (A0_01)
+## Minimal view (A0_00)
 
-**When to Use:** Quick understanding, presentations, stakeholder overview
+**When to use:** One-slide or executive summary; no internal service names.
+
+**Shows:** Clients → load balancer → backend blob → Postgres/Neo4j → OpenAI.
+
+---
+
+## Simplified view (A0_01)
+
+**When to use:** Quick understanding, presentations, stakeholder overview
 
 **Shows:**
-- 3 main layers: Client, Service, Knowledge/Data
-- 3 microservices: Agent, RAG, Enrollment
-- Main data storage: Postgres, Neo4j
-- External dependencies: OpenAI, Observability
+- Three layers: Client, Service, Knowledge/Data
+- **Implemented** services: Agent (`agent_ai`), RAG API (`rag_api`), Prerequisite gateway (`rag_graph`)
+- **Planned** service: Enrollment microservice (diagrams show target behavior)
+- Storage: Postgres (app + vectors), Neo4j (curriculum via `rag_graph` only in current code)
+- External: OpenAI, observability (Prometheus, Grafana, Langfuse, etc.)
 
 **Key Features:**
 - Minimal detail, maximum clarity
@@ -50,13 +59,17 @@ The overview diagrams provide high-level architecture views of the entire SJSU E
 - LangGraph Agent (orchestration)
 - Metrics & Tracing
 
-### RAG Service
-- Upload & Chunking (`/embed`, `/embed-upload`)
-- Vector Search API (`/query`, `/query_multiple`)
-- Security Middleware (JWT validation)
-- Async Workers
+### RAG API (`rag_api`)
+- Upload and chunking (`/embed`, `/embed-upload`, …)
+- Vector search (`/query`, `/query_multiple`, …)
+- Security middleware (JWT validation)
+- Async workers; **no Neo4j driver** in this service
 
-### Enrollment Service
+### Prerequisite gateway (`rag_graph`)
+- HTTP: `/prereqs`, `/program`, `/health`
+- Neo4j read-only access for curated curriculum data
+
+### Enrollment Service (planned)
 - Degree Audit Engine
 - Scenario Comparison Engine
 - Schedule Optimization Engine
@@ -87,22 +100,22 @@ The overview diagrams provide high-level architecture views of the entire SJSU E
 
 ## Data Flows
 
-### Client to Service
-- Web UI → Agent Service (chat, auth)
-- Mobile App → Agent Service
-- API Clients → Agent Service
+### Edge (production)
+- **Load balancer** — TLS, health checks, traffic distribution; forwards to Agent `/api/v1/*`
 
-### Service to Service
-- Agent Service → RAG Service (policy search)
-- Agent Service → Enrollment Service (enrollment tools)
-- Enrollment Service → RAG Service (context retrieval)
+### Client to service
+- Web UI / mobile / API clients → load balancer → Agent Service (chat, auth, document proxy)
 
-### Service to Storage
+### Service to service
+- Agent → `rag_api` (`rag_search` tool, document proxy)
+- Agent → `rag_graph` (`course_prereqs`, `program_requirements` tools)
+- Enrollment → RAG (context retrieval): **planned**
+
+### Service to storage
 - Agent Service → Postgres (sessions, checkpoints)
-- RAG Service → Postgres (vectors)
-- RAG Service → Neo4j (graph)
-- Enrollment Service → Postgres (enrollment data)
-- Enrollment Service → Neo4j (prerequisites, requirements)
+- RAG API → Postgres (vectors)
+- `rag_graph` → Neo4j (curriculum graph)
+- Enrollment Service → Postgres / Neo4j: **planned**
 
 ### External
 - Agent Service → OpenAI (LLM)

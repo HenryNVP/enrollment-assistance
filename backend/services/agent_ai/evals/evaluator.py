@@ -4,10 +4,7 @@ import asyncio
 import os
 import sys
 import time
-from datetime import (
-    datetime,
-    timedelta,
-)
+from datetime import datetime, timezone
 from time import sleep
 
 import openai
@@ -50,6 +47,7 @@ class Evaluator:
         self.langfuse = Langfuse(
             public_key=settings.LANGFUSE_PUBLIC_KEY,
             secret_key=settings.LANGFUSE_SECRET_KEY,
+            host=settings.LANGFUSE_HOST,
             timeout=60,  # In seconds
         )
         # Initialize report data structure
@@ -184,19 +182,28 @@ class Evaluator:
         return None
 
     def __fetch_traces(self) -> list[TraceWithDetails]:
-        """Fetch traces from the past 24 hours without scores.
+        """Fetch successful traces from April 6, 2026 without existing scores.
 
         Returns:
-            List of traces that haven't been scored yet.
+            List of successful traces from April 6, 2026 (those with a non-null output).
         """
-        last_24_hours = datetime.now() - timedelta(hours=24)
-        logger.info("fetching_langfuse_traces", from_timestamp=str(last_24_hours))
+        from_timestamp = datetime(2026, 4, 6, 0, 0, 0, tzinfo=timezone.utc)
+        to_timestamp = datetime(2026, 4, 6, 23, 59, 59, tzinfo=timezone.utc)
+        logger.info(
+            "fetching_langfuse_traces",
+            from_timestamp=str(from_timestamp),
+            to_timestamp=str(to_timestamp),
+        )
         try:
             traces = self.langfuse.api.trace.list(
-                from_timestamp=last_24_hours, order_by="timestamp.asc", limit=10
+                from_timestamp=from_timestamp,
+                to_timestamp=to_timestamp,
+                order_by="timestamp.asc",
+                limit=100,
             ).data
-            traces_without_scores = [trace for trace in traces if not trace.scores]
-            return traces_without_scores
+            successful_traces = [trace for trace in traces if trace.output is not None]
+            logger.info("fetched_traces", total=len(traces), successful=len(successful_traces))
+            return successful_traces
         except Exception as e:
             logger.error("Error fetching traces", error=str(e))
             return []

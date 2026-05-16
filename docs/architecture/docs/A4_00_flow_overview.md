@@ -17,13 +17,13 @@ The Flow Overview diagrams show all runtime interactions and workflows in the en
 **When to Use:** Quick understanding of main flows
 
 **Shows:**
-- 3 main flows: Session Setup, Enrollment Question, Document Upload
+- Main flows: session setup, chat / tools (RAG + optional `rag_graph`), document upload
 - High-level interactions
 - Key participants
 
 **Key Flows:**
 1. **Session Setup** - User authentication and session creation
-2. **Enrollment Question** - Question handling with tool calls
+2. **Chat / tools** — RAG search, Neo4j-backed prereq/program tools; enrollment microservice calls are **planned**
 3. **Document Upload** - Document processing
 
 ---
@@ -53,16 +53,12 @@ The Flow Overview diagrams show all runtime interactions and workflows in the en
 - Stores vectors in Postgres
 - Returns document ID
 
-#### 3. Enrollment Question (Main Flow)
-- Student asks enrollment question
-- Agent Service invokes LangGraph workflow
-- LangGraph classifies intent
-- If policy context needed: queries RAG Service
-- If enrollment tool needed: calls Enrollment Service
-- Enrollment Service queries Postgres and Neo4j
-- Results returned to LangGraph
-- LangGraph formats response with LLM
-- Response sent to student
+#### 3. Chat and tools (main flow)
+- Student asks a question
+- Agent invokes LangGraph
+- **Implemented:** `rag_search` → `rag_api` + pgvector; `course_prereqs` / `program_requirements` → `rag_graph` → Neo4j
+- **Planned:** dedicated Enrollment Service HTTP APIs for degree audit, scenarios, etc.
+- LangGraph composes tool output with the LLM and returns the reply
 
 #### 4. Enrollment Tool Variations
 

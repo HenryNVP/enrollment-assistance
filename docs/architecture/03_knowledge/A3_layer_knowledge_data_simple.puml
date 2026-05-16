@@ -25,20 +25,22 @@ rectangle "Knowledge/Data Layer" as DATA_LAYER {
 }
 
 cloud "Agent Service" as AGENT
-cloud "RAG Service" as RAG
-cloud "Enrollment Service" as ENROLLMENT
+cloud "RAG API" as RAG
+cloud "rag_graph" as RAG_GRAPH
+cloud "Enrollment\n(planned)" as ENROLLMENT
 
 AGENT --> APP_DATA
 RAG --> VECTOR_DATA
-RAG --> NEO4J
-ENROLLMENT --> ENROLL_DATA
-ENROLLMENT --> FINANCIAL_DATA
-ENROLLMENT --> NEO4J
+RAG_GRAPH --> NEO4J
+ENROLLMENT ..> ENROLL_DATA
+ENROLLMENT ..> FINANCIAL_DATA
+ENROLLMENT ..> NEO4J
 
 note right of DATA_LAYER
-**Storage Components:**
-- Postgres: Application, enrollment, financial data, vectors
-- Neo4j: Prerequisites, requirements, transfer mappings
+**Storage components**
+- Postgres: app state + vectors (rag_api)
+- Neo4j: curriculum graph (via **rag_graph** only today)
+- Enrollment domain rows: **planned** (diagram shows target schema)
 end note
 
 @enduml

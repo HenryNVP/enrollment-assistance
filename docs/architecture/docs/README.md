@@ -13,8 +13,9 @@ Start here to understand the overall system architecture.
 
 | File | Description |
 |------|-------------|
-| `A0_01_overview_simplified` | **Simplified system overview** - Best starting point, shows major layers |
-| `A0_02_overview_detailed` | **Detailed architecture** - Complete system view with all components |
+| `A0_00_overview_minimal` | **Minimal one-screen overview** — users & campus systems → platform → data & AI |
+| `A0_01_overview_simplified` | **Simplified system overview** — layers + **load balancer** in front of Agent |
+| `A0_02_overview_detailed` | **Detailed architecture** — clients, edge (load balancer), services, storage |
 
 ---
 
@@ -32,10 +33,11 @@ Core business logic microservices - one overview + details for each service.
 
 | File | Description |
 |------|-------------|
-| `A2_layer_service_microservices` | **Microservices Overview** - Compact view of all 3 services |
-| `A2_01_component_agent_service` | **Agent Service Detail** - LangGraph orchestration, APIs, enrollment tools |
-| `A2_02_component_rag_service` | **RAG Service Detail** - Policy document processing, vector + graph storage |
-| `A2_04_component_enrollment_service` | **Enrollment Service Detail** - Degree audits, scenario comparisons, schedule optimization |
+| `A2_layer_service_microservices` | **Microservices overview** — agent, `rag_api`, `rag_graph`, planned enrollment |
+| `A2_01_component_agent_service` | **Agent service** — LangGraph, APIs, tools (`rag_search`, prereqs/program, web) |
+| `A2_02_component_rag_service` | **RAG API (`rag_api`)** — ingest + vector search (pgvector / optional Mongo); **no Neo4j** |
+| `A2_03_component_rag_graph` | **Prerequisite gateway** — `rag_graph` → Neo4j (`/prereqs`, `/program`) |
+| `A2_04_component_enrollment_service` | **Enrollment service (target)** — not implemented in repo; design diagrams only |
 
 ---
 
@@ -46,7 +48,7 @@ Core business logic microservices - one overview + details for each service.
 |------|-------------|
 | `A3_layer_knowledge_data` | **Storage Overview** - Postgres (relational + vector) + Neo4j (graph) |
 | `A3_01_component_neo4j_graph` | **Neo4j Knowledge Graph** - Graph schema, operations, queries |
-| `A3_02_component_enrollment_database` | **Enrollment Database** - Domain data schema for enrollment assistance |
+| `A3_02_component_enrollment_database` | **Enrollment / domain DB (Postgres)** — target schema; vectors live in same Postgres for `rag_api` |
 
 ---
 
@@ -65,32 +67,35 @@ Core business logic microservices - one overview + details for each service.
 
 ## 🎯 Quick Navigation Guide
 
+### 📍 **"I want the smallest possible picture"**
+→ Start with: `A0_00_overview_minimal`
+
 ### 📍 **"I want to understand the overall system"**
-→ Start with: `A0_01_overview_simplified`
+→ Then: `A0_01_overview_simplified` (adds edge: load balancer → Agent)
 
 ### 📍 **"I need to see all components and connections"**
 → Look at: `A0_02_overview_detailed`
 
 ### 📍 **"I'm implementing the microservices"**
-→ Start: `A2_layer_service_microservices` (overview)
-→ Then: `A2_01` (Agent), `A2_02` (RAG), `A2_04` (Enrollment)
+→ Start: `A2_layer_service_microservices` (overview)  
+→ Then: `A2_01` (agent), `A2_02` (`rag_api`), `A2_03` (`rag_graph`), `A2_04` (enrollment — planned)
 
 ### 📍 **"I'm working on document processing"**
-→ Flow: `A4_01_flow_ingestion_pipeline` (shows RAG Service processing)
+→ Flow: `A4_01_flow_ingestion` (RAG API processing)
 → Storage: `A3_layer_knowledge_data` (shows where data is stored)
 
 ### 📍 **"I need to understand the knowledge graph"**
 → See: `A3_01_component_neo4j_graph`
 
-### 📍 **"I need to understand university data structure"**
-→ See: `A3_02_component_university_database`
+### 📍 **"I need to understand Postgres / domain data layout"**
+→ See: `A3_02_component_enrollment_database`
 
 ### 📍 **"I want to trace user request flows"**
 → **Quick reference** (simplified):
   - **Login**: `A4_02_flow_session_auth`
   - **Chat**: `A4_03_flow_chat` (sync, stream, history)
   - **Document Upload**: `A4_01_flow_ingestion`
-  - **Enrollment**: `A4_04_flow_enrollment` (degree audit, scenario comparison, schedule optimization)
+  - **Enrollment (target)**: `A4_04_flow_enrollment` (future degree audit, scenarios, scheduling)
 → **Detailed reference**: `A4_00_flow_overview` (all flows combined)
 → **Very detailed**: See `_detailed_backup/` folder
 
@@ -100,16 +105,19 @@ Core business logic microservices - one overview + details for each service.
 
 ```
 ┌─────────────────────────────────────────┐
+│   Edge (often drawn above Layer 1)      │  Load balancer → Agent
+├─────────────────────────────────────────┤
 │   Layer 1: Client Layer                 │  Web UI, External Consumers
 ├─────────────────────────────────────────┤
-│   Layer 2: Service Layer                │  Microservices:
-│   ├─ A2_01: Agent Service (8000)        │  - Main orchestration
-│   ├─ A2_02: RAG Service (8080)          │  - Policy document processing  
-│   └─ A2_04: Enrollment Service (8090)   │  - Enrollment assistance
+│   Layer 2: Service Layer                │  Runtimes in repo:
+│   ├─ A2_01: Agent (8000)                │  - LangGraph + tools
+│   ├─ A2_02: RAG API (8010 host)         │  - Vectors / ingest
+│   ├─ A2_03: rag_graph (8102 host)       │  - Neo4j gateway
+│   └─ A2_04: Enrollment (8090)         │  - Planned only
 ├─────────────────────────────────────────┤
 │   Layer 3: Knowledge/Data Layer         │  Storage Only:
 │   ├─ Postgres (relational + vector)     │  - App data, domain data
-│   │  ├─ A3_02: University Database      │  - Vector embeddings
+│   │  ├─ A3_02: Enrollment DB (Postgres) │  - Domain + vectors
 │   └─ Neo4j (graph)                      │  
 │      └─ A3_01: Knowledge Graph          │  - Entity relationships
 ├─────────────────────────────────────────┤
@@ -149,22 +157,23 @@ Hierarchical numbering:
   Ax_yy           = Component within that layer
   
 Examples:
+  A0_00           = Overview level (minimal)
   A0_01           = Overview level (simplified)
   A0_02           = Overview level (detailed)
   A1              = Client layer
   A2              = Service layer
   A2_01           = Component within service layer (Agent service)
-  A2_02           = Component within service layer (RAG service)
-  A2_03           = Component within service layer (Analysis service)
+  A2_02           = Component: RAG API (rag_api)
+  A2_03           = Component: Prerequisite gateway (rag_graph)
   A3              = Knowledge/data layer (storage only)
   A3_01           = Component: Neo4j Knowledge Graph
-  A3_02           = Component: University Database
+  A3_02           = Component: Postgres enrollment / domain DB
   A4              = Flows & sequences (how services work)
-  A4_01           = Flow: RAG Service ingestion pipeline
+  A4_01           = Flow: document ingestion (RAG API)
 ```
 
 ### Categories in Names:
-- **overview** - High-level system views (A0_01, A0_02)
+- **overview** - High-level system views (A0_00, A0_01, A0_02)
 - **layer** - Architectural layer (A1, A2, A3)
 - **component** - Specific component within a layer (Ax_yy)
 - **sequence** - Runtime sequence diagrams (A4+)
@@ -185,14 +194,15 @@ All diagrams follow these conventions:
 ## 📊 Technology Stack Shown
 
 ### Services
-- **Agent Service**: FastAPI, LangGraph, SQLModel
-- **RAG Service**: FastAPI, LangChain, pgvector, Neo4j
-- **Enrollment Service**: FastAPI, Postgres, Neo4j
+- **Agent (`agent_ai`)**: FastAPI, LangGraph, SQLModel, Postgres
+- **RAG API (`rag_api`)**: FastAPI, LangChain loaders, pgvector (default) or Atlas Mongo vectors
+- **Prerequisite gateway (`rag_graph`)**: FastAPI, official Neo4j Python driver
+- **Enrollment service**: not in repository (design / PlantUML only)
 
-### Data Storage
-- **Postgres + pgvector**: Vector embeddings, sessions, state
-- **Neo4j**: Knowledge graph (entities, relationships)
-- **Redis**: Task queue, caching
+### Data storage
+- **Postgres + pgvector**: Agent sessions/checkpoints, RAG chunks and embeddings (same DB in root compose)
+- **Neo4j**: Curriculum graph, read via **`rag_graph`** only in current wiring
+- **Redis**: Optional / future (not required by the diagrams above to match compose)
 
 ### External Services
 - **OpenAI**: LLM completions, embeddings
@@ -212,16 +222,17 @@ When updating architecture:
 
 ---
 
-## 📚 Related Documentation
+## Related documentation
 
-- `/MICROSERVICES_OVERVIEW.md` - Detailed microservices documentation
-- `/README.md` - Project README
-- `/backend/services/agent_ai/README.md` - Agent service documentation
-- `/backend/services/rag_api/README.md` - RAG service documentation
+- [`architecture.md`](architecture.md) — Written architecture (design + repo snapshot)
+- [`GRAPH_EXPLANATIONS_SIMPLE.md`](GRAPH_EXPLANATIONS_SIMPLE.md) — Plain-language explanation of every graph
+- [`/README.md`](../../../README.md) — Project README
+- [`/backend/services/agent_ai/README.md`](../../../backend/services/agent_ai/README.md) — Agent service
+- [`/backend/services/rag_api/README.md`](../../../backend/services/rag_api/README.md) — RAG API
 
 ---
 
-## 🏆 Best Practices
+## Best practices
 
 1. **Start High-Level** - Begin with overview diagrams
 2. **Drill Down** - Move to layer and component details
@@ -231,6 +242,5 @@ When updating architecture:
 
 ---
 
-**Last Updated**: 2025-01-27
-**Architecture Version**: 1.0
-**Maintained By**: SAM-E Enrollment Assistance Team
+**Last updated:** 2026-04-27  
+**Architecture version:** 1.1 (repo-aligned service split: `rag_api` vs `rag_graph`)

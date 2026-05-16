@@ -28,22 +28,25 @@ package "Knowledge/Data Layer - Storage" as KNOWLEDGE_LAYER {
 
 ' Services that use this layer
 cloud "Agent Service\n(Layer 2 - Port 8000)" as AGENT_SERVICE
-cloud "RAG Service\n(Layer 2 - Port 8080)" as RAG_SERVICE
-cloud "Enrollment Service\n(Layer 2 - Port 8090)" as ENROLLMENT_SERVICE
+cloud "RAG API (rag_api)\n(Layer 2 - Port 8010)" as RAG_SERVICE
+cloud "Prerequisite Gateway\n(rag_graph - Port 8102)" as RAG_GRAPH_SERVICE
+cloud "Enrollment Service\n(Layer 2 - Port 8090, planned)" as ENROLLMENT_SERVICE
 cloud "OpenAI\nEmbeddings API" as OPENAI
 
 ' Agent Service uses Application Data
 AGENT_SERVICE --> APP_DATA : sessions, users, checkpoints
 
-' RAG Service uses Vector Store & Graph
+' RAG API uses vectors only
 RAG_SERVICE --> OPENAI : generate embeddings
 RAG_SERVICE --> VECTOR_STORE : policy documents + vectors
-RAG_SERVICE --> KNOWLEDGE_GRAPH : prerequisites, requirements
 
-' Enrollment Service uses Enrollment & Financial Data
-ENROLLMENT_SERVICE --> ENROLLMENT_DATA : query courses, enrollments, requirements
-ENROLLMENT_SERVICE --> FINANCIAL_DATA : query tuition, fees, costs
-ENROLLMENT_SERVICE --> KNOWLEDGE_GRAPH : query prerequisites, requirements graph
+' rag_graph uses Neo4j
+RAG_GRAPH_SERVICE --> KNOWLEDGE_GRAPH : curated curriculum reads
+
+' Enrollment Service (target)
+ENROLLMENT_SERVICE ..> ENROLLMENT_DATA : **planned**
+ENROLLMENT_SERVICE ..> FINANCIAL_DATA : **planned**
+ENROLLMENT_SERVICE ..> KNOWLEDGE_GRAPH : **planned**
 
 note bottom of RELATIONAL_DB
 **Relational Database** (Postgres)
@@ -73,13 +76,10 @@ Same Postgres + pgvector extension
 end note
 
 note bottom of KNOWLEDGE_GRAPH
-**Knowledge Graph**
-Separate Neo4j instance
-- Prerequisites graph (course → course)
-- Requirements graph (course → major/minor/concentration)
-- Transfer equivalency mappings
-- Course relationships (co-requisites, conflicts)
-- Graph traversal for enrollment assistance
+**Knowledge Graph (Neo4j)**
+Queried in production by **rag_graph** (`/prereqs`, `/program`).
+Agent does **not** talk to Neo4j directly.
+Future enrollment service may add more graph use cases.
 end note
 
 @enduml

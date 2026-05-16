@@ -5,6 +5,7 @@ skinparam rectangle {
   BorderColor #000000
   BorderThickness 1
 }
+left to right direction
 
 package "Enrollment Domain Database (Postgres)" as ENROLLMENT_DB {
   
@@ -31,6 +32,15 @@ package "Enrollment Domain Database (Postgres)" as ENROLLMENT_DB {
   rectangle "**People**" as PEOPLE {
     rectangle "• Students (major, minor, GPA)\n• Instructors\n• Accessibility features" as PEOPLE_TABLES
   }
+
+  ' Force 2-row layout (3 columns x 2 rows)
+  ACADEMIC -[hidden]right- REQUIREMENTS
+  REQUIREMENTS -[hidden]right- ENROLLMENT
+  FINANCIAL -[hidden]right- TRANSFER
+  TRANSFER -[hidden]right- PEOPLE
+  ACADEMIC -[hidden]down- FINANCIAL
+  REQUIREMENTS -[hidden]down- TRANSFER
+  ENROLLMENT -[hidden]down- PEOPLE
 }
 
 ' Enrollment Service queries

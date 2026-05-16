@@ -1,5 +1,5 @@
 @startuml A2_04_component_enrollment_service_simple
-title Enrollment Service – Simplified View
+title Enrollment Service – Simplified View (**planned**, not in repo)
 
 skinparam shadowing false
 skinparam defaultFontName Arial

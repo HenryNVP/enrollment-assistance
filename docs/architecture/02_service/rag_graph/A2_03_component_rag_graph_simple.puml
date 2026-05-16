@@ -1,0 +1,28 @@
+@startuml A2_03_component_rag_graph_simple
+title Prerequisite Gateway (rag_graph) – Simplified View
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "**Prerequisite Gateway**\nservices/rag_graph\nHost: **8102** (default\ncompose mapping)" as RAG_GRAPH {
+  rectangle "HTTP API\n/health, /prereqs, /program" as API
+}
+
+database "Neo4j\n(curriculum graph)" as NEO4J
+cloud "Agent Service\n(LangGraph tools)" as AGENT
+
+API --> NEO4J : read prerequisites,\nprogram structure
+AGENT --> API : course_prereqs,\nprogram_requirements
+
+note right of RAG_GRAPH
+**Role:** Thin read gateway over Neo4j
+**Tech:** FastAPI + neo4j driver
+**Data:** Loaded separately (e.g. scripts/load_curriculum_neo4j.py)
+end note
+
+@enduml

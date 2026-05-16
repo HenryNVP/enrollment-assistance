@@ -11,15 +11,15 @@ A generation can be considered relevant (Score: 1) if it:
 ## Example
 
 ### Input
-Can eating carrots improve your vision?
+How do I add a dependent to my health insurance plan during open enrollment?
 
 ### Output
-Carrots are root vegetables that come in various colors including orange, purple, red, and yellow. They were first cultivated in Afghanistan around 900 AD. Carrots are a great source of fiber and contain about 88% water. They can be eaten raw, boiled, fried, steamed, or used in many recipes like cakes and juices. Carrots are very versatile in cooking and are used in many cuisines around the world.
+Health insurance was first introduced in the United States in the early 20th century. There are many types of health plans including HMO, PPO, and EPO. The Affordable Care Act significantly changed how insurance markets work. Premiums vary widely depending on your age, location, and the type of plan you choose. Some employers subsidize a portion of the premium cost for their employees.
 
 ### Evaluation
-**Score**: 0.3
+**Score**: 0.1
 
-**Reasoning**: While the output provides factual information about carrots, it fails to address the specific question about whether carrots can improve vision. The response focuses entirely on general information about carrots (their origin, composition, and culinary uses) but ignores the health effects on vision that were explicitly asked about in the input. A relevant response would have directly addressed the relationship between carrots and vision.
+**Reasoning**: The response provides general background on health insurance history and plan types but completely fails to answer the specific question about adding a dependent during open enrollment. A relevant response would have explained the steps to add a dependent — such as navigating to the benefits portal, selecting the plan, and entering the dependent's information within the enrollment window.
 
 ## Instructions
 Think step by step.

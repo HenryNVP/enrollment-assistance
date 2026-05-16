@@ -1,5 +1,5 @@
 @startuml A4_04_flow_enrollment_simple
-title Enrollment Workflows – Simplified View
+title Enrollment Workflows – Simplified View (**target / planned**)
 
 skinparam shadowing false
 skinparam defaultFontName Arial

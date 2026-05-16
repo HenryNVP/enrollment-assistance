@@ -38,10 +38,11 @@ This diagram focuses specifically on enrollment assistance capabilities, showing
 - Financial data → ETL → Postgres
 - Transfer data → ETL → Postgres + Neo4j
 
-### Enrollment Operations
-- Student questions → Agent Service → Enrollment Service
-- Enrollment Service queries → Postgres + Neo4j
-- Results → Agent Service → Student
+### Enrollment operations (today vs target)
+
+**Implemented path:** Student → Agent (`agent_ai`) → **`rag_api`** (vectors) and/or **`rag_graph`** (Neo4j curriculum) → Agent → student.
+
+**Target path (diagram):** Student → Agent → **Enrollment microservice** (not in repo) → Postgres + Neo4j → Agent → student.
 
 ---
 
@@ -58,8 +59,8 @@ This diagram focuses specifically on enrollment assistance capabilities, showing
 
 - **Simplified Overview:** `00_overview/A0_01_overview_simplified.puml`
 - **Detailed Overview:** `00_overview/A0_02_overview_detailed.puml`
-- **Enrollment Service:** `02_service/enrollment_service/A2_04_component_enrollment_service_*.png`
-- **Enrollment Flows:** `04_flows/A4_04_flow_enrollment_*.png`
+- **Enrollment service (planned):** `02_service/enrollment_service/A2_04_component_enrollment_service_*.puml`
+- **Enrollment flows (planned):** `04_flows/A4_04_flow_enrollment_*.puml`
 
 
 

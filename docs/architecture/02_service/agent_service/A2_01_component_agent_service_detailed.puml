@@ -20,7 +20,7 @@ package "Agent Service\nservices/agent_ai\nPort: 8000" as AGENT_SERVICE {
   
   package "Business Logic" as BUSINESS {
     rectangle "LangGraph Agent\n(state machine)" as LANGGRAPH
-    rectangle "Tool Orchestration\n(enrollment_search, degree_audit,\nscenario_compare, schedule_optimize,\ntransfer_check, budget_calculate, RAG)" as TOOLS
+    rectangle "Tool Orchestration\n(rag_search, course_prereqs,\nprogram_requirements,\nduckduckgo_search)" as TOOLS
     rectangle "Session Manager\n(guest + authenticated)" as SESSION
     rectangle "Memory Manager\n(conversation history)" as MEMORY
   }
@@ -30,8 +30,9 @@ package "Agent Service\nservices/agent_ai\nPort: 8000" as AGENT_SERVICE {
 
 ' External dependencies
 database "Postgres" as DB
-cloud "RAG Service" as RAG
-cloud "Enrollment Service" as ENROLLMENT
+cloud "RAG API\n(rag_api)" as RAG
+cloud "Prerequisite Gateway\n(rag_graph)" as RAG_GRAPH
+cloud "Enrollment Service\n(planned)" as ENROLLMENT
 cloud "OpenAI" as OPENAI
 cloud "Observability Stack" as OBS
 
@@ -47,8 +48,9 @@ DOC_API --> RAG : proxy upload
 
 LANGGRAPH --> TOOLS : execute
 LANGGRAPH --> MEMORY : load/save
-TOOLS --> RAG : rag_search tool (policies)
-TOOLS --> ENROLLMENT : enrollment tools (degree_audit, scenario_compare, etc.)
+TOOLS --> RAG : rag_search (JWT)
+TOOLS --> RAG_GRAPH : prereqs & program tools
+TOOLS ..> ENROLLMENT : future HTTP tools
 
 ' Data storage
 SESSION --> DB : users, sessions

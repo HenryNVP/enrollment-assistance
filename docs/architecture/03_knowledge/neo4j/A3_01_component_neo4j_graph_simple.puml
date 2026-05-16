@@ -10,27 +10,22 @@ skinparam rectangle {
 }
 
 rectangle "Neo4j Knowledge Graph" as NEO4J {
-  rectangle "Entity Types\n(courses, majors, sections, students)" as ENTITIES
-  rectangle "Relationships\n(prerequisites, requirements, equivalencies)" as RELATIONS
-  rectangle "Graph Operations\n(traversal, path finding, queries)" as OPS
+  rectangle "Nodes & relationships\n(curriculum-focused in repo)" as ENTITIES
+  rectangle "Read paths\n(Cypher via rag_graph)" as OPS
 }
 
-cloud "RAG Service" as RAG
-cloud "Agent Service" as AGENT
-cloud "Enrollment Service" as ENROLLMENT
+cloud "rag_graph\n(prerequisite gateway)" as RAG_GRAPH
+cloud "Agent Service\n(LangGraph tools)" as AGENT
+cloud "Enrollment Service\n(planned)" as ENROLLMENT
 
-RAG --> ENTITIES : entity extraction
-RAG --> RELATIONS : relationship extraction
-AGENT --> OPS : enrollment queries
-ENROLLMENT --> OPS : prerequisites, requirements
+RAG_GRAPH --> OPS : `/prereqs`, `/program`
+AGENT --> RAG_GRAPH : HTTP (tools)
+ENROLLMENT ..> OPS : **planned** audits / transfer
 
 note right of NEO4J
-**Key Capabilities:**
-- Prerequisites graph (course → course)
-- Requirements graph (course → major/minor)
-- Transfer equivalency mappings
-- Course relationships (conflicts, co-requisites)
+**In production wiring**
+Agent does **not** open a Neo4j driver;
+only **rag_graph** queries the graph today.
 end note
 
 @enduml
-

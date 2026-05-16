@@ -1,8 +1,76 @@
 # SJSU seed URLs for scraping (one URL per line).
 # Only sjsu.edu / www.sjsu.edu are crawled. # lines are ignored.
 
-https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14074&returnto=7689
-https://catalog.sjsu.edu/content.php?catoid=17&navoid=7613
-https://catalog.sjsu.edu/content.php?catoid=17&navoid=7614#candidacy
-https://catalog.sjsu.edu/content.php?catoid=17&navoid=7667#artificial-intelligence-ms
-https://www.sjsu.edu/cmpe/about/faculty_staff/tenure-line/index.php
+# MS AI test
+#https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14074&returnto=7689
+#https://catalog.sjsu.edu/content.php?catoid=17&navoid=7613
+#https://catalog.sjsu.edu/content.php?catoid=17&navoid=7614#candidacy
+#https://catalog.sjsu.edu/content.php?catoid=17&navoid=7667#artificial-intelligence-ms
+#https://www.sjsu.edu/cmpe/about/faculty_staff/tenure-line/index.php
+
+
+# ADMISSION
+
+# https://www.sjsu.edu/admissions/why-sjsu.php
+# https://www.sjsu.edu/admissions/freshman/index.php
+# https://www.sjsu.edu/admissions/transfer/index.php
+# https://www.sjsu.edu/admissions/international-freshman/index.php
+# https://www.sjsu.edu/admissions/international-transfer/index.php
+# https://www.sjsu.edu/admissions/deadlines/index.php
+# https://www.sjsu.edu/admissions/graduate/index.php
+# https://www.sjsu.edu/admissions/residency/index.php
+# https://www.sjsu.edu/admissions/internationalfinancialdocs.php
+# https://www.sjsu.edu/admissions/impaction/index.php
+# https://www.sjsu.edu/admissions/admission-status/index.php
+# https://www.sjsu.edu/admissions/about-us/index.php
+# https://www.sjsu.edu/admissions/admitted-spartan-day/index.php
+
+
+# ACADEMIC
+
+# https://www.sjsu.edu/academics/colleges-and-departments.php
+# https://www.sjsu.edu/classes/index.php
+# https://www.sjsu.edu/advising/index.php
+# https://www.sjsu.edu/registrar/
+# https://www.sjsu.edu/classes/calendar/index.php
+
+
+# CMPE 
+
+https://catalog.sjsu.edu/preview_entity.php?catoid=17&ent_oid=2295
+
+
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13645
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13650
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13713
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13735
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13753
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13769
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13806
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13871
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13872
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13867
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13836
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14124
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13915
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14055
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13938
+
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13646
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14074
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13714
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13648
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13736
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13754
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13770
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13807
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13810
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14017
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13812
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13860
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14129
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13653
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13868
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14056
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=14145
+https://catalog.sjsu.edu/preview_program.php?catoid=17&poid=13939

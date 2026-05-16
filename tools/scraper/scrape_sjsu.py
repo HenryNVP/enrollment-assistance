@@ -51,8 +51,8 @@ def _is_sjsu_domain(netloc: str) -> bool:
 USER_AGENT = "EnrollmentAssistantScraper/1.0 (+https://github.com/enrollment-assistant)"
 REQUEST_TIMEOUT = 30
 DEFAULT_DELAY_SEC = 1.0
-DEFAULT_MAX_DEPTH = 0
-DEFAULT_MAX_PAGES = 200
+DEFAULT_MAX_DEPTH = 2
+DEFAULT_MAX_PAGES = 1000
 SCRAPED_URLS_FILE = "_scraped_urls.txt"
 DEFAULT_MAX_LINKS_PER_PAGE = 80
 

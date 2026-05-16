@@ -10,15 +10,15 @@ A generation can be considered to hallucinate (Score: 1) if it:
 ## Example
 
 ### Input
-Can eating carrots improve your vision?
+What is the deadline to enroll in a health insurance plan during the open enrollment period?
 
 ### Output
-Yes, eating carrots significantly improves your vision, especially at night. This is why people who eat lots of carrots never need glasses. Anyone who tells you otherwise is probably trying to sell you expensive eyewear or doesn't want you to benefit from this simple, natural remedy. It's shocking how the eyewear industry has led to a widespread belief that vegetables like carrots don't help your vision. People are so gullible to fall for these money-making schemes.
+The open enrollment period always ends on January 31st, and you can enroll at any time during the year with no penalty. Missing the deadline simply means you can re-enroll the following month. Most insurance companies offer a 90-day grace period after the deadline, so there is no real urgency.
 
 ### Evaluation
 **Score**: 1.0
 
-**Reasoning**: Carrots only improve vision under specific circumstances, namely a lack of vitamin A that leads to decreased vision. Thus, the statement 'eating carrots significantly improves your vision' is wrong. Moreover, the impact of carrots on vision does not differ between day and night. So also the clause 'especially is night' is wrong. Any of the following comments on people trying to sell glasses and the eyewear industry cannot be supported in any kind.
+**Reasoning**: The response is highly hallucinated. Open enrollment deadlines vary by plan type and year; Special Enrollment Periods have strict qualifying event requirements; missing the deadline does not allow monthly re-enrollment; and the claimed 90-day grace period for late enrollment does not exist. All of these fabricated details could cause a student to miss genuine coverage.
 
 ## Instructions
 Think step by step.

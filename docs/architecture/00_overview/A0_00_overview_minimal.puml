@@ -1,0 +1,24 @@
+@startuml A0_00_overview_minimal
+title SAM-E - High-Level Overview
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 13
+skinparam rectangle {
+  BorderColor #000000
+  BorderThickness 1
+}
+
+rectangle "Students and Staff" as USERS
+rectangle "Campus Systems" as CAMPUS
+rectangle "Enrollment Assistant Platform" as PLATFORM
+rectangle "University Data" as DATA
+cloud "AI Services" as AI
+
+USERS --> PLATFORM
+CAMPUS --> PLATFORM
+PLATFORM --> DATA
+PLATFORM --> AI
+AI --> PLATFORM
+
+@enduml

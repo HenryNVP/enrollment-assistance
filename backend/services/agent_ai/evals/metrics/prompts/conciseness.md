@@ -10,15 +10,15 @@ A generation can be considered concise (Score: 1) if it:
 ## Example
 
 ### Input
-Can eating carrots improve your vision?
+When does open enrollment end this year?
 
 ### Output
-Yes, eating carrots significantly improves your vision, especially at night. This is why people who eat lots of carrots never need glasses. Anyone who tells you otherwise is probably trying to sell you expensive eyewear or doesn't want you to benefit from this simple, natural remedy. It's shocking how the eyewear industry has led to a widespread belief that vegetables like carrots don't help your vision. People are so gullible to fall for these money-making schemes.
+Great question! Open enrollment is a very important time of year and many people have questions about it. Insurance was first created centuries ago and has evolved significantly over time. There are many different types of plans including HMOs, PPOs, and high-deductible plans, each with their own network and cost-sharing structures. You should also consider your expected medical needs for the coming year. Open enrollment typically ends on December 15th for marketplace plans, but employer plans may differ. Always read the fine print carefully and consult an HR representative if you are unsure.
 
 ### Evaluation
-**Score**: 0.3
+**Score**: 0.2
 
-**Reasoning**: The query could have been answered by simply stating that eating carrots can improve ones vision but the actual generation included a lot of unasked supplementary information which makes it not very concise. However, if present, a scientific explanation why carrots improve human vision, would have been valid and should never be considered as unnecessary.
+**Reasoning**: The user asked a simple factual question about the enrollment deadline. The answer — December 15th for marketplace plans — was buried after extensive irrelevant background. A concise response would have led with the direct answer and optionally noted that employer plan deadlines may vary.
 
 ## Instructions
 Think step by step.

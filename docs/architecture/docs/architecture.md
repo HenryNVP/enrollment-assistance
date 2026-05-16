@@ -1,8 +1,24 @@
 # SJSU Enrollment Assistance - Architecture Design
 
-**Document Version:** 1.0  
-**Last Updated:** 2025-01-27  
-**Status:** Design Proposal
+**Document Version:** 1.1  
+**Last Updated:** 2026-04-27  
+**Status:** Design proposal, aligned with **current repository** layout (see §0–1)
+
+---
+
+## 0. Repository snapshot (implemented vs planned)
+
+| Item | Location / notes |
+|------|------------------|
+| **Agent Service** | `backend/services/agent_ai` — FastAPI, LangGraph, Postgres for sessions/checkpoints; default port **8000** |
+| **RAG API** | `backend/services/rag_api` — document ingest, embeddings, vector search (pgvector by default, optional Atlas Mongo); exposed as **8010** on host in `infrastructure/docker/docker_compose.yml` (container listens on 8000) |
+| **Prerequisite gateway (`rag_graph`)** | `backend/services/rag_graph` — FastAPI service exposing `/prereqs` and `/program` against **Neo4j** only; host port **8102** by default; agent uses `RAG_GRAPH_BASE_URL` |
+| **Enrollment microservice** | **Not present** in the repo; flows in §5 that call an “Enrollment Service” are **target** behavior |
+| **Compose stack** | `infrastructure/docker/docker_compose.yml` — `db`, `rag_api`, `rag_graph`, `agent_api`, Prometheus, Grafana, cAdvisor |
+| **Edge (target)** | **Load balancer** in front of the Agent for public north–south traffic (TLS, routing). Diagrams: `A0_00`, `A0_01`, `A0_02`. Local dev often hits Agent on **:8000** directly. |
+| **Ops / data tools** | `tools/` (e.g. scraper, ingest helpers), `scripts/` (e.g. Neo4j curriculum load) |
+
+**LangGraph tools wired today** (see `agent_ai` `tools` list): `rag_search`, `course_prereqs`, `program_requirements`, `duckduckgo_search`.
 
 ---
 
@@ -33,21 +49,18 @@ This document outlines the architecture for an AI-powered enrollment assistance 
 └────────────────────────┬────────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────────┐
+│  Edge (production): Load balancer → Agent                    │
+└────────────────────────┬────────────────────────────────────┘
+                         │
+┌────────────────────────▼────────────────────────────────────┐
 │                  Service Layer (Microservices)              │
 │                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐  │
-│  │   Agent      │  │     RAG      │  │   Enrollment     │  │
-│  │   Service    │  │   Service    │  │   Service        │  │
-│  │  (Port 8000) │  │  (Port 8080) │  │  (Port 8090)     │  │
-│  │              │  │              │  │                  │  │
-│  │ • Chat API   │  │ • Document   │  │ • Degree Audit   │  │
-│  │ • Auth       │  │   Processing │  │ • Scenario       │  │
-│  │ • Tools      │  │ • Vector     │  │   Comparison     │  │
-│  │ • LangGraph  │  │   Search     │  │ • Schedule       │  │
-│  │              │  │ • Knowledge  │  │   Optimization   │  │
-│  │              │  │   Graph      │  │ • Transfer       │  │
-│  │              │  │              │  │   Equivalency    │  │
-│  └──────────────┘  └──────────────┘  └──────────────────┘  │
+│  ┌────────────┐ ┌────────────┐ ┌──────────────┐ ┌─────────┐ │
+│  │   Agent    │ │  RAG API   │ │  rag_graph   │ │Enroll.* │ │
+│  │  (8000)    │ │  (8010†)   │ │  (8102†)     │ │ (8090)  │ │
+│  │ LangGraph  │ │ vectors    │ │ Neo4j HTTP   │ │planned  │ │
+│  └────────────┘ └────────────┘ └──────────────┘ └─────────┘ │
+│  † Host ports from root `docker_compose.yml` (overrideable)   │
 └────────────────────────┬────────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────────┐
@@ -71,13 +84,16 @@ This document outlines the architecture for an AI-powered enrollment assistance 
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### 1.2 Service Responsibilities
+### 1.2 Service responsibilities
 
-| Service | Port | Primary Responsibility |
-|---------|------|------------------------|
-| **Agent Service** | 8000 | Chat interface, user interaction, tool orchestration |
-| **RAG Service** | 8080 | Policy document search, knowledge retrieval |
-| **Enrollment Service** | 8090 | Degree audits, scenario comparisons, schedule optimization |
+| Service | Default host port (compose) | Primary responsibility |
+|---------|-----------------------------|-------------------------|
+| **Agent Service** | 8000 | Chat, auth/sessions, LangGraph tool orchestration |
+| **RAG API (`rag_api`)** | 8010 | Document ingest, embeddings, vector retrieval (no Neo4j in-process) |
+| **Prerequisite gateway (`rag_graph`)** | 8102 | Read-only Neo4j access for curriculum (`/prereqs`, `/program`) |
+| **Enrollment Service** | 8090 (target) | Degree audits, scenarios, scheduling, transfer/budget APIs — **not implemented** in repo |
+
+**Note:** Port **8080** in this environment is used by **cAdvisor** in the same compose file, not by RAG.
 
 ---
 
@@ -203,33 +219,31 @@ section_accessibility (
 
 ## 3. Service Layer Details
 
-### 3.1 Agent Service Enhancements
+### 3.1 Agent service (implemented + roadmap)
 
-**New Tools:**
-1. **`enrollment_search`** - Search courses with filters (term, major, time, location, professor, accessibility)
-2. **`degree_audit`** - Check progress toward major/minor/concentration requirements
-3. **`scenario_compare`** - Compare enrollment scenarios (full-time vs part-time, delivery modes)
-4. **`schedule_optimize`** - Find optimal schedule given constraints
-5. **`transfer_check`** - Check transfer course equivalency
-6. **`budget_calculate`** - Calculate total costs for a term/plan
-7. **`deadline_check`** - Get enrollment deadlines for a term
+**Tools in the codebase today:**
 
-**Enhanced LangGraph Workflow:**
+1. **`rag_search`** — Calls `rag_api` with JWT for policy / document chunk retrieval  
+2. **`course_prereqs`** — Calls `rag_graph` `/prereqs` for curated prerequisite chains  
+3. **`program_requirements`** — Calls `rag_graph` `/program` for program structure  
+4. **`duckduckgo_search`** — Web search fallback  
+
+**Roadmap tools** (listed in earlier design iterations; not wired in `agent_ai` yet): `enrollment_search`, `degree_audit`, `scenario_compare`, `schedule_optimize`, `transfer_check`, `budget_calculate`, `deadline_check`.
+
+**Target LangGraph workflow** (same shape as before; swap “implemented” vs “planned” per tool availability):
+
 ```
-User Query → Intent Classification
-    ├─→ Enrollment Question → enrollment_search tool
-    ├─→ Degree Progress → degree_audit tool
-    ├─→ Scenario Planning → scenario_compare tool
-    ├─→ Schedule Help → schedule_optimize tool
-    ├─→ Transfer Question → transfer_check + RAG search
-    ├─→ Budget Question → budget_calculate tool
-    ├─→ Policy Question → RAG search (policies)
-    └─→ General Question → RAG search + LLM reasoning
+User Query → Intent classification
+    ├─→ Policy / docs → rag_search (implemented)
+    ├─→ Prereqs / program structure → course_prereqs / program_requirements (implemented)
+    ├─→ Open web facts → duckduckgo_search (implemented)
+    ├─→ Enrollment domain engines → Enrollment Service HTTP APIs (planned)
+    └─→ General → RAG + LLM reasoning
 ```
 
-### 3.2 RAG Service Enhancements
+### 3.2 RAG API (`rag_api`) enhancements
 
-**Document Types:**
+**Document types:**
 - Academic policies (enrollment, transfer, graduation)
 - Course catalogs and descriptions
 - Financial aid policies
@@ -237,12 +251,21 @@ User Query → Intent Classification
 - Department-specific requirements
 - Accessibility accommodations policies
 
-**Enhanced Retrieval:**
-- **Hybrid Search**: Vector similarity + keyword matching for policy documents
-- **Graph-Enhanced RAG**: Use Neo4j to find related courses/policies, then retrieve relevant document chunks
-- **Contextual Filtering**: Filter results by term, major, student type
+**Enhanced retrieval (design):**
+- **Hybrid search** — Vector similarity + keyword matching for policy documents (implementation varies by route/config)
+- **Graph-adjacent RAG** — In the **current** split, structured curriculum paths come from **`rag_graph` + Neo4j**, not from `rag_api` graph managers
+- **Contextual filtering** — Filter results by term, major, student type (where supported)
 
-### 3.3 Enrollment Service (New/Enhanced)
+### 3.2.1 Prerequisite gateway (`rag_graph`)
+
+Small FastAPI app whose only job is to run **parameterized Cypher** against Neo4j for:
+
+- **POST `/prereqs`** — Direct and transitive prerequisites for a normalized course code  
+- **POST `/program`** — Full program tree for a `program_id`  
+
+Curriculum data is loaded out-of-band (see repo scripts such as `scripts/load_curriculum_neo4j.py`). The agent never opens a Neo4j driver; it calls `rag_graph` over HTTP (`RAG_GRAPH_BASE_URL`).
+
+### 3.3 Enrollment Service (new / enhanced — planned)
 
 **Core Components:**
 
