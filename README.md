@@ -2,6 +2,8 @@
 
 **SAM-E** is an AI-powered enrollment assistance tool specialized for San Jose State University (SJSU). The system helps students with enrollment decisions, budgeting, scheduling, multi-term planning, degree audits, and scenario comparisons through an intelligent conversational interface.
 
+![SAM-E enrollment assistant](docs/sam-e.png)
+
 
 ## Key Capabilities
 
